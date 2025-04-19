@@ -1,14 +1,16 @@
 @import "tailwindcss";
 
+
 :root {
-  --background: #ffffff;
+  --background-start: #75D5FF;  /* First gradient color */
+  --background-end: #8396F8;    /* Second gradient color */
   --foreground: #171717;
 }
 
 @theme inline {
-  --color-background: var(--background);
+  --color-background: var(--background-start);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-puritan);
   --font-mono: var(--font-geist-mono);
 }
 
@@ -19,8 +21,16 @@
   }
 }
 
+
 body {
-  background: var(--background);
+  background: linear-gradient(
+    to bottom right,
+    var(--background-start),
+    var(--background-end)
+  );
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-puritan), sans-serif;
+  min-height: 100vh;            /* Ensures gradient covers full viewport height */
+  margin: 0;
+  background-attachment: fixed; /* Prevents gradient from repeating on scroll */
 }
