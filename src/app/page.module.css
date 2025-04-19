@@ -1,9 +1,0 @@
-.container {
-    background: red;
-  }
-  
-  @media (prefers-color-scheme: dark) {
-    .container {
-      background: red;
-    }
-  }

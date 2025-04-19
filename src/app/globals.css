@@ -2,7 +2,7 @@
 
 
 :root {
-  --background-start: #75D5FF;  /* First gradient color */
+  --background-start: #fcfcfc;  /* First gradient color */
   --background-end: #8396F8;    /* Second gradient color */
   --foreground: #171717;
 }
