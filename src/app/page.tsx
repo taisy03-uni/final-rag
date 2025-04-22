@@ -7,9 +7,11 @@ export default function Home() {
       <AnimatedBackground />
     
       <div className="text-center py-10 relative z-10">
-        <h1 className="text-4xl font-bold mb-6">Welcome to LawAI</h1>
+      <h1 className="text-8xl font-bold hover:text-[#354AB8] transition-colors">
+            <span className="text-black">LADA.</span>
+            <span className="text-[#8396F8]">AI</span>
+        </h1>
         <p className="text-xl text-gray-600">
-          Your legal assistant powered by AI
         </p>
       </div>
     </div>

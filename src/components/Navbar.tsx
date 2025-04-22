@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-2">
           {/* Logo Image */}
-          <div className="h-8 w-8 relative"> {/* Adjust size as needed */}
+          <div className="h-20 w-20 relative"> {/* make the size bigger*/}
             <Image 
               src="/logo.png" 
               alt="LADA.AI Logo"
