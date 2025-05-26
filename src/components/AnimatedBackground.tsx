@@ -3,7 +3,11 @@
 
 import { useEffect } from 'react';
 
-export default function AnimatedBackground() {
+interface AnimatedBackgroundProps {
+  className?: string;
+}
+
+export default function AnimatedBackground({ className = "h-screen" }: AnimatedBackgroundProps) {
   useEffect(() => {
     // Load the finisher header script dynamically
     const script = document.createElement('script');
@@ -53,5 +57,10 @@ export default function AnimatedBackground() {
     };
   }, []);
 
-  return <div className="finisher-header fixed inset-0 -z-10 h-screen w-full" />;
+  return (
+    <div 
+      className={`finisher-header fixed inset-0 -z-10 w-full ${className}`}
+      data-testid="animated-background"
+    />
+  );
 }

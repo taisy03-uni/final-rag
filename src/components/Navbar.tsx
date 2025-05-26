@@ -1,52 +1,44 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Navbar() {
   return (
-    <nav className="bg-white p-4 shadow-sm">
+    <nav className="bg-transparent backdrop-blur-sm p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="flex items-center space-x-2">
-          {/* Logo Image */}
-          <div className="h-20 w-20 relative"> {/* make the size bigger*/}
-            <Image 
-              src="/logo.png" 
-              alt="LADA.AI Logo"
-              fill
-              className="object-contain"
-            />
-          </div>
-          
-          {/* Text Logo */}
-          <Link href="/" className="text-xl font-bold hover:text-[#354AB8] transition-colors">
-            <span className="text-black">LADA.</span>
-            <span className="text-[#8396F8]">AI</span>
-          </Link>
-        </div>
+        <Link 
+          href="/" 
+          className="text-3xl font-extrabold tracking-tight relative group px-4 py-2"
+        >
+          <span className="relative z-10 group-hover:text-white transition-colors duration-300">
+            <span>LADA</span>
+            <span>.AI</span>
+          </span>
+          <div className="absolute inset-0 bg-black scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+        </Link>
 
-        <div className="space-x-6">
+        <div className="flex items-center space-x-4">
           <Link 
             href="/chat" 
-            className="text-black hover:text-[#354AB8] transition-colors"
+            className="relative bg-black text-white px-6 py-2 rounded-lg font-medium overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[0_0_20px_rgba(255,255,255,0.6)]"
           >
-            Try Out
+            <span className="relative z-10">Try Out</span>
           </Link>
           <Link 
             href="/about" 
-            className="text-black hover:text-[#354AB8] transition-colors"
+            className="relative px-4 py-2 text-black font-medium rounded-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:bg-black hover:text-white hover:shadow-[0_0_20px_rgba(255,255,255,0.6)]"
           >
-            About Us
+            <span className="relative z-10">About Us</span>
           </Link>
           <Link 
             href="/security" 
-            className="text-black hover:text-[#354AB8] transition-colors"
+            className="relative px-4 py-2 text-black font-medium rounded-lg overflow-hidden transition-all duration-300 hover:scale-105 hover:bg-black hover:text-white hover:shadow-[0_0_20px_rgba(255,255,255,0.6)]"
           >
-            Security
+            <span className="relative z-10">Security</span>
           </Link>
           <Link 
             href="/login" 
-            className="text-black hover:text-[#354AB8] transition-colors"
+            className="relative border-2 border-black text-black px-6 py-2 rounded-lg font-medium overflow-hidden transition-all duration-300 hover:scale-105 hover:bg-black hover:text-white hover:shadow-[0_0_20px_rgba(255,255,255,0.6)]"
           >
-            Login
+            <span className="relative z-10">Login</span>
           </Link>
         </div>
       </div>
