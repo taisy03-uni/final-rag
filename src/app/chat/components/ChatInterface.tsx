@@ -1,72 +1,49 @@
+"use client";
+
 import React, { useState, useRef, useEffect } from 'react';
-import { MdSmartToy } from 'react-icons/md';
+import { MdSmartToy, MdSend } from 'react-icons/md';
 import styles from '../chat.module.css';
 
 interface ChatInterfaceProps {
   currentLanguage: string;
+  messages: Array<{ text: string; isOutgoing: boolean }>;
+  onMessagesUpdate: (messages: Array<{ text: string; isOutgoing: boolean }>) => void;
 }
 
-const ChatInterface: React.FC<ChatInterfaceProps> = ({ currentLanguage }) => {
+const ChatInterface: React.FC<ChatInterfaceProps> = ({ currentLanguage, messages, onMessagesUpdate }) => {
   const [userMessage, setUserMessage] = useState<string>('');
-  const [messages, setMessages] = useState<Array<{
-    text: string;
-    isOutgoing: boolean;
-  }>>([
-    { text: "Hi there\nHow can I help you today?", isOutgoing: false }
-  ]);
   const chatboxRef = useRef<HTMLUListElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
-  
-  const API_KEY = "AIzaSyBwv5r749w6WcU6cfkPp7GdliKpPG3hpAg";
-  const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
-
-  const getLanguageInstruction = () => {
-    return currentLanguage === 'british' 
-      ? " [Please respond in British English using British spelling and terminology.]"
-      : "";
-  };
-
-  const generateResponse = async (message: string) => {
-    const languageInstruction = getLanguageInstruction();
-    const fullPrompt = message + languageInstruction;
-    
-    const requestOptions = {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ 
-        contents: [{ 
-          role: "user", 
-          parts: [{ text: fullPrompt }] 
-        }] 
-      }),
-    };
-    
-    try {
-      const response = await fetch(API_URL, requestOptions);
-      const data = await response.json();
-      if (!response.ok) throw new Error(data.error?.message || 'Unknown error');
-      
-      const responseText = data.candidates[0].content.parts[0].text.replace(/\*\*(.*?)\*\*/g, '$1');
-      setMessages(prev => [...prev, { text: responseText, isOutgoing: false }]);
-    } catch (error) {
-      setMessages(prev => [...prev, { 
-        text: error instanceof Error ? error.message : 'An error occurred', 
-        isOutgoing: false 
-      }]);
-    }
-  };
 
   const handleChat = () => {
+    console.log('handleChat called', userMessage); // Debug log
     const message = userMessage.trim();
-    if (!message) return;
+    if (!message) {
+      console.log('Empty message, returning'); // Debug log
+      return;
+    }
     
-    setUserMessage('');
-    setMessages(prev => [...prev, { text: message, isOutgoing: true }]);
+    // Add user message to chat
+    const newMessages = [...messages, { text: message, isOutgoing: true }];
+    onMessagesUpdate(newMessages);
     
+    setUserMessage(''); // Clear input
+    
+    // Add bot's "thinking" message
     setTimeout(() => {
-      setMessages(prev => [...prev, { text: "Thinking...", isOutgoing: false }]);
-      generateResponse(message);
-    }, 600);
+      const withThinking = [...newMessages, { text: "Let me think about that...", isOutgoing: false }];
+      onMessagesUpdate(withThinking);
+      
+      // Simulate bot response after 1.5 seconds
+      setTimeout(() => {
+        // Remove thinking message and add actual response
+        const finalMessages = [...newMessages, { 
+          text: "I'm a demo bot for now. Soon I'll be connected to the Gemini API to provide real responses!", 
+          isOutgoing: false 
+        }];
+        onMessagesUpdate(finalMessages);
+      }, 1500);
+    }, 500);
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -76,6 +53,7 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({ currentLanguage }) => {
     }
   };
 
+  // Auto-resize textarea
   useEffect(() => {
     if (textareaRef.current) {
       textareaRef.current.style.height = 'auto';
@@ -83,14 +61,16 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({ currentLanguage }) => {
     }
   }, [userMessage]);
 
+  // Auto-scroll to bottom when new messages arrive
   useEffect(() => {
+    console.log('Messages updated:', messages); // Debug log
     if (chatboxRef.current) {
       chatboxRef.current.scrollTo(0, chatboxRef.current.scrollHeight);
     }
   }, [messages]);
 
   return (
-    <>
+    <div className={styles.chatbot}>
       <ul className={styles.chatbox} ref={chatboxRef}>
         {messages.map((msg, index) => (
           <li key={index} className={`${styles.chat} ${msg.isOutgoing ? '' : styles.incoming}`}>
@@ -99,8 +79,8 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({ currentLanguage }) => {
           </li>
         ))}
       </ul>
-      <div className={styles.chatbot}>
-        <div className={styles.chatbot}>
+      <div className={styles.inputContainer}>
+        <div className={styles.inputWrapper}>
           <textarea 
             ref={textareaRef}
             placeholder="Enter a message..." 
@@ -108,15 +88,24 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({ currentLanguage }) => {
             required
             className={styles.textarea}
             value={userMessage}
-            onChange={(e) => setUserMessage(e.target.value)}
+            onChange={(e) => {
+              console.log('Input changed:', e.target.value); // Debug log
+              setUserMessage(e.target.value);
+            }}
             onKeyDown={handleKeyDown}
           ></textarea>
-          <button className={styles.sendBtn} onClick={handleChat}>
-            {/* MdSend will be imported in page.tsx */}
+          <button 
+            className={styles.sendBtn} 
+            onClick={() => {
+              console.log('Send button clicked'); // Debug log
+              handleChat();
+            }}
+          >
+            <MdSend size={20} />
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

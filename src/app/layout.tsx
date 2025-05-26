@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Puritan } from "next/font/google";
 import './globals.css';
-import Navbar from '@/components/Navbar';
+import NavbarWrapper from '@/components/NavbarWrapper';
 
 // Configure Puritan font
 const puritan = Puritan({
@@ -12,8 +12,8 @@ const puritan = Puritan({
 });
 
 export const metadata: Metadata = {
-  title: "My App",
-  description: "Using Puritan from Google Fonts",
+  title: "LADA.AI - Legal Assistant",
+  description: "Your advanced AI legal assistant",
 };
 
 export default function RootLayout({
@@ -24,8 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${puritan.variable}`}>
       <body className="font-sans antialiased">
-        <Navbar />
-        <main className="container mx-auto p-4">{children}</main>
+        <NavbarWrapper>{children}</NavbarWrapper>
       </body>
     </html>
   );
