@@ -17,10 +17,37 @@ const Sidebar: React.FC<SidebarProps> = ({
   activeChatId,
   onChatSelect,
 }) => {
+  const logoRef = React.createRef<HTMLHeadingElement>();
+  const [isHovered, setIsHovered] = React.useState(false);
+
+  const handleLogoClick = () => {
+    window.location.href = '/';
+  };
+
+  React.useEffect(() => {
+    const logoElement = logoRef.current;
+    if (logoElement) {
+      logoElement.addEventListener('click', handleLogoClick);
+      logoElement.addEventListener('mouseenter', () => setIsHovered(true));
+      logoElement.addEventListener('mouseleave', () => setIsHovered(false));
+      
+      return () => {
+        logoElement.removeEventListener('click', handleLogoClick);
+        logoElement.removeEventListener('mouseenter', () => setIsHovered(true));
+        logoElement.removeEventListener('mouseleave', () => setIsHovered(false));
+      };
+    }
+  }, [logoRef]);
+
   return (
     <div className={styles.sidebar}>
       <div className={styles.sidebarHeader}>
-        <h2>LADA.AI</h2>
+        <h2 
+          ref={logoRef} 
+          className={`${styles.logoLink} ${isHovered ? styles.logoHover : ''}`}
+        >
+          LADA.AI
+        </h2>
       </div>
       
       <button className={styles.newChatButton} onClick={onNewChat}>
@@ -44,4 +71,4 @@ const Sidebar: React.FC<SidebarProps> = ({
   );
 };
 
-export default Sidebar; 
+export default Sidebar;
