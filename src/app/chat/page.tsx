@@ -15,23 +15,24 @@ const Chatbot: React.FC = () => {
     {
       id: '1',
       title: 'New Chat',
-      messages: [{ text: "Hi there\nHow can I help you today?", isOutgoing: false }]
+      messages: [] // Start with empty messages
     }
   ]);
   
   const [activeChatId, setActiveChatId] = useState<string>('1');
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [currentLanguage, setCurrentLanguage] = useState<string>('american');
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleNewChat = () => {
     const newChat = {
       id: Date.now().toString(),
       title: 'New Chat',
-      messages: [{ text: "Hi there\nHow can I help you today?", isOutgoing: false }]
+      messages: [] // Empty for new chats
     };
     setChats([...chats, newChat]);
     setActiveChatId(newChat.id);
-    setIsSidebarOpen(true); // Open sidebar when creating new chat
+    setIsSidebarOpen(true);
   };
 
   const activeChat = chats.find(chat => chat.id === activeChatId) || chats[0];
@@ -46,6 +47,47 @@ const Chatbot: React.FC = () => {
     );
   };
 
+  const handleSendMessage = async (message: string) => {
+    const userMessage = { text: message, isOutgoing: true };
+    const updatedMessages = [...activeChat.messages, userMessage];
+    updateChatMessages(updatedMessages);
+    
+    setIsLoading(true);
+  
+    try {
+      const res = await fetch('/api/gemini', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ 
+          messages: updatedMessages,
+          isFirstMessage: activeChat.messages.length === 0 // Flag for first message
+        }),
+      });
+  
+      if (!res.ok) throw new Error(res.statusText);
+  
+      const { response } = await res.json();
+      
+      // Add welcome message only if it's the first exchange
+      const botMessages = activeChat.messages.length === 0
+        ? [
+            { text: "Hi there! How can I help you today?", isOutgoing: false },
+            { text: response, isOutgoing: false }
+          ]
+        : [{ text: response, isOutgoing: false }];
+      
+      updateChatMessages([...updatedMessages, ...botMessages]);
+  
+    } catch (error) {
+      updateChatMessages([...updatedMessages, {
+        text: "⚠️ Failed to get response. Please try again.",
+        isOutgoing: false
+      }]);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+  
   const toggleSidebar = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
@@ -64,26 +106,28 @@ const Chatbot: React.FC = () => {
         <MdMenu size={24} />
       </button>
       <div className={styles.chatContainer}>
-      <div className={styles.languageSelector}>
-        <button 
-          className={`${styles.langBtn} ${currentLanguage === 'american' ? styles.active : ''}`}
-          onClick={() => setCurrentLanguage('american')}
-        >
-          American
-        </button>
-        <button 
-          className={`${styles.langBtn} ${currentLanguage === 'british' ? styles.active : ''}`}
-          onClick={() => setCurrentLanguage('british')}
-        >
-          British
-        </button>
+        <div className={styles.languageSelector}>
+          <button 
+            className={`${styles.langBtn} ${currentLanguage === 'american' ? styles.active : ''}`}
+            onClick={() => setCurrentLanguage('american')}
+          >
+            American
+          </button>
+          <button 
+            className={`${styles.langBtn} ${currentLanguage === 'british' ? styles.active : ''}`}
+            onClick={() => setCurrentLanguage('british')}
+          >
+            British
+          </button>
+        </div>
+        <ChatInterface
+          currentLanguage={currentLanguage}
+          messages={activeChat.messages}
+          onMessagesUpdate={updateChatMessages}
+          onSendMessage={handleSendMessage}
+          isLoading={isLoading}
+        />
       </div>
-      <ChatInterface
-        currentLanguage={currentLanguage}
-        messages={activeChat.messages}
-        onMessagesUpdate={updateChatMessages}
-      />
-    </div>
     </div>
   );
 };

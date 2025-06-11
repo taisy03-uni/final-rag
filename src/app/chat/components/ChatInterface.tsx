@@ -8,46 +8,57 @@ interface ChatInterfaceProps {
   currentLanguage: string;
   messages: Array<{ text: string; isOutgoing: boolean }>;
   onMessagesUpdate: (messages: Array<{ text: string; isOutgoing: boolean }>) => void;
+  onSendMessage: (message: string) => Promise<void>;
+  isLoading: boolean;
 }
 
-const ChatInterface: React.FC<ChatInterfaceProps> = ({ currentLanguage, messages, onMessagesUpdate }) => {
+const ChatInterface: React.FC<ChatInterfaceProps> = ({ 
+  currentLanguage, 
+  messages, 
+  onMessagesUpdate, 
+  onSendMessage,
+  isLoading 
+}) => {
   const [userMessage, setUserMessage] = useState<string>('');
   const chatboxRef = useRef<HTMLUListElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
-  const handleChat = () => {
-    console.log('handleChat called', userMessage); // Debug log
+  const handleChat = async () => {
     const message = userMessage.trim();
-    if (!message) {
-      console.log('Empty message, returning'); // Debug log
-      return;
-    }
+    if (!message) return;
     
-    // Add user message to chat
+    // Add user message to chat immediately
     const newMessages = [...messages, { text: message, isOutgoing: true }];
     onMessagesUpdate(newMessages);
+    setUserMessage('');
     
-    setUserMessage(''); // Clear input
-    
-    // Add bot's "thinking" message
-    setTimeout(() => {
-      const withThinking = [...newMessages, { text: "Let me think about that...", isOutgoing: false }];
-      onMessagesUpdate(withThinking);
+    // Add loading indicator
+    const loadingMessages = [...newMessages, { 
+      text: currentLanguage === 'british' 
+        ? "Let me think about that..." 
+        : "One moment please...", 
+      isOutgoing: false 
+    }];
+    onMessagesUpdate(loadingMessages);
+
+    try {
+      // Call the parent component's send message handler which connects to Gemini
+      await onSendMessage(message);
       
-      // Simulate bot response after 1.5 seconds
-      setTimeout(() => {
-        // Remove thinking message and add actual response
-        const finalMessages = [...newMessages, { 
-          text: "I'm a demo bot for now. Soon I'll be connected to the Gemini API to provide real responses!", 
-          isOutgoing: false 
-        }];
-        onMessagesUpdate(finalMessages);
-      }, 1500);
-    }, 500);
+      // Remove loading message - parent's onMessagesUpdate will handle the actual response
+    } catch (error) {
+      console.error('Error sending message:', error);
+      // Replace loading message with error
+      const errorMessages = [...newMessages, { 
+        text: "Sorry, I couldn't process your request. Please try again.", 
+        isOutgoing: false 
+      }];
+      onMessagesUpdate(errorMessages);
+    }
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter' && !e.shiftKey && window.innerWidth > 800) {
+    if (e.key === 'Enter' && !e.shiftKey && !isLoading) {
       e.preventDefault();
       handleChat();
     }
@@ -63,9 +74,11 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({ currentLanguage, messages
 
   // Auto-scroll to bottom when new messages arrive
   useEffect(() => {
-    console.log('Messages updated:', messages); // Debug log
     if (chatboxRef.current) {
-      chatboxRef.current.scrollTo(0, chatboxRef.current.scrollHeight);
+      chatboxRef.current.scrollTo({
+        top: chatboxRef.current.scrollHeight,
+        behavior: 'smooth'
+      });
     }
   }, [messages]);
 
@@ -73,12 +86,22 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({ currentLanguage, messages
     <div className={styles.chatbot}>
       <ul className={styles.chatbox} ref={chatboxRef}>
         {messages.map((msg, index) => (
-          <li key={index} className={`${styles.chat} ${msg.isOutgoing ? '' : styles.incoming}`}>
+          <li 
+            key={index} 
+            className={`${styles.chat} ${msg.isOutgoing ? styles.outgoing : styles.incoming}`}
+          >
             {!msg.isOutgoing && <span className={styles.icon}><MdSmartToy /></span>}
             <p>{msg.text}</p>
           </li>
         ))}
+        {isLoading && (
+          <li className={`${styles.chat} ${styles.incoming}`}>
+            <span className={styles.icon}><MdSmartToy /></span>
+            <p>{currentLanguage === 'british' ? "Thinking..." : "Let me think..."}</p>
+          </li>
+        )}
       </ul>
+      
       <div className={styles.inputContainer}>
         <div className={styles.inputWrapper}>
           <textarea 
@@ -88,18 +111,14 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({ currentLanguage, messages
             required
             className={styles.textarea}
             value={userMessage}
-            onChange={(e) => {
-              console.log('Input changed:', e.target.value); // Debug log
-              setUserMessage(e.target.value);
-            }}
+            onChange={(e) => setUserMessage(e.target.value)}
             onKeyDown={handleKeyDown}
-          ></textarea>
+            disabled={isLoading}
+          />
           <button 
             className={styles.sendBtn} 
-            onClick={() => {
-              console.log('Send button clicked'); // Debug log
-              handleChat();
-            }}
+            onClick={handleChat}
+            disabled={isLoading || !userMessage.trim()}
           >
             <MdSend size={20} />
           </button>
