@@ -236,7 +236,7 @@
   position: absolute;
   right: 12px;
   bottom: 12px;
-  background: #0A2647;
+  background: #000000;
   border: none;
   cursor: pointer;
   color: white;
@@ -273,13 +273,13 @@
 }
 
 .langBtn:hover {
-  border-color: #354AB8;
+  border-color: #000000;
 }
 
 .langBtn.active {
-  background: #354AB8;
+  background: #000000;
   color: white;
-  border-color: #354AB8;
+  border-color: #000000;
 }
 
 .menuButton {
@@ -289,7 +289,7 @@
   z-index: 100;
   background: transparent;
   border: none;
-  color: #354AB8;
+  color: #000000;
   cursor: pointer;
   width: 40px;
   height: 40px;
