@@ -21,6 +21,7 @@ const Chatbot: React.FC = () => {
   
   const [activeChatId, setActiveChatId] = useState<string>('1');
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [currentLanguage, setCurrentLanguage] = useState<string>('american');
 
   const handleNewChat = () => {
     const newChat = {
@@ -63,12 +64,26 @@ const Chatbot: React.FC = () => {
         <MdMenu size={24} />
       </button>
       <div className={styles.chatContainer}>
-        <ChatInterface
-          currentLanguage="american"
-          messages={activeChat.messages}
-          onMessagesUpdate={updateChatMessages}
-        />
+      <div className={styles.languageSelector}>
+        <button 
+          className={`${styles.langBtn} ${currentLanguage === 'american' ? styles.active : ''}`}
+          onClick={() => setCurrentLanguage('american')}
+        >
+          American
+        </button>
+        <button 
+          className={`${styles.langBtn} ${currentLanguage === 'british' ? styles.active : ''}`}
+          onClick={() => setCurrentLanguage('british')}
+        >
+          British
+        </button>
       </div>
+      <ChatInterface
+        currentLanguage={currentLanguage}
+        messages={activeChat.messages}
+        onMessagesUpdate={updateChatMessages}
+      />
+    </div>
     </div>
   );
 };

@@ -26,7 +26,7 @@
 
 .sidebar {
   width: 280px;
-  background: #0A2647;
+  background: #354AB8;
   display: flex;
   flex-direction: column;
   color: white;
@@ -167,13 +167,13 @@
 }
 
 .chat:not(.incoming) p {
-  background: #0A2647;
+  background: #354AB8;
   color: white;
   margin-left: auto;
 }
 
 .icon {
-  color: #0A2647;
+  color: #354AB8;
   font-size: 24px;
   display: flex;
   align-items: center;
@@ -209,7 +209,7 @@
 }
 
 .inputWrapper:focus-within {
-  border-color: #0A2647;
+  border-color: #354AB8;
   box-shadow: 0 2px 12px rgba(0,0,0,0.1);
 }
 
@@ -254,13 +254,12 @@
 }
 
 .languageSelector {
-  padding: 16px 24px;
-  background: white;
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 100;
   display: flex;
-  gap: 12px;
-  align-items: center;
-  justify-content: center;
-  border-top: 1px solid rgba(0,0,0,0.1);
+  gap: 8px;
 }
 
 .langBtn {
@@ -274,13 +273,13 @@
 }
 
 .langBtn:hover {
-  border-color: #0A2647;
+  border-color: #354AB8;
 }
 
 .langBtn.active {
-  background: #0A2647;
+  background: #354AB8;
   color: white;
-  border-color: #0A2647;
+  border-color: #354AB8;
 }
 
 .menuButton {
@@ -290,7 +289,7 @@
   z-index: 100;
   background: transparent;
   border: none;
-  color: #0A2647;
+  color: #354AB8;
   cursor: pointer;
   width: 40px;
   height: 40px;
@@ -317,7 +316,7 @@
   height: 100vh;
   z-index: 50;
   transition: left 0.3s ease;
-  background: #0A2647;
+  background: #354AB8;
 }
 
 .sidebarContainer.open {
