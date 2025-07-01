@@ -71,7 +71,6 @@ const Chatbot: React.FC = () => {
       // Add welcome message only if it's the first exchange
       const botMessages = activeChat.messages.length === 0
         ? [
-            { text: "Hi there! How can I help you today?", isOutgoing: false },
             { text: response, isOutgoing: false }
           ]
         : [{ text: response, isOutgoing: false }];
