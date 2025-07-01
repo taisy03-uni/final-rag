@@ -17,7 +17,7 @@ export async function POST(req: Request) {
   try {
     const { messages, isFirstMessage }: RequestBody = await req.json();
     const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY!);
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
     // Get the latest user message
     const userQuery = messages[messages.length - 1].text;
@@ -37,8 +37,9 @@ export async function POST(req: Request) {
     }
 
     // Parse and handle Pinecone response safely
-    const legalContext = await pineconeResponse.json();
-
+    const pineconeData = await pineconeResponse.json();
+    
+    const legalContext = JSON.stringify(pineconeData, null, 2);
     // Create complete prompt template
     const prompt = `
       You are a legal research assistant specialized in UK law. Below is relevant legal context followed by the user's question.
@@ -67,7 +68,7 @@ export async function POST(req: Request) {
     if (isFirstMessage) {
       const result = await model.generateContent(prompt);
       const response = await result.response;
-      return NextResponse.json({ response: response.text() });
+      return NextResponse.json({ response: response.text() + `\n\nLegal Context:\n${legalContext}`});
     }
 
     // Normal conversation flow
