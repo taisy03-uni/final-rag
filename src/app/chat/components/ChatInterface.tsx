@@ -3,6 +3,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MdSmartToy, MdSend } from 'react-icons/md';
 import styles from '../chat.module.css';
+import loadingStyles from './styles/loadingDots.module.css';
 
 interface ChatInterfaceProps {
   currentLanguage: string;
@@ -95,11 +96,17 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
           </li>
         ))}
         {isLoading && (
-          <li className={`${styles.chat} ${styles.incoming}`}>
-            <span className={styles.icon}><MdSmartToy /></span>
-            <p>{currentLanguage === 'british' ? "Thinking..." : "Let me think..."}</p>
-          </li>
-        )}
+        <li className={`${styles.chat} ${styles.incoming}`}>
+          <span className={styles.icon}><MdSmartToy /></span>
+          <p>
+            <span className={loadingStyles.dotsContainer}>
+              <span className={loadingStyles.dot}></span>
+              <span className={loadingStyles.dot}></span>
+              <span className={loadingStyles.dot}></span>
+            </span>
+          </p>
+        </li>
+      )}
       </ul>
       
       <div className={styles.inputContainer}>
