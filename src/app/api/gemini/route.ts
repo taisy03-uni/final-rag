@@ -10,12 +10,11 @@ type ChatMessage = {
 
 type RequestBody = {
   messages: ChatMessage[];
-  isFirstMessage?: boolean;
 };
 
 export async function POST(req: Request) {
   try {
-    const { messages, isFirstMessage }: RequestBody = await req.json();
+    const {messages}: RequestBody = await req.json();
     const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY!);
     const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
@@ -63,13 +62,6 @@ export async function POST(req: Request) {
       - Relevant case law references
       - Practical advice
     `;
-
-    // Handle first message specially
-    if (isFirstMessage) {
-      const result = await model.generateContent(prompt);
-      const response = await result.response;
-      return NextResponse.json({ response: response.text() + `\n\nLegal Context:\n${legalContext}`});
-    }
 
     // Normal conversation flow
     const chat = model.startChat({

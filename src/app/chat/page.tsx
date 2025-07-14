@@ -59,8 +59,7 @@ const Chatbot: React.FC = () => {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
-          messages: updatedMessages,
-          isFirstMessage: activeChat.messages.length === 0 // Flag for first message
+          messages: updatedMessages
         }),
       });
   
