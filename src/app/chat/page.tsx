@@ -20,7 +20,7 @@ const Chatbot: React.FC = () => {
   ]);
   
   const [activeChatId, setActiveChatId] = useState<string>('1');
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState<string>('american');
   const [isLoading, setIsLoading] = useState(false);
 
@@ -65,15 +65,8 @@ const Chatbot: React.FC = () => {
       });
   
       if (!res.ok) throw new Error(res.statusText);
-  
       const { response } = await res.json();
-      
-      // Add welcome message only if it's the first exchange
-      const botMessages = activeChat.messages.length === 0
-        ? [
-            { text: response, isOutgoing: false }
-          ]
-        : [{ text: response, isOutgoing: false }];
+      const botMessages = [{ text: response, isOutgoing: false }];
       
       updateChatMessages([...updatedMessages, ...botMessages]);
   

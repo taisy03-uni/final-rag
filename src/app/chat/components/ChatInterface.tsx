@@ -32,15 +32,6 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
     const newMessages = [...messages, { text: message, isOutgoing: true }];
     onMessagesUpdate(newMessages);
     setUserMessage('');
-    
-    // Add loading indicator
-    const loadingMessages = [...newMessages, { 
-      text: currentLanguage === 'british' 
-        ? "Let me think about that..." 
-        : "One moment please...", 
-      isOutgoing: false 
-    }];
-    onMessagesUpdate(loadingMessages);
 
     try {
       // Call the parent component's send message handler which connects to Gemini
