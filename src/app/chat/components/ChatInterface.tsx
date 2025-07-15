@@ -6,6 +6,7 @@ import styles from '../chat.module.css';
 import loadingStyles from './styles/loadingDots.module.css';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import squeeze from 'remark-squeeze-paragraphs';
 
 interface ChatInterfaceProps {
   currentLanguage: string;
@@ -84,7 +85,7 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
           {!msg.isOutgoing && <span className={styles.icon}><MdSmartToy /></span>}
           <div className={styles.chatContent}> 
             <ReactMarkdown
-            remarkPlugins={[remarkGfm]}
+            remarkPlugins={[remarkGfm, squeeze]}
             components={{
               h1: ({node, ...props}) => <h1 style={{ fontSize: '2em', fontWeight: 'bold' }} {...props} />,
               h2: ({node, ...props}) => <h2 style={{ fontSize: '1.5em', fontWeight: 'bold' }} {...props} />,
