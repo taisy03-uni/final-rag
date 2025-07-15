@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { MdAdd, MdChat } from 'react-icons/md';
-import styles from '../chat.module.css';
+import sidebarStyles from './styles/sidebar.module.css';
 
 interface SidebarProps {
   onNewChat: () => void;
@@ -40,26 +40,26 @@ const Sidebar: React.FC<SidebarProps> = ({
   }, [logoRef]);
 
   return (
-    <div className={styles.sidebar}>
-      <div className={styles.sidebarHeader}>
+    <div className={sidebarStyles.sidebar}>
+      <div className={sidebarStyles.sidebarHeader}>
         <h2 
           ref={logoRef} 
-          className={`${styles.logoLink} ${isHovered ? styles.logoHover : ''}`}
+          className={`${sidebarStyles.logoLink} ${isHovered ? sidebarStyles.logoHover : ''}`}
         >
           LADA.AI
         </h2>
       </div>
       
-      <button className={styles.newChatButton} onClick={onNewChat}>
+      <button className={sidebarStyles.newChatButton} onClick={onNewChat}>
         <MdAdd size={20} />
         New Chat
       </button>
       
-      <div className={styles.chatsList}>
+      <div className={sidebarStyles.chatsList}>
         {chats.map((chat) => (
           <div
             key={chat.id}
-            className={`${styles.chatItem} ${chat.id === activeChatId ? styles.active : ''}`}
+            className={`${sidebarStyles.chatItem} ${chat.id === activeChatId ? sidebarStyles.active : ''}`}
             onClick={() => onChatSelect(chat.id)}
           >
             <MdChat size={20} />

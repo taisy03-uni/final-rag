@@ -75,7 +75,7 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
   }, [messages]);
 
   return (
-    <div className={styles.chatbot}>
+    <div className={styles.chatbotInterface}>
       <ul className={styles.chatbox} ref={chatboxRef}>
         {messages.map((msg, index) => (
           <li 
