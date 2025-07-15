@@ -4,6 +4,8 @@ import React, { useState, useRef, useEffect } from 'react';
 import { MdSmartToy, MdSend } from 'react-icons/md';
 import styles from '../chat.module.css';
 import loadingStyles from './styles/loadingDots.module.css';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 interface ChatInterfaceProps {
   currentLanguage: string;
@@ -78,13 +80,12 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
     <div className={styles.chatbotInterface}>
       <ul className={styles.chatbox} ref={chatboxRef}>
         {messages.map((msg, index) => (
-          <li 
-            key={index} 
-            className={`${styles.chat} ${msg.isOutgoing ? styles.outgoing : styles.incoming}`}
-          >
-            {!msg.isOutgoing && <span className={styles.icon}><MdSmartToy /></span>}
-            <p>{msg.text}</p>
-          </li>
+          <li key={index}  className={`${styles.chat} ${msg.isOutgoing ? styles.outgoing : styles.incoming}`}>
+          {!msg.isOutgoing && <span className={styles.icon}><MdSmartToy /></span>}
+          <div className={styles.chatContent}> 
+            <ReactMarkdown>{msg.text}</ReactMarkdown>
+          </div>
+        </li>
         ))}
         {isLoading && (
         <li className={`${styles.chat} ${styles.incoming}`}>

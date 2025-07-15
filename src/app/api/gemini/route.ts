@@ -75,7 +75,8 @@ export async function POST(req: Request) {
     const response = await result.response;
     // add Legal Context to the response
 
-    return NextResponse.json({ response: response.text() + `\n\nLegal Context:\n${legalContext}` });
+    //return NextResponse.json({ response: response.text() + `\n\nLegal Context:\n${legalContext}` });
+    return NextResponse.json({ response: response.text() });
 
   } catch (error) {
     console.error('Error:', error);
