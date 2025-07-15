@@ -83,7 +83,14 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
           <li key={index}  className={`${styles.chat} ${msg.isOutgoing ? styles.outgoing : styles.incoming}`}>
           {!msg.isOutgoing && <span className={styles.icon}><MdSmartToy /></span>}
           <div className={styles.chatContent}> 
-            <ReactMarkdown>{msg.text}</ReactMarkdown>
+            <ReactMarkdown
+            remarkPlugins={[remarkGfm]}
+            components={{
+              h1: ({node, ...props}) => <h1 style={{ fontSize: '2em', fontWeight: 'bold' }} {...props} />,
+              h2: ({node, ...props}) => <h2 style={{ fontSize: '1.5em', fontWeight: 'bold' }} {...props} />,
+              h3: ({node, ...props}) => <h3 style={{ fontSize: '1.2em', fontWeight: 'bold' }} {...props} />,
+              h4: ({node, ...props}) => <h4 style={{ fontSize: '1em', fontWeight: 'bold' }} {...props} />
+            }}>{msg.text}</ReactMarkdown>
           </div>
         </li>
         ))}
