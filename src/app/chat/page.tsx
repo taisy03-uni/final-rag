@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import ChatInterface from './components/ChatInterface';
+import Buttons from './components/Buttons'; 
 import Sidebar from './components/Sidebar';
 import { MdMenu } from 'react-icons/md';
 import styles from './chat.module.css';
@@ -93,42 +94,21 @@ const Chatbot: React.FC = () => {
   };
 
   return (
-    <div className={styles.container}>
-      <div className={`${styles.sidebarContainer} ${isSidebarOpen ? styles.open : ''}`}>
-        <Sidebar
-          chats={chats}
-          activeChatId={activeChatId}
-          onChatSelect={setActiveChatId}
-          onNewChat={handleNewChat}
-        />
-      </div>
-      <button className={styles.menuButton} onClick={toggleSidebar} aria-label="Toggle sidebar">
-        <MdMenu size={24} />
-      </button>
-      <div className={styles.chatContainer}>
-        <div className={styles.languageSelector}>
-          <button 
-            className={`${styles.langBtn} ${currentLanguage === 'american' ? styles.active : ''}`}
-            onClick={() => setCurrentLanguage('american')}
-          >
-            American
-          </button>
-          <button 
-            className={`${styles.langBtn} ${currentLanguage === 'british' ? styles.active : ''}`}
-            onClick={() => setCurrentLanguage('british')}
-          >
-            British
-          </button>
+      <div className={styles.container}>
+        <div className={`${styles.sidebarContainer} ${isSidebarOpen ? styles.open : ''}`}>
+          <Sidebar chats={chats} activeChatId={activeChatId} onChatSelect={setActiveChatId} onNewChat={handleNewChat}/>
         </div>
-        <ChatInterface
-          currentLanguage={currentLanguage}
-          messages={activeChat.messages}
-          onMessagesUpdate={updateChatMessages}
-          onSendMessage={handleSendMessage}
-          isLoading={activeChat.isLoading} 
-        />
+          <Buttons isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} currentLanguage={currentLanguage} setCurrentLanguage={setCurrentLanguage} />
+        <div className={styles.chatContainer}>
+          <ChatInterface
+            currentLanguage={currentLanguage}
+            messages={activeChat.messages}
+            onMessagesUpdate={updateChatMessages}
+            onSendMessage={handleSendMessage}
+            isLoading={activeChat.isLoading} 
+          />
+        </div>
       </div>
-    </div>
   );
 };
 

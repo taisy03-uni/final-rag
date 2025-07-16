@@ -7,6 +7,7 @@
     padding: 20px;
     text-align: center;
     color: var(--text-color);
+    background-color: #F8F9FA;
   }
   
   .welcomeScreen h2 {
