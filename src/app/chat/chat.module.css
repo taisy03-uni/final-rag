@@ -185,34 +185,6 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);
 }
 
-.languageSelector {
-  position: fixed;
-  top: 12px;
-  right: 12px;
-  z-index: 100;
-  display: flex;
-  gap: 8px;
-}
-
-.langBtn {
-  padding: 8px 16px;
-  border: 1px solid rgba(0,0,0,0.1);
-  border-radius: 8px;
-  background: white;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-}
-
-.langBtn:hover {
-  border-color: #000000;
-}
-
-.langBtn.active {
-  background: #000000;
-  color: white;
-  border-color: #000000;
-}
 
 .menuButton {
   position: fixed;

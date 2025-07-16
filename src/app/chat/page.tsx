@@ -25,6 +25,7 @@ const Chatbot: React.FC = () => {
   const [activeChatId, setActiveChatId] = useState<string>('1');
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState<string>('american');
+  const [currentOutput, setCurrentOutput] = useState<string>('AItext');
 
   const handleNewChat = () => {
     const newChat = {
@@ -98,7 +99,7 @@ const Chatbot: React.FC = () => {
         <div className={`${styles.sidebarContainer} ${isSidebarOpen ? styles.open : ''}`}>
           <Sidebar chats={chats} activeChatId={activeChatId} onChatSelect={setActiveChatId} onNewChat={handleNewChat}/>
         </div>
-          <Buttons isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} currentLanguage={currentLanguage} setCurrentLanguage={setCurrentLanguage} />
+          <Buttons isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} currentLanguage={currentLanguage} setCurrentLanguage={setCurrentLanguage} currentOutput= {currentOutput} setCurrentOutput={setCurrentOutput} />
         <div className={styles.chatContainer}>
           <ChatInterface
             currentLanguage={currentLanguage}

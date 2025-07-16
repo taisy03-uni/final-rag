@@ -10,6 +10,8 @@ interface ButtonsProps {
   toggleSidebar: () => void;
   currentLanguage: string;
   setCurrentLanguage: (language: string) => void;
+  currentOutput: string;
+  setCurrentOutput: (output: string) => void;
 }
 
 const Buttons: React.FC<ButtonsProps> = ({
@@ -17,25 +19,44 @@ const Buttons: React.FC<ButtonsProps> = ({
   toggleSidebar,
   currentLanguage,
   setCurrentLanguage,
+  currentOutput,
+ setCurrentOutput
 }) => {
   return (
     <>
       <button className={styles.menuButton} onClick={toggleSidebar} aria-label="Toggle sidebar">
         <MdMenu size={24} />
       </button>
-      <div className={styles.languageSelector}>
+      <div className={buttonStyles.languageSelector}>
         <button 
-          className={`${styles.langBtn} ${currentLanguage === 'american' ? styles.active : ''}`}
+          className={`${buttonStyles.langBtn} ${currentLanguage === 'american' ? buttonStyles.active : ''}`}
           onClick={() => setCurrentLanguage('american')}
         >
           American
         </button>
         <button 
-          className={`${styles.langBtn} ${currentLanguage === 'british' ? styles.active : ''}`}
+          className={`${buttonStyles.langBtn} ${currentLanguage === 'british' ? buttonStyles.active : ''}`}
           onClick={() => setCurrentLanguage('british')}
         >
           British
         </button>
+        <div className={buttonStyles.outputToggleContainer}>
+          <label className={buttonStyles.toggleSwitch}>
+            <input 
+              type="checkbox"
+              checked={currentOutput === 'cases'}
+              onChange={() => setCurrentOutput(currentOutput === 'AItext' ? 'cases' : 'AItext')}
+            />
+            <span className={buttonStyles.slider}>
+              <span className={`${buttonStyles.toggleOption} ${currentOutput === 'AItext' ? buttonStyles.activeOption : ''}`}>
+                Text
+              </span>
+              <span className={`${buttonStyles.toggleOption} ${currentOutput === 'cases' ? buttonStyles.activeOption : ''}`}>
+                Markdown
+              </span>
+            </span>
+          </label>
+        </div>
       </div>
     </>
   );
