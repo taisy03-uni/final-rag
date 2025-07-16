@@ -45,14 +45,14 @@ const Buttons: React.FC<ButtonsProps> = ({
             <input 
               type="checkbox"
               checked={currentOutput === 'cases'}
-              onChange={() => setCurrentOutput(currentOutput === 'AItext' ? 'cases' : 'AItext')}
+              onChange={() => setCurrentOutput(currentOutput === 'AItext' ? 'cases' : 'AItext')}  
             />
             <span className={buttonStyles.slider}>
               <span className={`${buttonStyles.toggleOption} ${currentOutput === 'AItext' ? buttonStyles.activeOption : ''}`}>
-                Text
+                AI
               </span>
               <span className={`${buttonStyles.toggleOption} ${currentOutput === 'cases' ? buttonStyles.activeOption : ''}`}>
-                Markdown
+                Cases
               </span>
             </span>
           </label>

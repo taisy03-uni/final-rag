@@ -37,7 +37,7 @@
 .toggleSwitch {
   position: relative;
   display: inline-block;
-  width: 120px;
+  width: 100px;
   height: 34px;
 }
 
@@ -77,22 +77,23 @@
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #000000;
 }
 
 input:checked + .slider:before {
-  transform: translateX(62px);
+  transform: translateX(42px);
 }
 
 .toggleOption {
   position: relative;
   z-index: 2;
-  color: #666;
+  color: #ffffff;
   font-size: 0.8rem;
   font-weight: 500;
   transition: color 0.3s;
 }
 
 .activeOption {
-  color: white;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
 }
