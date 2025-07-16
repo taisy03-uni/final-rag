@@ -59,9 +59,7 @@ const Sidebar: React.FC<SidebarProps> = ({
         {chats.map((chat) => (
           <div
             key={chat.id}
-            className={`${sidebarStyles.chatItem} ${chat.id === activeChatId ? sidebarStyles.active : ''}`}
-            onClick={() => onChatSelect(chat.id)}
-          >
+            className={`${sidebarStyles.chatItem} ${chat.id === activeChatId ? sidebarStyles.active : ''}`} onClick={() => onChatSelect(chat.id)}>
             <MdChat size={20} />
             <span>{chat.title}</span>
           </div>

@@ -11,24 +11,26 @@ const Chatbot: React.FC = () => {
     id: string;
     title: string;
     messages: Array<{ text: string; isOutgoing: boolean }>;
+    isLoading: boolean;
   }>>([
     {
       id: '1',
       title: 'New Chat',
-      messages: [] // Start with empty messages
+      messages: [], // Start with empty messages
+      isLoading: false
     }
   ]);
   
   const [activeChatId, setActiveChatId] = useState<string>('1');
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState<string>('american');
-  const [isLoading, setIsLoading] = useState(false);
 
   const handleNewChat = () => {
     const newChat = {
       id: Date.now().toString(),
       title: 'New Chat',
-      messages: [] // Empty for new chats
+      messages: [], // Empty for new chats
+      isLoading: false
     };
     setChats([...chats, newChat]);
     setActiveChatId(newChat.id);
@@ -46,13 +48,19 @@ const Chatbot: React.FC = () => {
       )
     );
   };
+  const setIsLoading = (loading: boolean) => {
+    setChats(prevChats => 
+      prevChats.map(chat => 
+        chat.id === activeChatId ? { ...chat, isLoading: loading } : chat
+      )
+    );
+  }
 
   const handleSendMessage = async (message: string) => {
     const userMessage = { text: message, isOutgoing: true };
     const updatedMessages = [...activeChat.messages, userMessage];
     updateChatMessages(updatedMessages);
-    
-    setIsLoading(true);
+    setIsLoading(true); // Set loading state for the active chat
   
     try {
       const res = await fetch('/api/gemini', {
@@ -75,7 +83,8 @@ const Chatbot: React.FC = () => {
         isOutgoing: false
       }]);
     } finally {
-      setIsLoading(false);
+
+      setIsLoading(false); 
     }
   };
   
@@ -116,7 +125,7 @@ const Chatbot: React.FC = () => {
           messages={activeChat.messages}
           onMessagesUpdate={updateChatMessages}
           onSendMessage={handleSendMessage}
-          isLoading={isLoading}
+          isLoading={activeChat.isLoading} 
         />
       </div>
     </div>
