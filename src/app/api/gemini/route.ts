@@ -10,11 +10,13 @@ type ChatMessage = {
 
 type RequestBody = {
   messages: ChatMessage[];
+  currentLanguage: string;
+  currentOutput: string;
 };
 
 export async function POST(req: Request) {
   try {
-    const {messages}: RequestBody = await req.json();
+    const { messages, currentLanguage, currentOutput }: RequestBody = await req.json();
     const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY!);
     const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
@@ -35,13 +37,24 @@ export async function POST(req: Request) {
       throw new Error('Failed to query Pinecone');
     }
 
-    // Parse and handle Pinecone response safely
     const pineconeData = await pineconeResponse.json();
     
+    // If output type is not AI, just return the raw Pinecone data
+    if (currentOutput !== 'AItext') {
+      return NextResponse.json({ response: JSON.stringify(pineconeData, null, 2) });
+    }
+
+    // Format the language instruction based on selection
+    const languageInstruction = currentLanguage === 'american' 
+      ? "Please respond in American English using US legal terminology."
+      : "Please respond in British English using UK legal terminology.";
+
     const legalContext = JSON.stringify(pineconeData, null, 2);
-    // Create complete prompt template
+    
+    // Create complete prompt template with language consideration
     const prompt = `
-      You are a legal research assistant specialized in UK law. Below is relevant legal context followed by the user's question.
+      You are a legal research assistant specialized in UK law. ${languageInstruction}
+      Below is relevant legal context followed by the user's question.
 
       Legal Context:
       ${legalContext}
@@ -73,9 +86,7 @@ export async function POST(req: Request) {
 
     const result = await chat.sendMessage(prompt);
     const response = await result.response;
-    // add Legal Context to the response
 
-    //return NextResponse.json({ response: response.text() + `\n\nLegal Context:\n${legalContext}` });
     return NextResponse.json({ response: response.text() });
 
   } catch (error) {

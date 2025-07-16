@@ -62,14 +62,16 @@ const Chatbot: React.FC = () => {
     const userMessage = { text: message, isOutgoing: true };
     const updatedMessages = [...activeChat.messages, userMessage];
     updateChatMessages(updatedMessages);
-    setIsLoading(true); // Set loading state for the active chat
+    setIsLoading(true);
   
     try {
       const res = await fetch('/api/gemini', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
-          messages: updatedMessages
+          messages: updatedMessages,
+          currentLanguage,
+          currentOutput
         }),
       });
   
@@ -85,7 +87,6 @@ const Chatbot: React.FC = () => {
         isOutgoing: false
       }]);
     } finally {
-
       setIsLoading(false); 
     }
   };
