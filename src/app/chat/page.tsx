@@ -75,8 +75,79 @@ const Chatbot: React.FC = () => {
           throw new Error('Failed to query Pinecone');
         }
         const pineconeData = await pineconeResponse.json();
-        const legalContext = JSON.stringify(pineconeData, null, 2);
-        const botMessages = [{ text: legalContext, isOutgoing: false }];
+        const first5Cases = pineconeData.result.hits.slice(0, 5); // Get first 5 cases
+
+        const caseResponse = `
+          <style>
+            .case-result {
+              border: 1px solid #e0e0e0;
+              border-radius: 8px;
+              padding: 1rem;
+              margin: 1rem 0;
+              background: #f9f9f9;
+              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            }
+            .case-result h3 {
+              margin: 0 0 0.5rem 0;
+              font-size: 1.1rem;
+              color: #333;
+            }
+            .case-meta {
+              color: #666;
+              font-size: 0.9rem;
+              margin-bottom: 0.5rem;
+            }
+            .case-link-box {
+              margin: 0.75rem 0;
+              text-align: center;
+            }
+            .case-link-box a {
+              display: inline-block;
+              padding: 0.5rem 1rem;
+              background: #1a5e96;
+              color: white;
+              text-decoration: none;
+              border-radius: 4px;
+              font-weight: 500;
+              transition: background 0.2s;
+              font-size: 0.9rem;
+            }
+            .case-link-box a:hover {
+              background: #0d4b7a;
+            }
+            .case-excerpt {
+              margin-top: 0.75rem;
+              padding: 0.75rem;
+              background: #fff;
+              border-left: 3px solid #1a5e96;
+              font-size: 0.85rem;
+              color: #555;
+              line-height: 1.5;
+            }
+          </style>
+
+          <div>
+            ${first5Cases.map((caseData, index) => {
+              const cleanUri = caseData.fields.uri.split('#')[0].replace('/id', '');
+              return `
+                <div class="case-result">
+                  <h3>${caseData.fields.name}</h3>
+                  <p class="case-meta"><strong>Judgment Date:</strong> ${caseData.fields.judgment_date}</p>
+                  <div class="case-link-box">
+                    <a href="${cleanUri}" target="_blank" rel="noopener noreferrer">
+                      🔍 View Full Case on The National Archives
+                    </a>
+                  </div>
+                  <div class="case-excerpt">
+                    <p><strong>Excerpt:</strong> ${caseData.fields.text}...</p>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        `;
+
+        const botMessages = [{ text: caseResponse, isOutgoing: false }];
         updateChatMessages([...updatedMessages, ...botMessages]);
 
       } catch (error) {

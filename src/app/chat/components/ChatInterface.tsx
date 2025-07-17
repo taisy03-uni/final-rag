@@ -141,6 +141,12 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
             <li key={index} className={`${styles.chat} ${msg.isOutgoing ? styles.outgoing : styles.incoming}`}>
               {!msg.isOutgoing && <span className={styles.icon}><MdSmartToy /></span>}
               <div className={styles.chatContent}> 
+              {msg.text.includes('<div class="case-result">') ? (
+                <div 
+                  dangerouslySetInnerHTML={{ __html: msg.text }}
+                  className={styles.caseResult}
+                />
+              ) : (
                 <ReactMarkdown
                   remarkPlugins={[remarkGfm, squeeze]}
                   components={{
@@ -151,6 +157,7 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
                   }}>
                   {msg.text}
                 </ReactMarkdown>
+                )}
               </div>
             </li>
           ))}
