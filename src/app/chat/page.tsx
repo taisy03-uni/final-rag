@@ -63,15 +63,40 @@ const Chatbot: React.FC = () => {
     const updatedMessages = [...activeChat.messages, userMessage];
     updateChatMessages(updatedMessages);
     setIsLoading(true);
-  
+    
+    if (currentOutput === 'cases') {
+      try {
+        const pineconeResponse = await fetch(`/api/pinecone`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query: message }),
+        });
+        if (!pineconeResponse.ok) {
+          throw new Error('Failed to query Pinecone');
+        }
+        const pineconeData = await pineconeResponse.json();
+        const legalContext = JSON.stringify(pineconeData, null, 2);
+        const botMessages = [{ text: legalContext, isOutgoing: false }];
+        updateChatMessages([...updatedMessages, ...botMessages]);
+
+      } catch (error) {
+        updateChatMessages([...updatedMessages, {
+          text: "⚠️ Failed to get response. Please try again.",
+          isOutgoing: false
+        }]);
+      }
+      finally {
+        setIsLoading(false); 
+      }
+    }
+    else if (currentOutput === 'AItext') {
     try {
       const res = await fetch('/api/gemini', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
           messages: updatedMessages,
-          currentLanguage,
-          currentOutput
+          currentLanguage
         }),
       });
   
@@ -88,6 +113,7 @@ const Chatbot: React.FC = () => {
       }]);
     } finally {
       setIsLoading(false); 
+    }
     }
   };
   
