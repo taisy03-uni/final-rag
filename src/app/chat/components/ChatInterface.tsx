@@ -61,8 +61,12 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
         handleChat(); 
         break;
       case 'askQuestion':
-        message = "I have a general question.";
-        setUserMessage(message);
+        message = "R v Liam Sterling [2023] EWCrimA 145**\n\n**Key Facts:**\n*   **Applicant:** Liam Sterling, aged 28.\n*   **Offence 1:** In October 2020, Sterling was sentenced to 30 months' imprisonment for possession of cocaine with intent to supply (an offence committed in 2019).\n*   **Offence 2:** In March 2023, he was sentenced to 72 months' (6 years) imprisonment for conspiracy to supply fentanyl, to which he pleaded guilty in December 2022. This conspiracy arose from a wider investigation into an international drug trafficking network, and he was on bail for the 2019 offence when arrested for the conspiracy.\n*   **Appeal Basis:** Sterling sought leave to appeal the 72-month sentence, arguing it was too high when considered alongside the prior 30-month sentence, leading to an overall practical term of around 8.5 years.\n\n**Legal Issues:**\n*   Whether the sentencing judge adopted an excessively high starting point for the conspiracy to supply fentanyl.\n*   Whether insufficient credit was given for Sterling's guilty plea.\n*   Whether the sentencing judge failed to adequately apply the \"totality principle\" by not sufficiently adjusting the sentence, given that the 2019 and conspiracy offences (which the judge accepted should have been dealt with together) were sentenced separately.\n*   Whether the overall sentence was wrong in principle or manifestly excessive.\n\n**Outcome:**\nThe Court of Appeal refused the renewed application for leave to appeal. The Court found that the sentencing judge had given \"most careful consideration\" to the appropriate categorisation of the offending, the discount for the guilty plea, and the totality principle. They concluded that it was \"not arguable\" that the sentence imposed was wrong in principle or manifestly excessive."
+        onMessagesUpdate([...messages, { text: message, isOutgoing: true }]);
+        // Trigger the chat handling function to process the message
+        handleChat();
+        onSendMessage(message);
+        //call the API to get the case result
         break;
       case 'caseResearch':
         message = "I want to upload a case file for research.";
