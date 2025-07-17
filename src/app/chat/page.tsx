@@ -114,7 +114,7 @@ const Chatbot: React.FC = () => {
             .case-link-box a {
               display: inline-block;
               padding: 0.5rem 1rem;
-              background: #1a5e96;
+              background: #354AB8;
               color: white;
               text-decoration: none;
               border-radius: 4px;
@@ -129,7 +129,7 @@ const Chatbot: React.FC = () => {
               margin-top: 0.75rem;
               padding: 0.75rem;
               background: #fff;
-              border-left: 3px solid #1a5e96;
+              border-left: 3px solid #354AB8;
               font-size: 0.85rem;
               color: #555;
               line-height: 1.5;
