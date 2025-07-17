@@ -62,6 +62,7 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
         break;
       case 'askQuestion':
         message = "I have a general question.";
+        setUserMessage(message);
         break;
       case 'caseResearch':
         message = "I want to upload a case file for research.";
@@ -72,10 +73,6 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
       default:
         return;
     }
-    
-    //setUserMessage(message);
-    // Optionally auto-send the message
-    // handleChat();
   };
 
   const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
