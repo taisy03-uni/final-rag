@@ -74,8 +74,18 @@ const Chatbot: React.FC = () => {
         if (!pineconeResponse.ok) {
           throw new Error('Failed to query Pinecone');
         }
+        interface CaseData {
+          _id: string;
+          _score: number;
+          fields: {
+            judgment_date: string;
+            name: string;
+            text: string;
+            uri: string;
+          };
+        }
         const pineconeData = await pineconeResponse.json();
-        const first5Cases = pineconeData.result.hits.slice(0, 5); // Get first 5 cases
+        const first5Cases: CaseData[] = pineconeData.result.hits.slice(0, 5);
 
         const caseResponse = `
           <style>
@@ -127,7 +137,7 @@ const Chatbot: React.FC = () => {
           </style>
 
           <div>
-            ${first5Cases.map((caseData, index) => {
+            ${first5Cases.map((caseData: CaseData, index: number) => {
               const cleanUri = caseData.fields.uri.split('#')[0].replace('/id', '');
               return `
                 <div class="case-result">
@@ -139,8 +149,9 @@ const Chatbot: React.FC = () => {
                     </a>
                   </div>
                   <div class="case-excerpt">
-                    <p><strong>Excerpt:</strong> ${caseData.fields.text}...</p>
+                    <p><strong>Excerpt:</strong> ${caseData.fields.text.substring(0, 200)}...</p>
                   </div>
+                  ${index < first5Cases.length - 1 ? '<div class="case-divider"></div>' : ''}
                 </div>
               `;
             }).join('')}
