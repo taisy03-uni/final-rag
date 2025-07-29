@@ -143,13 +143,14 @@ const Chatbot: React.FC = () => {
                 <div class="case-result">
                   <h3>${caseData.fields.name}</h3>
                   <p class="case-meta"><strong>Judgment Date:</strong> ${caseData.fields.judgment_date}</p>
+                  <p class="case-meta"><strong>Score:</strong> ${caseData._score.toFixed(2)}</p>
                   <div class="case-link-box">
                     <a href="${cleanUri}" target="_blank" rel="noopener noreferrer">
                       🔍 View Full Case on The National Archives
                     </a>
                   </div>
                   <div class="case-excerpt">
-                    <p><strong>Excerpt:</strong> ${caseData.fields.text.substring(0, 200)}...</p>
+                    <p><strong>Excerpt:</strong> ${caseData.fields.text}...</p>
                   </div>
                   ${index < first5Cases.length - 1 ? '<div class="case-divider"></div>' : ''}
                 </div>
