@@ -53,21 +53,12 @@ export async function POST(req: Request) {
       Legal Context:
       ${legalContext}
 
-      User Question:
+      User Case:
       ${userQuery}
 
-      Please provide a thorough, professional answer based on the legal context provided. 
-      If the context doesn't fully answer the question:
-      1. Clearly indicate this
-      2. Provide general legal guidance based on your knowledge
-      3. Suggest potential next steps
-      4. Always cite sources where possible
-      
-      Structure your response with:
-      - Clear headings
-      - Concise explanations
-      - Relevant case law references
-      - Practical advice
+      Given the scenario provided by the user and the relevant legal context, please provide a detailed and accurate response which states:
+      1. The relevant UK case Law - provide the name of the cases and a brief summary of how it related to the user case. 
+      2. Sort the cases by relevance to the user case. 
     `;
 
     // Normal conversation flow
