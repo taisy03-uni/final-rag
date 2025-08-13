@@ -46,7 +46,7 @@ const Sidebar: React.FC<SidebarProps> = ({
           ref={logoRef} 
           className={`${sidebarStyles.logoLink} ${isHovered ? sidebarStyles.logoHover : ''}`}
         >
-          LADA.AI
+          L.RAG
         </h2>
       </div>
       
