@@ -9,23 +9,17 @@ export default function Home() {
       <div className="relative z-10 container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-4 tracking-tight">
-            <span className="text-black">Transform Your Legal Work with </span>
-            <span className="text-black">AI</span>
+            <span className="text-black">Transform Your Legal Research with AI </span>
           </h1>
           
           <p className="text-2xl text-black mb-8 leading-relaxed">
-            Streamline research, automate documents, and enhance your legal practice
+            Streamline research and enhance your legal practice!
           </p>
           
           <p className="text-xl text-black mb-6 leading-relaxed font-medium">
-            LADA.AI is your advanced legal assistant, designed specifically for lawyers.
-            Our platform streamlines multiple tasks including legal research and writing, making your work more efficient than ever.
+            L.RAG your advanced legal assistant, designed specifically for lawyers to assist with legal research.
           </p>
           
-          <p className="text-lg text-black mb-12">
-            With our unwavering commitment to security, your conversations remain completely anonymous.
-            We understand the importance of confidentiality in legal matters and ensure your data stays protected.
-          </p>
 
           <Link 
             href="/chat"
@@ -41,12 +35,12 @@ export default function Home() {
             <p className="text-black">Access comprehensive legal research assistance powered by advanced AI technology.</p>
           </div>
           <div className="bg-white/90 backdrop-blur-sm p-6 rounded-xl shadow-lg">
-            <h3 className="text-xl font-semibold mb-3 text-[#354AB8]">Document Writing</h3>
-            <p className="text-black">Generate and review legal documents with enhanced efficiency and accuracy.</p>
+            <h3 className="text-xl font-semibold mb-3 text-[#354AB8]">Direct Links</h3>
+            <p className="text-black">Get Direct Links to National Archives Case Law!</p>
           </div>
           <div className="bg-white/90 backdrop-blur-sm p-6 rounded-xl shadow-lg">
-            <h3 className="text-xl font-semibold mb-3 text-[#354AB8]">Secure Platform</h3>
-            <p className="text-black">Your data remains confidential with our enterprise-grade security measures.</p>
+            <h3 className="text-xl font-semibold mb-3 text-[#354AB8]">Extensive Evaluation</h3>
+            <p className="text-black">Every response is check for hallucinations!</p>
           </div>
         </div>
       </div>

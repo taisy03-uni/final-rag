@@ -174,19 +174,45 @@ const Chatbot: React.FC = () => {
     }
     else if (currentOutput === 'AItext') {
     try {
-      const res = await fetch('/api/gemini', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ 
-          messages: updatedMessages,
-          currentLanguage
+      // Call both Gemini and OpenAI APIs in parallel
+      const [geminiRes, openaiRes] = await Promise.all([
+        fetch('/api/gemini', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ 
+            messages: updatedMessages,
+            currentLanguage
+          }),
         }),
-      });
+        fetch('/api/openai', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ 
+            messages: updatedMessages,
+            currentLanguage
+          }),
+        })
+      ]);
   
-      if (!res.ok) throw new Error(res.statusText);
-      const { response } = await res.json();
-      const botMessages = [{ text: response, isOutgoing: false }];
+      if (!geminiRes.ok || !openaiRes.ok) {
+        throw new Error('Failed to get responses from AI services');
+      }
       
+      const geminiData = await geminiRes.json();
+      const openaiData = await openaiRes.json();
+      
+      // Combine both responses
+      const combinedResponse = `
+## Gemini Analysis
+${geminiData.response}
+
+---
+
+## OpenAI Search & Analysis
+${openaiData.response}
+      `;
+      
+      const botMessages = [{ text: combinedResponse, isOutgoing: false }];
       updateChatMessages([...updatedMessages, ...botMessages]);
   
     } catch (error) {

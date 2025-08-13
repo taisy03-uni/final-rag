@@ -12,7 +12,7 @@ const puritan = Puritan({
 });
 
 export const metadata: Metadata = {
-  title: "LADA.AI - Legal Assistant",
+  title: "L.RAG",
   description: "Your advanced AI legal assistant",
 };
 
