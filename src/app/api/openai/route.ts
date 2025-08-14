@@ -64,15 +64,21 @@ async function performOpenAISearch(client: OpenAI, query: string): Promise<any> 
       messages: [
         {
           role: "system",
-          content: "You are a legal research assistant. Search for and provide relevant legal information, cases, and precedents related to the user's query. Format your response as structured search results."
+          content: "You are a legal research assistant. Search for and provide relevant UK legal cases related to the user's query. Format your response as structured search results."
         },
         {
           role: "user", 
-          content: `Search for legal information related to: ${query}`
+          content: `Scenario: ${query} Output: Please provide relevant UK case law in the following json format:
+                    [{
+                    case_name: "Case Name",
+                    summary: "Brief summary of the case",
+                    citation: "Citation details",
+                    date: "Judgment date",
+                    },...]`
         }
       ],
       max_tokens: 500,
-      temperature: 0.3
+      temperature: 0.1
     });
 
     return {
@@ -170,7 +176,7 @@ export async function POST(req: Request) {
     const evaluation = evaluateResponse(responseText, pineconeData, searchResults);
     console.log(`Evaluation: ${evaluation}`);
     
-    const fullResponse = `${evaluation}\n\n${responseText}`;
+    const fullResponse = `${searchResults.results}\n\n${responseText}`;
     
     return NextResponse.json({ response: fullResponse });
 
