@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routers import pdf
+from routers import pdf, pinecone, gemini, chatgpt
 
 app = FastAPI()
 
@@ -14,3 +14,4 @@ app.add_middleware(
 
 # Include routers
 app.include_router(pdf.router)
+app.include_router(pinecone.router)  # Ensure pinecone router is also included
