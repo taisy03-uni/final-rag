@@ -79,15 +79,41 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
     }
   };
 
-  const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files && e.target.files.length > 0) {
-      const file = e.target.files[0];
-      if (onFileUpload) {
-        onFileUpload(file);
-      }
-      handleQuickAction('caseResearch');
+  const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (!e.target.files?.length) return;
+    const file = e.target.files[0];
+  
+    const formData = new FormData();
+    formData.append("file", file);
+  
+    try {
+      // Call Python backend to extract PDF text
+      const response = await fetch("http://localhost:8000/extract-pdf/", {
+        method: "POST",
+        body: formData,
+      });
+      const data = await response.json();
+  
+      // Add extracted text to chat messages
+      // create an aler that says "PDF uploaded successfully. Extracted text added to the chat."
+
+
+      onMessagesUpdate([
+        ...messages,
+        { text: `📄 Extracted text:\n\n${data.text}`, isOutgoing: true }
+      ]);
+      handleChat();
+      onSendMessage(data.text);
+  
+    } catch (err) {
+      console.error("PDF parsing failed:", err);
+      onMessagesUpdate([
+        ...messages,
+        { text: "❌ Failed to parse the PDF file.", isOutgoing: false }
+      ]);
     }
   };
+  
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' && !e.shiftKey && !isLoading) {
