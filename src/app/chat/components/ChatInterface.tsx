@@ -154,16 +154,16 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
               type="file"
               ref={fileInputRef}
               onChange={handleFileUpload}
-              accept=".pdf,.doc,.docx,.txt"
+              accept=".pdf"
               style={{ display: 'none' }}
             />
             <button className={newChatStyles.quickActionBtn}onClick={() => fileInputRef.current?.click()}>
             <MdUpload size={24} />
-            <span>Upload a case file</span>
+            <span>Upload a case file (PDF Only)</span>
             </button>
             <button className={newChatStyles.quickActionBtn} onClick={() => handleQuickAction('askQuestion')} >
             <MdQuestionAnswer size={24} />
-            <span>Ask a general question</span>
+            <span>Example Query</span>
             </button>
           </div>
         </div>
