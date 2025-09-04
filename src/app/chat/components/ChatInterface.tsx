@@ -96,8 +96,6 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
   
       // Add extracted text to chat messages
       // create an aler that says "PDF uploaded successfully. Extracted text added to the chat."
-
-
       onMessagesUpdate([
         ...messages,
         { text: `📄 Extracted text:\n\n${data.text}`, isOutgoing: true }
