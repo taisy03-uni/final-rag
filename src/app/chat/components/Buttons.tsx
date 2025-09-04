@@ -24,23 +24,27 @@ const Buttons: React.FC<ButtonsProps> = ({
 }) => {
   return (
     <>
-      <button className={styles.menuButton} onClick={toggleSidebar} aria-label="Toggle sidebar">
+      <button  className={styles.menuButton} onClick={toggleSidebar} aria-label="Toggle sidebar">
+        <div id="toggleSidebarBtn" style={{ padding: '0.5rem' }}>
         <MdMenu size={24} />
+        </div>
       </button>
       <div className={buttonStyles.languageSelector}>
-        <button 
+        <div id="languagesBtn" >
+        <button id="americanBtn"
           className={`${buttonStyles.langBtn} ${currentLanguage === 'american' ? buttonStyles.active : ''}`}
           onClick={() => setCurrentLanguage('american')}
         >
           American
         </button>
-        <button 
+        <button id="britishBtn"
           className={`${buttonStyles.langBtn} ${currentLanguage === 'british' ? buttonStyles.active : ''}`}
           onClick={() => setCurrentLanguage('british')}
         >
           British
         </button>
-        <div className={buttonStyles.outputToggleContainer}>
+        </div>
+        <div id="outputToggle" className={buttonStyles.outputToggleContainer}>
           <label className={buttonStyles.toggleSwitch}>
             <input 
               type="checkbox"

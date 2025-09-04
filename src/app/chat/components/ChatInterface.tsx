@@ -16,6 +16,7 @@ interface ChatInterfaceProps {
   onSendMessage: (message: string) => Promise<void>;
   isLoading: boolean;
   onFileUpload?: (file: File) => void; // Add this prop if you need file upload functionality
+  onTourStart?: () => void; // Optional prop to start the guided tour
 }
 
 const ChatInterface: React.FC<ChatInterfaceProps> = ({ 
@@ -24,13 +25,15 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
   onMessagesUpdate, 
   onSendMessage,
   isLoading,
-  onFileUpload
+  onFileUpload,
+  onTourStart
 }) => {
   const [userMessage, setUserMessage] = useState<string>('');
   const chatboxRef = useRef<HTMLUListElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const isNewChat = messages.length === 0;
+  const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
   const handleChat = async () => {
     const message = userMessage.trim();
@@ -56,9 +59,10 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
     let message = '';
     switch (action) {
       case 'learnMore':
-        message = "Hi xxxx, We are a legal research assistant specialized in UK law, providing insights and guidance based on the latest legal context. We assist in researching case files, answering general legal questions, and offering professional advice. How can I assist you today?";
-        onMessagesUpdate([...messages, { text: message, isOutgoing: false }]);
-        handleChat(); 
+        (async () => {
+          if (onTourStart) onTourStart();  // start the tour
+          
+        })();
         break;
       case 'askQuestion':
         message = "Sarah buys a second-hand car from a dealership that tells her the vehicle has never been in an accident. Relying on this, she proceeds with the purchase without further inspection. Months later, she discovers the car had previously suffered major structural damage in a crash and had been repaired. She believes the dealer knowingly withheld this information to close the sale. She seeks to rescind the contract and claim damages. Was this a misrepresentation, and what remedies are available?"
@@ -205,7 +209,7 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
       )}
       
       <div className={styles.inputContainer}>
-        <div className={styles.inputWrapper}>
+        <div id = "newChatBtn" className={styles.inputWrapper}>
           <textarea 
             ref={textareaRef}
             placeholder="Enter a message..." 
