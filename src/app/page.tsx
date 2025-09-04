@@ -9,15 +9,15 @@ export default function Home() {
       <div className="relative z-10 container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-4 tracking-tight">
-            <span className="text-black">Transform Your Legal Research with AI </span>
+            <span className="text-black">Transform Your Legal Research with AI</span>
           </h1>
           
           <p className="text-2xl text-black mb-8 leading-relaxed">
-            Streamline research and enhance your legal practice!
+            L.RAG is an open-source tool designed to assist with legal research for students and professionals alike.
           </p>
           
           <p className="text-xl text-black mb-6 leading-relaxed font-medium">
-            L.RAG your advanced legal assistant, designed specifically for lawyers to assist with legal research.
+            Try the tool by inputting an example case and see how it can help you find relevant legal precedents and information quickly and efficiently.
           </p>
           
 
@@ -39,8 +39,8 @@ export default function Home() {
             <p className="text-black">Get Direct Links to National Archives Case Law!</p>
           </div>
           <div className="bg-white/90 backdrop-blur-sm p-6 rounded-xl shadow-lg">
-            <h3 className="text-xl font-semibold mb-3 text-[#354AB8]">Extensive Evaluation</h3>
-            <p className="text-black">Every response is check for hallucinations!</p>
+            <h3 className="text-xl font-semibold mb-3 text-[#354AB8]">PDF Uploads</h3>
+            <p className="text-black">Upload a PDF File and we will analyse it for you!</p>
           </div>
         </div>
       </div>
