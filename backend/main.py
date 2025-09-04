@@ -1,6 +1,6 @@
-from fastapi import FastAPI, UploadFile, File
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-import fitz  # PyMuPDF
+from routers import pdf
 
 app = FastAPI()
 
@@ -12,11 +12,5 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.post("/extract-pdf/")
-async def extract_pdf(file: UploadFile = File(...)):
-    """Extract text from an uploaded PDF"""
-    text = ""
-    with fitz.open(stream=await file.read(), filetype="pdf") as doc:
-        for page in doc:
-            text += page.get_text("text") + "\n"
-    return {"text": text.strip()}
+# Include routers
+app.include_router(pdf.router)

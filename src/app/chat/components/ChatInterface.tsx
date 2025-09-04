@@ -92,7 +92,7 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
   
     try {
       // Call Python backend to extract PDF text
-      const response = await fetch("http://localhost:8000/extract-pdf/", {
+      const response = await fetch("http://localhost:8000/pdf/extract-pdf/", {
         method: "POST",
         body: formData,
       });
