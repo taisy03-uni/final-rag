@@ -69,13 +69,17 @@ const Chatbot: React.FC = () => {
     
     if (currentOutput === 'cases') {
       try {
-        const pineconeResponse = await fetch(`/api/pinecone`, {
+        const pineconeResponse = await fetch(`http://localhost:8000/pinecone/query-chunks`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ query: message }),
+          body: JSON.stringify({
+            query: message,
+            top_k: 5
+          }),
         });
+    
         if (!pineconeResponse.ok) {
-          throw new Error('Failed to query Pinecone');
+          throw new Error('Failed to get response from backend');
         }
         interface CaseData {
           _id: string;
