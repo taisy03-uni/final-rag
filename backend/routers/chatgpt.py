@@ -4,7 +4,6 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 from fastapi.encoders import jsonable_encoder
-from .pinecone import query_pinecone_chunks
 
 load_dotenv()  # Load environment variables from .env
 
@@ -146,6 +145,7 @@ async def chatgpt_query(request: Request):
             answer = await answer_outofscope()
             return JSONResponse(content={"type": label, "answer": answer})
         elif label == "CASELAW_QUESTION":
+            from .pinecone import query_pinecone_chunks  
             pinecone_response = await query_pinecone_chunks(request)
             
             #answer = await answer_caselaw_question(context=history, query=query_text, language=language, pinecone_data=pinecone_response)
