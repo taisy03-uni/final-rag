@@ -42,3 +42,6 @@ next-env.d.ts
 
 #remove __pycache__
 **/__pycache__
+
+#remove venv
+backend/venv

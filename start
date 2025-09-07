@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Activate backend virtual environment
+echo "Activating backend virtual environment..."
+cd backend
+if [ ! -d "venv" ]; then
+    echo "Creating virtual environment..."
+    python3 -m venv venv
+    pip install -r requirements.txt
+fi
+source venv/bin/activate
+
+# Start backend in the background
+echo "Starting backend..."
+uvicorn main:app --reload --port 8000 &
+
+# Start frontend
+cd ..
+echo "Starting frontend..."
+npm run dev
