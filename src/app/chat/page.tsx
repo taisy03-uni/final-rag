@@ -69,7 +69,7 @@ const Chatbot: React.FC = () => {
     
     if (currentOutput === 'cases') {
       try {
-        const pineconeResponse = await fetch(`http://localhost:8000/pinecone/query-chunks`, {
+        const pineconeResponse = await fetch(`http://localhost:8000/pinecone/query-metadata/`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -141,6 +141,25 @@ const Chatbot: React.FC = () => {
               color: #555;
               line-height: 1.5;
             }
+            .summary-btn {
+              margin-left: 0.5rem;
+              padding: 0.5rem 1rem;
+              background: #4CAF50;
+              color: white;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+              font-size: 0.9rem;
+            }
+            .summary-btn:hover {
+              background: #3b9442;
+            }
+            .case-summary {
+              background: #fff;
+              border-left: 3px solid #4CAF50;
+              padding: 0.75rem;
+              border-radius: 4px;
+            }            
           </style>
 
           <div>
@@ -152,10 +171,17 @@ const Chatbot: React.FC = () => {
                   <p class="case-meta"><strong>Judgment Date:</strong> ${caseData.fields.judgment_date}</p>
                   <p class="case-meta"><strong>Score:</strong> ${caseData._score.toFixed(2)}</p>
                   <div class="case-link-box">
-                    <a href="${cleanUri}" target="_blank" rel="noopener noreferrer">
-                      🔍 View Full Case on The National Archives
-                    </a>
-                  </div>
+                  <a href="${cleanUri}" target="_blank" rel="noopener noreferrer">
+                    🔍 View Full Case on The National Archives
+                  </a>
+                  <button 
+                    class="summary-btn" 
+                    data-uri="${caseData.fields.uri}"
+                    data-index="${index}">
+                    📄 View Case Summary
+                  </button>
+                </div>
+                <div id="summary-${index}" class="case-summary" style="display:none; margin-top:1rem; font-size:0.85rem; color:#333;"></div>
                   <div class="case-excerpt">
                     <p><strong>Excerpt:</strong> ${caseData.fields.text}...</p>
                   </div>
@@ -168,6 +194,47 @@ const Chatbot: React.FC = () => {
 
         const botMessages = [{ text: caseResponse, isOutgoing: false }];
         updateChatMessages([...updatedMessages, ...botMessages]);
+
+        setTimeout(() => {
+            document.querySelectorAll(".summary-btn").forEach(btn => {
+              btn.addEventListener("click", async (e) => {
+                const target = e.currentTarget as HTMLButtonElement;
+                const uri = target.getAttribute("data-uri");
+                const index = target.getAttribute("data-index");
+                const summaryDiv = document.getElementById(`summary-${index}`);
+
+                if (!uri || !summaryDiv) return;
+
+                summaryDiv.style.display = "block";
+                summaryDiv.innerHTML = "<em>Loading summary...</em>";
+
+                try {
+                  const response = await fetch("http://localhost:8000/pinecone/query-summary/", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ query: uri, top_k: 1 })
+                  });
+
+                  if (!response.ok) {
+                    throw new Error("Failed to fetch summary");
+                  }
+
+                  const data = await response.json();
+                  const firstHit = data.result?.hits?.[0];  // first item in hits array
+                      if (firstHit && firstHit.fields) {
+                        const summaryText = firstHit.fields.text || "<em>No summary available</em>";
+                        summaryDiv.innerHTML = `<strong>Summary:</strong> ${summaryText}`;
+                      } else {
+                        summaryDiv.innerHTML = "<em>No summary available</em>";
+                      }
+                } catch (err) {
+                  console.error(err);
+                  summaryDiv.innerHTML = "<em>Error fetching summary.</em>";
+                }
+              });
+            });
+          }, 100);
+
 
       } catch (error) {
         updateChatMessages([...updatedMessages, {
