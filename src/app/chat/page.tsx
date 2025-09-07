@@ -177,45 +177,27 @@ const Chatbot: React.FC = () => {
     }
     else if (currentOutput === 'AItext') {
     try {
+      console.log("Sending message to backend:", { query: message, language: currentLanguage, history: updatedMessages });
       // Call both Gemini and OpenAI APIs in parallel
-      const [geminiRes, openaiRes] = await Promise.all([
-        fetch('/api/gemini', {
+      const backendRes = await fetch(`http://localhost:8000/chatgpt/query`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ 
-            messages: updatedMessages,
-            currentLanguage
+          body: JSON.stringify({
+            query: message,
+            language: currentLanguage,
+            history: updatedMessages
           }),
-        }),
-        fetch('/api/openai', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ 
-            messages: updatedMessages,
-            currentLanguage
-          }),
-        })
-      ]);
-  
-      if (!geminiRes.ok || !openaiRes.ok) {
-        throw new Error('Failed to get responses from AI services');
-      }
-      
-      const geminiData = await geminiRes.json();
-      const openaiData = await openaiRes.json();
-      
-      // Combine both responses
-      const combinedResponse = `
-      ## Gemini Analysis
-      ${geminiData.response}
+        });
+    
+        if (!backendRes.ok) {
+          throw new Error('Failed to get response from backend');
+        }
+    
+        const backendData = await backendRes.json();
+        //get the text property from the response
+        console.log("Backend response:", backendData);
 
-      ---
-
-      ## OpenAI Search & Analysis
-      ${openaiData.response}
-            `;
-      
-      const botMessages = [{ text: combinedResponse, isOutgoing: false }];
+      const botMessages = [{ text: backendData.answer, isOutgoing: false }];
       updateChatMessages([...updatedMessages, ...botMessages]);
   
     } catch (error) {

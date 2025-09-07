@@ -111,8 +111,19 @@ async def chatgpt_query(request: Request):
         data = await request.json()
         query_text = data.get("query")
         language = data.get("language", "british")
-        history = data.get("history", "No prior history")
+        history_raw = data.get("history", "No prior history")
 
+        #rewrite history to be in the right format for the model
+        history = []
+        for msg in history_raw:
+            role = "user" if msg.get("isOutgoing") else "assistant"
+            history.append({
+                "role": role,
+                "content": msg.get("text", "")
+            })
+        
+        #limit history to last 6 messages
+        history = history[-6:]
         if not query_text:
             return JSONResponse(content={"error": "No query provided"}, status_code=400)
         # Step 1: Triage the query
@@ -136,9 +147,9 @@ async def chatgpt_query(request: Request):
             return JSONResponse(content={"type": label, "answer": answer})
         elif label == "CASELAW_QUESTION":
             pinecone_response = await query_pinecone_chunks(request)
-
+            
             #answer = await answer_caselaw_question(context=history, query=query_text, language=language, pinecone_data=pinecone_response)
-            return {"type": label, "answer": pinecone_response}
+            return {"type": label, "answer": 'caselawquestions', "pinecone_data": pinecone_response}
         else:
             return JSONResponse(content={"type": label, "answer": "Label not recognized after multiple attempts."})
 
