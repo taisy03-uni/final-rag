@@ -10,13 +10,26 @@ pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 index = pc.Index(host = os.getenv("PINECONE_HOST"))
 # Connect to index and namespace
 
+
+
+# Helper function to answer case law questions
+async def metadata(query: str) -> str:
+    #expand query with metadata
+    #TODO
+    return None
+
+async def rerank(context, query: str) -> str:
+    #TODO
+    return None
+
+
 #Query chunk namespace
 """
 query: query of the text 
 top_k: top k results to return
 """
 @router.post("/query-chunks/")
-async def query_pinecone(request: Request):
+async def query_pinecone_chunks(request: Request):
     try:
         data = await request.json()
         query_text = data.get("query")
@@ -46,7 +59,7 @@ query: query of the text
 top_k: top k results to return
 """
 @router.post("/query-summary/")
-async def query_pinecone(request: Request):
+async def query_pinecone_summary(request: Request):
     try:
         data = await request.json()
         query_text = data.get("query")
