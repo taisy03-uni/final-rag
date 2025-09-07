@@ -14,4 +14,6 @@ app.add_middleware(
 
 # Include routers
 app.include_router(pdf.router)
-app.include_router(pinecone.router)  # Ensure pinecone router is also included
+app.include_router(pinecone.router)  
+app.include_router(chatgpt.router)  
+app.include_router(gemini.router)
