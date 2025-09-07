@@ -8,13 +8,18 @@ interface GuidedTourStep {
 
 interface GuidedTourProps {
   steps: GuidedTourStep[];
+  restartSignal?: number; 
   stepDuration?: number; // duration for each step in ms
 }
 
-const GuidedTour: React.FC<GuidedTourProps> = ({ steps, stepDuration = 3000 }) => {
+const GuidedTour: React.FC<GuidedTourProps> = ({ steps, restartSignal, stepDuration = 3000 }) => {
   const [currentStep, setCurrentStep] = useState(0);
   const [showText, setShowText] = useState(false);
   const [textPosition, setTextPosition] = useState<{ top: number; left: number }>({ top: 0, left: 0 });
+
+  useEffect(() => {
+    setCurrentStep(0); // restart tour
+    }, [restartSignal]);
 
   useEffect(() => {
     if (currentStep >= steps.length) return;

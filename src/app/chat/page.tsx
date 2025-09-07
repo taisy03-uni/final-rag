@@ -28,6 +28,7 @@ const Chatbot: React.FC = () => {
   const [currentLanguage, setCurrentLanguage] = useState<string>('american');
   const [currentOutput, setCurrentOutput] = useState<string>('AItext');
   const [showTour, setShowTour] = useState(false);
+  const [tourRestart, setTourRestart] = useState(0);
 
   const handleNewChat = () => {
     const newChat = {
@@ -166,7 +167,7 @@ const Chatbot: React.FC = () => {
 
       } catch (error) {
         updateChatMessages([...updatedMessages, {
-          text: "⚠️ Failed to get response. Please try again.",
+          text: "Failed to get response. Please try again.",
           isOutgoing: false
         }]);
       }
@@ -205,21 +206,21 @@ const Chatbot: React.FC = () => {
       
       // Combine both responses
       const combinedResponse = `
-## Gemini Analysis
-${geminiData.response}
+      ## Gemini Analysis
+      ${geminiData.response}
 
----
+      ---
 
-## OpenAI Search & Analysis
-${openaiData.response}
-      `;
+      ## OpenAI Search & Analysis
+      ${openaiData.response}
+            `;
       
       const botMessages = [{ text: combinedResponse, isOutgoing: false }];
       updateChatMessages([...updatedMessages, ...botMessages]);
   
     } catch (error) {
       updateChatMessages([...updatedMessages, {
-        text: "⚠️ Failed to get response. Please try again.",
+        text: "Failed to get response. Please try again.",
         isOutgoing: false
       }]);
     } finally {
@@ -245,22 +246,24 @@ ${openaiData.response}
             onMessagesUpdate={updateChatMessages}
             onSendMessage={handleSendMessage}
             isLoading={activeChat.isLoading} 
-            onTourStart={() => setShowTour(true)} // trigger a state to show tour
+            onTourStart={() => setShowTour(true)} 
+            setTourRestart={setTourRestart}
             />
               {showTour && (
                 <GuidedTour
-                  steps={[
-                    { buttonId: 'justText', text: 'Welcome to the L.RAG! Let me guide you through the main features and how to use this product.' },
-                    { buttonId: 'justText', text: 'We have two main output modes: "Case" and "AI" Mode.'},
-                    { buttonId: 'justText', text: '"Case" mode retrieves relevant legal cases from The National Archives and provides excerpts and links to the full cases.'},
-                    { buttonId: 'justText', text: '"AI" mode leverages both Google Gemini and OpenAI to analyse your query and provide comprehensive insights.'},
-                    { buttonId: 'outputToggle', text: 'Toggle here to choose between "Case" and "AI" mode.' },
-                    { buttonId: 'languagesBtn', text: 'Switch between American and British English responses.' },
-                    { buttonId: 'toggleSidebarBtn', text: 'The Sidebar allows you to work on multiple cases at the same time! Open it to start a new chat.' },
-                    { buttonId: 'newChatBtn', text: 'Type up a scenario and test this product yourself!'},
-                    { buttonId: 'justText', text: 'That\'s it for the tour! If you need help, click the "?" button anytime to restart the tour.' },
-                  ]}
-                  stepDuration={4000} 
+                steps={[
+                  { buttonId: 'justText', text: 'Welcome to the L.RAG! Let me guide you through the main features and how to use this product.' },
+                  { buttonId: 'justText', text: 'We have two main output modes: "Case" and "AI" Mode.'},
+                  { buttonId: 'justText', text: '"Case" mode retrieves relevant legal cases from The National Archives and provides excerpts and links to the full cases.'},
+                  { buttonId: 'justText', text: '"AI" mode leverages both Google Gemini and OpenAI to analyse your query and provide comprehensive insights.'},
+                  { buttonId: 'outputToggle', text: 'Toggle here to choose between "Case" and "AI" mode.' },
+                  { buttonId: 'languagesBtn', text: 'Switch between American and British English responses.' },
+                  { buttonId: 'toggleSidebarBtn', text: 'The Sidebar allows you to work on multiple cases at the same time! Open it to start a new chat.' },
+                  { buttonId: 'newChatBtn', text: 'Type up a scenario and test this product yourself!'},
+                  { buttonId: 'justText', text: 'That\'s it for the tour! If you need help, click the "?" button anytime to restart the tour.' },
+                ]}
+                restartSignal={tourRestart} 
+                stepDuration={4000} 
                 />
               )}
         </div>

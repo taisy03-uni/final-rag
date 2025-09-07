@@ -17,6 +17,7 @@ interface ChatInterfaceProps {
   isLoading: boolean;
   onFileUpload?: (file: File) => void; // Add this prop if you need file upload functionality
   onTourStart?: () => void; // Optional prop to start the guided tour
+  setTourRestart:  React.Dispatch<React.SetStateAction<number>>;  
 }
 
 const ChatInterface: React.FC<ChatInterfaceProps> = ({ 
@@ -26,14 +27,14 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
   onSendMessage,
   isLoading,
   onFileUpload,
-  onTourStart
+  onTourStart,
+  setTourRestart
 }) => {
   const [userMessage, setUserMessage] = useState<string>('');
   const chatboxRef = useRef<HTMLUListElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const isNewChat = messages.length === 0;
-  const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
   const handleChat = async () => {
     const message = userMessage.trim();
@@ -60,7 +61,8 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
     switch (action) {
       case 'learnMore':
         (async () => {
-          if (onTourStart) onTourStart();  // start the tour
+          if (onTourStart) onTourStart(); 
+          if (setTourRestart) setTourRestart(prev => prev + 1); // start the tour
           
         })();
         break;
@@ -73,7 +75,6 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
         //call the API to get the case result
         break;
       case 'caseResearch':
-        message = "I want to upload a case file for research.";
         if (fileInputRef.current) {
           fileInputRef.current.click(); // Trigger file upload dialog
         }
@@ -102,7 +103,7 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
       // create an aler that says "PDF uploaded successfully. Extracted text added to the chat."
       onMessagesUpdate([
         ...messages,
-        { text: `📄 Extracted text:\n\n${data.text}`, isOutgoing: true }
+        { text: `Extracted text:\n\n${data.text}`, isOutgoing: true }
       ]);
       handleChat();
       onSendMessage(data.text);
@@ -111,7 +112,7 @@ const ChatInterface: React.FC<ChatInterfaceProps> = ({
       console.error("PDF parsing failed:", err);
       onMessagesUpdate([
         ...messages,
-        { text: "❌ Failed to parse the PDF file.", isOutgoing: false }
+        { text: "Failed to parse the PDF file.", isOutgoing: false }
       ]);
     }
   };
