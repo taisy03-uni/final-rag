@@ -111,13 +111,4 @@ source backend/venv/bin/activate
 pip install -r backend/requirements.txt
 ```
 
----
-
-## 6. Tips
-
-* The backend handles Pinecone case queries, AI summarization, and contextual legal answers.
-* The frontend queries the backend to display cases, excerpts, and AI-generated summaries.
-* Default ports: Backend **8000**, Frontend **3000**.
-* Use `./startb` for backend-only testing.
-
 
