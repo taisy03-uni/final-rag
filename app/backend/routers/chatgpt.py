@@ -40,7 +40,7 @@ async def triage_query(context, query: str) -> str:
 
     Return only one label from the three above. Do not return any explanations or additional text. Return the label bassed on the query, the history is there to give you more context about the user.
     """
-    label = await get_model_response(prompt, reasoning="low")
+    label = await get_model_response(prompt, reasoning="minimal")
     return label
 
 # Helper function to answer general questions
@@ -93,15 +93,42 @@ async def answer_outofscope() -> str:
     return "I'm sorry, but I am unable to assist with that request as it is out of my scope. I am here to help with legal questions and find case law only."
 
 @router.post("/querycaselaw/")
-async def answer_caselaw_question(context, query, language, pinecone_data) -> str:
+async def answer_caselaw_question(context: str, query: str, language: str, pinecone_data: dict) -> str:
+    # Prepare the Pinecone case references
+    case_references = []
+    for hit in pinecone_data.get("result", {}).get("hits", []):
+        fields = hit.get("fields", {})
+        case_name = fields.get("name", "Unknown Case")
+        case_uri = fields.get("uri", "").replace("/id/", "/")
+        case_text = fields.get("text", "")
+        case_references.append(f"- {case_name} ({case_uri}): {case_text[:300]}...")  # first 300 chars
+    
+    case_list_text = "\n".join(case_references) if case_references else "No cases retrieved from Pinecone."
+
+    # Construct the prompt
     prompt = f"""
-    You are a helpfull legal AI assistant. Given the previous context with the user below, provide a concise and accurate answer to the user's question.
-    Context: {pinecone_data}   
-    \n
-    Answer the user's question based on the context above.
-    """
-    response = await get_model_response(prompt, reasoning="high")
+            You are a highly knowledgeable legal AI assistant. Answer the user's legal question concisely and accurately,
+            taking into account the previous conversation with the user and relevant case law.
+
+            Previous conversation context with the user:
+            {context}
+
+            User question/scenario:
+            {query}
+
+            The following cases have been retrieved from the legal database. Evaluate which cases are relevant to the user's scenario:
+            {case_list_text}
+
+            Instructions:
+            1. Analyse all the provided cases and decide which ones are relevant or partially relevant.
+            2. Provide a clear, concise answer to the user's question, supported by the relevant cases.
+            3. Mention the relevant cases explicitly as precedent, providing the clickable links.
+            4. Answer in the user's requested language: {language}.
+            """
+    # Get the model response
+    response = await get_model_response(prompt, reasoning="low")
     return response
+
 
 # Main POST endpoint
 @router.post("/query/")
@@ -111,23 +138,25 @@ async def chatgpt_query(request: Request):
         query_text = data.get("query")
         language = data.get("language", "british")
         history_raw = data.get("history", "No prior history")
-
         #rewrite history to be in the right format for the model
         history = []
-        for msg in history_raw:
-            role = "user" if msg.get("isOutgoing") else "assistant"
-            history.append({
-                "role": role,
-                "content": msg.get("text", "")
-            })
+        if history_raw != "No prior history":
+            for msg in history_raw:
+                role = "user" if msg.get("isOutgoing") else "assistant"
+                history.append({
+                    "role": role,
+                    "content": msg.get("text", "")
+                })
+            #limit history to last 6 messages
+            history = history[-6:]
+        else:
+            history = ["No prior history"]
         
-        #limit history to last 6 messages
-        history = history[-6:]
         if not query_text:
             return JSONResponse(content={"error": "No query provided"}, status_code=400)
         # Step 1: Triage the query
         label = await triage_query(context=history, query=query_text)
-
+        print("Initial triage label:", label)
         i = 0
         while label not in ["GENERAL_QUESTION", "ABOUT_ME", "OUT_OF_SCOPE", "CASELAW_QUESTION"] and i < 3:
             query_text = f"The previous query was: '{query_text}'. The triage label you provided was '{label}', which is not one of the accepted labels. Please re-evaluate the query and provide one of the accepted labels: GENERAL_QUESTION, ABOUT_ME, OUT_OF_SCOPE, CASELAW_QUESTION. Remember to return only the label without any additional text."
@@ -145,11 +174,12 @@ async def chatgpt_query(request: Request):
             answer = await answer_outofscope()
             return JSONResponse(content={"type": label, "answer": answer})
         elif label == "CASELAW_QUESTION":
-            from .pinecone import query_pinecone_chunks  
-            pinecone_response = await query_pinecone_chunks(request)
-            
-            #answer = await answer_caselaw_question(context=history, query=query_text, language=language, pinecone_data=pinecone_response)
-            return {"type": label, "answer": 'caselawquestions', "pinecone_data": pinecone_response}
+            print("Proceeding to case law question handling...")
+            from .pinecone import metadata_guided_search
+            pinecone_response = await metadata_guided_search(request)
+            answer = await answer_caselaw_question(context=history, query=query_text, language=language, pinecone_data=pinecone_response)
+            print("Case law answer generated.")
+            return {"type": label, "answer": answer}
         else:
             return JSONResponse(content={"type": label, "answer": "Label not recognized after multiple attempts."})
 
