@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here’s a single, self-contained `README.md` file combining setup instructions, app structure, and usage notes:
 
-## Getting Started
+````markdown
+# LawAI App Setup Guide
 
-First, run the development server:
+This guide will help you set up and run the LawAI application, which consists of a FastAPI backend and a React/TypeScript frontend.
+
+---
+
+## 1. Configure API Keys
+
+Go into the `backend` directory and add your API keys to the `.env` file. Example `.env` contents:
+
+```env
+PINECONE_API_KEY=your_pinecone_api_key
+PINECONE_HOST=your_pinecone_host
+OPENAI_API_KEY=your_openai_api_key
+````
+
+Make sure the `.env` file is saved before running the app.
+
+---
+
+## 2. Start the App
+
+Make sure the `start` script is executable:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+chmod +x ./start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then run the script:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+./start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+What this script does:
 
-## Learn More
+1. Activates the Python virtual environment for the backend.
+2. Installs backend dependencies from `requirements.txt`.
+3. Checks if port **8000** is in use, kills any process if necessary, and starts the FastAPI backend.
+4. Sets up the frontend dependencies (`node_modules`) if missing.
+5. Starts the frontend server.
 
-To learn more about Next.js, take a look at the following resources:
+**Notes:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Backend runs on port **8000**.
+* Frontend runs on port **3000**.
+* To run only the backend, use:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+./startb
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 3. App Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+project-root/
+│
+├─ backend/           # FastAPI backend
+│   ├─ main.py        # Main API entrypoint
+│   ├─ routers/       # API route definitions (e.g., Pinecone, ChatGPT)
+│   ├─ support/       # Helper modules (metadata, utilities)
+│   └─ venv/          # Python virtual environment (created automatically)
+│
+├─ src/               # Frontend source code (TypeScript / React)
+│
+├─ start              # Bash script to start both backend & frontend
+└─ startb             # Bash script to start backend only
+```
+
+**Backend:** Handles all APIs, Pinecone queries, OpenAI requests, and case law processing.
+**Frontend:** React/TypeScript app connecting to the backend via API calls. The UI is available at `http://localhost:3000`.
+
+---
+
+## 4. Accessing the App
+
+* Frontend: Open your browser at [http://localhost:3000](http://localhost:3000)
+* Backend APIs: Available at [http://localhost:8000](http://localhost:8000)
+
+---
+
+## 5. Troubleshooting
+
+1. **Port 8000 already in use:** The start script kills the existing process. If you encounter errors, manually check using:
+
+```bash
+lsof -i :8000
+```
+
+and kill any leftover process:
+
+```bash
+kill -9 <PID>
+```
+
+2. **Frontend dependencies conflict:** Use legacy peer deps if necessary:
+
+```bash
+npm install --legacy-peer-deps
+```
+
+3. **Backend virtual environment missing:** The script will create it automatically, but you can manually create it with:
+
+```bash
+python3 -m venv backend/venv
+source backend/venv/bin/activate
+pip install -r backend/requirements.txt
+```
+
+---
+
+## 6. Tips
+
+* The backend handles Pinecone case queries, AI summarization, and contextual legal answers.
+* The frontend queries the backend to display cases, excerpts, and AI-generated summaries.
+* Default ports: Backend **8000**, Frontend **3000**.
+* Use `./startb` for backend-only testing.
+
+
