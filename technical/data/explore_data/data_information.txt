@@ -1,0 +1,130 @@
+Number of documents:
+67517
+==================================================
+Data by Year:
+Year 2000: 0 documents
+Year 2001: 3 documents
+Year 2002: 3 documents
+Year 2003: 2036 documents
+Year 2004: 2072 documents
+Year 2005: 2124 documents
+Year 2006: 2347 documents
+Year 2007: 2511 documents
+Year 2008: 3004 documents
+Year 2009: 3061 documents
+Year 2010: 2910 documents
+Year 2011: 2790 documents
+Year 2012: 2825 documents
+Year 2013: 3025 documents
+Year 2014: 3110 documents
+Year 2015: 3257 documents
+Year 2016: 2862 documents
+Year 2017: 2745 documents
+Year 2018: 2841 documents
+Year 2019: 2857 documents
+Year 2020: 3080 documents
+Year 2021: 1918 documents
+Year 2022: 3604 documents
+Year 2023: 4578 documents
+Year 2024: 5408 documents
+Year 2025: 2546 documents
+
+Total: 67517
+
+==================================================
+Data by Court:
+--- United Kingdom Supreme Court (uksc) ---
+Count: 912 files
+
+--- United Kingdom Privy Council (ukpc) ---
+Count: 650 files
+
+--- EWCA (Sub-divisions) ---
+
+  Court of Appeal (Civil Division) (ewca%2Fciv):
+Count: 14540 files
+
+  Court of Appeal (Criminal Division) (ewca%2Fcrim):
+Count: 6786 files
+
+--- EWHC (Sub-divisions) ---
+
+  High Court (Administrative Court) (ewhc%2Fadmin):
+Count: 12718 files
+
+  High Court (Admiralty Division) (ewhc%2Fadmlty):
+Count: 105 files
+
+  High Court (Chancery Division) (ewhc%2Fch):
+Count: 8325 files
+
+  High Court (Commercial Court) (ewhc%2Fcomm):
+Count: 3773 files
+
+  High Court (Family Division) (ewhc%2Ffam):
+Count: 2844 files
+
+  High Court (Intellectual Property Enterprise Court) (ewhc%2Fipec):
+Count: 254 files
+
+  High Court (King's Bench Division) (ewhc%2Fkb):
+Count: 5847 files
+
+  High Court (Mercantile Court) (ewhc%2Fmercantile):
+Count: 4 files
+
+  High Court (Patents Court) (ewhc%2Fpat):
+Count: 679 files
+
+  High Court (Senior Court Costs Office) (ewhc%2Fscco):
+Count: 467 files
+
+  High Court (Technology and Construction Court) (ewhc%2Ftcc):
+Count: 1845 files
+
+--- Crown Court (ewcr) ---
+Count: 10 files
+
+--- County Court (ewcc) ---
+Count: 51 files
+
+--- Family Court (ewfc) ---
+Count: 1424 files
+
+--- Court of Protection (ewcop) ---
+Count: 707 files
+
+Number of documents by Tribunals
+
+--- Investigatory Powers Tribunal (ukiptrib)
+Count: 8 files
+
+--- Employment Appeal Tribunal (eat) ---
+Count: 584 files
+
+--- UKUT (Sub-divisions) ---
+
+  Upper Tribunal (Administrative Appeals Chamber) (ukut%2Faac):
+Count: 745 files
+
+  Upper Tribunal (Immigration and Asylum Chamber) (ukut%2Fiac):
+Count: 1008 files
+
+  Upper Tribunal (Lands Chamber) (ukut%2Flc):
+Count: 407 files
+
+  Upper Tribunal (Tax and Chancery Chamber) (ukut%2Ftcc):
+Count: 245 files
+
+--- UKFTT (Sub-divisions) ---
+
+  First-tier Tribunal (General Regulatory Chamber) (ukftt%2Fgrc):
+Count: 1511 files
+
+  First-tier Tribunal (Tax Chamber) (ukftt%2Ftc):
+Count: 1064 files
+
+--- Immigration Services Tribunal (ukist) ---
+Count: 4 files
+
+

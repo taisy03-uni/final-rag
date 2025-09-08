@@ -1,0 +1,18 @@
+{
+  "model_type": "finetuned",
+  "num_samples_attempted": 20,
+  "num_successful_predictions": 20,
+  "num_failed_generations": 0,
+  "success_rate": 1.0,
+  "rouge_scores": {
+    "rouge1": 0.3393460479592974,
+    "rouge2": 0.07871298075559888,
+    "rougeL": 0.1904448531432592
+  },
+  "bert_scores": {
+    "bert_precision": 0.808184027671814,
+    "bert_recall": 0.8034784197807312,
+    "bert_f1": 0.8057335019111633
+  },
+  "evaluation_timestamp": "2025-08-21 01:58:38"
+}
