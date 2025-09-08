@@ -1,7 +1,7 @@
 
-# LawAI App Setup Guide
+#  App Setup Guide
 
-This guide will help you set up and run the LawAI application, which consists of a FastAPI backend and a React/TypeScript frontend.
+This guide will help you set up and run the UI application, which consists of a FastAPI backend and a React/TypeScript frontend.
 
 ---
 
