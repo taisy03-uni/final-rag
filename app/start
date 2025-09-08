@@ -1,20 +1,43 @@
 #!/bin/bash
 
-# Activate backend virtual environment
+# --- Backend setup ---
 echo "Activating backend virtual environment..."
 cd backend
+
+# Create virtual environment if it doesn't exist
 if [ ! -d "venv" ]; then
     echo "Creating virtual environment..."
     python3 -m venv venv
-    pip install -r requirements.txt
 fi
+
+# Activate virtual environment
 source venv/bin/activate
 
+# Install Python dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+
+# Check if port 8000 is in use and kill the process if needed
+PORT=8000
+if lsof -i :$PORT > /dev/null; then
+    echo "Port $PORT is in use. Killing existing process..."
+    lsof -ti:$PORT | xargs kill -9
+fi
+
 # Start backend in the background
-echo "Starting backend..."
-uvicorn main:app --reload --port 8000 &
+echo "Starting backend on port $PORT..."
+uvicorn main:app --reload --port $PORT &
+
+# --- Frontend setup ---
+echo "Setting up frontend..."
+cd ..
+
+# Check if node_modules exists, install if missing
+if [ ! -d "node_modules" ]; then
+    echo "Installing frontend dependencies..."
+    npm install --legacy-peer-deps
+fi
 
 # Start frontend
-cd ..
 echo "Starting frontend..."
 npm run dev
