@@ -1,6 +1,4 @@
-Here’s a single, self-contained `README.md` file combining setup instructions, app structure, and usage notes:
 
-````markdown
 # LawAI App Setup Guide
 
 This guide will help you set up and run the LawAI application, which consists of a FastAPI backend and a React/TypeScript frontend.
@@ -58,15 +56,16 @@ What this script does:
 ## 3. App Structure
 
 ```
-project-root/
+app/
 │
 ├─ backend/           # FastAPI backend
 │   ├─ main.py        # Main API entrypoint
 │   ├─ routers/       # API route definitions (e.g., Pinecone, ChatGPT)
-│   ├─ support/       # Helper modules (metadata, utilities)
+│   ├─ support/       # Helper modules (metadata)
 │   └─ venv/          # Python virtual environment (created automatically)
 │
 ├─ src/               # Frontend source code (TypeScript / React)
+├─ public/            # Frontend assets
 │
 ├─ start              # Bash script to start both backend & frontend
 └─ startb             # Bash script to start backend only
