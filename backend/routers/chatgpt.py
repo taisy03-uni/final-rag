@@ -156,3 +156,20 @@ async def chatgpt_query(request: Request):
     except Exception as e:
         print("ChatGPT router error:", e)
         return JSONResponse(content={"error": "Failed to process request"}, status_code=500)
+
+
+@router.post("/querysummaryai/")
+async def summary_ai_response(request: Request) -> str:
+    data = await request.json()
+    query_text = data.get("query")
+    summary = data.get("summary", "")
+    prompt = f"""
+     Given the user query summarise the following legal Case in 5-10 sentences, focusing on how it's realted to the query: 
+     \n QUERY: ${query_text}
+     \n\n Legal Case: ${summary}
+    Do this in paragraph form, wher you intially state the summary of the case and then make a fianl point of how its relevant to the current query.
+    """
+    print(prompt)
+    response =  await get_model_response(prompt, reasoning="low")
+    print(response)
+    return  JSONResponse(content={"answer": response})

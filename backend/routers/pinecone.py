@@ -103,6 +103,34 @@ async def query_pinecone_summary(request: Request):
         print("Pinecone error:", e)
         return JSONResponse(content={"error": "Failed to query Pinecone"}, status_code=500)
 
+@router.post("/find-summary/")
+async def find_pinecone_summary(request: Request):
+    try:
+        data = await request.json()
+        uri = data.get("uri")
+        if not uri:
+            return JSONResponse(content={"error": "Query text is required"}, status_code=400)
+        id = [i for i in index.list(prefix=uri, limit=100, namespace="summary")][0]
+        #list of list to flat list
+
+        print("Found summary IDs:", id)
+        results = index.fetch(ids=id, namespace="summary")
+        # Convert vectors to dict of ID → metadata
+        summaries = {
+            _id: vec.metadata
+            for _id, vec in results.vectors.items()
+        }
+        #sort summaries by key where uri_1 is first uri_2... and so on
+        summaries = dict(sorted(summaries.items(), key=lambda item: item[0]))
+        #combinae all item["summary"] into one string
+        whole_summary = " ".join([item["text"] for item in summaries.values() if "text" in item])
+
+        return JSONResponse(content={"summary": whole_summary})
+    except Exception as e:
+        print("Pinecone error:", e)
+        return JSONResponse(content={"error": "Failed to query Pinecone"}, status_code=500)
+
+
 @router.post("/query-metadata/")
 async def metadata_guided_search(request: Request):
         data = await request.json()

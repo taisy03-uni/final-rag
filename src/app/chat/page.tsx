@@ -206,13 +206,13 @@ const Chatbot: React.FC = () => {
                 if (!uri || !summaryDiv) return;
 
                 summaryDiv.style.display = "block";
-                summaryDiv.innerHTML = "<em>Loading summary...</em>";
+                summaryDiv.innerHTML = "<em>Generating summary...</em>";
 
                 try {
-                  const response = await fetch("http://localhost:8000/pinecone/query-summary/", {
+                  const response = await fetch("http://localhost:8000/pinecone/find-summary/", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ query: uri, top_k: 1 })
+                    body: JSON.stringify({ uri: uri})
                   });
 
                   if (!response.ok) {
@@ -220,10 +220,23 @@ const Chatbot: React.FC = () => {
                   }
 
                   const data = await response.json();
-                  const firstHit = data.result?.hits?.[0];  // first item in hits array
-                      if (firstHit && firstHit.fields) {
-                        const summaryText = firstHit.fields.text || "<em>No summary available</em>";
-                        summaryDiv.innerHTML = `<strong>Summary:</strong> ${summaryText}`;
+                  const summaryText = data.summary;
+
+                  const response2 = await fetch("http://localhost:8000/chatgpt/querysummaryai/", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                      query: message, 
+                      summary: summaryText
+                    }),
+                  });
+                  if (!response2.ok) {
+                    throw new Error("Failed to fetch summary from AI");
+                  }
+                  const data2 = await response2.json();
+                  const summaryTextAI = data2.answer;
+                      if (summaryTextAI) {;
+                        summaryDiv.innerHTML = `<strong>Summary:</strong> ${summaryTextAI}`;
                       } else {
                         summaryDiv.innerHTML = "<em>No summary available</em>";
                       }

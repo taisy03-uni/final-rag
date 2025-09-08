@@ -69,7 +69,7 @@ class MetadataEnhancer:
         """
         
         try:
-            metadata_json = await get_model_response(prompt=prompt, reasoning="medium")
+            metadata_json = await get_model_response(prompt=prompt, reasoning="low")
             # Clean the response to extract JSON
             if "```json" in metadata_json:
                 metadata_json = metadata_json.split("```json")[1].split("```")[0]
