@@ -1,0 +1,67 @@
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2013/111', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2022/440', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/386']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/464', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2007/1392', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/745', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2016/433', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2023/1418']
+Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000, Total Score: 0.0000
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2009/1404', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2009/1145', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2015/54', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2017/62', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2007/912', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1']
+Precision: 0.2000, Recall: 0.5000, F1 Score: 0.2857, Total Score: 0.8076
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/3320']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/285', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1127', 'https://caselaw.nationalarchives.gov.uk/id/eat/2024/122', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/109', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2025/109']
+Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000, Total Score: 0.0000
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/113']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2017/655', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2006/591', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/927', 'https://caselaw.nationalarchives.gov.uk/id/uksc/2021/40', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2006/1728']
+Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000, Total Score: 0.0000
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2010/3099', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/890', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2010/1380', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/1696']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2013/3290', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2014/439', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2018/1986', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2013/2310', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2013/2310']
+Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000, Total Score: 0.0000
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414', 'https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/46', 'https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414', 'https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/46', 'https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/46']
+Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000, Total Score: 0.0000
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2017/1334', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/433', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/645', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2018/170', 'https://caselaw.nationalarchives.gov.uk/id/uksc/2019/17']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/2128', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2891', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/1775', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/1234', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/453']
+Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000, Total Score: 0.0000
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2019/71', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2022/736']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/2988', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2005/2835', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/1063', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/2988', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2007/3019']
+Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000, Total Score: 0.0000
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/3096', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/1208']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2011/1993', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/590', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/1344', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/393', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/2976']
+Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000, Total Score: 0.0000
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2020/104', 'https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/312', 'https://caselaw.nationalarchives.gov.uk/id/uksc/2014/46']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2016/1075', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/752', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/752', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2003/49', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2010/1538']
+Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000, Total Score: 0.0000
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061', 'https://caselaw.nationalarchives.gov.uk/id/eat/2025/44', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1703', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2009/634']
+Precision: 0.2500, Recall: 1.0000, F1 Score: 0.4000, Total Score: 0.7524
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2014/1370', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/1306']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2013/2993', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/216', 'https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2023/102', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2020/1924', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2023/549']
+Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000, Total Score: 0.0000
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1039', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/547']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/389', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2010/1681', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2007/402', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2006/1713', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335']
+Precision: 0.2000, Recall: 0.3333, F1 Score: 0.2500, Total Score: 0.0487
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/842', '[2011] EWHC 1237 (Ch)']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/498', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2018/518', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/1587', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/498', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2022/1339']
+Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000, Total Score: 0.0000
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329', 'https://caselaw.nationalarchives.gov.uk/id/uksc/2018/24']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/884', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2015/257', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2022/3256', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/1130', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2021/1077']
+Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000, Total Score: 0.0000
+
+Expected URI: ['https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/463', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2007/2422']
+Retrieved URIs: ['https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/3160', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2018/317', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/2989', 'https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/890', 'https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2009/709']
+Precision: 0.0000, Recall: 0.0000, F1 Score: 0.0000, Total Score: 0.0000
+
+Average Precision: 0.0406, Average Recall: 0.1146, Average F1 Score: 0.0585
+Total Correct: 3
+Total Score: 1.608665607869625

@@ -1,0 +1,104 @@
+Expected URI: data/court/ewfc/2023/202.xml
+Retrieved URIs: ['data/court/ewfc/2024/179.xml', 'data/court/ewca/ewca%2Fciv/2019/548.xml', 'data/court/ewca/ewca%2Fciv/2010/1449.xml', 'data/court/ewca/ewca%2Fciv/2017/1545.xml', 'data/court/ewfc/2022/189.xml', 'data/court/ewca/ewca%2Fciv/2016/89.xml', 'data/court/ewca/ewca%2Fciv/2010/457.xml', 'data/court/ewhc/ewhc%2Ffam/2023/1952.xml', 'data/court/ewfc/2023/89.xml', 'data/court/ewfc/2022/85.xml']
+Is Correct: False
+Score: None
+
+Expected URI: data/court/ewhc/ewhc%2Ffam/2023/3155.xml
+Retrieved URIs: ['data/court/ewca/ewca%2Fciv/2014/1577.xml', 'data/court/ewhc/ewhc%2Ffam/2023/3155.xml', 'data/court/ewhc/ewhc%2Ffam/2016/1964.xml', 'data/court/ewca/ewca%2Fciv/2009/357.xml', 'data/court/ewhc/ewhc%2Ffam/2024/778.xml', 'data/court/ewfc/2024/107.xml', 'data/court/ewhc/ewhc%2Ffam/2020/2906.xml', 'data/court/ewhc/ewhc%2Ffam/2023/982.xml', 'data/court/ewhc/ewhc%2Ffam/2023/3155.xml', 'data/court/ewhc/ewhc%2Ffam/2014/611.xml']
+Is Correct: True
+Score: 0.5989342927932739
+
+Expected URI: data/court/ewca/ewca%2Fcrim/2023/516.xml
+Retrieved URIs: ['data/court/ewca/ewca%2Fcrim/2022/1060.xml', 'data/court/ewca/ewca%2Fcrim/2023/516.xml', 'data/court/ewca/ewca%2Fcrim/2016/1517.xml', 'data/court/ewca/ewca%2Fcrim/2023/711.xml', 'data/court/ewca/ewca%2Fcrim/2020/1802.xml', 'data/court/ewca/ewca%2Fcrim/2022/1074.xml', 'data/court/ewca/ewca%2Fcrim/2023/516.xml', 'data/court/ewca/ewca%2Fcrim/2023/1556.xml', 'data/court/ewca/ewca%2Fcrim/2024/38.xml', 'data/court/ewca/ewca%2Fcrim/2023/1494.xml']
+Is Correct: True
+Score: 0.5115848183631897
+
+Expected URI: data/court/ewca/ewca%2Fciv/2020/848.xml
+Retrieved URIs: ['data/court/ewfc/2025/105.xml', 'data/court/ewca/ewca%2Fciv/2024/663.xml', 'data/court/ewfc/2024/336.xml', 'data/court/ewfc/2024/189.xml', 'data/court/ewhc/ewhc%2Ffam/2021/589.xml', 'data/court/ewfc/2020/59.xml', 'data/court/ewca/ewca%2Fciv/2024/663.xml', 'data/court/ewfc/2024/102.xml', 'data/court/ewfc/2021/22.xml', 'data/court/ewhc/ewhc%2Ffam/2021/589.xml']
+Is Correct: False
+Score: None
+
+Expected URI: data/court/ewca/ewca%2Fcrim/2018/376.xml
+Retrieved URIs: ['data/court/ewca/ewca%2Fcrim/2023/1294.xml', 'data/court/ewca/ewca%2Fcrim/2021/665.xml', 'data/court/ewca/ewca%2Fcrim/2020/567.xml', 'data/court/ewca/ewca%2Fcrim/2023/935.xml', 'data/court/ewca/ewca%2Fcrim/2023/1635.xml', 'data/court/ewca/ewca%2Fcrim/2020/1432.xml', 'data/court/ewca/ewca%2Fcrim/2023/1540.xml', 'data/court/ewca/ewca%2Fcrim/2023/1514.xml', 'data/court/ewca/ewca%2Fcrim/2024/474.xml', 'data/court/ewca/ewca%2Fcrim/2024/227.xml']
+Is Correct: False
+Score: None
+
+Expected URI: data/court/ewfc/2024/88.xml
+Retrieved URIs: ['data/court/ewhc/ewhc%2Ffam/2022/3238.xml', 'data/court/ewfc/2025/29.xml', 'data/court/ewfc/2023/292.xml', 'data/court/ewca/ewca%2Fciv/2019/575.xml', 'data/court/ewfc/2019/15.xml', 'data/court/ewfc/2023/176.xml', 'data/court/ewfc/2022/85.xml', 'data/court/ewhc/ewhc%2Ffam/2014/2511.xml', 'data/court/ewhc/ewhc%2Ffam/2014/2042.xml', 'data/court/ewca/ewca%2Fciv/2021/1882.xml']
+Is Correct: False
+Score: None
+
+Expected URI: data/court/ewca/ewca%2Fciv/2007/730.xml
+Retrieved URIs: ['data/tribunals/ukftt/ukftt%2Fgrc/2024/395.xml', 'data/court/ewhc/ewhc%2Fadmin/2016/77.xml', 'data/court/ewhc/ewhc%2Ftcc/2017/1509.xml', 'data/court/ewcop/2024/8.xml', 'data/court/ewca/ewca%2Fciv/2022/1405.xml', 'data/court/ewhc/ewhc%2Ffam/2025/840.xml', 'data/court/ewhc/ewhc%2Fkb/2022/1594.xml', 'data/court/ewca/ewca%2Fciv/2019/2048.xml', 'data/court/ewhc/ewhc%2Ftcc/2017/1509.xml', 'data/court/ewca/ewca%2Fciv/2024/1579.xml']
+Is Correct: False
+Score: None
+
+Expected URI: data/court/ewhc/ewhc%2Fadmin/2010/3693.xml
+Retrieved URIs: ['data/court/ewhc/ewhc%2Fadmin/2020/2569.xml', 'data/court/ewhc/ewhc%2Fadmin/2009/1460.xml', 'data/court/ewhc/ewhc%2Fadmin/2012/2069.xml', 'data/court/ewhc/ewhc%2Fadmin/2013/3412.xml', 'data/court/ewhc/ewhc%2Fadmin/2013/616.xml', 'data/court/ewhc/ewhc%2Fadmin/2007/2057.xml', 'data/court/ewhc/ewhc%2Fadmin/2005/2851.xml', 'data/court/ewhc/ewhc%2Fadmin/2019/3038.xml', 'data/court/ewhc/ewhc%2Fadmin/2013/4484.xml', 'data/court/ewhc/ewhc%2Fadmin/2013/3116.xml']
+Is Correct: False
+Score: None
+
+Expected URI: data/court/ewhc/ewhc%2Fch/2003/474.xml
+Retrieved URIs: ['data/court/ewca/ewca%2Fciv/2017/186.xml', 'data/court/ewhc/ewhc%2Fch/2024/2005.xml', 'data/court/ewca/ewca%2Fciv/2003/1048.xml', 'data/court/ewhc/ewhc%2Fkb/2014/821.xml', 'data/court/ewhc/ewhc%2Fch/2013/3745.xml', 'data/court/ewhc/ewhc%2Fch/2006/836.xml', 'data/court/ewhc/ewhc%2Fch/2018/2345.xml', 'data/court/ewca/ewca%2Fciv/2005/1416.xml', 'data/court/ewhc/ewhc%2Fch/2011/1.xml', 'data/court/ewhc/ewhc%2Fkb/2012/3543.xml']
+Is Correct: False
+Score: None
+
+Expected URI: data/court/ewca/ewca%2Fcrim/2009/2614.xml
+Retrieved URIs: ['data/court/ewca/ewca%2Fcrim/2009/2614.xml', 'data/court/ewca/ewca%2Fcrim/2012/792.xml', 'data/court/ewca/ewca%2Fcrim/2010/711.xml', 'data/court/ewca/ewca%2Fcrim/2024/460.xml', 'data/court/ewca/ewca%2Fcrim/2009/2614.xml', 'data/court/ewca/ewca%2Fcrim/2010/711.xml', 'data/court/ewca/ewca%2Fcrim/2009/2614.xml', 'data/court/ewca/ewca%2Fcrim/2012/792.xml', 'data/court/ewca/ewca%2Fcrim/2022/237.xml', 'data/court/ewca/ewca%2Fcrim/2009/2614.xml']
+Is Correct: True
+Score: 0.5505189895629883
+
+Expected URI: data/court/ewhc/ewhc%2Fadmin/2008/815.xml
+Retrieved URIs: ['data/court/ewhc/ewhc%2Fadmin/2011/740.xml', 'data/court/ewhc/ewhc%2Fadmin/2018/3666.xml', 'data/court/ewhc/ewhc%2Fadmin/2017/164.xml', 'data/court/ewhc/ewhc%2Fadmin/2017/2005.xml', 'data/court/ewhc/ewhc%2Fadmin/2014/4553.xml', 'data/court/ewhc/ewhc%2Fadmin/2014/1279.xml', 'data/court/ewhc/ewhc%2Fadmin/2019/2737.xml', 'data/court/ewhc/ewhc%2Fadmin/2018/3666.xml', 'data/court/ewhc/ewhc%2Fkb/2023/2405.xml', 'data/court/ewhc/ewhc%2Fadmin/2018/3666.xml']
+Is Correct: False
+Score: None
+
+Expected URI: data/court/ewhc/ewhc%2Fadmin/2011/53.xml
+Retrieved URIs: ['data/court/uksc/2024/20.xml', 'data/court/ewhc/ewhc%2Fadmin/2024/1693.xml', 'data/court/ewhc/ewhc%2Fadmin/2012/1102.xml', 'data/court/ewhc/ewhc%2Fadmin/2023/2352.xml', 'data/court/ewhc/ewhc%2Fadmin/2019/519.xml', 'data/court/ewhc/ewhc%2Fadmin/2019/802.xml', 'data/court/ewca/ewca%2Fciv/2015/597.xml', 'data/court/ewhc/ewhc%2Fadmin/2020/1146.xml', 'data/court/ewhc/ewhc%2Fadmin/2023/2439.xml', 'data/court/ewhc/ewhc%2Fadmin/2015/1078.xml']
+Is Correct: False
+Score: None
+
+Expected URI: data/tribunals/ukftt/ukftt%2Fgrc/2025/264.xml
+Retrieved URIs: ['data/tribunals/ukftt/ukftt%2Fgrc/2024/466.xml', 'data/tribunals/ukftt/ukftt%2Fgrc/2024/467.xml', 'data/tribunals/ukftt/ukftt%2Fgrc/2024/469.xml', 'data/tribunals/ukftt/ukftt%2Fgrc/2025/264.xml', 'data/tribunals/ukftt/ukftt%2Fgrc/2024/465.xml', 'data/tribunals/ukftt/ukftt%2Fgrc/2024/466.xml', 'data/tribunals/ukftt/ukftt%2Fgrc/2024/938.xml', 'data/tribunals/ukftt/ukftt%2Fgrc/2025/468.xml', 'data/tribunals/ukftt/ukftt%2Fgrc/2024/465.xml', 'data/tribunals/ukftt/ukftt%2Fgrc/2024/633.xml']
+Is Correct: True
+Score: 0.5112494230270386
+
+Expected URI: data/court/ewcop/2020/12.xml
+Retrieved URIs: ['data/court/ewcop/2015/48.xml', 'data/court/ewcop/2020/12.xml', 'data/court/ewcop/2022/52.xml', 'data/court/ewcop/2020/12.xml', 'data/court/ewcop/2018/5.xml', 'data/court/ewcop/2013/3932.xml', 'data/court/ewcop/2020/12.xml', 'data/court/ewcop/2023/55.xml', 'data/court/ewcop/2024/60.xml', 'data/court/ewcop/2020/12.xml']
+Is Correct: True
+Score: 0.5300707817077637
+
+Expected URI: data/court/ewca/ewca%2Fcrim/2008/1443.xml
+Retrieved URIs: ['data/court/ewca/ewca%2Fcrim/2008/1443.xml', 'data/court/ewhc/ewhc%2Fkb/2019/511.xml', 'data/court/ewca/ewca%2Fcrim/2008/1443.xml', 'data/court/ewca/ewca%2Fcrim/2008/1443.xml', 'data/court/ewca/ewca%2Fcrim/2020/1579.xml', 'data/court/ewhc/ewhc%2Fadmin/2024/363.xml', 'data/court/ewca/ewca%2Fcrim/2008/1443.xml', 'data/court/ewca/ewca%2Fcrim/2008/1443.xml', 'data/court/ewca/ewca%2Fcrim/2008/1443.xml', 'data/court/ewhc/ewhc%2Fch/2013/238.xml']
+Is Correct: True
+Score: 0.5650306344032288
+
+Expected URI: data/court/ewhc/ewhc%2Fcomm/2010/2234.xml
+Retrieved URIs: ['data/court/ewhc/ewhc%2Fcomm/2010/2234.xml', 'data/court/ewhc/ewhc%2Fcomm/2010/2234.xml', 'data/court/ewhc/ewhc%2Fcomm/2010/2234.xml', 'data/court/ewhc/ewhc%2Fcomm/2010/2234.xml', 'data/court/ewhc/ewhc%2Fcomm/2010/2234.xml', 'data/court/ewca/ewca%2Fciv/2005/963.xml', 'data/court/ewhc/ewhc%2Fcomm/2022/3361.xml', 'data/court/ewhc/ewhc%2Ftcc/2005/3529.xml', 'data/court/ewhc/ewhc%2Fcomm/2023/1822.xml', 'data/court/ewca/ewca%2Fciv/2009/855.xml']
+Is Correct: True
+Score: 0.5851268172264099
+
+Expected URI: data/court/ewhc/ewhc%2Fch/2024/373.xml
+Retrieved URIs: ['data/court/ewhc/ewhc%2Fch/2025/1294.xml', 'data/court/ewhc/ewhc%2Fch/2023/2557.xml', 'data/court/ewhc/ewhc%2Fch/2024/1858.xml', 'data/court/ewhc/ewhc%2Fch/2021/592.xml', 'data/court/ewhc/ewhc%2Fcomm/2017/2564.xml', 'data/court/ewhc/ewhc%2Fch/2017/1847.xml', 'data/court/ewhc/ewhc%2Fkb/2020/2667.xml', 'data/court/ewhc/ewhc%2Fkb/2012/2309.xml', 'data/court/ewhc/ewhc%2Ffam/2018/2464.xml', 'data/court/ewhc/ewhc%2Fch/2010/744.xml']
+Is Correct: False
+Score: None
+
+Expected URI: data/court/ewhc/ewhc%2Fch/2024/552.xml
+Retrieved URIs: ['data/court/ewhc/ewhc%2Fch/2024/552.xml', 'data/court/ewhc/ewhc%2Fch/2024/552.xml', 'data/court/ewhc/ewhc%2Fch/2024/552.xml', 'data/court/ewca/ewca%2Fciv/2019/2301.xml', 'data/court/ewhc/ewhc%2Fch/2024/552.xml', 'data/court/ewhc/ewhc%2Fch/2024/552.xml', 'data/court/ewhc/ewhc%2Fcomm/2025/1182.xml', 'data/court/ewhc/ewhc%2Fcomm/2016/298.xml', 'data/court/ewhc/ewhc%2Fch/2024/552.xml', 'data/court/ewcc/2024/10.xml']
+Is Correct: True
+Score: 0.5349873304367065
+
+Expected URI: data/court/ewhc/ewhc%2Fcomm/2006/2545.xml
+Retrieved URIs: ['data/court/ewhc/ewhc%2Fcomm/2006/2545.xml', 'data/court/ewca/ewca%2Fciv/2024/1158.xml', 'data/court/ewhc/ewhc%2Fch/2020/1327.xml', 'data/court/ewhc/ewhc%2Fkb/2023/2165.xml', 'data/court/ewhc/ewhc%2Fkb/2023/2165.xml', 'data/court/ewhc/ewhc%2Fcomm/2006/2545.xml', 'data/court/ewhc/ewhc%2Fkb/2018/417.xml', 'data/court/ewhc/ewhc%2Fkb/2023/2165.xml', 'data/court/ewhc/ewhc%2Ftcc/2025/532.xml', 'data/court/ewhc/ewhc%2Fch/2020/1327.xml']
+Is Correct: True
+Score: 0.4716460704803467
+
+Expected URI: data/court/ewhc/ewhc%2Fch/2022/1110.xml
+Retrieved URIs: ['data/court/ewhc/ewhc%2Fch/2022/1687.xml', 'data/court/ewhc/ewhc%2Fch/2022/1416.xml', 'data/court/ewhc/ewhc%2Fch/2022/1110.xml', 'data/court/ewhc/ewhc%2Fch/2016/2249.xml', 'data/court/ewhc/ewhc%2Fch/2007/3139.xml', 'data/court/ewca/ewca%2Fciv/2020/1018.xml', 'data/court/ewhc/ewhc%2Fch/2010/2051.xml', 'data/court/ewhc/ewhc%2Fch/2018/2112.xml', 'data/court/ewhc/ewhc%2Fch/2023/2585.xml', 'data/court/ewhc/ewhc%2Fch/2024/1302.xml']
+Is Correct: True
+Score: 0.48576608300209045
+
+
+Total Correct: 10
+Total Incorrect: 10
+Total Score: 5.3449152410030365

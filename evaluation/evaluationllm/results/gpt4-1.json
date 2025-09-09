@@ -1,0 +1,3085 @@
+{
+  "timestamp": "2025-09-09T16:42:38.924603",
+  "total_queries": 39,
+  "individual_results": [
+    {
+      "query_num": 1,
+      "law_type": "Contract Law \u2013 Misrepresentation",
+      "scenario": "Sarah buys a second-hand car from a dealership that tells her the vehicle has never been in an accident. Relying on this, she proceeds with the purchase without further inspection. Months later, she d...",
+      "question": "Was this a misrepresentation, and what remedies are available?",
+      "predicted_cases": [
+        {
+          "case_id": "[2006] EWCA Civ 27",
+          "relevance_reason": "This case (Peekay Intermark Ltd v Australia and New Zealand Banking Group Ltd) discusses the requirements for actionable misrepresentation, including reliance on false statements and the right to rescind a contract."
+        },
+        {
+          "case_id": "[2009] EWCA Civ 354",
+          "relevance_reason": "In Dadourian Group International Inc v Simms, the Court of Appeal considered the remedies available for misrepresentation, including rescission and damages, and clarified the approach to fraudulent and negligent misrepresentation."
+        },
+        {
+          "case_id": "[2010] EWCA Civ 578",
+          "relevance_reason": "In Salt v Stratstone Specialist Ltd, the Court of Appeal addressed the right to rescind a contract for misrepresentation in the context of the sale of a second-hand car, specifically where the car's history was misrepresented."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2006] EWCA Civ 27",
+          "relevance_reason": "This case (Peekay Intermark Ltd v Australia and New Zealand Banking Group Ltd) discusses the requirements for actionable misrepresentation, including reliance on false statements and the right to rescind a contract."
+        },
+        {
+          "case_id": "[2009] EWCA Civ 354",
+          "relevance_reason": "In Dadourian Group International Inc v Simms, the Court of Appeal considered the remedies available for misrepresentation, including rescission and damages, and clarified the approach to fraudulent and negligent misrepresentation."
+        },
+        {
+          "case_id": "[2010] EWCA Civ 578",
+          "relevance_reason": "In Salt v Stratstone Specialist Ltd, the Court of Appeal addressed the right to rescind a contract for misrepresentation in the context of the sale of a second-hand car, specifically where the car's history was misrepresented."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2013] EWHC 111 (QB)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2022/440",
+          "relevance_reason": "Yam Seng v ITC established that parties owe a duty of good faith in relational contracts, and misrepresentation can breach implied terms."
+        },
+        {
+          "case_id": "[2006] EWCA Civ 386",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/386",
+          "relevance_reason": "Peekay v ANZ clarified that reliance must be reasonable; blind reliance on oral statements is risky."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 2,
+        "predicted_count": 3,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2006] EWCA Civ 27",
+            "relevance_reason": "This case (Peekay Intermark Ltd v Australia and New Zealand Banking Group Ltd) discusses the requirements for actionable misrepresentation, including reliance on false statements and the right to rescind a contract."
+          },
+          {
+            "case_id": "[2009] EWCA Civ 354",
+            "relevance_reason": "In Dadourian Group International Inc v Simms, the Court of Appeal considered the remedies available for misrepresentation, including rescission and damages, and clarified the approach to fraudulent and negligent misrepresentation."
+          },
+          {
+            "case_id": "[2010] EWCA Civ 578",
+            "relevance_reason": "In Salt v Stratstone Specialist Ltd, the Court of Appeal addressed the right to rescind a contract for misrepresentation in the context of the sale of a second-hand car, specifically where the car's history was misrepresented."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 2,
+      "law_type": "Tort \u2013 Negligence",
+      "scenario": "A scaffolding company negligently installs temporary platforms outside an office building. During a storm, unsecured scaffolding collapses onto a public walkway, injuring a pedestrian and damaging nea...",
+      "question": "Is the company liable under negligence principles?",
+      "predicted_cases": [
+        {
+          "case_id": "[2011] UKSC 13",
+          "relevance_reason": "Baker v Quantum Clothing Group Ltd established principles regarding foreseeability of risk and the standard of care owed by companies, especially where prior warnings about safety have been given."
+        },
+        {
+          "case_id": "[2018] EWCA Civ 1515",
+          "relevance_reason": "Goldscheider v Royal Opera House Covent Garden Foundation considered the duty of care owed by employers and contractors, and the foreseeability of harm in the context of known risks and prior warnings."
+        },
+        {
+          "case_id": "[2008] EWCA Civ 225",
+          "relevance_reason": "Sutcliffe v Hedley & Co Ltd addressed liability for negligence where a third party is injured due to inadequate safety measures, focusing on foreseeability and breach of duty."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2011] UKSC 13",
+          "relevance_reason": "Baker v Quantum Clothing Group Ltd established principles regarding foreseeability of risk and the standard of care owed by companies, especially where prior warnings about safety have been given."
+        },
+        {
+          "case_id": "[2018] EWCA Civ 1515",
+          "relevance_reason": "Goldscheider v Royal Opera House Covent Garden Foundation considered the duty of care owed by employers and contractors, and the foreseeability of harm in the context of known risks and prior warnings."
+        },
+        {
+          "case_id": "[2008] EWCA Civ 225",
+          "relevance_reason": "Sutcliffe v Hedley & Co Ltd addressed liability for negligence where a third party is injured due to inadequate safety measures, focusing on foreseeability and breach of duty."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2010] EWCA Civ 1402",
+          "uri": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/1402",
+          "relevance_reason": "Spencer v Wincanton confirmed employers owe a high duty of care where harm is foreseeable."
+        },
+        {
+          "case_id": "[2005] EWCA Civ 01",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1",
+          "relevance_reason": "Maguire v Harland & Wolff considered breach and foreseeability of harm in the context of industrial injury."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 2,
+        "predicted_count": 3,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2011] UKSC 13",
+            "relevance_reason": "Baker v Quantum Clothing Group Ltd established principles regarding foreseeability of risk and the standard of care owed by companies, especially where prior warnings about safety have been given."
+          },
+          {
+            "case_id": "[2018] EWCA Civ 1515",
+            "relevance_reason": "Goldscheider v Royal Opera House Covent Garden Foundation considered the duty of care owed by employers and contractors, and the foreseeability of harm in the context of known risks and prior warnings."
+          },
+          {
+            "case_id": "[2008] EWCA Civ 225",
+            "relevance_reason": "Sutcliffe v Hedley & Co Ltd addressed liability for negligence where a third party is injured due to inadequate safety measures, focusing on foreseeability and breach of duty."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 4,
+      "law_type": "Employment Law \u2013 Unfair Dismissal",
+      "scenario": "Liam is fired after criticising his employer on social media, describing the company as \u201ctoxic\u201d and the CEO as \u201cclueless.\u201d The comments were made in a private Facebook group but were later shared with...",
+      "question": "Was the dismissal reasonable?",
+      "predicted_cases": [
+        {
+          "case_id": "[2011] EWCA Civ 1977",
+          "relevance_reason": "Game Retail Ltd v Laws is a leading case on the fairness of dismissals for social media misconduct, considering whether comments made outside work can justify dismissal and the reasonableness of the employer's response."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 1040",
+          "relevance_reason": "British Waterways Board v Smith addresses the reasonableness of dismissal for derogatory comments made on social media, even when posted outside of work hours, and the application of the band of reasonable responses test."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 1735",
+          "relevance_reason": "Smith v Trafford Housing Trust considers whether an employee's social media comments made outside work constitute misconduct justifying dismissal, and the balance between personal expression and employer reputation."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2011] EWCA Civ 1977",
+          "relevance_reason": "Game Retail Ltd v Laws is a leading case on the fairness of dismissals for social media misconduct, considering whether comments made outside work can justify dismissal and the reasonableness of the employer's response."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 1040",
+          "relevance_reason": "British Waterways Board v Smith addresses the reasonableness of dismissal for derogatory comments made on social media, even when posted outside of work hours, and the application of the band of reasonable responses test."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 1735",
+          "relevance_reason": "Smith v Trafford Housing Trust considers whether an employee's social media comments made outside work constitute misconduct justifying dismissal, and the balance between personal expression and employer reputation."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2012] EWHC 3320 (Ch)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/3320",
+          "relevance_reason": "Smith v Trafford held personal views posted respectfully outside work may not justify dismissal."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 1,
+        "predicted_count": 3,
+        "ground_truth_count": 1
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2011] EWCA Civ 1977",
+            "relevance_reason": "Game Retail Ltd v Laws is a leading case on the fairness of dismissals for social media misconduct, considering whether comments made outside work can justify dismissal and the reasonableness of the employer's response."
+          },
+          {
+            "case_id": "[2016] EWCA Civ 1040",
+            "relevance_reason": "British Waterways Board v Smith addresses the reasonableness of dismissal for derogatory comments made on social media, even when posted outside of work hours, and the application of the band of reasonable responses test."
+          },
+          {
+            "case_id": "[2012] EWCA Civ 1735",
+            "relevance_reason": "Smith v Trafford Housing Trust considers whether an employee's social media comments made outside work constitute misconduct justifying dismissal, and the balance between personal expression and employer reputation."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 5,
+      "law_type": "Contract Law \u2013 Duress",
+      "scenario": "A small vendor is threatened with immediate contract termination by a large client unless it agrees to reduce prices significantly. Fearing business collapse, the vendor agrees but later claims it onl...",
+      "question": "Was there illegitimate pressure amounting to economic duress?",
+      "predicted_cases": [
+        {
+          "case_id": "[2007] EWCA Civ 1281",
+          "relevance_reason": "Progress Bulk Carriers Ltd v Tube City IMS LLC is a leading Court of Appeal case that clarifies the test for economic duress, including the requirement for illegitimate pressure and lack of practical choice, directly relevant to commercial renegotiations under threat."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 982",
+          "relevance_reason": "Times Travel (UK) Ltd v Pakistan International Airlines Corp addresses whether threats to terminate a contract unless new terms are accepted amount to economic duress, focusing on the legitimacy of commercial pressure."
+        },
+        {
+          "case_id": "[2021] UKSC 40",
+          "relevance_reason": "Pakistan International Airlines Corp v Times Travel (UK) Ltd (Supreme Court) is the definitive authority on economic duress, specifically considering when lawful acts (such as contract termination) can constitute illegitimate pressure."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2007] EWCA Civ 1281",
+          "relevance_reason": "Progress Bulk Carriers Ltd v Tube City IMS LLC is a leading Court of Appeal case that clarifies the test for economic duress, including the requirement for illegitimate pressure and lack of practical choice, directly relevant to commercial renegotiations under threat."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 982",
+          "relevance_reason": "Times Travel (UK) Ltd v Pakistan International Airlines Corp addresses whether threats to terminate a contract unless new terms are accepted amount to economic duress, focusing on the legitimacy of commercial pressure."
+        },
+        {
+          "case_id": "[2021] UKSC 40",
+          "relevance_reason": "Pakistan International Airlines Corp v Times Travel (UK) Ltd (Supreme Court) is the definitive authority on economic duress, specifically considering when lawful acts (such as contract termination) can constitute illegitimate pressure."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2012] EWHC 273 (Comm)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273",
+          "relevance_reason": "Progress Bulk v Tube City found illegitimate pressure sufficient for duress."
+        },
+        {
+          "case_id": "[2010] EWHC 113 (Comm)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/113",
+          "relevance_reason": "Kolmar v Traxpo held that commercial pressure involving threats can amount to duress."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 2,
+        "predicted_count": 3,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2007] EWCA Civ 1281",
+            "relevance_reason": "Progress Bulk Carriers Ltd v Tube City IMS LLC is a leading Court of Appeal case that clarifies the test for economic duress, including the requirement for illegitimate pressure and lack of practical choice, directly relevant to commercial renegotiations under threat."
+          },
+          {
+            "case_id": "[2016] EWCA Civ 982",
+            "relevance_reason": "Times Travel (UK) Ltd v Pakistan International Airlines Corp addresses whether threats to terminate a contract unless new terms are accepted amount to economic duress, focusing on the legitimacy of commercial pressure."
+          },
+          {
+            "case_id": "[2021] UKSC 40",
+            "relevance_reason": "Pakistan International Airlines Corp v Times Travel (UK) Ltd (Supreme Court) is the definitive authority on economic duress, specifically considering when lawful acts (such as contract termination) can constitute illegitimate pressure."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 6,
+      "law_type": "Intellectual Property \u2013 Copyright Infringement",
+      "scenario": "Alex, a freelance digital artist, discovers a high-street retailer has used one of her illustrations in a national advertising campaign without her consent. The company claims it sourced the image fro...",
+      "question": "Can she succeed despite the company\u2019s claim of innocent use?",
+      "predicted_cases": [
+        {
+          "case_id": "[2001] UKHL 23",
+          "relevance_reason": "Designers Guild Ltd v Russell Williams (Textiles) Ltd is a leading House of Lords (now Supreme Court) case confirming that copyright infringement is a strict liability tort; innocent infringement is not a defence to liability, though it may affect remedies."
+        },
+        {
+          "case_id": "[2009] EWHC 1828 (Ch)",
+          "relevance_reason": "Bailey v Graham establishes that a defendant\u2019s belief in having a licence or the work being royalty-free does not negate liability for copyright infringement, though it may be relevant to damages."
+        },
+        {
+          "case_id": "[2011] EWHC 2624 (Ch)",
+          "relevance_reason": "Temple Island Collections Ltd v New English Teas Ltd confirms that copyright infringement can occur even where the infringer did not intend to copy, and addresses the assessment of damages and remedies."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 39",
+          "relevance_reason": "Kogan v Martin clarifies the approach to authorship and subsistence of copyright, reinforcing the rights of creators to control use and licensing of their works."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2001] UKHL 23",
+          "relevance_reason": "Designers Guild Ltd v Russell Williams (Textiles) Ltd is a leading House of Lords (now Supreme Court) case confirming that copyright infringement is a strict liability tort; innocent infringement is not a defence to liability, though it may affect remedies."
+        },
+        {
+          "case_id": "[2009] EWHC 1828 (Ch)",
+          "relevance_reason": "Bailey v Graham establishes that a defendant\u2019s belief in having a licence or the work being royalty-free does not negate liability for copyright infringement, though it may be relevant to damages."
+        },
+        {
+          "case_id": "[2011] EWHC 2624 (Ch)",
+          "relevance_reason": "Temple Island Collections Ltd v New English Teas Ltd confirms that copyright infringement can occur even where the infringer did not intend to copy, and addresses the assessment of damages and remedies."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 39",
+          "relevance_reason": "Kogan v Martin clarifies the approach to authorship and subsistence of copyright, reinforcing the rights of creators to control use and licensing of their works."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2011] EWCA Civ 890",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/890",
+          "relevance_reason": "NLA v Meltwater affirmed online copying constitutes infringement."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "predicted_count": 4,
+        "ground_truth_count": 1
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2001] UKHL 23",
+            "relevance_reason": "Designers Guild Ltd v Russell Williams (Textiles) Ltd is a leading House of Lords (now Supreme Court) case confirming that copyright infringement is a strict liability tort; innocent infringement is not a defence to liability, though it may affect remedies."
+          },
+          {
+            "case_id": "[2009] EWHC 1828 (Ch)",
+            "relevance_reason": "Bailey v Graham establishes that a defendant\u2019s belief in having a licence or the work being royalty-free does not negate liability for copyright infringement, though it may be relevant to damages."
+          },
+          {
+            "case_id": "[2011] EWHC 2624 (Ch)",
+            "relevance_reason": "Temple Island Collections Ltd v New English Teas Ltd confirms that copyright infringement can occur even where the infringer did not intend to copy, and addresses the assessment of damages and remedies."
+          },
+          {
+            "case_id": "[2015] EWCA Civ 39",
+            "relevance_reason": "Kogan v Martin clarifies the approach to authorship and subsistence of copyright, reinforcing the rights of creators to control use and licensing of their works."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 7,
+      "law_type": "Public Law \u2013 Judicial Review",
+      "scenario": "A local council implements drastic cuts to adult social care services without consulting service users or stakeholders. Advocacy groups claim the changes were made with no equality impact assessment a...",
+      "question": "Was the council\u2019s approach procedurally fair and lawful?",
+      "predicted_cases": [
+        {
+          "case_id": "[2011] UKSC 28",
+          "relevance_reason": "R (McDonald) v Royal Borough of Kensington and Chelsea \u2013 Supreme Court case addressing the lawfulness of local authority decisions to reduce adult social care services, with emphasis on consultation, procedural fairness, and the impact on disabled persons."
+        },
+        {
+          "case_id": "[2011] EWHC 267 (Admin)",
+          "relevance_reason": "R (W) v Birmingham City Council \u2013 High Court case concerning the duty to consult and the requirement to conduct an equality impact assessment before making significant changes to social care services."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 629",
+          "relevance_reason": "R (Rahman) v Birmingham City Council \u2013 Court of Appeal case focusing on the public sector equality duty and the need for councils to consider the impact of service changes on disabled residents."
+        },
+        {
+          "case_id": "[2011] EWHC 944 (Admin)",
+          "relevance_reason": "R (JM & NT) v Isle of Wight Council \u2013 High Court case examining the lawfulness of cuts to adult social care services, including the adequacy of consultation and equality impact assessments."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2011] UKSC 28",
+          "relevance_reason": "R (McDonald) v Royal Borough of Kensington and Chelsea \u2013 Supreme Court case addressing the lawfulness of local authority decisions to reduce adult social care services, with emphasis on consultation, procedural fairness, and the impact on disabled persons."
+        },
+        {
+          "case_id": "[2011] EWHC 267 (Admin)",
+          "relevance_reason": "R (W) v Birmingham City Council \u2013 High Court case concerning the duty to consult and the requirement to conduct an equality impact assessment before making significant changes to social care services."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 629",
+          "relevance_reason": "R (Rahman) v Birmingham City Council \u2013 Court of Appeal case focusing on the public sector equality duty and the need for councils to consider the impact of service changes on disabled residents."
+        },
+        {
+          "case_id": "[2011] EWHC 944 (Admin)",
+          "relevance_reason": "R (JM & NT) v Isle of Wight Council \u2013 High Court case examining the lawfulness of cuts to adult social care services, including the adequacy of consultation and equality impact assessments."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2017] UKSC 51",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2017/51",
+          "relevance_reason": "Unison v Lord Chancellor emphasized access to justice and procedural fairness."
+        },
+        {
+          "case_id": "[2011] UKSC 12",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2011/12",
+          "relevance_reason": "Lumba v SSHD underlined requirement to follow published policy."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "predicted_count": 4,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2011] UKSC 28",
+            "relevance_reason": "R (McDonald) v Royal Borough of Kensington and Chelsea \u2013 Supreme Court case addressing the lawfulness of local authority decisions to reduce adult social care services, with emphasis on consultation, procedural fairness, and the impact on disabled persons."
+          },
+          {
+            "case_id": "[2011] EWHC 267 (Admin)",
+            "relevance_reason": "R (W) v Birmingham City Council \u2013 High Court case concerning the duty to consult and the requirement to conduct an equality impact assessment before making significant changes to social care services."
+          },
+          {
+            "case_id": "[2012] EWCA Civ 629",
+            "relevance_reason": "R (Rahman) v Birmingham City Council \u2013 Court of Appeal case focusing on the public sector equality duty and the need for councils to consider the impact of service changes on disabled residents."
+          },
+          {
+            "case_id": "[2011] EWHC 944 (Admin)",
+            "relevance_reason": "R (JM & NT) v Isle of Wight Council \u2013 High Court case examining the lawfulness of cuts to adult social care services, including the adequacy of consultation and equality impact assessments."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 8,
+      "law_type": "Family Law \u2013 Child Custody and Relocation",
+      "scenario": "Following divorce, Anna seeks to relocate with her 9-year-old daughter to Canada for a new job. Her ex-husband, with whom she shares joint custody, objects, arguing it will damage his relationship wit...",
+      "question": "How should the court approach this relocation dispute?",
+      "predicted_cases": [
+        {
+          "case_id": "[2001] EWCA Civ 1666",
+          "relevance_reason": "Payne v Payne is the leading authority on international relocation of children following parental separation, setting out the welfare principle and the approach courts should take when one parent seeks to move abroad with a child."
+        },
+        {
+          "case_id": "[2010] EWCA Civ 518",
+          "relevance_reason": "Re W (Children) (Relocation: Removal from Jurisdiction) clarifies and refines the principles from Payne v Payne, emphasizing that the child's welfare is paramount and that each case must be decided on its own facts."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 1302",
+          "relevance_reason": "Re F (A Child) (International Relocation Cases) further discusses the application of the welfare principle in relocation cases and the need for a holistic evaluation of the child's best interests."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2001] EWCA Civ 1666",
+          "relevance_reason": "Payne v Payne is the leading authority on international relocation of children following parental separation, setting out the welfare principle and the approach courts should take when one parent seeks to move abroad with a child."
+        },
+        {
+          "case_id": "[2010] EWCA Civ 518",
+          "relevance_reason": "Re W (Children) (Relocation: Removal from Jurisdiction) clarifies and refines the principles from Payne v Payne, emphasizing that the child's welfare is paramount and that each case must be decided on its own facts."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 1302",
+          "relevance_reason": "Re F (A Child) (International Relocation Cases) further discusses the application of the welfare principle in relocation cases and the need for a holistic evaluation of the child's best interests."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2015] EWCA Civ 1305",
+          "uri": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/1305",
+          "relevance_reason": "Re C emphasized child welfare as paramount."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 882",
+          "uri": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/882",
+          "relevance_reason": "Re F held that courts must consider impact on contact with left-behind parent."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 2,
+        "predicted_count": 3,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2001] EWCA Civ 1666",
+            "relevance_reason": "Payne v Payne is the leading authority on international relocation of children following parental separation, setting out the welfare principle and the approach courts should take when one parent seeks to move abroad with a child."
+          },
+          {
+            "case_id": "[2010] EWCA Civ 518",
+            "relevance_reason": "Re W (Children) (Relocation: Removal from Jurisdiction) clarifies and refines the principles from Payne v Payne, emphasizing that the child's welfare is paramount and that each case must be decided on its own facts."
+          },
+          {
+            "case_id": "[2015] EWCA Civ 1302",
+            "relevance_reason": "Re F (A Child) (International Relocation Cases) further discusses the application of the welfare principle in relocation cases and the need for a holistic evaluation of the child's best interests."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 9,
+      "law_type": "Criminal Law \u2013 Consent and Assault",
+      "scenario": "Two adults engage in consensual BDSM activity that results in visible injuries. One later files a police complaint, stating they were pressured into participating. The other participant argues that al...",
+      "question": "Can consent serve as a defence in this context?",
+      "predicted_cases": [
+        {
+          "case_id": "[2001] EWCA Crim 2028",
+          "relevance_reason": "R v Emmett is a leading Court of Appeal case addressing whether consent is a valid defence to assault occasioning actual bodily harm in the context of consensual BDSM activity resulting in injury."
+        },
+        {
+          "case_id": "[2019] EWCA Crim 9",
+          "relevance_reason": "R v BM (also known as R v Brown and Mason) considers the limits of consent as a defence to bodily harm, particularly in the context of consensual acts resulting in injury, and reaffirms the principles established in earlier case law."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2001] EWCA Crim 2028",
+          "relevance_reason": "R v Emmett is a leading Court of Appeal case addressing whether consent is a valid defence to assault occasioning actual bodily harm in the context of consensual BDSM activity resulting in injury."
+        },
+        {
+          "case_id": "[2019] EWCA Crim 9",
+          "relevance_reason": "R v BM (also known as R v Brown and Mason) considers the limits of consent as a defence to bodily harm, particularly in the context of consensual acts resulting in injury, and reaffirms the principles established in earlier case law."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2018] EWCA Crim 560",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560",
+          "relevance_reason": "R v BM limited consent in body modification."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 2,
+        "false_negatives": 1,
+        "predicted_count": 2,
+        "ground_truth_count": 1
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2001] EWCA Crim 2028",
+            "relevance_reason": "R v Emmett is a leading Court of Appeal case addressing whether consent is a valid defence to assault occasioning actual bodily harm in the context of consensual BDSM activity resulting in injury."
+          },
+          {
+            "case_id": "[2019] EWCA Crim 9",
+            "relevance_reason": "R v BM (also known as R v Brown and Mason) considers the limits of consent as a defence to bodily harm, particularly in the context of consensual acts resulting in injury, and reaffirms the principles established in earlier case law."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 10,
+      "law_type": "Defamation",
+      "scenario": "A viral post accuses a bakery owner of selling food contaminated with rodents. Although false, the post spreads widely, resulting in cancelled contracts and media coverage. The bakery owner sues for d...",
+      "question": "Does the statement meet the serious harm threshold?",
+      "predicted_cases": [
+        {
+          "case_id": "[2019] UKSC 27",
+          "relevance_reason": "Lachaux v Independent Print Ltd is the leading Supreme Court authority on the 'serious harm' threshold under section 1 of the Defamation Act 2013, clarifying that claimants must prove actual or likely serious harm to reputation."
+        },
+        {
+          "case_id": "[2021] EWCA Civ 423",
+          "relevance_reason": "Theedom v Nourish Training Ltd considers the application of the serious harm test post-Lachaux, particularly in the context of business reputation and the impact of defamatory statements on commercial relationships."
+        },
+        {
+          "case_id": "[2015] EWHC 1482 (QB)",
+          "relevance_reason": "Ames v Spamhaus Project Ltd addresses the requirement for claimants to demonstrate serious harm to reputation and the evidential burden, especially where business loss is alleged."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2019] UKSC 27",
+          "relevance_reason": "Lachaux v Independent Print Ltd is the leading Supreme Court authority on the 'serious harm' threshold under section 1 of the Defamation Act 2013, clarifying that claimants must prove actual or likely serious harm to reputation."
+        },
+        {
+          "case_id": "[2021] EWCA Civ 423",
+          "relevance_reason": "Theedom v Nourish Training Ltd considers the application of the serious harm test post-Lachaux, particularly in the context of business reputation and the impact of defamatory statements on commercial relationships."
+        },
+        {
+          "case_id": "[2015] EWHC 1482 (QB)",
+          "relevance_reason": "Ames v Spamhaus Project Ltd addresses the requirement for claimants to demonstrate serious harm to reputation and the evidential burden, especially where business loss is alleged."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2019] UKSC 27",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2019/27",
+          "relevance_reason": "Lachaux v Independent clarified \"serious harm\" standard."
+        },
+        {
+          "case_id": "[2017] EWHC 433 (QB)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/433",
+          "relevance_reason": "Monroe v Hopkins upheld defamation for false tweets."
+        },
+        {
+          "case_id": "[2019] UKSC 17",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2019/17",
+          "relevance_reason": "Stocker v Stocker noted ordinary meaning in social media contexts."
+        }
+      ],
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.3333333333333333,
+        "true_positives": 1,
+        "false_positives": 2,
+        "false_negatives": 2,
+        "predicted_count": 3,
+        "ground_truth_count": 3
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2019] UKSC 27",
+            "relevance_reason": "Lachaux v Independent Print Ltd is the leading Supreme Court authority on the 'serious harm' threshold under section 1 of the Defamation Act 2013, clarifying that claimants must prove actual or likely serious harm to reputation."
+          },
+          {
+            "case_id": "[2021] EWCA Civ 423",
+            "relevance_reason": "Theedom v Nourish Training Ltd considers the application of the serious harm test post-Lachaux, particularly in the context of business reputation and the impact of defamatory statements on commercial relationships."
+          },
+          {
+            "case_id": "[2015] EWHC 1482 (QB)",
+            "relevance_reason": "Ames v Spamhaus Project Ltd addresses the requirement for claimants to demonstrate serious harm to reputation and the evidential burden, especially where business loss is alleged."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 11,
+      "law_type": "Human Rights \u2013 Freedom of Expression",
+      "scenario": "During a climate protest, Zara displays a provocative banner near a government building and is arrested for breaching public order. She claims her actions were peaceful and within her rights under Art...",
+      "question": "Was her arrest a disproportionate interference with her freedom of expression?",
+      "predicted_cases": [
+        {
+          "case_id": "[2021] UKSC 31",
+          "relevance_reason": "This Supreme Court case (Ziegler) directly addresses the proportionality of interference with Article 10 and 11 ECHR rights in the context of peaceful protest and public order offences."
+        },
+        {
+          "case_id": "[2006] UKHL 44",
+          "relevance_reason": "Laporte v Chief Constable of Gloucestershire is a leading authority on the necessity and proportionality of police action interfering with protest rights under Articles 10 and 11 ECHR."
+        },
+        {
+          "case_id": "[2017] EWHC 89 (Admin)",
+          "relevance_reason": "DPP v Ziegler (Admin Court) is the precursor to the Supreme Court decision, focusing on the proportionality of criminal convictions for peaceful protest under Article 10."
+        },
+        {
+          "case_id": "[2011] EWHC 957 (Admin)",
+          "relevance_reason": "R (Barda) v Mayor of London considers the balance between public order and the right to protest under Article 10 ECHR."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2021] UKSC 31",
+          "relevance_reason": "This Supreme Court case (Ziegler) directly addresses the proportionality of interference with Article 10 and 11 ECHR rights in the context of peaceful protest and public order offences."
+        },
+        {
+          "case_id": "[2006] UKHL 44",
+          "relevance_reason": "Laporte v Chief Constable of Gloucestershire is a leading authority on the necessity and proportionality of police action interfering with protest rights under Articles 10 and 11 ECHR."
+        },
+        {
+          "case_id": "[2017] EWHC 89 (Admin)",
+          "relevance_reason": "DPP v Ziegler (Admin Court) is the precursor to the Supreme Court decision, focusing on the proportionality of criminal convictions for peaceful protest under Article 10."
+        },
+        {
+          "case_id": "[2011] EWHC 957 (Admin)",
+          "relevance_reason": "R (Barda) v Mayor of London considers the balance between public order and the right to protest under Article 10 ECHR."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2021] UKSC 23",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2021/23",
+          "relevance_reason": "Ziegler v DPP held peaceful protest is protected."
+        },
+        {
+          "case_id": "[2021] EWCA Civ 1926",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926",
+          "relevance_reason": "Miller v College of Policing found guidance chilling lawful speech."
+        },
+        {
+          "case_id": "[2022] EWHC 736 (Admin)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2022/736",
+          "relevance_reason": "DPP v Cuciurean stressed need for proportionality in restrictions."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 3,
+        "predicted_count": 4,
+        "ground_truth_count": 3
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2021] UKSC 31",
+            "relevance_reason": "This Supreme Court case (Ziegler) directly addresses the proportionality of interference with Article 10 and 11 ECHR rights in the context of peaceful protest and public order offences."
+          },
+          {
+            "case_id": "[2006] UKHL 44",
+            "relevance_reason": "Laporte v Chief Constable of Gloucestershire is a leading authority on the necessity and proportionality of police action interfering with protest rights under Articles 10 and 11 ECHR."
+          },
+          {
+            "case_id": "[2017] EWHC 89 (Admin)",
+            "relevance_reason": "DPP v Ziegler (Admin Court) is the precursor to the Supreme Court decision, focusing on the proportionality of criminal convictions for peaceful protest under Article 10."
+          },
+          {
+            "case_id": "[2011] EWHC 957 (Admin)",
+            "relevance_reason": "R (Barda) v Mayor of London considers the balance between public order and the right to protest under Article 10 ECHR."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 12,
+      "law_type": "Tort \u2013 Defective Products",
+      "scenario": "Mark suffers burns when his e-cigarette battery explodes during normal use. He purchased the item from a local vape shop, which sourced it from an overseas supplier. The product had no visible defects...",
+      "question": "Is the retailer or manufacturer liable?",
+      "predicted_cases": [
+        {
+          "case_id": "[2002] EWCA Civ 1648",
+          "relevance_reason": "A v National Blood Authority is a leading case on strict liability under the Consumer Protection Act 1987, clarifying the definition of 'defect' and the standard of safety expected by the public."
+        },
+        {
+          "case_id": "[2015] EWHC 373 (QB)",
+          "relevance_reason": "Wilkes v DePuy International Ltd addresses the interpretation of 'defect' under the Consumer Protection Act 1987 and the factors courts consider in determining product safety, including warnings and foreseeability."
+        },
+        {
+          "case_id": "[2018] EWCA Civ 1943",
+          "relevance_reason": "Gee v DePuy International Ltd (No. 1) further examines the application of the Consumer Protection Act 1987, particularly the liability of manufacturers and the assessment of product safety."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2002] EWCA Civ 1648",
+          "relevance_reason": "A v National Blood Authority is a leading case on strict liability under the Consumer Protection Act 1987, clarifying the definition of 'defect' and the standard of safety expected by the public."
+        },
+        {
+          "case_id": "[2015] EWHC 373 (QB)",
+          "relevance_reason": "Wilkes v DePuy International Ltd addresses the interpretation of 'defect' under the Consumer Protection Act 1987 and the factors courts consider in determining product safety, including warnings and foreseeability."
+        },
+        {
+          "case_id": "[2018] EWCA Civ 1943",
+          "relevance_reason": "Gee v DePuy International Ltd (No. 1) further examines the application of the Consumer Protection Act 1987, particularly the liability of manufacturers and the assessment of product safety."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2016] EWHC 3096 (QB)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/3096",
+          "relevance_reason": "Wilkes v DePuy required proof of defect causing harm."
+        },
+        {
+          "case_id": "[2018] EWHC 1208 (QB)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/1208",
+          "relevance_reason": "Gee v DePuy emphasized safety expectations."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 2,
+        "predicted_count": 3,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2002] EWCA Civ 1648",
+            "relevance_reason": "A v National Blood Authority is a leading case on strict liability under the Consumer Protection Act 1987, clarifying the definition of 'defect' and the standard of safety expected by the public."
+          },
+          {
+            "case_id": "[2015] EWHC 373 (QB)",
+            "relevance_reason": "Wilkes v DePuy International Ltd addresses the interpretation of 'defect' under the Consumer Protection Act 1987 and the factors courts consider in determining product safety, including warnings and foreseeability."
+          },
+          {
+            "case_id": "[2018] EWCA Civ 1943",
+            "relevance_reason": "Gee v DePuy International Ltd (No. 1) further examines the application of the Consumer Protection Act 1987, particularly the liability of manufacturers and the assessment of product safety."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 13,
+      "law_type": "Land Law \u2013 Private Nuisance",
+      "scenario": "A homeowner brings a claim against their neighbour who is undertaking extensive home renovations. The works involve daily drilling, dust clouds, and early morning starts, which have persisted for mont...",
+      "question": "Does this amount to an actionable nuisance?",
+      "predicted_cases": [
+        {
+          "case_id": "[2014] UKSC 13",
+          "relevance_reason": "Fearn v Board of Trustees of the Tate Gallery (also known as the Tate Modern case) considered the scope of private nuisance, including the impact of interference with the use and enjoyment of land, and clarified the test for actionable nuisance in modern contexts."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 414",
+          "relevance_reason": "Barr v Biffa Waste Services Ltd addressed the issue of what constitutes a substantial interference with the enjoyment of land, specifically in the context of noise, odour, and dust, and the reasonableness of the defendant's activities."
+        },
+        {
+          "case_id": "[2004] EWCA Civ 576",
+          "relevance_reason": "Lawrence v Fen Tigers Ltd (No 2) (also known as Coventry v Lawrence in later appeals) is a leading authority on the principles of private nuisance, including the relevance of planning permission, locality, and the reasonableness of the defendant\u2019s use of their land."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2014] UKSC 13",
+          "relevance_reason": "Fearn v Board of Trustees of the Tate Gallery (also known as the Tate Modern case) considered the scope of private nuisance, including the impact of interference with the use and enjoyment of land, and clarified the test for actionable nuisance in modern contexts."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 414",
+          "relevance_reason": "Barr v Biffa Waste Services Ltd addressed the issue of what constitutes a substantial interference with the enjoyment of land, specifically in the context of noise, odour, and dust, and the reasonableness of the defendant's activities."
+        },
+        {
+          "case_id": "[2004] EWCA Civ 576",
+          "relevance_reason": "Lawrence v Fen Tigers Ltd (No 2) (also known as Coventry v Lawrence in later appeals) is a leading authority on the principles of private nuisance, including the relevance of planning permission, locality, and the reasonableness of the defendant\u2019s use of their land."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2023] UKSC 4",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+          "relevance_reason": "Fearn v Tate recognized overlooking and disruption as nuisance."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 312",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/312",
+          "relevance_reason": "Barr v Biffa reaffirmed environmental nuisance principles."
+        },
+        {
+          "case_id": "[2014] UKSC 13",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2014/13",
+          "relevance_reason": "Coventry v Lawrence focused on balancing interests."
+        }
+      ],
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.3333333333333333,
+        "true_positives": 1,
+        "false_positives": 2,
+        "false_negatives": 2,
+        "predicted_count": 3,
+        "ground_truth_count": 3
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2014] UKSC 13",
+            "relevance_reason": "Fearn v Board of Trustees of the Tate Gallery (also known as the Tate Modern case) considered the scope of private nuisance, including the impact of interference with the use and enjoyment of land, and clarified the test for actionable nuisance in modern contexts."
+          },
+          {
+            "case_id": "[2016] EWCA Civ 414",
+            "relevance_reason": "Barr v Biffa Waste Services Ltd addressed the issue of what constitutes a substantial interference with the enjoyment of land, specifically in the context of noise, odour, and dust, and the reasonableness of the defendant's activities."
+          },
+          {
+            "case_id": "[2004] EWCA Civ 576",
+            "relevance_reason": "Lawrence v Fen Tigers Ltd (No 2) (also known as Coventry v Lawrence in later appeals) is a leading authority on the principles of private nuisance, including the relevance of planning permission, locality, and the reasonableness of the defendant\u2019s use of their land."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 14,
+      "law_type": "Equality & Discrimination Law",
+      "scenario": "Alex, who uses a wheelchair, applies for a retail position but is rejected without interview. The job listing required the ability to \"move swiftly around the shop floor.\" Alex argues this criterion u...",
+      "question": "Has there been unlawful disability discrimination?",
+      "predicted_cases": [
+        {
+          "case_id": "[2008] UKHL 41",
+          "relevance_reason": "Archibald v Fife Council is a leading case on reasonable adjustments and disability discrimination in employment, addressing whether an employer's requirements unjustifiably disadvantage disabled applicants."
+        },
+        {
+          "case_id": "[2011] UKSC 34",
+          "relevance_reason": "London Borough of Lewisham v Malcolm clarifies the test for disability-related discrimination and the justification defence under the Equality Act, relevant to whether job criteria unfairly exclude disabled people."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 1005",
+          "relevance_reason": "Griffiths v Secretary of State for Work and Pensions discusses the duty to make reasonable adjustments for disabled employees and the assessment of what is reasonable in the context of job requirements."
+        },
+        {
+          "case_id": "[2019] EWCA Civ 225",
+          "relevance_reason": "Lamb v The Business Academy Bexley considers the justification of requirements that may disadvantage disabled applicants and the employer's duty to consider reasonable adjustments."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2008] UKHL 41",
+          "relevance_reason": "Archibald v Fife Council is a leading case on reasonable adjustments and disability discrimination in employment, addressing whether an employer's requirements unjustifiably disadvantage disabled applicants."
+        },
+        {
+          "case_id": "[2011] UKSC 34",
+          "relevance_reason": "London Borough of Lewisham v Malcolm clarifies the test for disability-related discrimination and the justification defence under the Equality Act, relevant to whether job criteria unfairly exclude disabled people."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 1005",
+          "relevance_reason": "Griffiths v Secretary of State for Work and Pensions discusses the duty to make reasonable adjustments for disabled employees and the assessment of what is reasonable in the context of job requirements."
+        },
+        {
+          "case_id": "[2019] EWCA Civ 225",
+          "relevance_reason": "Lamb v The Business Academy Bexley considers the justification of requirements that may disadvantage disabled applicants and the employer's duty to consider reasonable adjustments."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2019] EWCA Civ 1061",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061",
+          "relevance_reason": "Chief Constable v Coffey recognized perceived future disability."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "predicted_count": 4,
+        "ground_truth_count": 1
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2008] UKHL 41",
+            "relevance_reason": "Archibald v Fife Council is a leading case on reasonable adjustments and disability discrimination in employment, addressing whether an employer's requirements unjustifiably disadvantage disabled applicants."
+          },
+          {
+            "case_id": "[2011] UKSC 34",
+            "relevance_reason": "London Borough of Lewisham v Malcolm clarifies the test for disability-related discrimination and the justification defence under the Equality Act, relevant to whether job criteria unfairly exclude disabled people."
+          },
+          {
+            "case_id": "[2015] EWCA Civ 1005",
+            "relevance_reason": "Griffiths v Secretary of State for Work and Pensions discusses the duty to make reasonable adjustments for disabled employees and the assessment of what is reasonable in the context of job requirements."
+          },
+          {
+            "case_id": "[2019] EWCA Civ 225",
+            "relevance_reason": "Lamb v The Business Academy Bexley considers the justification of requirements that may disadvantage disabled applicants and the employer's duty to consider reasonable adjustments."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 15,
+      "law_type": "Immigration Law \u2013 Deportation and Family Life",
+      "scenario": "Ahmed, a foreign national who has lived in the UK for 15 years and has two children, faces deportation after a criminal conviction. He argues deportation would violate his Article 8 ECHR rights, as hi...",
+      "question": "Should deportation proceed?",
+      "predicted_cases": [
+        {
+          "case_id": "[2011] UKSC 23",
+          "relevance_reason": "Zoumbas v Secretary of State for the Home Department: Supreme Court case affirming the need to consider the best interests of children as a primary consideration in deportation cases involving Article 8 ECHR."
+        },
+        {
+          "case_id": "[2015] UKSC 68",
+          "relevance_reason": "R (on the application of MM (Lebanon)) v Secretary of State for the Home Department: Supreme Court case discussing the balance between the public interest in immigration control and the right to family life under Article 8 ECHR."
+        },
+        {
+          "case_id": "[2018] EWCA Civ 2837",
+          "relevance_reason": "CI (Nigeria) v Secretary of State for the Home Department: Court of Appeal case directly addressing the deportation of foreign criminals with British citizen children and the application of Article 8 ECHR."
+        },
+        {
+          "case_id": "[2018] UKSC 53",
+          "relevance_reason": "KO (Nigeria) v Secretary of State for the Home Department: Supreme Court case clarifying the approach to the 'unduly harsh' test in deportation cases involving children who are British citizens."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2011] UKSC 23",
+          "relevance_reason": "Zoumbas v Secretary of State for the Home Department: Supreme Court case affirming the need to consider the best interests of children as a primary consideration in deportation cases involving Article 8 ECHR."
+        },
+        {
+          "case_id": "[2015] UKSC 68",
+          "relevance_reason": "R (on the application of MM (Lebanon)) v Secretary of State for the Home Department: Supreme Court case discussing the balance between the public interest in immigration control and the right to family life under Article 8 ECHR."
+        },
+        {
+          "case_id": "[2018] EWCA Civ 2837",
+          "relevance_reason": "CI (Nigeria) v Secretary of State for the Home Department: Court of Appeal case directly addressing the deportation of foreign criminals with British citizen children and the application of Article 8 ECHR."
+        },
+        {
+          "case_id": "[2018] UKSC 53",
+          "relevance_reason": "KO (Nigeria) v Secretary of State for the Home Department: Supreme Court case clarifying the approach to the 'unduly harsh' test in deportation cases involving children who are British citizens."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2016] UKSC 60",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2016/60",
+          "relevance_reason": "Hesham Ali balanced public interest and private life."
+        },
+        {
+          "case_id": "[2017] UKSC 11",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2017/11",
+          "relevance_reason": "Agyarko clarified high threshold for private life interference."
+        },
+        {
+          "case_id": "[2015] UKSC 68",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2015/68",
+          "relevance_reason": "Bibi stressed proportionality."
+        }
+      ],
+      "metrics": {
+        "precision": 0.25,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.28571428571428575,
+        "true_positives": 1,
+        "false_positives": 3,
+        "false_negatives": 2,
+        "predicted_count": 4,
+        "ground_truth_count": 3
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2011] UKSC 23",
+            "relevance_reason": "Zoumbas v Secretary of State for the Home Department: Supreme Court case affirming the need to consider the best interests of children as a primary consideration in deportation cases involving Article 8 ECHR."
+          },
+          {
+            "case_id": "[2015] UKSC 68",
+            "relevance_reason": "R (on the application of MM (Lebanon)) v Secretary of State for the Home Department: Supreme Court case discussing the balance between the public interest in immigration control and the right to family life under Article 8 ECHR."
+          },
+          {
+            "case_id": "[2018] EWCA Civ 2837",
+            "relevance_reason": "CI (Nigeria) v Secretary of State for the Home Department: Court of Appeal case directly addressing the deportation of foreign criminals with British citizen children and the application of Article 8 ECHR."
+          },
+          {
+            "case_id": "[2018] UKSC 53",
+            "relevance_reason": "KO (Nigeria) v Secretary of State for the Home Department: Supreme Court case clarifying the approach to the 'unduly harsh' test in deportation cases involving children who are British citizens."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 16,
+      "law_type": "Property Law \u2013 Adverse Possession",
+      "scenario": "A resident fences off and maintains a strip of land between their house and a park for over 12 years. They plant shrubs and build a shed on it, believing it forms part of their garden. The local counc...",
+      "question": "Can the claim succeed under the Land Registration Act 2002?",
+      "predicted_cases": [
+        {
+          "case_id": "[2003] UKHL 50",
+          "relevance_reason": "JA Pye (Oxford) Ltd v Graham is the leading case on adverse possession, clarifying the requirements for factual possession and intention to possess, and its implications under the Land Registration Act 2002."
+        },
+        {
+          "case_id": "[2011] EWCA Civ 1202",
+          "relevance_reason": "Best v Chief Land Registrar addresses the application of adverse possession under the Land Registration Act 2002, particularly the process and requirements for registered land."
+        },
+        {
+          "case_id": "[2013] EWCA Civ 1610",
+          "relevance_reason": "Zarb v Parry considers the nature of possession and the acts sufficient to establish adverse possession, including fencing and maintenance of land."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 17",
+          "relevance_reason": "Thorpe v Frank provides guidance on the factual possession and intention to possess required for adverse possession claims post-Land Registration Act 2002."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2003] UKHL 50",
+          "relevance_reason": "JA Pye (Oxford) Ltd v Graham is the leading case on adverse possession, clarifying the requirements for factual possession and intention to possess, and its implications under the Land Registration Act 2002."
+        },
+        {
+          "case_id": "[2011] EWCA Civ 1202",
+          "relevance_reason": "Best v Chief Land Registrar addresses the application of adverse possession under the Land Registration Act 2002, particularly the process and requirements for registered land."
+        },
+        {
+          "case_id": "[2013] EWCA Civ 1610",
+          "relevance_reason": "Zarb v Parry considers the nature of possession and the acts sufficient to establish adverse possession, including fencing and maintenance of land."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 17",
+          "relevance_reason": "Thorpe v Frank provides guidance on the factual possession and intention to possess required for adverse possession claims post-Land Registration Act 2002."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2015] EWCA Civ 17",
+          "uri": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/17",
+          "relevance_reason": "Best v Chief Land Registrar allowed adverse possession despite criminality."
+        },
+        {
+          "case_id": "[2011] EWCA Civ 1306",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/1306",
+          "relevance_reason": "Zarb v Parry confirmed factual possession and intention are key."
+        }
+      ],
+      "metrics": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1_score": 0.3333333333333333,
+        "true_positives": 1,
+        "false_positives": 3,
+        "false_negatives": 1,
+        "predicted_count": 4,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2003] UKHL 50",
+            "relevance_reason": "JA Pye (Oxford) Ltd v Graham is the leading case on adverse possession, clarifying the requirements for factual possession and intention to possess, and its implications under the Land Registration Act 2002."
+          },
+          {
+            "case_id": "[2011] EWCA Civ 1202",
+            "relevance_reason": "Best v Chief Land Registrar addresses the application of adverse possession under the Land Registration Act 2002, particularly the process and requirements for registered land."
+          },
+          {
+            "case_id": "[2013] EWCA Civ 1610",
+            "relevance_reason": "Zarb v Parry considers the nature of possession and the acts sufficient to establish adverse possession, including fencing and maintenance of land."
+          },
+          {
+            "case_id": "[2015] EWCA Civ 17",
+            "relevance_reason": "Thorpe v Frank provides guidance on the factual possession and intention to possess required for adverse possession claims post-Land Registration Act 2002."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 17,
+      "law_type": "Frustration of Contract",
+      "scenario": "A band cancels its headline festival performance due to flooding at the venue. The promoter sues for breach of contract, but the band argues the event was rendered impossible. The venue had no conting...",
+      "question": "Was the contract frustrated due to unforeseeable circumstances, or should a force majeure clause have been included?",
+      "predicted_cases": [
+        {
+          "case_id": "[2021] EWCA Civ 790",
+          "relevance_reason": "This case (Taqa Bratani Ltd v Rockrose UKCS8 LLC) discusses the doctrine of frustration in commercial contracts, specifically addressing whether unforeseen events rendered contractual performance impossible and the role of force majeure clauses."
+        },
+        {
+          "case_id": "[2020] EWCA Civ 152",
+          "relevance_reason": "This case (Canary Wharf (BP4) T1 Ltd v European Medicines Agency) examines the application of frustration where an event (Brexit) was argued to have made performance impossible, and considers foreseeability and contractual risk allocation."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 982",
+          "relevance_reason": "This case (Armchair Answercall Ltd v People in Mind Ltd) analyses the threshold for frustration and the impact of the parties' failure to provide for certain risks in the contract, including the absence of a force majeure clause."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2021] EWCA Civ 790",
+          "relevance_reason": "This case (Taqa Bratani Ltd v Rockrose UKCS8 LLC) discusses the doctrine of frustration in commercial contracts, specifically addressing whether unforeseen events rendered contractual performance impossible and the role of force majeure clauses."
+        },
+        {
+          "case_id": "[2020] EWCA Civ 152",
+          "relevance_reason": "This case (Canary Wharf (BP4) T1 Ltd v European Medicines Agency) examines the application of frustration where an event (Brexit) was argued to have made performance impossible, and considers foreseeability and contractual risk allocation."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 982",
+          "relevance_reason": "This case (Armchair Answercall Ltd v People in Mind Ltd) analyses the threshold for frustration and the impact of the parties' failure to provide for certain risks in the contract, including the absence of a force majeure clause."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2019] EWHC 335 (Ch)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335",
+          "relevance_reason": "Canary Wharf v EMA found frustration where purpose undermined."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 1039",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1039",
+          "relevance_reason": "Armchair Answercall applied strict test for impossibility."
+        },
+        {
+          "case_id": "[2007] EWCA Civ 547",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/547",
+          "relevance_reason": "Edwinton v Tsavliris held mere inconvenience not enough."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 3,
+        "predicted_count": 3,
+        "ground_truth_count": 3
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2021] EWCA Civ 790",
+            "relevance_reason": "This case (Taqa Bratani Ltd v Rockrose UKCS8 LLC) discusses the doctrine of frustration in commercial contracts, specifically addressing whether unforeseen events rendered contractual performance impossible and the role of force majeure clauses."
+          },
+          {
+            "case_id": "[2020] EWCA Civ 152",
+            "relevance_reason": "This case (Canary Wharf (BP4) T1 Ltd v European Medicines Agency) examines the application of frustration where an event (Brexit) was argued to have made performance impossible, and considers foreseeability and contractual risk allocation."
+          },
+          {
+            "case_id": "[2016] EWCA Civ 982",
+            "relevance_reason": "This case (Armchair Answercall Ltd v People in Mind Ltd) analyses the threshold for frustration and the impact of the parties' failure to provide for certain risks in the contract, including the absence of a force majeure clause."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 18,
+      "law_type": "Consumer Rights ",
+      "scenario": "A gamer buys a new downloadable expansion for a popular video game that repeatedly crashes on launch. Despite reinstalling, the product remains unusable. The seller refuses a refund, stating the user ...",
+      "question": "Is the gamer entitled to a remedy?",
+      "predicted_cases": [
+        {
+          "case_id": "[2019] EWCA Civ 909",
+          "relevance_reason": "Green v Petfre (Gibraltar) Ltd (Betfred) is directly relevant as it addresses the application of the Consumer Rights Act 2015 to digital content, including the enforceability of terms and the right to remedies when digital products are not of satisfactory quality."
+        },
+        {
+          "case_id": "[2016] EWHC 256 (Ch)",
+          "relevance_reason": "The Software Incubator Ltd v Computer Associates UK Ltd discusses the classification of digital content as 'goods' or 'services' and the implications for consumer rights, which is pertinent to the application of the Consumer Rights Act 2015 to downloadable software."
+        },
+        {
+          "case_id": "[2017] EWCA Civ 1874",
+          "relevance_reason": "Case of OFT v Ashbourne Management Services Ltd considers the fairness of consumer contract terms under the Consumer Rights Act 2015, particularly in the context of digital and online services."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2019] EWCA Civ 909",
+          "relevance_reason": "Green v Petfre (Gibraltar) Ltd (Betfred) is directly relevant as it addresses the application of the Consumer Rights Act 2015 to digital content, including the enforceability of terms and the right to remedies when digital products are not of satisfactory quality."
+        },
+        {
+          "case_id": "[2016] EWHC 256 (Ch)",
+          "relevance_reason": "The Software Incubator Ltd v Computer Associates UK Ltd discusses the classification of digital content as 'goods' or 'services' and the implications for consumer rights, which is pertinent to the application of the Consumer Rights Act 2015 to downloadable software."
+        },
+        {
+          "case_id": "[2017] EWCA Civ 1874",
+          "relevance_reason": "Case of OFT v Ashbourne Management Services Ltd considers the fairness of consumer contract terms under the Consumer Rights Act 2015, particularly in the context of digital and online services."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2021] EWHC 842 (QB)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/842",
+          "relevance_reason": "Green v Betfred found digital contract void due to unfair terms."
+        },
+        {
+          "case_id": "[2011] EWHC 1237 (Ch)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1237",
+          "relevance_reason": "Ashbourne v Fair Trading case targeted unfair consumer contracts."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 2,
+        "predicted_count": 3,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2019] EWCA Civ 909",
+            "relevance_reason": "Green v Petfre (Gibraltar) Ltd (Betfred) is directly relevant as it addresses the application of the Consumer Rights Act 2015 to digital content, including the enforceability of terms and the right to remedies when digital products are not of satisfactory quality."
+          },
+          {
+            "case_id": "[2016] EWHC 256 (Ch)",
+            "relevance_reason": "The Software Incubator Ltd v Computer Associates UK Ltd discusses the classification of digital content as 'goods' or 'services' and the implications for consumer rights, which is pertinent to the application of the Consumer Rights Act 2015 to downloadable software."
+          },
+          {
+            "case_id": "[2017] EWCA Civ 1874",
+            "relevance_reason": "Case of OFT v Ashbourne Management Services Ltd considers the fairness of consumer contract terms under the Consumer Rights Act 2015, particularly in the context of digital and online services."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 19,
+      "law_type": "Promissory Estoppel",
+      "scenario": "A landlord promises a struggling tenant a temporary rent reduction during lockdown. The tenant relies on this promise and stays in the property rather than relocating. Months later, the landlord deman...",
+      "question": "Can promissory estoppel apply?",
+      "predicted_cases": [
+        {
+          "case_id": "[2016] EWCA Civ 1238",
+          "relevance_reason": "This case (Central London Property Trust Ltd v High Trees House Ltd, as revisited in modern context) discusses the application of promissory estoppel in landlord-tenant relationships, specifically regarding rent reductions and reliance during periods of hardship."
+        },
+        {
+          "case_id": "[2014] EWCA Civ 1511",
+          "relevance_reason": "In Globe Motors Inc v TRW Lucas Varity Electric Steering Ltd, the Court of Appeal considered the requirements for promissory estoppel, including clear promise, reliance, and whether it would be inequitable to allow the promisor to go back on their word."
+        },
+        {
+          "case_id": "[2009] EWCA Civ 1164",
+          "relevance_reason": "In Collier v P & MJ Wright (Holdings) Ltd, the Court of Appeal reaffirmed the principles of promissory estoppel in the context of part payment of debts and the necessity of reliance and inequity."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2016] EWCA Civ 1238",
+          "relevance_reason": "This case (Central London Property Trust Ltd v High Trees House Ltd, as revisited in modern context) discusses the application of promissory estoppel in landlord-tenant relationships, specifically regarding rent reductions and reliance during periods of hardship."
+        },
+        {
+          "case_id": "[2014] EWCA Civ 1511",
+          "relevance_reason": "In Globe Motors Inc v TRW Lucas Varity Electric Steering Ltd, the Court of Appeal considered the requirements for promissory estoppel, including clear promise, reliance, and whether it would be inequitable to allow the promisor to go back on their word."
+        },
+        {
+          "case_id": "[2009] EWCA Civ 1164",
+          "relevance_reason": "In Collier v P & MJ Wright (Holdings) Ltd, the Court of Appeal reaffirmed the principles of promissory estoppel in the context of part payment of debts and the necessity of reliance and inequity."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2007] EWCA Civ 1329",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "relevance_reason": "Collier v Wright confirmed estoppel where reliance exists."
+        },
+        {
+          "case_id": "[2018] UKSC 24",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/24",
+          "relevance_reason": "MWB v Rock involved oral variation and reliance."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 2,
+        "predicted_count": 3,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2016] EWCA Civ 1238",
+            "relevance_reason": "This case (Central London Property Trust Ltd v High Trees House Ltd, as revisited in modern context) discusses the application of promissory estoppel in landlord-tenant relationships, specifically regarding rent reductions and reliance during periods of hardship."
+          },
+          {
+            "case_id": "[2014] EWCA Civ 1511",
+            "relevance_reason": "In Globe Motors Inc v TRW Lucas Varity Electric Steering Ltd, the Court of Appeal considered the requirements for promissory estoppel, including clear promise, reliance, and whether it would be inequitable to allow the promisor to go back on their word."
+          },
+          {
+            "case_id": "[2009] EWCA Civ 1164",
+            "relevance_reason": "In Collier v P & MJ Wright (Holdings) Ltd, the Court of Appeal reaffirmed the principles of promissory estoppel in the context of part payment of debts and the necessity of reliance and inequity."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 20,
+      "law_type": "Proprietary Estoppel",
+      "scenario": "For years, Emma worked unpaid on her aunt\u2019s farm based on repeated promises she would inherit it. When the aunt dies, her will leaves the property to someone else. Emma seeks a declaration that she ha...",
+      "question": "Should Emma succeed?",
+      "predicted_cases": [
+        {
+          "case_id": "[2015] UKSC 50",
+          "relevance_reason": "Davies v Davies is a Supreme Court case directly addressing proprietary estoppel in the context of family farming arrangements, promises of inheritance, and the requirements for reliance and detriment."
+        },
+        {
+          "case_id": "[2009] EWCA Civ 1164",
+          "relevance_reason": "Suggitt v Suggitt is a Court of Appeal case involving a claim to a farm based on assurances and unpaid work, clarifying the application of proprietary estoppel where no formal agreement exists."
+        },
+        {
+          "case_id": "[2008] EWCA Civ 732",
+          "relevance_reason": "Thorner v Major (CA) is a leading case on proprietary estoppel involving informal assurances about inheritance of farmland, later affirmed by the Supreme Court."
+        },
+        {
+          "case_id": "[2009] UKHL 18",
+          "relevance_reason": "Thorner v Major (HL) is the House of Lords (now Supreme Court) decision confirming the principles for proprietary estoppel in cases of informal promises regarding land inheritance."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2015] UKSC 50",
+          "relevance_reason": "Davies v Davies is a Supreme Court case directly addressing proprietary estoppel in the context of family farming arrangements, promises of inheritance, and the requirements for reliance and detriment."
+        },
+        {
+          "case_id": "[2009] EWCA Civ 1164",
+          "relevance_reason": "Suggitt v Suggitt is a Court of Appeal case involving a claim to a farm based on assurances and unpaid work, clarifying the application of proprietary estoppel where no formal agreement exists."
+        },
+        {
+          "case_id": "[2008] EWCA Civ 732",
+          "relevance_reason": "Thorner v Major (CA) is a leading case on proprietary estoppel involving informal assurances about inheritance of farmland, later affirmed by the Supreme Court."
+        },
+        {
+          "case_id": "[2009] UKHL 18",
+          "relevance_reason": "Thorner v Major (HL) is the House of Lords (now Supreme Court) decision confirming the principles for proprietary estoppel in cases of informal promises regarding land inheritance."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2022] UKSC 27",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "relevance_reason": "Guest v Guest required assurance, reliance, and detriment."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 463",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/463",
+          "relevance_reason": "Davies v Davies highlighted proportionality."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "predicted_count": 4,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2015] UKSC 50",
+            "relevance_reason": "Davies v Davies is a Supreme Court case directly addressing proprietary estoppel in the context of family farming arrangements, promises of inheritance, and the requirements for reliance and detriment."
+          },
+          {
+            "case_id": "[2009] EWCA Civ 1164",
+            "relevance_reason": "Suggitt v Suggitt is a Court of Appeal case involving a claim to a farm based on assurances and unpaid work, clarifying the application of proprietary estoppel where no formal agreement exists."
+          },
+          {
+            "case_id": "[2008] EWCA Civ 732",
+            "relevance_reason": "Thorner v Major (CA) is a leading case on proprietary estoppel involving informal assurances about inheritance of farmland, later affirmed by the Supreme Court."
+          },
+          {
+            "case_id": "[2009] UKHL 18",
+            "relevance_reason": "Thorner v Major (HL) is the House of Lords (now Supreme Court) decision confirming the principles for proprietary estoppel in cases of informal promises regarding land inheritance."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 21,
+      "law_type": "Contract Law \u2013 Misrepresentation",
+      "scenario": "Max purchases a used car from a franchise dealer after being assured it had one careful owner and a full, genuine service history. He skips an independent inspection based on those statements. Later, ...",
+      "question": "Do the statements amount to actionable misrepresentation and what remedies follow?",
+      "predicted_cases": [
+        {
+          "case_id": "[2009] EWCA Civ 1430",
+          "relevance_reason": "This case (Peekay Intermark Ltd v Australia and New Zealand Banking Group Ltd) discusses the requirements for actionable misrepresentation, including reliance on false statements and the effect of failing to make independent inquiries."
+        },
+        {
+          "case_id": "[2010] EWCA Civ 578",
+          "relevance_reason": "In Parabola Investments Ltd v Browallia Cal Ltd, the Court of Appeal clarified the remedies available for fraudulent misrepresentation, including rescission and damages, which are directly relevant to the scenario."
+        },
+        {
+          "case_id": "[2014] EWCA Civ 1515",
+          "relevance_reason": "In NRAM Ltd v Steel, the Court of Appeal considered the elements of actionable misrepresentation, including the representor's knowledge or recklessness as to the truth of the statement."
+        },
+        {
+          "case_id": "[2019] EWCA Civ 1124",
+          "relevance_reason": "In Taberna Europe CDO II Plc v Selskabet AF 1. September 2008, the Court of Appeal addressed the issue of inducement and reliance in misrepresentation claims, which is central to Max's decision to forgo an independent inspection."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2009] EWCA Civ 1430",
+          "relevance_reason": "This case (Peekay Intermark Ltd v Australia and New Zealand Banking Group Ltd) discusses the requirements for actionable misrepresentation, including reliance on false statements and the effect of failing to make independent inquiries."
+        },
+        {
+          "case_id": "[2010] EWCA Civ 578",
+          "relevance_reason": "In Parabola Investments Ltd v Browallia Cal Ltd, the Court of Appeal clarified the remedies available for fraudulent misrepresentation, including rescission and damages, which are directly relevant to the scenario."
+        },
+        {
+          "case_id": "[2014] EWCA Civ 1515",
+          "relevance_reason": "In NRAM Ltd v Steel, the Court of Appeal considered the elements of actionable misrepresentation, including the representor's knowledge or recklessness as to the truth of the statement."
+        },
+        {
+          "case_id": "[2019] EWCA Civ 1124",
+          "relevance_reason": "In Taberna Europe CDO II Plc v Selskabet AF 1. September 2008, the Court of Appeal addressed the issue of inducement and reliance in misrepresentation claims, which is central to Max's decision to forgo an independent inspection."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2011] EWCA Civ 133",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/133",
+          "relevance_reason": "AXA Sun Life v Campbell Martin on the effect of entire agreement/non-reliance clauses on misrepresentation claims."
+        },
+        {
+          "case_id": "[2006] EWCA Civ 386",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/386",
+          "relevance_reason": "Peekay v ANZ addresses reliance on pre-contract statements and reasonableness of reliance."
+        },
+        {
+          "case_id": "[2014] UKSC 9",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2014/9",
+          "relevance_reason": "Cramaso v Ogilvie-Grant confirms liability for misleading pre-contract representations continuing into the contract."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 3,
+        "predicted_count": 4,
+        "ground_truth_count": 3
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2009] EWCA Civ 1430",
+            "relevance_reason": "This case (Peekay Intermark Ltd v Australia and New Zealand Banking Group Ltd) discusses the requirements for actionable misrepresentation, including reliance on false statements and the effect of failing to make independent inquiries."
+          },
+          {
+            "case_id": "[2010] EWCA Civ 578",
+            "relevance_reason": "In Parabola Investments Ltd v Browallia Cal Ltd, the Court of Appeal clarified the remedies available for fraudulent misrepresentation, including rescission and damages, which are directly relevant to the scenario."
+          },
+          {
+            "case_id": "[2014] EWCA Civ 1515",
+            "relevance_reason": "In NRAM Ltd v Steel, the Court of Appeal considered the elements of actionable misrepresentation, including the representor's knowledge or recklessness as to the truth of the statement."
+          },
+          {
+            "case_id": "[2019] EWCA Civ 1124",
+            "relevance_reason": "In Taberna Europe CDO II Plc v Selskabet AF 1. September 2008, the Court of Appeal addressed the issue of inducement and reliance in misrepresentation claims, which is central to Max's decision to forgo an independent inspection."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 22,
+      "law_type": "Tort \u2013 Negligence",
+      "scenario": "A construction firm erects a temporary hoarding and signage structure outside a retail parade. After prior warnings about inadequate fixings, high winds cause the structure to detach and injure a pass...",
+      "question": "Is the harm reasonably foreseeable and has the duty of care been breached despite the weather event?",
+      "predicted_cases": [
+        {
+          "case_id": "[2011] EWCA Civ 1159",
+          "relevance_reason": "In Sayers v Harlow Urban District Council, the Court of Appeal considered foreseeability and the effect of intervening acts (novus actus interveniens) in negligence, specifically addressing whether an exceptional event (such as weather) breaks the chain of causation when prior warnings or risks were known."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 26",
+          "relevance_reason": "In BAE Systems (Operations) Ltd v Konczak, the Court of Appeal discussed the scope of reasonable foreseeability and the extent to which a defendant remains liable for harm when an intervening event occurs, relevant to the argument about whether a storm breaks the chain of causation."
+        },
+        {
+          "case_id": "[2018] EWHC 221 (QB)",
+          "relevance_reason": "In X v Kuoni Travel Ltd, the High Court examined the duty of care in the context of intervening acts and whether harm was reasonably foreseeable, directly relevant to the issue of whether a weather event absolves liability when prior warnings existed."
+        },
+        {
+          "case_id": "[2015] UKSC 47",
+          "relevance_reason": "In Montgomery v Lanarkshire Health Board, the Supreme Court clarified the test for breach of duty and reasonable foreseeability, which is central to determining whether the construction firm breached its duty despite the weather event."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2011] EWCA Civ 1159",
+          "relevance_reason": "In Sayers v Harlow Urban District Council, the Court of Appeal considered foreseeability and the effect of intervening acts (novus actus interveniens) in negligence, specifically addressing whether an exceptional event (such as weather) breaks the chain of causation when prior warnings or risks were known."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 26",
+          "relevance_reason": "In BAE Systems (Operations) Ltd v Konczak, the Court of Appeal discussed the scope of reasonable foreseeability and the extent to which a defendant remains liable for harm when an intervening event occurs, relevant to the argument about whether a storm breaks the chain of causation."
+        },
+        {
+          "case_id": "[2018] EWHC 221 (QB)",
+          "relevance_reason": "In X v Kuoni Travel Ltd, the High Court examined the duty of care in the context of intervening acts and whether harm was reasonably foreseeable, directly relevant to the issue of whether a weather event absolves liability when prior warnings existed."
+        },
+        {
+          "case_id": "[2015] UKSC 47",
+          "relevance_reason": "In Montgomery v Lanarkshire Health Board, the Supreme Court clarified the test for breach of duty and reasonable foreseeability, which is central to determining whether the construction firm breached its duty despite the weather event."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2009] EWCA Civ 1404",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2009/1404",
+          "relevance_reason": "Spencer v Wincanton on breach where the risk of harm was foreseeable and precautions were inadequate."
+        },
+        {
+          "case_id": "[2005] EWCA Civ 1",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1",
+          "relevance_reason": "Maguire v Harland & Wolff considers the standard of care and foreseeability in industrial contexts."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "predicted_count": 4,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2011] EWCA Civ 1159",
+            "relevance_reason": "In Sayers v Harlow Urban District Council, the Court of Appeal considered foreseeability and the effect of intervening acts (novus actus interveniens) in negligence, specifically addressing whether an exceptional event (such as weather) breaks the chain of causation when prior warnings or risks were known."
+          },
+          {
+            "case_id": "[2012] EWCA Civ 26",
+            "relevance_reason": "In BAE Systems (Operations) Ltd v Konczak, the Court of Appeal discussed the scope of reasonable foreseeability and the extent to which a defendant remains liable for harm when an intervening event occurs, relevant to the argument about whether a storm breaks the chain of causation."
+          },
+          {
+            "case_id": "[2018] EWHC 221 (QB)",
+            "relevance_reason": "In X v Kuoni Travel Ltd, the High Court examined the duty of care in the context of intervening acts and whether harm was reasonably foreseeable, directly relevant to the issue of whether a weather event absolves liability when prior warnings existed."
+          },
+          {
+            "case_id": "[2015] UKSC 47",
+            "relevance_reason": "In Montgomery v Lanarkshire Health Board, the Supreme Court clarified the test for breach of duty and reasonable foreseeability, which is central to determining whether the construction firm breached its duty despite the weather event."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 23,
+      "law_type": "Criminal Law \u2013 Theft",
+      "scenario": "An accounts manager uses a corporate fuel card over several weeks to buy personal holiday travel and premium goods, saying she planned to repay once her bonus was paid. She had no authority to use the...",
+      "question": "Did she possess the requisite dishonesty and intent to permanently deprive for theft?",
+      "predicted_cases": [
+        {
+          "case_id": "[2020] UKSC 42",
+          "relevance_reason": "R v Barton and Booth clarified the test for dishonesty in theft cases, adopting the Ivey v Genting Casinos standard, which is central to assessing whether the defendant's conduct was dishonest."
+        },
+        {
+          "case_id": "[2017] UKSC 67",
+          "relevance_reason": "Ivey v Genting Casinos (UK) Ltd established the objective test for dishonesty, now applied in criminal law, directly relevant to determining if the accounts manager acted dishonestly."
+        },
+        {
+          "case_id": "[2006] EWCA Crim 2413",
+          "relevance_reason": "R v Marshall, Coombes and Eren considered the meaning of 'intention to permanently deprive' under the Theft Act 1968, relevant to the use of property with the intention to treat it as one's own."
+        },
+        {
+          "case_id": "[2003] EWCA Crim 319",
+          "relevance_reason": "R v Lloyd and Others discussed the concept of intention to permanently deprive in the context of borrowing and conditional intent, directly relevant to the scenario where repayment was offered only after discovery."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2020] UKSC 42",
+          "relevance_reason": "R v Barton and Booth clarified the test for dishonesty in theft cases, adopting the Ivey v Genting Casinos standard, which is central to assessing whether the defendant's conduct was dishonest."
+        },
+        {
+          "case_id": "[2017] UKSC 67",
+          "relevance_reason": "Ivey v Genting Casinos (UK) Ltd established the objective test for dishonesty, now applied in criminal law, directly relevant to determining if the accounts manager acted dishonestly."
+        },
+        {
+          "case_id": "[2006] EWCA Crim 2413",
+          "relevance_reason": "R v Marshall, Coombes and Eren considered the meaning of 'intention to permanently deprive' under the Theft Act 1968, relevant to the use of property with the intention to treat it as one's own."
+        },
+        {
+          "case_id": "[2003] EWCA Crim 319",
+          "relevance_reason": "R v Lloyd and Others discussed the concept of intention to permanently deprive in the context of borrowing and conditional intent, directly relevant to the scenario where repayment was offered only after discovery."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2017] UKSC 67",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/67",
+          "relevance_reason": "Ivey v Genting sets the current test for dishonesty, replacing Ghosh."
+        },
+        {
+          "case_id": "[2020] EWCA Crim 575",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2020/575",
+          "relevance_reason": "R v Barton confirms Ivey applies in criminal cases and addresses dishonesty in abuse-of-position contexts."
+        }
+      ],
+      "metrics": {
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1_score": 0.3333333333333333,
+        "true_positives": 1,
+        "false_positives": 3,
+        "false_negatives": 1,
+        "predicted_count": 4,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2020] UKSC 42",
+            "relevance_reason": "R v Barton and Booth clarified the test for dishonesty in theft cases, adopting the Ivey v Genting Casinos standard, which is central to assessing whether the defendant's conduct was dishonest."
+          },
+          {
+            "case_id": "[2017] UKSC 67",
+            "relevance_reason": "Ivey v Genting Casinos (UK) Ltd established the objective test for dishonesty, now applied in criminal law, directly relevant to determining if the accounts manager acted dishonestly."
+          },
+          {
+            "case_id": "[2006] EWCA Crim 2413",
+            "relevance_reason": "R v Marshall, Coombes and Eren considered the meaning of 'intention to permanently deprive' under the Theft Act 1968, relevant to the use of property with the intention to treat it as one's own."
+          },
+          {
+            "case_id": "[2003] EWCA Crim 319",
+            "relevance_reason": "R v Lloyd and Others discussed the concept of intention to permanently deprive in the context of borrowing and conditional intent, directly relevant to the scenario where repayment was offered only after discovery."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 24,
+      "law_type": "Employment Law \u2013 Unfair Dismissal",
+      "scenario": "An employee posts derogatory tweets about their employer under a pseudonymous account during off-duty hours. Colleagues identify the account and report it. The company cites its social media policy an...",
+      "question": "Was dismissal within the range of reasonable responses in light of policy, context, and reputational risk?",
+      "predicted_cases": [
+        {
+          "case_id": "[2011] EWCA Civ 197",
+          "relevance_reason": "Game Retail Ltd v Laws is a leading case on dismissal for derogatory social media posts made under a pseudonym, addressing whether dismissal was within the range of reasonable responses given the employer's social media policy and reputational risk."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 1332",
+          "relevance_reason": "Smith v Trafford Housing Trust considers the balance between an employee's right to freedom of expression and the employer's interests, particularly in the context of social media use and disciplinary action."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 1040",
+          "relevance_reason": "British Waterways Board v Smith deals with the fairness of dismissal for social media misconduct discovered by colleagues, focusing on the application of the range of reasonable responses test."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2011] EWCA Civ 197",
+          "relevance_reason": "Game Retail Ltd v Laws is a leading case on dismissal for derogatory social media posts made under a pseudonym, addressing whether dismissal was within the range of reasonable responses given the employer's social media policy and reputational risk."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 1332",
+          "relevance_reason": "Smith v Trafford Housing Trust considers the balance between an employee's right to freedom of expression and the employer's interests, particularly in the context of social media use and disciplinary action."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 1040",
+          "relevance_reason": "British Waterways Board v Smith deals with the fairness of dismissal for social media misconduct discovered by colleagues, focusing on the application of the range of reasonable responses test."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2021] EWCA Civ 1926",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926",
+          "relevance_reason": "Miller v College of Policing on free speech and proportionality in policing online expression."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 1,
+        "predicted_count": 3,
+        "ground_truth_count": 1
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2011] EWCA Civ 197",
+            "relevance_reason": "Game Retail Ltd v Laws is a leading case on dismissal for derogatory social media posts made under a pseudonym, addressing whether dismissal was within the range of reasonable responses given the employer's social media policy and reputational risk."
+          },
+          {
+            "case_id": "[2012] EWCA Civ 1332",
+            "relevance_reason": "Smith v Trafford Housing Trust considers the balance between an employee's right to freedom of expression and the employer's interests, particularly in the context of social media use and disciplinary action."
+          },
+          {
+            "case_id": "[2016] EWCA Civ 1040",
+            "relevance_reason": "British Waterways Board v Smith deals with the fairness of dismissal for social media misconduct discovered by colleagues, focusing on the application of the range of reasonable responses test."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 25,
+      "law_type": "Contract Law \u2013 Duress",
+      "scenario": "A key supplier is told mid-contract that unless it accepts a 25% price cut with immediate effect, the buyer will cancel all current and future orders. Facing insolvency, the supplier agrees but later ...",
+      "question": "Was the pressure illegitimate and did it leave the supplier with no practical alternative?",
+      "predicted_cases": [
+        {
+          "case_id": "[2007] EWCA Civ 1281",
+          "relevance_reason": "DSND Subsea Ltd v Petroleum Geo Services ASA is a leading Court of Appeal case that sets out the modern test for economic duress, including the requirements of illegitimate pressure and lack of practical alternative."
+        },
+        {
+          "case_id": "[2009] EWCA Civ 694",
+          "relevance_reason": "Progress Bulk Carriers Ltd v Tube City IMS LLC (The Cenk Kaptan) is a Court of Appeal case that discusses economic duress in the context of commercial pressure and the absence of practical alternatives."
+        },
+        {
+          "case_id": "[2016] EWHC 2361 (QB)",
+          "relevance_reason": "Times Travel (UK) Ltd v Pakistan International Airlines Corp (High Court) directly addresses whether a party was left with no practical alternative and whether the pressure exerted was illegitimate in a commercial context."
+        },
+        {
+          "case_id": "[2021] UKSC 40",
+          "relevance_reason": "Pakistan International Airline Corporation v Times Travel (UK) Ltd (Supreme Court) is the most recent and authoritative case on economic duress, clarifying the requirements for illegitimate pressure and lack of practical alternative."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2007] EWCA Civ 1281",
+          "relevance_reason": "DSND Subsea Ltd v Petroleum Geo Services ASA is a leading Court of Appeal case that sets out the modern test for economic duress, including the requirements of illegitimate pressure and lack of practical alternative."
+        },
+        {
+          "case_id": "[2009] EWCA Civ 694",
+          "relevance_reason": "Progress Bulk Carriers Ltd v Tube City IMS LLC (The Cenk Kaptan) is a Court of Appeal case that discusses economic duress in the context of commercial pressure and the absence of practical alternatives."
+        },
+        {
+          "case_id": "[2016] EWHC 2361 (QB)",
+          "relevance_reason": "Times Travel (UK) Ltd v Pakistan International Airlines Corp (High Court) directly addresses whether a party was left with no practical alternative and whether the pressure exerted was illegitimate in a commercial context."
+        },
+        {
+          "case_id": "[2021] UKSC 40",
+          "relevance_reason": "Pakistan International Airline Corporation v Times Travel (UK) Ltd (Supreme Court) is the most recent and authoritative case on economic duress, clarifying the requirements for illegitimate pressure and lack of practical alternative."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2021] UKSC 40",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/40",
+          "relevance_reason": "Times Travel v PIA clarifies lawful act duress and illegitimate pressure."
+        }
+      ],
+      "metrics": {
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1_score": 0.4,
+        "true_positives": 1,
+        "false_positives": 3,
+        "false_negatives": 0,
+        "predicted_count": 4,
+        "ground_truth_count": 1
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2007] EWCA Civ 1281",
+            "relevance_reason": "DSND Subsea Ltd v Petroleum Geo Services ASA is a leading Court of Appeal case that sets out the modern test for economic duress, including the requirements of illegitimate pressure and lack of practical alternative."
+          },
+          {
+            "case_id": "[2009] EWCA Civ 694",
+            "relevance_reason": "Progress Bulk Carriers Ltd v Tube City IMS LLC (The Cenk Kaptan) is a Court of Appeal case that discusses economic duress in the context of commercial pressure and the absence of practical alternatives."
+          },
+          {
+            "case_id": "[2016] EWHC 2361 (QB)",
+            "relevance_reason": "Times Travel (UK) Ltd v Pakistan International Airlines Corp (High Court) directly addresses whether a party was left with no practical alternative and whether the pressure exerted was illegitimate in a commercial context."
+          },
+          {
+            "case_id": "[2021] UKSC 40",
+            "relevance_reason": "Pakistan International Airline Corporation v Times Travel (UK) Ltd (Supreme Court) is the most recent and authoritative case on economic duress, clarifying the requirements for illegitimate pressure and lack of practical alternative."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 26,
+      "law_type": "Intellectual Property \u2013 Copyright Infringement",
+      "scenario": "A photographer finds her image lifted from her portfolio site and used by a national retailer across its online storefront and email campaigns without licence. The retailer says it relied on a third-p...",
+      "question": "Is innocent infringement a defence to liability and what remedies are available?",
+      "predicted_cases": [
+        {
+          "case_id": "[2011] EWCA Civ 890",
+          "relevance_reason": "This case (Absolute Lofts South West London Ltd v Artisan Home Improvements Ltd) addresses the issue of copyright infringement by use of photographs on a website, and discusses the availability of damages and the irrelevance of innocent infringement as a defence to liability, though it may affect remedies."
+        },
+        {
+          "case_id": "[2015] EWHC 172 (IPEC)",
+          "relevance_reason": "In Sheldon v Daybrook House Promotions Ltd, the High Court considered copyright infringement of a photograph used online, the liability of the infringer, and the impact of innocent infringement on the assessment of damages."
+        },
+        {
+          "case_id": "[2008] EWHC 1095 (Ch)",
+          "relevance_reason": "In Baigent v Random House Group Ltd, the court discussed the concept of innocent infringement and clarified that it is not a defence to liability, but may be relevant to the remedies awarded."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2011] EWCA Civ 890",
+          "relevance_reason": "This case (Absolute Lofts South West London Ltd v Artisan Home Improvements Ltd) addresses the issue of copyright infringement by use of photographs on a website, and discusses the availability of damages and the irrelevance of innocent infringement as a defence to liability, though it may affect remedies."
+        },
+        {
+          "case_id": "[2015] EWHC 172 (IPEC)",
+          "relevance_reason": "In Sheldon v Daybrook House Promotions Ltd, the High Court considered copyright infringement of a photograph used online, the liability of the infringer, and the impact of innocent infringement on the assessment of damages."
+        },
+        {
+          "case_id": "[2008] EWHC 1095 (Ch)",
+          "relevance_reason": "In Baigent v Random House Group Ltd, the court discussed the concept of innocent infringement and clarified that it is not a defence to liability, but may be relevant to the remedies awarded."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2013] UKSC 18",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2013/18",
+          "relevance_reason": "NLA v PRCA confirms that copies made online can be restricted acts requiring licence."
+        },
+        {
+          "case_id": "[2011] EWCA Civ 890",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/890",
+          "relevance_reason": "NLA v Meltwater (CA) affirms infringement analysis for online content use."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 1696",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/1696",
+          "relevance_reason": "Football Dataco v Yahoo on originality and protection of intellectual creation."
+        }
+      ],
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.3333333333333333,
+        "true_positives": 1,
+        "false_positives": 2,
+        "false_negatives": 2,
+        "predicted_count": 3,
+        "ground_truth_count": 3
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2011] EWCA Civ 890",
+            "relevance_reason": "This case (Absolute Lofts South West London Ltd v Artisan Home Improvements Ltd) addresses the issue of copyright infringement by use of photographs on a website, and discusses the availability of damages and the irrelevance of innocent infringement as a defence to liability, though it may affect remedies."
+          },
+          {
+            "case_id": "[2015] EWHC 172 (IPEC)",
+            "relevance_reason": "In Sheldon v Daybrook House Promotions Ltd, the High Court considered copyright infringement of a photograph used online, the liability of the infringer, and the impact of innocent infringement on the assessment of damages."
+          },
+          {
+            "case_id": "[2008] EWHC 1095 (Ch)",
+            "relevance_reason": "In Baigent v Random House Group Ltd, the court discussed the concept of innocent infringement and clarified that it is not a defence to liability, but may be relevant to the remedies awarded."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 27,
+      "law_type": "Public Law \u2013 Judicial Review",
+      "scenario": "A local authority closes multiple day centres and significantly reduces adult care packages without consulting service users or conducting an equality impact assessment, citing budget pressures. Advoc...",
+      "question": "Was the decision-making process procedurally fair and compliant with consultation and equality duties?",
+      "predicted_cases": [
+        {
+          "case_id": "[2011] UKSC 3",
+          "relevance_reason": "R (JM & Ors) v Birmingham City Council established that local authorities must consult service users and consider the Public Sector Equality Duty (PSED) under s.149 Equality Act 2010 before making decisions to reduce care services."
+        },
+        {
+          "case_id": "[2011] EWHC 944 (Admin)",
+          "relevance_reason": "R (W) v Birmingham City Council held that failure to consult and to conduct an equality impact assessment before reducing care packages was unlawful, directly addressing procedural fairness and equality duties."
+        },
+        {
+          "case_id": "[2011] EWHC 267 (Admin)",
+          "relevance_reason": "R (Rahman) v Birmingham City Council confirmed the requirement for meaningful consultation and proper consideration of equality impacts when altering adult social care provision."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 629",
+          "relevance_reason": "R (Bailey & Ors) v Brent LBC & Ors (Day Centres) is a Court of Appeal case specifically concerning the closure of day centres and the necessity of consultation and equality impact assessments."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2011] UKSC 3",
+          "relevance_reason": "R (JM & Ors) v Birmingham City Council established that local authorities must consult service users and consider the Public Sector Equality Duty (PSED) under s.149 Equality Act 2010 before making decisions to reduce care services."
+        },
+        {
+          "case_id": "[2011] EWHC 944 (Admin)",
+          "relevance_reason": "R (W) v Birmingham City Council held that failure to consult and to conduct an equality impact assessment before reducing care packages was unlawful, directly addressing procedural fairness and equality duties."
+        },
+        {
+          "case_id": "[2011] EWHC 267 (Admin)",
+          "relevance_reason": "R (Rahman) v Birmingham City Council confirmed the requirement for meaningful consultation and proper consideration of equality impacts when altering adult social care provision."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 629",
+          "relevance_reason": "R (Bailey & Ors) v Brent LBC & Ors (Day Centres) is a Court of Appeal case specifically concerning the closure of day centres and the necessity of consultation and equality impact assessments."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2017] UKSC 51",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/51",
+          "relevance_reason": "R (Unison) v Lord Chancellor emphasises procedural fairness and access to justice."
+        },
+        {
+          "case_id": "[2013] EWCA Civ 1345",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2013/1345",
+          "relevance_reason": "R (Bracking) v SoS DWP on rigorous compliance with the PSED and equality analysis."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "predicted_count": 4,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2011] UKSC 3",
+            "relevance_reason": "R (JM & Ors) v Birmingham City Council established that local authorities must consult service users and consider the Public Sector Equality Duty (PSED) under s.149 Equality Act 2010 before making decisions to reduce care services."
+          },
+          {
+            "case_id": "[2011] EWHC 944 (Admin)",
+            "relevance_reason": "R (W) v Birmingham City Council held that failure to consult and to conduct an equality impact assessment before reducing care packages was unlawful, directly addressing procedural fairness and equality duties."
+          },
+          {
+            "case_id": "[2011] EWHC 267 (Admin)",
+            "relevance_reason": "R (Rahman) v Birmingham City Council confirmed the requirement for meaningful consultation and proper consideration of equality impacts when altering adult social care provision."
+          },
+          {
+            "case_id": "[2012] EWCA Civ 629",
+            "relevance_reason": "R (Bailey & Ors) v Brent LBC & Ors (Day Centres) is a Court of Appeal case specifically concerning the closure of day centres and the necessity of consultation and equality impact assessments."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 28,
+      "law_type": "Family Law \u2013 Child Custody and Relocation",
+      "scenario": "Following separation, a mother seeks permission to relocate internally with an 8-year-old to Scotland for a new role. The father, with shared care, opposes, arguing the move will disrupt established c...",
+      "question": "What is the correct approach to internal relocation where the child\u2019s welfare and ongoing contact are in tension?",
+      "predicted_cases": [
+        {
+          "case_id": "[2015] EWCA Civ 1302",
+          "relevance_reason": "Re C (Internal Relocation) clarified the approach to internal relocation, confirming that the welfare of the child is paramount and that there is no legal distinction between internal and external relocation cases."
+        },
+        {
+          "case_id": "[2017] EWCA Civ 364",
+          "relevance_reason": "Re F (A Child) (Relocation) reaffirmed the principles in Re C and provided further guidance on balancing the child's welfare with the impact on contact with the non-relocating parent."
+        },
+        {
+          "case_id": "[2010] EWCA Civ 1427",
+          "relevance_reason": "Re H (A Child) (Internal Relocation) considered the correct approach to internal relocation, emphasizing the importance of maintaining meaningful contact with both parents."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2015] EWCA Civ 1302",
+          "relevance_reason": "Re C (Internal Relocation) clarified the approach to internal relocation, confirming that the welfare of the child is paramount and that there is no legal distinction between internal and external relocation cases."
+        },
+        {
+          "case_id": "[2017] EWCA Civ 364",
+          "relevance_reason": "Re F (A Child) (Relocation) reaffirmed the principles in Re C and provided further guidance on balancing the child's welfare with the impact on contact with the non-relocating parent."
+        },
+        {
+          "case_id": "[2010] EWCA Civ 1427",
+          "relevance_reason": "Re H (A Child) (Internal Relocation) considered the correct approach to internal relocation, emphasizing the importance of maintaining meaningful contact with both parents."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2015] EWCA Civ 1305",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/1305",
+          "relevance_reason": "Re C emphasises that the child\u2019s welfare is paramount."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 882",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/882",
+          "relevance_reason": "Re F requires evaluating the impact on the left-behind parent\u2019s relationship."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 2,
+        "predicted_count": 3,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2015] EWCA Civ 1302",
+            "relevance_reason": "Re C (Internal Relocation) clarified the approach to internal relocation, confirming that the welfare of the child is paramount and that there is no legal distinction between internal and external relocation cases."
+          },
+          {
+            "case_id": "[2017] EWCA Civ 364",
+            "relevance_reason": "Re F (A Child) (Relocation) reaffirmed the principles in Re C and provided further guidance on balancing the child's welfare with the impact on contact with the non-relocating parent."
+          },
+          {
+            "case_id": "[2010] EWCA Civ 1427",
+            "relevance_reason": "Re H (A Child) (Internal Relocation) considered the correct approach to internal relocation, emphasizing the importance of maintaining meaningful contact with both parents."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 29,
+      "law_type": "Criminal Law \u2013 Consent and Assault",
+      "scenario": "Two adults engage in consensual sexual activity involving rough practices. One sustains injuries amounting to ABH and later alleges they felt pressured. The other asserts consent and lack of intent to...",
+      "question": "Can consent provide a defence to assault occasioning actual bodily harm in these circumstances?",
+      "predicted_cases": [
+        {
+          "case_id": "[2001] EWCA Crim 2024",
+          "relevance_reason": "R v Emmett considered the limits of consent as a defence to assault occasioning actual bodily harm in the context of consensual rough sexual activity, holding that consent is not a defence where actual bodily harm is caused unless the activity falls within certain exceptions."
+        },
+        {
+          "case_id": "[2004] EWCA Crim 1028",
+          "relevance_reason": "R v BM (also known as R v Brown and Mason) reaffirmed the principle that consent is not a defence to ABH or more serious injury in the context of body modification and rough consensual acts, unless the activity falls within recognised exceptions."
+        },
+        {
+          "case_id": "[2019] EWCA Crim 916",
+          "relevance_reason": "R v BM (Body Modification Case) clarified the application of consent in cases involving injury during consensual acts, confirming the limits of the defence of consent in the context of actual bodily harm."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2001] EWCA Crim 2024",
+          "relevance_reason": "R v Emmett considered the limits of consent as a defence to assault occasioning actual bodily harm in the context of consensual rough sexual activity, holding that consent is not a defence where actual bodily harm is caused unless the activity falls within certain exceptions."
+        },
+        {
+          "case_id": "[2004] EWCA Crim 1028",
+          "relevance_reason": "R v BM (also known as R v Brown and Mason) reaffirmed the principle that consent is not a defence to ABH or more serious injury in the context of body modification and rough consensual acts, unless the activity falls within recognised exceptions."
+        },
+        {
+          "case_id": "[2019] EWCA Crim 916",
+          "relevance_reason": "R v BM (Body Modification Case) clarified the application of consent in cases involving injury during consensual acts, confirming the limits of the defence of consent in the context of actual bodily harm."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2018] EWCA Crim 560",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560",
+          "relevance_reason": "R v BM limits consent where the harm is more than transient and not in the public interest."
+        },
+        {
+          "case_id": "[2006] EWCA Crim 2414",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414",
+          "relevance_reason": "R v Meachen recognises consent may apply if only battery was intended and ABH was inadvertent."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 2,
+        "predicted_count": 3,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2001] EWCA Crim 2024",
+            "relevance_reason": "R v Emmett considered the limits of consent as a defence to assault occasioning actual bodily harm in the context of consensual rough sexual activity, holding that consent is not a defence where actual bodily harm is caused unless the activity falls within certain exceptions."
+          },
+          {
+            "case_id": "[2004] EWCA Crim 1028",
+            "relevance_reason": "R v BM (also known as R v Brown and Mason) reaffirmed the principle that consent is not a defence to ABH or more serious injury in the context of body modification and rough consensual acts, unless the activity falls within recognised exceptions."
+          },
+          {
+            "case_id": "[2019] EWCA Crim 916",
+            "relevance_reason": "R v BM (Body Modification Case) clarified the application of consent in cases involving injury during consensual acts, confirming the limits of the defence of consent in the context of actual bodily harm."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 30,
+      "law_type": "Defamation",
+      "scenario": "A Facebook post falsely claims a local restaurant poisoned dozens of customers. Bookings collapse and suppliers withdraw credit. The poster says it was their opinion and a public-spirited warning.",
+      "question": "Does the publication meet the serious harm threshold and is the opinion/public interest defence viable?",
+      "predicted_cases": [
+        {
+          "case_id": "[2019] UKSC 27",
+          "relevance_reason": "Lachaux v Independent Print Ltd is the leading Supreme Court authority on the 'serious harm' threshold under section 1 of the Defamation Act 2013, clarifying what must be shown for a statement to be defamatory."
+        },
+        {
+          "case_id": "[2022] EWCA Civ 1388",
+          "relevance_reason": "Banks v Cadwalladr addresses the public interest defence under section 4 of the Defamation Act 2013, including the requirements for responsible publication and belief in the public interest."
+        },
+        {
+          "case_id": "[2017] EWCA Civ 1334",
+          "relevance_reason": "Serafin v Malkiewicz considers the defence of honest opinion under section 3 of the Defamation Act 2013, providing guidance on distinguishing fact from opinion in defamatory publications."
+        },
+        {
+          "case_id": "[2014] EWHC 3590 (QB)",
+          "relevance_reason": "Cooke v MGN Ltd is a High Court case that applies the 'serious harm' test and discusses the threshold for harm to reputation in the context of media publications."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2019] UKSC 27",
+          "relevance_reason": "Lachaux v Independent Print Ltd is the leading Supreme Court authority on the 'serious harm' threshold under section 1 of the Defamation Act 2013, clarifying what must be shown for a statement to be defamatory."
+        },
+        {
+          "case_id": "[2022] EWCA Civ 1388",
+          "relevance_reason": "Banks v Cadwalladr addresses the public interest defence under section 4 of the Defamation Act 2013, including the requirements for responsible publication and belief in the public interest."
+        },
+        {
+          "case_id": "[2017] EWCA Civ 1334",
+          "relevance_reason": "Serafin v Malkiewicz considers the defence of honest opinion under section 3 of the Defamation Act 2013, providing guidance on distinguishing fact from opinion in defamatory publications."
+        },
+        {
+          "case_id": "[2014] EWHC 3590 (QB)",
+          "relevance_reason": "Cooke v MGN Ltd is a High Court case that applies the 'serious harm' test and discusses the threshold for harm to reputation in the context of media publications."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2019] UKSC 17",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2019/17",
+          "relevance_reason": "Stocker v Stocker on the ordinary meaning of words in the social media context."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "predicted_count": 4,
+        "ground_truth_count": 1
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2019] UKSC 27",
+            "relevance_reason": "Lachaux v Independent Print Ltd is the leading Supreme Court authority on the 'serious harm' threshold under section 1 of the Defamation Act 2013, clarifying what must be shown for a statement to be defamatory."
+          },
+          {
+            "case_id": "[2022] EWCA Civ 1388",
+            "relevance_reason": "Banks v Cadwalladr addresses the public interest defence under section 4 of the Defamation Act 2013, including the requirements for responsible publication and belief in the public interest."
+          },
+          {
+            "case_id": "[2017] EWCA Civ 1334",
+            "relevance_reason": "Serafin v Malkiewicz considers the defence of honest opinion under section 3 of the Defamation Act 2013, providing guidance on distinguishing fact from opinion in defamatory publications."
+          },
+          {
+            "case_id": "[2014] EWHC 3590 (QB)",
+            "relevance_reason": "Cooke v MGN Ltd is a High Court case that applies the 'serious harm' test and discusses the threshold for harm to reputation in the context of media publications."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 31,
+      "law_type": "Human Rights \u2013 Freedom of Expression",
+      "scenario": "During a peaceful sit-down climate protest briefly blocking an entrance road to a government complex, Zara is arrested for a public order offence. She argues the arrest disproportionately interfered w...",
+      "question": "Was the arrest a proportionate interference with freedom of expression in a democratic society?",
+      "predicted_cases": [
+        {
+          "case_id": "[2021] UKSC 31",
+          "relevance_reason": "This Supreme Court case (Ziegler) directly addresses whether arrest and conviction for obstructing a highway during a peaceful protest is a proportionate interference with Articles 10 and 11 rights."
+        },
+        {
+          "case_id": "[2022] EWCA Crim 14",
+          "relevance_reason": "This Court of Appeal case (DPP v Cuciurean) applies Ziegler and further considers the proportionality of criminal convictions for peaceful protest actions blocking access."
+        },
+        {
+          "case_id": "[2017] UKSC 9",
+          "relevance_reason": "This Supreme Court case (DPP v Ziegler, earlier proceedings) discusses the balancing exercise required between public order offences and the right to protest under Articles 10 and 11."
+        },
+        {
+          "case_id": "[2006] UKHL 44",
+          "relevance_reason": "This House of Lords case (Laporte) considers the proportionality of police action in response to peaceful protest and the necessity of interference with Article 10 rights."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2021] UKSC 31",
+          "relevance_reason": "This Supreme Court case (Ziegler) directly addresses whether arrest and conviction for obstructing a highway during a peaceful protest is a proportionate interference with Articles 10 and 11 rights."
+        },
+        {
+          "case_id": "[2022] EWCA Crim 14",
+          "relevance_reason": "This Court of Appeal case (DPP v Cuciurean) applies Ziegler and further considers the proportionality of criminal convictions for peaceful protest actions blocking access."
+        },
+        {
+          "case_id": "[2017] UKSC 9",
+          "relevance_reason": "This Supreme Court case (DPP v Ziegler, earlier proceedings) discusses the balancing exercise required between public order offences and the right to protest under Articles 10 and 11."
+        },
+        {
+          "case_id": "[2006] UKHL 44",
+          "relevance_reason": "This House of Lords case (Laporte) considers the proportionality of police action in response to peaceful protest and the necessity of interference with Article 10 rights."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2021] UKSC 23",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/23",
+          "relevance_reason": "Ziegler recognises that peaceful protest may justify acquittal where interference is disproportionate."
+        },
+        {
+          "case_id": "[2021] EWCA Civ 1926",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926",
+          "relevance_reason": "Miller v College of Policing addresses proportionality and chilling effect on lawful speech."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "predicted_count": 4,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2021] UKSC 31",
+            "relevance_reason": "This Supreme Court case (Ziegler) directly addresses whether arrest and conviction for obstructing a highway during a peaceful protest is a proportionate interference with Articles 10 and 11 rights."
+          },
+          {
+            "case_id": "[2022] EWCA Crim 14",
+            "relevance_reason": "This Court of Appeal case (DPP v Cuciurean) applies Ziegler and further considers the proportionality of criminal convictions for peaceful protest actions blocking access."
+          },
+          {
+            "case_id": "[2017] UKSC 9",
+            "relevance_reason": "This Supreme Court case (DPP v Ziegler, earlier proceedings) discusses the balancing exercise required between public order offences and the right to protest under Articles 10 and 11."
+          },
+          {
+            "case_id": "[2006] UKHL 44",
+            "relevance_reason": "This House of Lords case (Laporte) considers the proportionality of police action in response to peaceful protest and the necessity of interference with Article 10 rights."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 32,
+      "law_type": "Tort \u2013 Defective Products",
+      "scenario": "A mobile phone wall charger explodes during ordinary use, causing burns. The product lacked adequate warnings and was purchased from a UK retailer who imported it from abroad. The claimant sues under ...",
+      "question": "Is strict liability made out against the producer or importer, and can the retailer be liable as supplier?",
+      "predicted_cases": [
+        {
+          "case_id": "[2002] EWCA Civ 1648",
+          "relevance_reason": "A v National Blood Authority is a leading case on strict liability under the Consumer Protection Act 1987, clarifying the definition of 'defect' and the standard of safety expected by the public."
+        },
+        {
+          "case_id": "[2010] EWCA Civ 578",
+          "relevance_reason": "Wilkes v DePuy International Ltd discusses the interpretation of 'defect' under the Consumer Protection Act 1987 and the factors relevant to determining liability of producers and importers."
+        },
+        {
+          "case_id": "[2017] EWHC 930 (QB)",
+          "relevance_reason": "Gee v DePuy International Ltd further examines the application of strict liability under the Consumer Protection Act 1987, including the roles of producer, importer, and supplier."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2002] EWCA Civ 1648",
+          "relevance_reason": "A v National Blood Authority is a leading case on strict liability under the Consumer Protection Act 1987, clarifying the definition of 'defect' and the standard of safety expected by the public."
+        },
+        {
+          "case_id": "[2010] EWCA Civ 578",
+          "relevance_reason": "Wilkes v DePuy International Ltd discusses the interpretation of 'defect' under the Consumer Protection Act 1987 and the factors relevant to determining liability of producers and importers."
+        },
+        {
+          "case_id": "[2017] EWHC 930 (QB)",
+          "relevance_reason": "Gee v DePuy International Ltd further examines the application of strict liability under the Consumer Protection Act 1987, including the roles of producer, importer, and supplier."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2022] UKSC 19",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/19",
+          "relevance_reason": "Hastings v Finsbury Orthopaedics addresses product defect and safety expectations at Supreme Court level."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 1,
+        "predicted_count": 3,
+        "ground_truth_count": 1
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2002] EWCA Civ 1648",
+            "relevance_reason": "A v National Blood Authority is a leading case on strict liability under the Consumer Protection Act 1987, clarifying the definition of 'defect' and the standard of safety expected by the public."
+          },
+          {
+            "case_id": "[2010] EWCA Civ 578",
+            "relevance_reason": "Wilkes v DePuy International Ltd discusses the interpretation of 'defect' under the Consumer Protection Act 1987 and the factors relevant to determining liability of producers and importers."
+          },
+          {
+            "case_id": "[2017] EWHC 930 (QB)",
+            "relevance_reason": "Gee v DePuy International Ltd further examines the application of strict liability under the Consumer Protection Act 1987, including the roles of producer, importer, and supplier."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 33,
+      "law_type": "Land Law \u2013 Private Nuisance",
+      "scenario": "A neighbour converts a garage into a home gym and runs loud classes at 6:30 a.m. on weekdays for months, causing sleep disruption and dust from open doors. The neighbour says activities comply with pl...",
+      "question": "Do the persistent disturbances amount to a private nuisance despite compliance with regulations?",
+      "predicted_cases": [
+        {
+          "case_id": "[2014] UKSC 13",
+          "relevance_reason": "Fearn v Board of Trustees of the Tate Gallery clarified that compliance with planning permission or statutory regulations does not preclude a finding of private nuisance if the interference is substantial and unreasonable."
+        },
+        {
+          "case_id": "[2004] EWCA Civ 576",
+          "relevance_reason": "Lawrence v Fen Tigers Ltd (No 2) (also known as Coventry v Lawrence in later appeals) addressed whether activities permitted by planning permission could still amount to a nuisance, holding that planning consent does not authorise a nuisance."
+        },
+        {
+          "case_id": "[2013] EWCA Civ 1628",
+          "relevance_reason": "Barr v Biffa Waste Services Ltd considered the relevance of compliance with environmental permits in nuisance claims, confirming that regulatory compliance does not automatically defeat a nuisance claim."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2014] UKSC 13",
+          "relevance_reason": "Fearn v Board of Trustees of the Tate Gallery clarified that compliance with planning permission or statutory regulations does not preclude a finding of private nuisance if the interference is substantial and unreasonable."
+        },
+        {
+          "case_id": "[2004] EWCA Civ 576",
+          "relevance_reason": "Lawrence v Fen Tigers Ltd (No 2) (also known as Coventry v Lawrence in later appeals) addressed whether activities permitted by planning permission could still amount to a nuisance, holding that planning consent does not authorise a nuisance."
+        },
+        {
+          "case_id": "[2013] EWCA Civ 1628",
+          "relevance_reason": "Barr v Biffa Waste Services Ltd considered the relevance of compliance with environmental permits in nuisance claims, confirming that regulatory compliance does not automatically defeat a nuisance claim."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2023] UKSC 4",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+          "relevance_reason": "Fearn v Tate confirms nuisance protects against substantial interference with use and enjoyment."
+        },
+        {
+          "case_id": "[2014] UKSC 46",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2014/46",
+          "relevance_reason": "Coventry v Lawrence balances locality, duration, and character of the interference."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 312",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/312",
+          "relevance_reason": "Barr v Biffa on environmental nuisance principles and reasonableness."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 3,
+        "predicted_count": 3,
+        "ground_truth_count": 3
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2014] UKSC 13",
+            "relevance_reason": "Fearn v Board of Trustees of the Tate Gallery clarified that compliance with planning permission or statutory regulations does not preclude a finding of private nuisance if the interference is substantial and unreasonable."
+          },
+          {
+            "case_id": "[2004] EWCA Civ 576",
+            "relevance_reason": "Lawrence v Fen Tigers Ltd (No 2) (also known as Coventry v Lawrence in later appeals) addressed whether activities permitted by planning permission could still amount to a nuisance, holding that planning consent does not authorise a nuisance."
+          },
+          {
+            "case_id": "[2013] EWCA Civ 1628",
+            "relevance_reason": "Barr v Biffa Waste Services Ltd considered the relevance of compliance with environmental permits in nuisance claims, confirming that regulatory compliance does not automatically defeat a nuisance claim."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 34,
+      "law_type": "Equality & Discrimination Law",
+      "scenario": "A retailer rejects a wheelchair user\u2019s application for a sales role, citing a requirement to be able to \u201crapidly traverse the shop floor.\u201d No assessment of reasonable adjustments is undertaken.",
+      "question": "Has there been indirect disability discrimination or a failure to make reasonable adjustments?",
+      "predicted_cases": [
+        {
+          "case_id": "[2008] UKHL 41",
+          "relevance_reason": "Archibald v Fife Council is a leading House of Lords case on the duty to make reasonable adjustments for disabled employees under the Disability Discrimination Act, directly addressing the employer's obligation to consider adjustments before rejecting a disabled applicant."
+        },
+        {
+          "case_id": "[2011] UKSC 34",
+          "relevance_reason": "Homer v Chief Constable of West Yorkshire Police is a Supreme Court case clarifying the approach to indirect discrimination and the duty to make reasonable adjustments, particularly in the context of employment requirements that disadvantage disabled individuals."
+        },
+        {
+          "case_id": "[2013] EWCA Civ 1562",
+          "relevance_reason": "Griffiths v Secretary of State for Work and Pensions is a Court of Appeal case that discusses the distinction between reasonable adjustments and indirect discrimination, and the employer's duty to consider adjustments for disabled employees."
+        },
+        {
+          "case_id": "[2019] EWCA Civ 151",
+          "relevance_reason": "Lamb v The Business Academy Bexley is a Court of Appeal case that examines the scope of the duty to make reasonable adjustments and the assessment required by employers when a disabled person is disadvantaged by a workplace requirement."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2008] UKHL 41",
+          "relevance_reason": "Archibald v Fife Council is a leading House of Lords case on the duty to make reasonable adjustments for disabled employees under the Disability Discrimination Act, directly addressing the employer's obligation to consider adjustments before rejecting a disabled applicant."
+        },
+        {
+          "case_id": "[2011] UKSC 34",
+          "relevance_reason": "Homer v Chief Constable of West Yorkshire Police is a Supreme Court case clarifying the approach to indirect discrimination and the duty to make reasonable adjustments, particularly in the context of employment requirements that disadvantage disabled individuals."
+        },
+        {
+          "case_id": "[2013] EWCA Civ 1562",
+          "relevance_reason": "Griffiths v Secretary of State for Work and Pensions is a Court of Appeal case that discusses the distinction between reasonable adjustments and indirect discrimination, and the employer's duty to consider adjustments for disabled employees."
+        },
+        {
+          "case_id": "[2019] EWCA Civ 151",
+          "relevance_reason": "Lamb v The Business Academy Bexley is a Court of Appeal case that examines the scope of the duty to make reasonable adjustments and the assessment required by employers when a disabled person is disadvantaged by a workplace requirement."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2019] EWCA Civ 1061",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061",
+          "relevance_reason": "Chief Constable v Coffey addresses discrimination based on perceived disability and unjustified criteria."
+        },
+        {
+          "case_id": "[2017] UKSC 4",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/4",
+          "relevance_reason": "Paulley v FirstGroup underscores the duty to make reasonable adjustments for disabled persons."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "predicted_count": 4,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2008] UKHL 41",
+            "relevance_reason": "Archibald v Fife Council is a leading House of Lords case on the duty to make reasonable adjustments for disabled employees under the Disability Discrimination Act, directly addressing the employer's obligation to consider adjustments before rejecting a disabled applicant."
+          },
+          {
+            "case_id": "[2011] UKSC 34",
+            "relevance_reason": "Homer v Chief Constable of West Yorkshire Police is a Supreme Court case clarifying the approach to indirect discrimination and the duty to make reasonable adjustments, particularly in the context of employment requirements that disadvantage disabled individuals."
+          },
+          {
+            "case_id": "[2013] EWCA Civ 1562",
+            "relevance_reason": "Griffiths v Secretary of State for Work and Pensions is a Court of Appeal case that discusses the distinction between reasonable adjustments and indirect discrimination, and the employer's duty to consider adjustments for disabled employees."
+          },
+          {
+            "case_id": "[2019] EWCA Civ 151",
+            "relevance_reason": "Lamb v The Business Academy Bexley is a Court of Appeal case that examines the scope of the duty to make reasonable adjustments and the assessment required by employers when a disabled person is disadvantaged by a workplace requirement."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 35,
+      "law_type": "Immigration Law \u2013 Deportation and Family Life",
+      "scenario": "A long\u2011resident foreign national with a British partner and child faces deportation after a medium\u2011serious conviction. He argues removal would unjustifiably interfere with family life under Article 8 ...",
+      "question": "Should the public interest in deportation override the Article 8 family life considerations?",
+      "predicted_cases": [
+        {
+          "case_id": "[2014] UKSC 60",
+          "relevance_reason": "This is the Supreme Court decision in Hesham Ali v Secretary of State for the Home Department, which provides authoritative guidance on the balancing exercise between the public interest in deportation and Article 8 ECHR family life rights."
+        },
+        {
+          "case_id": "[2012] UKSC 58",
+          "relevance_reason": "In R (on the application of Munir) v Secretary of State for the Home Department, the Supreme Court clarified the approach to Article 8 in immigration cases, including the weight to be given to the public interest in deportation."
+        },
+        {
+          "case_id": "[2013] EWCA Civ 616",
+          "relevance_reason": "MF (Nigeria) v Secretary of State for the Home Department is a leading Court of Appeal case interpreting the Immigration Rules and their relationship with Article 8 ECHR in deportation cases involving family life."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 1180",
+          "relevance_reason": "In Agyarko & Ors v Secretary of State for the Home Department, the Court of Appeal considered the threshold for 'unduly harsh' consequences to family life in the context of deportation."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2014] UKSC 60",
+          "relevance_reason": "This is the Supreme Court decision in Hesham Ali v Secretary of State for the Home Department, which provides authoritative guidance on the balancing exercise between the public interest in deportation and Article 8 ECHR family life rights."
+        },
+        {
+          "case_id": "[2012] UKSC 58",
+          "relevance_reason": "In R (on the application of Munir) v Secretary of State for the Home Department, the Supreme Court clarified the approach to Article 8 in immigration cases, including the weight to be given to the public interest in deportation."
+        },
+        {
+          "case_id": "[2013] EWCA Civ 616",
+          "relevance_reason": "MF (Nigeria) v Secretary of State for the Home Department is a leading Court of Appeal case interpreting the Immigration Rules and their relationship with Article 8 ECHR in deportation cases involving family life."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 1180",
+          "relevance_reason": "In Agyarko & Ors v Secretary of State for the Home Department, the Court of Appeal considered the threshold for 'unduly harsh' consequences to family life in the context of deportation."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2016] UKSC 60",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2016/60",
+          "relevance_reason": "Hesham Ali sets out the structured balancing under the statutory scheme and Article 8."
+        },
+        {
+          "case_id": "[2017] UKSC 11",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/11",
+          "relevance_reason": "Agyarko clarifies the high threshold for private/family life claims outside the Rules."
+        },
+        {
+          "case_id": "[2018] UKSC 53",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/53",
+          "relevance_reason": "KO (Nigeria) explains the best interests of qualifying children in deportation cases."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 3,
+        "predicted_count": 4,
+        "ground_truth_count": 3
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2014] UKSC 60",
+            "relevance_reason": "This is the Supreme Court decision in Hesham Ali v Secretary of State for the Home Department, which provides authoritative guidance on the balancing exercise between the public interest in deportation and Article 8 ECHR family life rights."
+          },
+          {
+            "case_id": "[2012] UKSC 58",
+            "relevance_reason": "In R (on the application of Munir) v Secretary of State for the Home Department, the Supreme Court clarified the approach to Article 8 in immigration cases, including the weight to be given to the public interest in deportation."
+          },
+          {
+            "case_id": "[2013] EWCA Civ 616",
+            "relevance_reason": "MF (Nigeria) v Secretary of State for the Home Department is a leading Court of Appeal case interpreting the Immigration Rules and their relationship with Article 8 ECHR in deportation cases involving family life."
+          },
+          {
+            "case_id": "[2015] EWCA Civ 1180",
+            "relevance_reason": "In Agyarko & Ors v Secretary of State for the Home Department, the Court of Appeal considered the threshold for 'unduly harsh' consequences to family life in the context of deportation."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 36,
+      "law_type": "Property Law \u2013 Adverse Possession",
+      "scenario": "A homeowner fences off and exclusively uses a strip of registered land owned by a housing association as part of his garden for 14 years, installing a gate and shed and excluding the public. The assoc...",
+      "question": "Does the claim satisfy the LRA 2002 regime for adverse possession of registered land?",
+      "predicted_cases": [
+        {
+          "case_id": "[2003] UKHL 50",
+          "relevance_reason": "JA Pye (Oxford) Ltd v Graham is the leading authority on adverse possession, clarifying the requirements for factual possession and intention to possess, and its implications under the Land Registration Act 2002."
+        },
+        {
+          "case_id": "[2011] EWCA Civ 1202",
+          "relevance_reason": "Best v Chief Land Registrar (No 1) addresses the application of adverse possession under the LRA 2002 regime, particularly the requirements for possession and the effect of the 10-year rule for registered land."
+        },
+        {
+          "case_id": "[2013] EWCA Civ 1610",
+          "relevance_reason": "Zarb v Parry considers the nature of exclusive possession and the interruption of possession, both of which are central to adverse possession claims under the LRA 2002."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 17",
+          "relevance_reason": "Best v Chief Land Registrar (No 2) further clarifies the application of adverse possession to registered land post-LRA 2002, including the effect of criminal trespass on such claims."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2003] UKHL 50",
+          "relevance_reason": "JA Pye (Oxford) Ltd v Graham is the leading authority on adverse possession, clarifying the requirements for factual possession and intention to possess, and its implications under the Land Registration Act 2002."
+        },
+        {
+          "case_id": "[2011] EWCA Civ 1202",
+          "relevance_reason": "Best v Chief Land Registrar (No 1) addresses the application of adverse possession under the LRA 2002 regime, particularly the requirements for possession and the effect of the 10-year rule for registered land."
+        },
+        {
+          "case_id": "[2013] EWCA Civ 1610",
+          "relevance_reason": "Zarb v Parry considers the nature of exclusive possession and the interruption of possession, both of which are central to adverse possession claims under the LRA 2002."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 17",
+          "relevance_reason": "Best v Chief Land Registrar (No 2) further clarifies the application of adverse possession to registered land post-LRA 2002, including the effect of criminal trespass on such claims."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2015] EWCA Civ 17",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/17",
+          "relevance_reason": "Best v Chief Land Registrar confirms applications are not barred by criminality issues."
+        },
+        {
+          "case_id": "[2011] EWCA Civ 1306",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/1306",
+          "relevance_reason": "Zarb v Parry emphasises factual possession and intention to possess."
+        },
+        {
+          "case_id": "[2019] EWCA Civ 150",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/150",
+          "relevance_reason": "Thorpe v Frank considers adverse possession and boundary encroachments."
+        }
+      ],
+      "metrics": {
+        "precision": 0.25,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.28571428571428575,
+        "true_positives": 1,
+        "false_positives": 3,
+        "false_negatives": 2,
+        "predicted_count": 4,
+        "ground_truth_count": 3
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2003] UKHL 50",
+            "relevance_reason": "JA Pye (Oxford) Ltd v Graham is the leading authority on adverse possession, clarifying the requirements for factual possession and intention to possess, and its implications under the Land Registration Act 2002."
+          },
+          {
+            "case_id": "[2011] EWCA Civ 1202",
+            "relevance_reason": "Best v Chief Land Registrar (No 1) addresses the application of adverse possession under the LRA 2002 regime, particularly the requirements for possession and the effect of the 10-year rule for registered land."
+          },
+          {
+            "case_id": "[2013] EWCA Civ 1610",
+            "relevance_reason": "Zarb v Parry considers the nature of exclusive possession and the interruption of possession, both of which are central to adverse possession claims under the LRA 2002."
+          },
+          {
+            "case_id": "[2015] EWCA Civ 17",
+            "relevance_reason": "Best v Chief Land Registrar (No 2) further clarifies the application of adverse possession to registered land post-LRA 2002, including the effect of criminal trespass on such claims."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 37,
+      "law_type": "Frustration of Contract",
+      "scenario": "A touring artist cancels a major outdoor concert when unprecedented flash flooding renders the site unsafe and local authorities prohibit entry. The promoter sues; the artist argues frustration. No fo...",
+      "question": "Has the contract been frustrated by supervening impossibility, or should risk have been allocated by contract?",
+      "predicted_cases": [
+        {
+          "case_id": "[2021] EWCA Civ 790",
+          "relevance_reason": "This case (The Financial Conduct Authority v Arch Insurance (UK) Ltd) addresses the doctrine of frustration in the context of supervening events (COVID-19 pandemic) and considers whether contracts are frustrated by government-imposed restrictions, directly analogous to the prohibition of entry by local authorities due to flooding."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 367",
+          "relevance_reason": "In Canary Wharf (BP4) T1 Ltd v European Medicines Agency, the Court of Appeal considered whether Brexit constituted a frustrating event, providing recent analysis of the allocation of risk and the threshold for frustration in commercial contracts."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 66",
+          "relevance_reason": "In Edwinton Commercial Corporation v Tsavliris Russ (Worldwide Salvage & Towage) Ltd (The Sea Angel), the Court of Appeal gave detailed guidance on the doctrine of frustration, emphasizing the importance of foreseeability, allocation of risk, and the threshold for frustration."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2021] EWCA Civ 790",
+          "relevance_reason": "This case (The Financial Conduct Authority v Arch Insurance (UK) Ltd) addresses the doctrine of frustration in the context of supervening events (COVID-19 pandemic) and considers whether contracts are frustrated by government-imposed restrictions, directly analogous to the prohibition of entry by local authorities due to flooding."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 367",
+          "relevance_reason": "In Canary Wharf (BP4) T1 Ltd v European Medicines Agency, the Court of Appeal considered whether Brexit constituted a frustrating event, providing recent analysis of the allocation of risk and the threshold for frustration in commercial contracts."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 66",
+          "relevance_reason": "In Edwinton Commercial Corporation v Tsavliris Russ (Worldwide Salvage & Towage) Ltd (The Sea Angel), the Court of Appeal gave detailed guidance on the doctrine of frustration, emphasizing the importance of foreseeability, allocation of risk, and the threshold for frustration."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2019] EWHC 335 (Ch)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335",
+          "relevance_reason": "Canary Wharf v EMA discusses frustration where the contract\u2019s purpose or performance is undermined."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 1039",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1039",
+          "relevance_reason": "Armchair Answercall applies a strict test for frustration."
+        },
+        {
+          "case_id": "[2017] EWHC 3192 (QB)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/3192",
+          "relevance_reason": "Flying Music Co v Theater Entertainment shows what amounts to impossibility."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 3,
+        "predicted_count": 3,
+        "ground_truth_count": 3
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2021] EWCA Civ 790",
+            "relevance_reason": "This case (The Financial Conduct Authority v Arch Insurance (UK) Ltd) addresses the doctrine of frustration in the context of supervening events (COVID-19 pandemic) and considers whether contracts are frustrated by government-imposed restrictions, directly analogous to the prohibition of entry by local authorities due to flooding."
+          },
+          {
+            "case_id": "[2016] EWCA Civ 367",
+            "relevance_reason": "In Canary Wharf (BP4) T1 Ltd v European Medicines Agency, the Court of Appeal considered whether Brexit constituted a frustrating event, providing recent analysis of the allocation of risk and the threshold for frustration in commercial contracts."
+          },
+          {
+            "case_id": "[2012] EWCA Civ 66",
+            "relevance_reason": "In Edwinton Commercial Corporation v Tsavliris Russ (Worldwide Salvage & Towage) Ltd (The Sea Angel), the Court of Appeal gave detailed guidance on the doctrine of frustration, emphasizing the importance of foreseeability, allocation of risk, and the threshold for frustration."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 38,
+      "law_type": "Consumer Rights ",
+      "scenario": "A gamer purchases a digital season pass that repeatedly fails to load despite troubleshooting. The platform refuses a refund, pointing to EULA terms restricting remedies.",
+      "question": "What remedies are available under the Consumer Rights Act 2015 for faulty digital content?",
+      "predicted_cases": [
+        {
+          "case_id": "[2019] EWCA Civ 673",
+          "relevance_reason": "This case discusses the application of the Consumer Rights Act 2015 to digital content and the remedies available to consumers when digital content is not of satisfactory quality."
+        },
+        {
+          "case_id": "[2016] EWHC 256 (Ch)",
+          "relevance_reason": "This case examines the enforceability of EULA terms in the context of consumer rights and the statutory remedies under the Consumer Rights Act 2015 for faulty digital content."
+        },
+        {
+          "case_id": "[2021] EWCA Civ 543",
+          "relevance_reason": "This case addresses the limitations on contractual terms that restrict consumer remedies, specifically in relation to digital content and the Consumer Rights Act 2015."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2019] EWCA Civ 673",
+          "relevance_reason": "This case discusses the application of the Consumer Rights Act 2015 to digital content and the remedies available to consumers when digital content is not of satisfactory quality."
+        },
+        {
+          "case_id": "[2016] EWHC 256 (Ch)",
+          "relevance_reason": "This case examines the enforceability of EULA terms in the context of consumer rights and the statutory remedies under the Consumer Rights Act 2015 for faulty digital content."
+        },
+        {
+          "case_id": "[2021] EWCA Civ 543",
+          "relevance_reason": "This case addresses the limitations on contractual terms that restrict consumer remedies, specifically in relation to digital content and the Consumer Rights Act 2015."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2021] UKSC 4",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/4",
+          "relevance_reason": "The Software Incubator v Computer Associates recognises digital supply realities, supporting consumer protection analysis."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 3,
+        "false_negatives": 1,
+        "predicted_count": 3,
+        "ground_truth_count": 1
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2019] EWCA Civ 673",
+            "relevance_reason": "This case discusses the application of the Consumer Rights Act 2015 to digital content and the remedies available to consumers when digital content is not of satisfactory quality."
+          },
+          {
+            "case_id": "[2016] EWHC 256 (Ch)",
+            "relevance_reason": "This case examines the enforceability of EULA terms in the context of consumer rights and the statutory remedies under the Consumer Rights Act 2015 for faulty digital content."
+          },
+          {
+            "case_id": "[2021] EWCA Civ 543",
+            "relevance_reason": "This case addresses the limitations on contractual terms that restrict consumer remedies, specifically in relation to digital content and the Consumer Rights Act 2015."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 39,
+      "law_type": "Promissory Estoppel",
+      "scenario": "During a pandemic, a landlord emails a small business tenant agreeing to halve rent for six months until trade recovers. The tenant relies on this, remains in occupation, and arranges staffing accordi...",
+      "question": "Does promissory estoppel prevent the landlord from resiling from the rent reduction?",
+      "predicted_cases": [
+        {
+          "case_id": "[2016] EWCA Civ 1186",
+          "relevance_reason": "Central London Property Trust Ltd v High Trees House Ltd (the 'High Trees' principle) was reaffirmed in this case, which discusses promissory estoppel in the context of rent reductions and the landlord's ability to claim back rent after a period of concession."
+        },
+        {
+          "case_id": "[2014] EWCA Civ 1511",
+          "relevance_reason": "MWB Business Exchange Centres Ltd v Rock Advertising Ltd addresses whether a landlord is estopped from enforcing full contractual rent after agreeing to a temporary reduction, focusing on reliance and detriment."
+        },
+        {
+          "case_id": "[2018] UKSC 24",
+          "relevance_reason": "Rock Advertising Ltd v MWB Business Exchange Centres Ltd (Supreme Court) is a leading authority on the enforceability of oral variations to contracts and the application of promissory estoppel in commercial lease contexts."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2016] EWCA Civ 1186",
+          "relevance_reason": "Central London Property Trust Ltd v High Trees House Ltd (the 'High Trees' principle) was reaffirmed in this case, which discusses promissory estoppel in the context of rent reductions and the landlord's ability to claim back rent after a period of concession."
+        },
+        {
+          "case_id": "[2014] EWCA Civ 1511",
+          "relevance_reason": "MWB Business Exchange Centres Ltd v Rock Advertising Ltd addresses whether a landlord is estopped from enforcing full contractual rent after agreeing to a temporary reduction, focusing on reliance and detriment."
+        },
+        {
+          "case_id": "[2018] UKSC 24",
+          "relevance_reason": "Rock Advertising Ltd v MWB Business Exchange Centres Ltd (Supreme Court) is a leading authority on the enforceability of oral variations to contracts and the application of promissory estoppel in commercial lease contexts."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2007] EWCA Civ 1329",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "relevance_reason": "Collier v Wright supports promissory estoppel where a clear promise is relied on to a debtor\u2019s detriment."
+        },
+        {
+          "case_id": "[2018] UKSC 24",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/24",
+          "relevance_reason": "MWB v Rock considers oral variations and reliance, relevant to promissory estoppel arguments."
+        }
+      ],
+      "metrics": {
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1_score": 0.4,
+        "true_positives": 1,
+        "false_positives": 2,
+        "false_negatives": 1,
+        "predicted_count": 3,
+        "ground_truth_count": 2
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2016] EWCA Civ 1186",
+            "relevance_reason": "Central London Property Trust Ltd v High Trees House Ltd (the 'High Trees' principle) was reaffirmed in this case, which discusses promissory estoppel in the context of rent reductions and the landlord's ability to claim back rent after a period of concession."
+          },
+          {
+            "case_id": "[2014] EWCA Civ 1511",
+            "relevance_reason": "MWB Business Exchange Centres Ltd v Rock Advertising Ltd addresses whether a landlord is estopped from enforcing full contractual rent after agreeing to a temporary reduction, focusing on reliance and detriment."
+          },
+          {
+            "case_id": "[2018] UKSC 24",
+            "relevance_reason": "Rock Advertising Ltd v MWB Business Exchange Centres Ltd (Supreme Court) is a leading authority on the enforceability of oral variations to contracts and the application of promissory estoppel in commercial lease contexts."
+          }
+        ]
+      }
+    },
+    {
+      "query_num": 40,
+      "law_type": "Proprietary Estoppel",
+      "scenario": "For over a decade, a nephew works long hours for minimal pay at his aunt\u2019s hotel based on assurances he will inherit the business. The will leaves the hotel to a distant relative. The nephew sues rely...",
+      "question": "Have assurance, reliance, and detriment been established and what is the appropriate remedy?",
+      "predicted_cases": [
+        {
+          "case_id": "[2017] UKSC 22",
+          "relevance_reason": "Ilott v The Blue Cross is a Supreme Court case that discusses the principles of proprietary estoppel, including assurance, reliance, detriment, and the appropriate remedy, particularly in the context of inheritance disputes."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 118",
+          "relevance_reason": "Davies v Davies is a Court of Appeal case that directly addresses proprietary estoppel in a family business context, examining the requirements of assurance, reliance, detriment, and proportionality of remedy."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 287",
+          "relevance_reason": "Gillett v Holt is a leading Court of Appeal authority on proprietary estoppel, clarifying the interrelationship of assurance, reliance, and detriment, and the court\u2019s approach to remedies."
+        },
+        {
+          "case_id": "[2018] EWCA Civ 1396",
+          "relevance_reason": "Habberfield v Habberfield is a Court of Appeal case involving a family business and proprietary estoppel, focusing on assurances of inheritance, long-term reliance, and the calculation of a fair remedy."
+        }
+      ],
+      "valid_cases": [
+        {
+          "case_id": "[2017] UKSC 22",
+          "relevance_reason": "Ilott v The Blue Cross is a Supreme Court case that discusses the principles of proprietary estoppel, including assurance, reliance, detriment, and the appropriate remedy, particularly in the context of inheritance disputes."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 118",
+          "relevance_reason": "Davies v Davies is a Court of Appeal case that directly addresses proprietary estoppel in a family business context, examining the requirements of assurance, reliance, detriment, and proportionality of remedy."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 287",
+          "relevance_reason": "Gillett v Holt is a leading Court of Appeal authority on proprietary estoppel, clarifying the interrelationship of assurance, reliance, and detriment, and the court\u2019s approach to remedies."
+        },
+        {
+          "case_id": "[2018] EWCA Civ 1396",
+          "relevance_reason": "Habberfield v Habberfield is a Court of Appeal case involving a family business and proprietary estoppel, focusing on assurances of inheritance, long-term reliance, and the calculation of a fair remedy."
+        }
+      ],
+      "invalid_cases": [],
+      "ground_truth_cases": [
+        {
+          "case_id": "[2022] UKSC 27",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "relevance_reason": "Guest v Guest defines the elements and calibrates proportional remedies for proprietary estoppel."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 463",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/463",
+          "relevance_reason": "Davies v Davies emphasises proportionality between detriment and remedy."
+        },
+        {
+          "case_id": "[2011] EWHC 1 (Ch)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1",
+          "relevance_reason": "Murphy v Rayner illustrates estoppel in nheritance/family disputes."
+        }
+      ],
+      "metrics": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0,
+        "true_positives": 0,
+        "false_positives": 4,
+        "false_negatives": 3,
+        "predicted_count": 4,
+        "ground_truth_count": 3
+      },
+      "openai_response": {
+        "relevant_cases": [
+          {
+            "case_id": "[2017] UKSC 22",
+            "relevance_reason": "Ilott v The Blue Cross is a Supreme Court case that discusses the principles of proprietary estoppel, including assurance, reliance, detriment, and the appropriate remedy, particularly in the context of inheritance disputes."
+          },
+          {
+            "case_id": "[2016] EWCA Civ 118",
+            "relevance_reason": "Davies v Davies is a Court of Appeal case that directly addresses proprietary estoppel in a family business context, examining the requirements of assurance, reliance, detriment, and proportionality of remedy."
+          },
+          {
+            "case_id": "[2015] EWCA Civ 287",
+            "relevance_reason": "Gillett v Holt is a leading Court of Appeal authority on proprietary estoppel, clarifying the interrelationship of assurance, reliance, and detriment, and the court\u2019s approach to remedies."
+          },
+          {
+            "case_id": "[2018] EWCA Civ 1396",
+            "relevance_reason": "Habberfield v Habberfield is a Court of Appeal case involving a family business and proprietary estoppel, focusing on assurances of inheritance, long-term reliance, and the calculation of a fair remedy."
+          }
+        ]
+      }
+    }
+  ],
+  "summary_metrics": {
+    "avg_precision": 0.06623931623931624,
+    "avg_recall": 0.10683760683760685,
+    "avg_f1_score": 0.0778998778998779,
+    "total_true_positives": 9,
+    "total_false_positives": 125,
+    "total_false_negatives": 72,
+    "total_predicted": 134,
+    "total_ground_truth": 81,
+    "overall_precision": 0.06716417910447761,
+    "overall_recall": 0.1111111111111111,
+    "overall_f1": 0.08372093023255814
+  }
+}
