@@ -1,0 +1,2216 @@
+{
+  "metrics": {
+    "total_queries": 39,
+    "successful_queries": 15,
+    "avg_f1": 0.1424908424908425,
+    "median_f1": 0.0,
+    "std_f1": 0.19261659010186394,
+    "max_f1": 0.6666666666666666,
+    "min_f1": 0.0,
+    "avg_precision": 0.1076923076923077,
+    "avg_recall": 0.23076923076923073,
+    "success_rate": 0.38461538461538464,
+    "f1_distribution": {
+      "excellent (>0.5)": 1,
+      "good (0.3-0.5)": 9,
+      "moderate (0.1-0.3)": 5,
+      "poor (0-0.1)": 0,
+      "failed (0)": 24
+    },
+    "query_analysis": [
+      {
+        "query_id": 1,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Contract Law \u2013 Misrepresentation",
+        "expected_count": 2,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 79,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 2,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Tort \u2013 Negligence",
+        "expected_count": 2,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 71,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 3,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Employment Law \u2013 Unfair Dismissal",
+        "expected_count": 1,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 77,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 4,
+        "f1_score": 0.28571428571428575,
+        "precision": 0.2,
+        "recall": 0.5,
+        "law_type": "Contract Law \u2013 Duress",
+        "expected_count": 2,
+        "retrieved_count": 5,
+        "matched_count": 1,
+        "query_length": 63,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 5,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Intellectual Property \u2013 Copyright Infringement",
+        "expected_count": 1,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 68,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 6,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Public Law \u2013 Judicial Review",
+        "expected_count": 2,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 62,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 7,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Family Law \u2013 Child Custody and Relocation",
+        "expected_count": 2,
+        "retrieved_count": 3,
+        "matched_count": 0,
+        "query_length": 71,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 8,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Criminal Law \u2013 Consent and Assault",
+        "expected_count": 1,
+        "retrieved_count": 2,
+        "matched_count": 0,
+        "query_length": 57,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 9,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Defamation",
+        "expected_count": 3,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 59,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 10,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Human Rights \u2013 Freedom of Expression",
+        "expected_count": 3,
+        "retrieved_count": 3,
+        "matched_count": 0,
+        "query_length": 67,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 11,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Tort \u2013 Defective Products",
+        "expected_count": 2,
+        "retrieved_count": 4,
+        "matched_count": 0,
+        "query_length": 54,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 12,
+        "f1_score": 0.25,
+        "precision": 0.2,
+        "recall": 0.3333333333333333,
+        "law_type": "Land Law \u2013 Private Nuisance",
+        "expected_count": 3,
+        "retrieved_count": 5,
+        "matched_count": 1,
+        "query_length": 63,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 13,
+        "f1_score": 0.33333333333333337,
+        "precision": 0.2,
+        "recall": 1.0,
+        "law_type": "Equality & Discrimination Law",
+        "expected_count": 1,
+        "retrieved_count": 5,
+        "matched_count": 1,
+        "query_length": 54,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 14,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Immigration Law \u2013 Deportation and Family Life",
+        "expected_count": 3,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 69,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 15,
+        "f1_score": 0.28571428571428575,
+        "precision": 0.2,
+        "recall": 0.5,
+        "law_type": "Property Law \u2013 Adverse Possession",
+        "expected_count": 2,
+        "retrieved_count": 5,
+        "matched_count": 1,
+        "query_length": 66,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 16,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Frustration of Contract",
+        "expected_count": 3,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 55,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 17,
+        "f1_score": 0.4,
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "law_type": "Consumer Rights ",
+        "expected_count": 2,
+        "retrieved_count": 3,
+        "matched_count": 1,
+        "query_length": 52,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 18,
+        "f1_score": 0.3333333333333333,
+        "precision": 0.25,
+        "recall": 0.5,
+        "law_type": "Promissory Estoppel",
+        "expected_count": 2,
+        "retrieved_count": 4,
+        "matched_count": 1,
+        "query_length": 48,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 19,
+        "f1_score": 0.3333333333333333,
+        "precision": 0.25,
+        "recall": 0.5,
+        "law_type": "Proprietary Estoppel",
+        "expected_count": 2,
+        "retrieved_count": 4,
+        "matched_count": 1,
+        "query_length": 55,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 20,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Contract Law \u2013 Misrepresentation",
+        "expected_count": 3,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 82,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 21,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Tort \u2013 Negligence",
+        "expected_count": 2,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 59,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 22,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Criminal Law \u2013 Theft",
+        "expected_count": 2,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 64,
+        "scenario_complexity": "complex"
+      },
+      {
+        "query_id": 23,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Employment Law \u2013 Unfair Dismissal",
+        "expected_count": 1,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 58,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 24,
+        "f1_score": 0.33333333333333337,
+        "precision": 0.2,
+        "recall": 1.0,
+        "law_type": "Contract Law \u2013 Duress",
+        "expected_count": 1,
+        "retrieved_count": 5,
+        "matched_count": 1,
+        "query_length": 56,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 25,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Intellectual Property \u2013 Copyright Infringement",
+        "expected_count": 3,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 50,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 26,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Public Law \u2013 Judicial Review",
+        "expected_count": 2,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 44,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 27,
+        "f1_score": 0.4,
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "law_type": "Family Law \u2013 Child Custody and Relocation",
+        "expected_count": 2,
+        "retrieved_count": 3,
+        "matched_count": 1,
+        "query_length": 51,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 28,
+        "f1_score": 0.6666666666666666,
+        "precision": 0.5,
+        "recall": 1.0,
+        "law_type": "Criminal Law \u2013 Consent and Assault",
+        "expected_count": 2,
+        "retrieved_count": 4,
+        "matched_count": 2,
+        "query_length": 48,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 29,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Defamation",
+        "expected_count": 1,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 44,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 30,
+        "f1_score": 0.28571428571428575,
+        "precision": 0.2,
+        "recall": 0.5,
+        "law_type": "Human Rights \u2013 Freedom of Expression",
+        "expected_count": 2,
+        "retrieved_count": 5,
+        "matched_count": 1,
+        "query_length": 48,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 31,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Tort \u2013 Defective Products",
+        "expected_count": 1,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 55,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 32,
+        "f1_score": 0.25,
+        "precision": 0.2,
+        "recall": 0.3333333333333333,
+        "law_type": "Land Law \u2013 Private Nuisance",
+        "expected_count": 3,
+        "retrieved_count": 5,
+        "matched_count": 1,
+        "query_length": 51,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 33,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Equality & Discrimination Law",
+        "expected_count": 2,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 43,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 34,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Immigration Law \u2013 Deportation and Family Life",
+        "expected_count": 3,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 42,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 35,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Property Law \u2013 Adverse Possession",
+        "expected_count": 3,
+        "retrieved_count": 5,
+        "matched_count": 0,
+        "query_length": 63,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 36,
+        "f1_score": 0.5,
+        "precision": 0.4,
+        "recall": 0.6666666666666666,
+        "law_type": "Frustration of Contract",
+        "expected_count": 3,
+        "retrieved_count": 5,
+        "matched_count": 2,
+        "query_length": 52,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 37,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Consumer Rights ",
+        "expected_count": 1,
+        "retrieved_count": 1,
+        "matched_count": 0,
+        "query_length": 39,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 38,
+        "f1_score": 0.4,
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "law_type": "Promissory Estoppel",
+        "expected_count": 2,
+        "retrieved_count": 3,
+        "matched_count": 1,
+        "query_length": 51,
+        "scenario_complexity": "simple"
+      },
+      {
+        "query_id": 39,
+        "f1_score": 0.5,
+        "precision": 0.4,
+        "recall": 0.6666666666666666,
+        "law_type": "Proprietary Estoppel",
+        "expected_count": 3,
+        "retrieved_count": 5,
+        "matched_count": 2,
+        "query_length": 53,
+        "scenario_complexity": "simple"
+      }
+    ]
+  },
+  "comparison": {
+    "metadata_guided": {
+      "avg_f1": 0.1424908424908425,
+      "success_rate": 0.38461538461538464,
+      "avg_precision": 0.1076923076923077,
+      "avg_recall": 0.23076923076923073
+    },
+    "baseline": {
+      "avg_f1": 0.12460317460317459,
+      "success_rate": 0.3333333333333333,
+      "avg_precision": 0.09615384615384616,
+      "avg_recall": 0.19230769230769232
+    },
+    "improvements": {
+      "avg_f1": 14.355707986281264,
+      "success_rate": 15.384615384615397,
+      "avg_precision": 12.0,
+      "avg_recall": 19.99999999999997
+    },
+    "query_comparisons": [
+      {
+        "query_id": 1,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Contract Law \u2013 Misrepresentation"
+      },
+      {
+        "query_id": 2,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Tort \u2013 Negligence"
+      },
+      {
+        "query_id": 3,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Employment Law \u2013 Unfair Dismissal"
+      },
+      {
+        "query_id": 4,
+        "metadata_f1": 0.28571428571428575,
+        "baseline_f1": 0.28571428571428575,
+        "improvement": 0.0,
+        "relative_improvement": 0.0,
+        "law_type": "Contract Law \u2013 Duress"
+      },
+      {
+        "query_id": 5,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Intellectual Property \u2013 Copyright Infringement"
+      },
+      {
+        "query_id": 6,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Public Law \u2013 Judicial Review"
+      },
+      {
+        "query_id": 7,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Family Law \u2013 Child Custody and Relocation"
+      },
+      {
+        "query_id": 8,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Criminal Law \u2013 Consent and Assault"
+      },
+      {
+        "query_id": 9,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Defamation"
+      },
+      {
+        "query_id": 10,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Human Rights \u2013 Freedom of Expression"
+      },
+      {
+        "query_id": 11,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Tort \u2013 Defective Products"
+      },
+      {
+        "query_id": 12,
+        "metadata_f1": 0.25,
+        "baseline_f1": 0.0,
+        "improvement": 0.25,
+        "relative_improvement": Infinity,
+        "law_type": "Land Law \u2013 Private Nuisance"
+      },
+      {
+        "query_id": 13,
+        "metadata_f1": 0.33333333333333337,
+        "baseline_f1": 0.33333333333333337,
+        "improvement": 0.0,
+        "relative_improvement": 0.0,
+        "law_type": "Equality & Discrimination Law"
+      },
+      {
+        "query_id": 14,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Immigration Law \u2013 Deportation and Family Life"
+      },
+      {
+        "query_id": 15,
+        "metadata_f1": 0.28571428571428575,
+        "baseline_f1": 0.28571428571428575,
+        "improvement": 0.0,
+        "relative_improvement": 0.0,
+        "law_type": "Property Law \u2013 Adverse Possession"
+      },
+      {
+        "query_id": 16,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Frustration of Contract"
+      },
+      {
+        "query_id": 17,
+        "metadata_f1": 0.4,
+        "baseline_f1": 0.4,
+        "improvement": 0.0,
+        "relative_improvement": 0.0,
+        "law_type": "Consumer Rights "
+      },
+      {
+        "query_id": 18,
+        "metadata_f1": 0.3333333333333333,
+        "baseline_f1": 0.4,
+        "improvement": -0.06666666666666671,
+        "relative_improvement": -16.66666666666668,
+        "law_type": "Promissory Estoppel"
+      },
+      {
+        "query_id": 19,
+        "metadata_f1": 0.3333333333333333,
+        "baseline_f1": 0.0,
+        "improvement": 0.3333333333333333,
+        "relative_improvement": Infinity,
+        "law_type": "Proprietary Estoppel"
+      },
+      {
+        "query_id": 20,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Contract Law \u2013 Misrepresentation"
+      },
+      {
+        "query_id": 21,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Tort \u2013 Negligence"
+      },
+      {
+        "query_id": 22,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Criminal Law \u2013 Theft"
+      },
+      {
+        "query_id": 23,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Employment Law \u2013 Unfair Dismissal"
+      },
+      {
+        "query_id": 24,
+        "metadata_f1": 0.33333333333333337,
+        "baseline_f1": 0.0,
+        "improvement": 0.33333333333333337,
+        "relative_improvement": Infinity,
+        "law_type": "Contract Law \u2013 Duress"
+      },
+      {
+        "query_id": 25,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Intellectual Property \u2013 Copyright Infringement"
+      },
+      {
+        "query_id": 26,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Public Law \u2013 Judicial Review"
+      },
+      {
+        "query_id": 27,
+        "metadata_f1": 0.4,
+        "baseline_f1": 0.28571428571428575,
+        "improvement": 0.11428571428571427,
+        "relative_improvement": 39.99999999999999,
+        "law_type": "Family Law \u2013 Child Custody and Relocation"
+      },
+      {
+        "query_id": 28,
+        "metadata_f1": 0.6666666666666666,
+        "baseline_f1": 0.6666666666666666,
+        "improvement": 0.0,
+        "relative_improvement": 0.0,
+        "law_type": "Criminal Law \u2013 Consent and Assault"
+      },
+      {
+        "query_id": 29,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Defamation"
+      },
+      {
+        "query_id": 30,
+        "metadata_f1": 0.28571428571428575,
+        "baseline_f1": 0.28571428571428575,
+        "improvement": 0.0,
+        "relative_improvement": 0.0,
+        "law_type": "Human Rights \u2013 Freedom of Expression"
+      },
+      {
+        "query_id": 31,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Tort \u2013 Defective Products"
+      },
+      {
+        "query_id": 32,
+        "metadata_f1": 0.25,
+        "baseline_f1": 0.3333333333333333,
+        "improvement": -0.08333333333333331,
+        "relative_improvement": -24.999999999999993,
+        "law_type": "Land Law \u2013 Private Nuisance"
+      },
+      {
+        "query_id": 33,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Equality & Discrimination Law"
+      },
+      {
+        "query_id": 34,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Immigration Law \u2013 Deportation and Family Life"
+      },
+      {
+        "query_id": 35,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.25,
+        "improvement": -0.25,
+        "relative_improvement": -100.0,
+        "law_type": "Property Law \u2013 Adverse Possession"
+      },
+      {
+        "query_id": 36,
+        "metadata_f1": 0.5,
+        "baseline_f1": 0.5,
+        "improvement": 0.0,
+        "relative_improvement": 0.0,
+        "law_type": "Frustration of Contract"
+      },
+      {
+        "query_id": 37,
+        "metadata_f1": 0.0,
+        "baseline_f1": 0.0,
+        "improvement": 0.0,
+        "relative_improvement": 0,
+        "law_type": "Consumer Rights "
+      },
+      {
+        "query_id": 38,
+        "metadata_f1": 0.4,
+        "baseline_f1": 0.3333333333333333,
+        "improvement": 0.06666666666666671,
+        "relative_improvement": 20.00000000000001,
+        "law_type": "Promissory Estoppel"
+      },
+      {
+        "query_id": 39,
+        "metadata_f1": 0.5,
+        "baseline_f1": 0.5,
+        "improvement": 0.0,
+        "relative_improvement": 0.0,
+        "law_type": "Proprietary Estoppel"
+      }
+    ]
+  },
+  "domain_analysis": {
+    "domain_performance": {
+      "Contract Law \u2013 Misrepresentation": [
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 1
+        },
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 20
+        }
+      ],
+      "Tort \u2013 Negligence": [
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 2
+        },
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 21
+        }
+      ],
+      "Employment Law \u2013 Unfair Dismissal": [
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 3
+        },
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 23
+        }
+      ],
+      "Contract Law \u2013 Duress": [
+        {
+          "f1_score": 0.28571428571428575,
+          "precision": 0.2,
+          "recall": 0.5,
+          "query_id": 4
+        },
+        {
+          "f1_score": 0.33333333333333337,
+          "precision": 0.2,
+          "recall": 1.0,
+          "query_id": 24
+        }
+      ],
+      "Intellectual Property \u2013 Copyright Infringement": [
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 5
+        },
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 25
+        }
+      ],
+      "Public Law \u2013 Judicial Review": [
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 6
+        },
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 26
+        }
+      ],
+      "Family Law \u2013 Child Custody and Relocation": [
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 7
+        },
+        {
+          "f1_score": 0.4,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "query_id": 27
+        }
+      ],
+      "Criminal Law \u2013 Consent and Assault": [
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 8
+        },
+        {
+          "f1_score": 0.6666666666666666,
+          "precision": 0.5,
+          "recall": 1.0,
+          "query_id": 28
+        }
+      ],
+      "Defamation": [
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 9
+        },
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 29
+        }
+      ],
+      "Human Rights \u2013 Freedom of Expression": [
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 10
+        },
+        {
+          "f1_score": 0.28571428571428575,
+          "precision": 0.2,
+          "recall": 0.5,
+          "query_id": 30
+        }
+      ],
+      "Tort \u2013 Defective Products": [
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 11
+        },
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 31
+        }
+      ],
+      "Land Law \u2013 Private Nuisance": [
+        {
+          "f1_score": 0.25,
+          "precision": 0.2,
+          "recall": 0.3333333333333333,
+          "query_id": 12
+        },
+        {
+          "f1_score": 0.25,
+          "precision": 0.2,
+          "recall": 0.3333333333333333,
+          "query_id": 32
+        }
+      ],
+      "Equality & Discrimination Law": [
+        {
+          "f1_score": 0.33333333333333337,
+          "precision": 0.2,
+          "recall": 1.0,
+          "query_id": 13
+        },
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 33
+        }
+      ],
+      "Immigration Law \u2013 Deportation and Family Life": [
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 14
+        },
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 34
+        }
+      ],
+      "Property Law \u2013 Adverse Possession": [
+        {
+          "f1_score": 0.28571428571428575,
+          "precision": 0.2,
+          "recall": 0.5,
+          "query_id": 15
+        },
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 35
+        }
+      ],
+      "Frustration of Contract": [
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 16
+        },
+        {
+          "f1_score": 0.5,
+          "precision": 0.4,
+          "recall": 0.6666666666666666,
+          "query_id": 36
+        }
+      ],
+      "Consumer Rights ": [
+        {
+          "f1_score": 0.4,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "query_id": 17
+        },
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 37
+        }
+      ],
+      "Promissory Estoppel": [
+        {
+          "f1_score": 0.3333333333333333,
+          "precision": 0.25,
+          "recall": 0.5,
+          "query_id": 18
+        },
+        {
+          "f1_score": 0.4,
+          "precision": 0.3333333333333333,
+          "recall": 0.5,
+          "query_id": 38
+        }
+      ],
+      "Proprietary Estoppel": [
+        {
+          "f1_score": 0.3333333333333333,
+          "precision": 0.25,
+          "recall": 0.5,
+          "query_id": 19
+        },
+        {
+          "f1_score": 0.5,
+          "precision": 0.4,
+          "recall": 0.6666666666666666,
+          "query_id": 39
+        }
+      ],
+      "Criminal Law \u2013 Theft": [
+        {
+          "f1_score": 0.0,
+          "precision": 0.0,
+          "recall": 0.0,
+          "query_id": 22
+        }
+      ]
+    },
+    "domain_stats": {
+      "Contract Law \u2013 Misrepresentation": {
+        "count": 2,
+        "avg_f1": 0.0,
+        "success_rate": 0.0,
+        "max_f1": 0.0,
+        "std_f1": 0.0,
+        "query_ids": [
+          1,
+          20
+        ]
+      },
+      "Tort \u2013 Negligence": {
+        "count": 2,
+        "avg_f1": 0.0,
+        "success_rate": 0.0,
+        "max_f1": 0.0,
+        "std_f1": 0.0,
+        "query_ids": [
+          2,
+          21
+        ]
+      },
+      "Employment Law \u2013 Unfair Dismissal": {
+        "count": 2,
+        "avg_f1": 0.0,
+        "success_rate": 0.0,
+        "max_f1": 0.0,
+        "std_f1": 0.0,
+        "query_ids": [
+          3,
+          23
+        ]
+      },
+      "Contract Law \u2013 Duress": {
+        "count": 2,
+        "avg_f1": 0.30952380952380953,
+        "success_rate": 1.0,
+        "max_f1": 0.33333333333333337,
+        "std_f1": 0.023809523809523808,
+        "query_ids": [
+          4,
+          24
+        ]
+      },
+      "Intellectual Property \u2013 Copyright Infringement": {
+        "count": 2,
+        "avg_f1": 0.0,
+        "success_rate": 0.0,
+        "max_f1": 0.0,
+        "std_f1": 0.0,
+        "query_ids": [
+          5,
+          25
+        ]
+      },
+      "Public Law \u2013 Judicial Review": {
+        "count": 2,
+        "avg_f1": 0.0,
+        "success_rate": 0.0,
+        "max_f1": 0.0,
+        "std_f1": 0.0,
+        "query_ids": [
+          6,
+          26
+        ]
+      },
+      "Family Law \u2013 Child Custody and Relocation": {
+        "count": 2,
+        "avg_f1": 0.2,
+        "success_rate": 0.5,
+        "max_f1": 0.4,
+        "std_f1": 0.2,
+        "query_ids": [
+          7,
+          27
+        ]
+      },
+      "Criminal Law \u2013 Consent and Assault": {
+        "count": 2,
+        "avg_f1": 0.3333333333333333,
+        "success_rate": 0.5,
+        "max_f1": 0.6666666666666666,
+        "std_f1": 0.3333333333333333,
+        "query_ids": [
+          8,
+          28
+        ]
+      },
+      "Defamation": {
+        "count": 2,
+        "avg_f1": 0.0,
+        "success_rate": 0.0,
+        "max_f1": 0.0,
+        "std_f1": 0.0,
+        "query_ids": [
+          9,
+          29
+        ]
+      },
+      "Human Rights \u2013 Freedom of Expression": {
+        "count": 2,
+        "avg_f1": 0.14285714285714288,
+        "success_rate": 0.5,
+        "max_f1": 0.28571428571428575,
+        "std_f1": 0.14285714285714288,
+        "query_ids": [
+          10,
+          30
+        ]
+      },
+      "Tort \u2013 Defective Products": {
+        "count": 2,
+        "avg_f1": 0.0,
+        "success_rate": 0.0,
+        "max_f1": 0.0,
+        "std_f1": 0.0,
+        "query_ids": [
+          11,
+          31
+        ]
+      },
+      "Land Law \u2013 Private Nuisance": {
+        "count": 2,
+        "avg_f1": 0.25,
+        "success_rate": 1.0,
+        "max_f1": 0.25,
+        "std_f1": 0.0,
+        "query_ids": [
+          12,
+          32
+        ]
+      },
+      "Equality & Discrimination Law": {
+        "count": 2,
+        "avg_f1": 0.16666666666666669,
+        "success_rate": 0.5,
+        "max_f1": 0.33333333333333337,
+        "std_f1": 0.16666666666666669,
+        "query_ids": [
+          13,
+          33
+        ]
+      },
+      "Immigration Law \u2013 Deportation and Family Life": {
+        "count": 2,
+        "avg_f1": 0.0,
+        "success_rate": 0.0,
+        "max_f1": 0.0,
+        "std_f1": 0.0,
+        "query_ids": [
+          14,
+          34
+        ]
+      },
+      "Property Law \u2013 Adverse Possession": {
+        "count": 2,
+        "avg_f1": 0.14285714285714288,
+        "success_rate": 0.5,
+        "max_f1": 0.28571428571428575,
+        "std_f1": 0.14285714285714288,
+        "query_ids": [
+          15,
+          35
+        ]
+      },
+      "Frustration of Contract": {
+        "count": 2,
+        "avg_f1": 0.25,
+        "success_rate": 0.5,
+        "max_f1": 0.5,
+        "std_f1": 0.25,
+        "query_ids": [
+          16,
+          36
+        ]
+      },
+      "Consumer Rights ": {
+        "count": 2,
+        "avg_f1": 0.2,
+        "success_rate": 0.5,
+        "max_f1": 0.4,
+        "std_f1": 0.2,
+        "query_ids": [
+          17,
+          37
+        ]
+      },
+      "Promissory Estoppel": {
+        "count": 2,
+        "avg_f1": 0.3666666666666667,
+        "success_rate": 1.0,
+        "max_f1": 0.4,
+        "std_f1": 0.033333333333333354,
+        "query_ids": [
+          18,
+          38
+        ]
+      },
+      "Proprietary Estoppel": {
+        "count": 2,
+        "avg_f1": 0.41666666666666663,
+        "success_rate": 1.0,
+        "max_f1": 0.5,
+        "std_f1": 0.08333333333333334,
+        "query_ids": [
+          19,
+          39
+        ]
+      },
+      "Criminal Law \u2013 Theft": {
+        "count": 1,
+        "avg_f1": 0.0,
+        "success_rate": 0.0,
+        "max_f1": 0.0,
+        "std_f1": 0.0,
+        "query_ids": [
+          22
+        ]
+      }
+    },
+    "sorted_domains": [
+      [
+        "Proprietary Estoppel",
+        {
+          "count": 2,
+          "avg_f1": 0.41666666666666663,
+          "success_rate": 1.0,
+          "max_f1": 0.5,
+          "std_f1": 0.08333333333333334,
+          "query_ids": [
+            19,
+            39
+          ]
+        }
+      ],
+      [
+        "Promissory Estoppel",
+        {
+          "count": 2,
+          "avg_f1": 0.3666666666666667,
+          "success_rate": 1.0,
+          "max_f1": 0.4,
+          "std_f1": 0.033333333333333354,
+          "query_ids": [
+            18,
+            38
+          ]
+        }
+      ],
+      [
+        "Criminal Law \u2013 Consent and Assault",
+        {
+          "count": 2,
+          "avg_f1": 0.3333333333333333,
+          "success_rate": 0.5,
+          "max_f1": 0.6666666666666666,
+          "std_f1": 0.3333333333333333,
+          "query_ids": [
+            8,
+            28
+          ]
+        }
+      ],
+      [
+        "Contract Law \u2013 Duress",
+        {
+          "count": 2,
+          "avg_f1": 0.30952380952380953,
+          "success_rate": 1.0,
+          "max_f1": 0.33333333333333337,
+          "std_f1": 0.023809523809523808,
+          "query_ids": [
+            4,
+            24
+          ]
+        }
+      ],
+      [
+        "Land Law \u2013 Private Nuisance",
+        {
+          "count": 2,
+          "avg_f1": 0.25,
+          "success_rate": 1.0,
+          "max_f1": 0.25,
+          "std_f1": 0.0,
+          "query_ids": [
+            12,
+            32
+          ]
+        }
+      ],
+      [
+        "Frustration of Contract",
+        {
+          "count": 2,
+          "avg_f1": 0.25,
+          "success_rate": 0.5,
+          "max_f1": 0.5,
+          "std_f1": 0.25,
+          "query_ids": [
+            16,
+            36
+          ]
+        }
+      ],
+      [
+        "Family Law \u2013 Child Custody and Relocation",
+        {
+          "count": 2,
+          "avg_f1": 0.2,
+          "success_rate": 0.5,
+          "max_f1": 0.4,
+          "std_f1": 0.2,
+          "query_ids": [
+            7,
+            27
+          ]
+        }
+      ],
+      [
+        "Consumer Rights ",
+        {
+          "count": 2,
+          "avg_f1": 0.2,
+          "success_rate": 0.5,
+          "max_f1": 0.4,
+          "std_f1": 0.2,
+          "query_ids": [
+            17,
+            37
+          ]
+        }
+      ],
+      [
+        "Equality & Discrimination Law",
+        {
+          "count": 2,
+          "avg_f1": 0.16666666666666669,
+          "success_rate": 0.5,
+          "max_f1": 0.33333333333333337,
+          "std_f1": 0.16666666666666669,
+          "query_ids": [
+            13,
+            33
+          ]
+        }
+      ],
+      [
+        "Human Rights \u2013 Freedom of Expression",
+        {
+          "count": 2,
+          "avg_f1": 0.14285714285714288,
+          "success_rate": 0.5,
+          "max_f1": 0.28571428571428575,
+          "std_f1": 0.14285714285714288,
+          "query_ids": [
+            10,
+            30
+          ]
+        }
+      ],
+      [
+        "Property Law \u2013 Adverse Possession",
+        {
+          "count": 2,
+          "avg_f1": 0.14285714285714288,
+          "success_rate": 0.5,
+          "max_f1": 0.28571428571428575,
+          "std_f1": 0.14285714285714288,
+          "query_ids": [
+            15,
+            35
+          ]
+        }
+      ],
+      [
+        "Contract Law \u2013 Misrepresentation",
+        {
+          "count": 2,
+          "avg_f1": 0.0,
+          "success_rate": 0.0,
+          "max_f1": 0.0,
+          "std_f1": 0.0,
+          "query_ids": [
+            1,
+            20
+          ]
+        }
+      ],
+      [
+        "Tort \u2013 Negligence",
+        {
+          "count": 2,
+          "avg_f1": 0.0,
+          "success_rate": 0.0,
+          "max_f1": 0.0,
+          "std_f1": 0.0,
+          "query_ids": [
+            2,
+            21
+          ]
+        }
+      ],
+      [
+        "Employment Law \u2013 Unfair Dismissal",
+        {
+          "count": 2,
+          "avg_f1": 0.0,
+          "success_rate": 0.0,
+          "max_f1": 0.0,
+          "std_f1": 0.0,
+          "query_ids": [
+            3,
+            23
+          ]
+        }
+      ],
+      [
+        "Intellectual Property \u2013 Copyright Infringement",
+        {
+          "count": 2,
+          "avg_f1": 0.0,
+          "success_rate": 0.0,
+          "max_f1": 0.0,
+          "std_f1": 0.0,
+          "query_ids": [
+            5,
+            25
+          ]
+        }
+      ],
+      [
+        "Public Law \u2013 Judicial Review",
+        {
+          "count": 2,
+          "avg_f1": 0.0,
+          "success_rate": 0.0,
+          "max_f1": 0.0,
+          "std_f1": 0.0,
+          "query_ids": [
+            6,
+            26
+          ]
+        }
+      ],
+      [
+        "Defamation",
+        {
+          "count": 2,
+          "avg_f1": 0.0,
+          "success_rate": 0.0,
+          "max_f1": 0.0,
+          "std_f1": 0.0,
+          "query_ids": [
+            9,
+            29
+          ]
+        }
+      ],
+      [
+        "Tort \u2013 Defective Products",
+        {
+          "count": 2,
+          "avg_f1": 0.0,
+          "success_rate": 0.0,
+          "max_f1": 0.0,
+          "std_f1": 0.0,
+          "query_ids": [
+            11,
+            31
+          ]
+        }
+      ],
+      [
+        "Immigration Law \u2013 Deportation and Family Life",
+        {
+          "count": 2,
+          "avg_f1": 0.0,
+          "success_rate": 0.0,
+          "max_f1": 0.0,
+          "std_f1": 0.0,
+          "query_ids": [
+            14,
+            34
+          ]
+        }
+      ],
+      [
+        "Criminal Law \u2013 Theft",
+        {
+          "count": 1,
+          "avg_f1": 0.0,
+          "success_rate": 0.0,
+          "max_f1": 0.0,
+          "std_f1": 0.0,
+          "query_ids": [
+            22
+          ]
+        }
+      ]
+    ]
+  },
+  "patterns": {
+    "successful_queries": [
+      {
+        "query_id": 4,
+        "f1_score": 0.28571428571428575,
+        "precision": 0.2,
+        "recall": 0.5,
+        "law_type": "Contract Law \u2013 Duress",
+        "scenario_length": 55,
+        "question_length": 8,
+        "total_length": 63,
+        "expected_cases": 2,
+        "retrieved_cases": 5,
+        "scenario": "A small vendor is threatened with immediate contract termination by a large client unless it agrees ...",
+        "question": "Was there illegitimate pressure amounting to economic duress?"
+      },
+      {
+        "query_id": 12,
+        "f1_score": 0.25,
+        "precision": 0.2,
+        "recall": 0.3333333333333333,
+        "law_type": "Land Law \u2013 Private Nuisance",
+        "scenario_length": 56,
+        "question_length": 7,
+        "total_length": 63,
+        "expected_cases": 3,
+        "retrieved_cases": 5,
+        "scenario": "A homeowner brings a claim against their neighbour who is undertaking extensive home renovations. Th...",
+        "question": "Does this amount to an actionable nuisance?"
+      },
+      {
+        "query_id": 13,
+        "f1_score": 0.33333333333333337,
+        "precision": 0.2,
+        "recall": 1.0,
+        "law_type": "Equality & Discrimination Law",
+        "scenario_length": 48,
+        "question_length": 6,
+        "total_length": 54,
+        "expected_cases": 1,
+        "retrieved_cases": 5,
+        "scenario": "Alex, who uses a wheelchair, applies for a retail position but is rejected without interview. The jo...",
+        "question": "Has there been unlawful disability discrimination?"
+      },
+      {
+        "query_id": 15,
+        "f1_score": 0.28571428571428575,
+        "precision": 0.2,
+        "recall": 0.5,
+        "law_type": "Property Law \u2013 Adverse Possession",
+        "scenario_length": 56,
+        "question_length": 10,
+        "total_length": 66,
+        "expected_cases": 2,
+        "retrieved_cases": 5,
+        "scenario": "A resident fences off and maintains a strip of land between their house and a park for over 12 years...",
+        "question": "Can the claim succeed under the Land Registration Act 2002?"
+      },
+      {
+        "query_id": 17,
+        "f1_score": 0.4,
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "law_type": "Consumer Rights ",
+        "scenario_length": 45,
+        "question_length": 7,
+        "total_length": 52,
+        "expected_cases": 2,
+        "retrieved_cases": 3,
+        "scenario": "A gamer buys a new downloadable expansion for a popular video game that repeatedly crashes on launch...",
+        "question": "Is the gamer entitled to a remedy?"
+      },
+      {
+        "query_id": 18,
+        "f1_score": 0.3333333333333333,
+        "precision": 0.25,
+        "recall": 0.5,
+        "law_type": "Promissory Estoppel",
+        "scenario_length": 44,
+        "question_length": 4,
+        "total_length": 48,
+        "expected_cases": 2,
+        "retrieved_cases": 4,
+        "scenario": "A landlord promises a struggling tenant a temporary rent reduction during lockdown. The tenant relie...",
+        "question": "Can promissory estoppel apply?"
+      },
+      {
+        "query_id": 19,
+        "f1_score": 0.3333333333333333,
+        "precision": 0.25,
+        "recall": 0.5,
+        "law_type": "Proprietary Estoppel",
+        "scenario_length": 52,
+        "question_length": 3,
+        "total_length": 55,
+        "expected_cases": 2,
+        "retrieved_cases": 4,
+        "scenario": "For years, Emma worked unpaid on her aunt\u2019s farm based on repeated promises she would inherit it. Wh...",
+        "question": "Should Emma succeed?"
+      },
+      {
+        "query_id": 24,
+        "f1_score": 0.33333333333333337,
+        "precision": 0.2,
+        "recall": 1.0,
+        "law_type": "Contract Law \u2013 Duress",
+        "scenario_length": 42,
+        "question_length": 14,
+        "total_length": 56,
+        "expected_cases": 1,
+        "retrieved_cases": 5,
+        "scenario": "A key supplier is told mid-contract that unless it accepts a 25% price cut with immediate effect, th...",
+        "question": "Was the pressure illegitimate and did it leave the supplier with no practical alternative?"
+      },
+      {
+        "query_id": 27,
+        "f1_score": 0.4,
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "law_type": "Family Law \u2013 Child Custody and Relocation",
+        "scenario_length": 33,
+        "question_length": 18,
+        "total_length": 51,
+        "expected_cases": 2,
+        "retrieved_cases": 3,
+        "scenario": "Following separation, a mother seeks permission to relocate internally with an 8-year-old to Scotlan...",
+        "question": "What is the correct approach to internal relocation where the child\u2019s welfare and ongoing contact are in tension?"
+      },
+      {
+        "query_id": 28,
+        "f1_score": 0.6666666666666666,
+        "precision": 0.5,
+        "recall": 1.0,
+        "law_type": "Criminal Law \u2013 Consent and Assault",
+        "scenario_length": 34,
+        "question_length": 14,
+        "total_length": 48,
+        "expected_cases": 2,
+        "retrieved_cases": 4,
+        "scenario": "Two adults engage in consensual sexual activity involving rough practices. One sustains injuries amo...",
+        "question": "Can consent provide a defence to assault occasioning actual bodily harm in these circumstances?"
+      },
+      {
+        "query_id": 30,
+        "f1_score": 0.28571428571428575,
+        "precision": 0.2,
+        "recall": 0.5,
+        "law_type": "Human Rights \u2013 Freedom of Expression",
+        "scenario_length": 34,
+        "question_length": 14,
+        "total_length": 48,
+        "expected_cases": 2,
+        "retrieved_cases": 5,
+        "scenario": "During a peaceful sit-down climate protest briefly blocking an entrance road to a government complex...",
+        "question": "Was the arrest a proportionate interference with freedom of expression in a democratic society?"
+      },
+      {
+        "query_id": 32,
+        "f1_score": 0.25,
+        "precision": 0.2,
+        "recall": 0.3333333333333333,
+        "law_type": "Land Law \u2013 Private Nuisance",
+        "scenario_length": 38,
+        "question_length": 13,
+        "total_length": 51,
+        "expected_cases": 3,
+        "retrieved_cases": 5,
+        "scenario": "A neighbour converts a garage into a home gym and runs loud classes at 6:30 a.m. on weekdays for mon...",
+        "question": "Do the persistent disturbances amount to a private nuisance despite compliance with regulations?"
+      },
+      {
+        "query_id": 36,
+        "f1_score": 0.5,
+        "precision": 0.4,
+        "recall": 0.6666666666666666,
+        "law_type": "Frustration of Contract",
+        "scenario_length": 36,
+        "question_length": 16,
+        "total_length": 52,
+        "expected_cases": 3,
+        "retrieved_cases": 5,
+        "scenario": "A touring artist cancels a major outdoor concert when unprecedented flash flooding renders the site ...",
+        "question": "Has the contract been frustrated by supervening impossibility, or should risk have been allocated by contract?"
+      },
+      {
+        "query_id": 38,
+        "f1_score": 0.4,
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "law_type": "Promissory Estoppel",
+        "scenario_length": 39,
+        "question_length": 12,
+        "total_length": 51,
+        "expected_cases": 2,
+        "retrieved_cases": 3,
+        "scenario": "During a pandemic, a landlord emails a small business tenant agreeing to halve rent for six months u...",
+        "question": "Does promissory estoppel prevent the landlord from resiling from the rent reduction?"
+      },
+      {
+        "query_id": 39,
+        "f1_score": 0.5,
+        "precision": 0.4,
+        "recall": 0.6666666666666666,
+        "law_type": "Proprietary Estoppel",
+        "scenario_length": 40,
+        "question_length": 13,
+        "total_length": 53,
+        "expected_cases": 3,
+        "retrieved_cases": 5,
+        "scenario": "For over a decade, a nephew works long hours for minimal pay at his aunt\u2019s hotel based on assurances...",
+        "question": "Have assurance, reliance, and detriment been established and what is the appropriate remedy?"
+      }
+    ],
+    "failed_queries": [
+      {
+        "query_id": 1,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Contract Law \u2013 Misrepresentation",
+        "scenario_length": 70,
+        "question_length": 9,
+        "total_length": 79,
+        "expected_cases": 2,
+        "retrieved_cases": 5,
+        "scenario": "Sarah buys a second-hand car from a dealership that tells her the vehicle has never been in an accid...",
+        "question": "Was this a misrepresentation, and what remedies are available?"
+      },
+      {
+        "query_id": 2,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Tort \u2013 Negligence",
+        "scenario_length": 64,
+        "question_length": 7,
+        "total_length": 71,
+        "expected_cases": 2,
+        "retrieved_cases": 5,
+        "scenario": "A scaffolding company negligently installs temporary platforms outside an office building. During a ...",
+        "question": "Is the company liable under negligence principles?"
+      },
+      {
+        "query_id": 3,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Employment Law \u2013 Unfair Dismissal",
+        "scenario_length": 73,
+        "question_length": 4,
+        "total_length": 77,
+        "expected_cases": 1,
+        "retrieved_cases": 5,
+        "scenario": "Liam is fired after criticising his employer on social media, describing the company as \u201ctoxic\u201d and ...",
+        "question": "Was the dismissal reasonable?"
+      },
+      {
+        "query_id": 5,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Intellectual Property \u2013 Copyright Infringement",
+        "scenario_length": 58,
+        "question_length": 10,
+        "total_length": 68,
+        "expected_cases": 1,
+        "retrieved_cases": 5,
+        "scenario": "Alex, a freelance digital artist, discovers a high-street retailer has used one of her illustrations...",
+        "question": "Can she succeed despite the company\u2019s claim of innocent use?"
+      },
+      {
+        "query_id": 6,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Public Law \u2013 Judicial Review",
+        "scenario_length": 54,
+        "question_length": 8,
+        "total_length": 62,
+        "expected_cases": 2,
+        "retrieved_cases": 5,
+        "scenario": "A local council implements drastic cuts to adult social care services without consulting service use...",
+        "question": "Was the council\u2019s approach procedurally fair and lawful?"
+      },
+      {
+        "query_id": 7,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Family Law \u2013 Child Custody and Relocation",
+        "scenario_length": 63,
+        "question_length": 8,
+        "total_length": 71,
+        "expected_cases": 2,
+        "retrieved_cases": 3,
+        "scenario": "Following divorce, Anna seeks to relocate with her 9-year-old daughter to Canada for a new job. Her ...",
+        "question": "How should the court approach this relocation dispute?"
+      },
+      {
+        "query_id": 8,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Criminal Law \u2013 Consent and Assault",
+        "scenario_length": 48,
+        "question_length": 9,
+        "total_length": 57,
+        "expected_cases": 1,
+        "retrieved_cases": 2,
+        "scenario": "Two adults engage in consensual BDSM activity that results in visible injuries. One later files a po...",
+        "question": "Can consent serve as a defence in this context?"
+      },
+      {
+        "query_id": 9,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Defamation",
+        "scenario_length": 51,
+        "question_length": 8,
+        "total_length": 59,
+        "expected_cases": 3,
+        "retrieved_cases": 5,
+        "scenario": "A viral post accuses a bakery owner of selling food contaminated with rodents. Although false, the p...",
+        "question": "Does the statement meet the serious harm threshold?"
+      },
+      {
+        "query_id": 10,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Human Rights \u2013 Freedom of Expression",
+        "scenario_length": 56,
+        "question_length": 11,
+        "total_length": 67,
+        "expected_cases": 3,
+        "retrieved_cases": 3,
+        "scenario": "During a climate protest, Zara displays a provocative banner near a government building and is arres...",
+        "question": "Was her arrest a disproportionate interference with her freedom of expression?"
+      },
+      {
+        "query_id": 11,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Tort \u2013 Defective Products",
+        "scenario_length": 48,
+        "question_length": 6,
+        "total_length": 54,
+        "expected_cases": 2,
+        "retrieved_cases": 4,
+        "scenario": "Mark suffers burns when his e-cigarette battery explodes during normal use. He purchased the item fr...",
+        "question": "Is the retailer or manufacturer liable?"
+      },
+      {
+        "query_id": 14,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Immigration Law \u2013 Deportation and Family Life",
+        "scenario_length": 66,
+        "question_length": 3,
+        "total_length": 69,
+        "expected_cases": 3,
+        "retrieved_cases": 5,
+        "scenario": "Ahmed, a foreign national who has lived in the UK for 15 years and has two children, faces deportati...",
+        "question": "Should deportation proceed?"
+      },
+      {
+        "query_id": 16,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Frustration of Contract",
+        "scenario_length": 38,
+        "question_length": 17,
+        "total_length": 55,
+        "expected_cases": 3,
+        "retrieved_cases": 5,
+        "scenario": "A band cancels its headline festival performance due to flooding at the venue. The promoter sues for...",
+        "question": "Was the contract frustrated due to unforeseeable circumstances, or should a force majeure clause have been included?"
+      },
+      {
+        "query_id": 20,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Contract Law \u2013 Misrepresentation",
+        "scenario_length": 71,
+        "question_length": 11,
+        "total_length": 82,
+        "expected_cases": 3,
+        "retrieved_cases": 5,
+        "scenario": "Max purchases a used car from a franchise dealer after being assured it had one careful owner and a ...",
+        "question": "Do the statements amount to actionable misrepresentation and what remedies follow?"
+      },
+      {
+        "query_id": 21,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Tort \u2013 Negligence",
+        "scenario_length": 42,
+        "question_length": 17,
+        "total_length": 59,
+        "expected_cases": 2,
+        "retrieved_cases": 5,
+        "scenario": "A construction firm erects a temporary hoarding and signage structure outside a retail parade. After...",
+        "question": "Is the harm reasonably foreseeable and has the duty of care been breached despite the weather event?"
+      },
+      {
+        "query_id": 22,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Criminal Law \u2013 Theft",
+        "scenario_length": 51,
+        "question_length": 13,
+        "total_length": 64,
+        "expected_cases": 2,
+        "retrieved_cases": 5,
+        "scenario": "An accounts manager uses a corporate fuel card over several weeks to buy personal holiday travel and...",
+        "question": "Did she possess the requisite dishonesty and intent to permanently deprive for theft?"
+      },
+      {
+        "query_id": 23,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Employment Law \u2013 Unfair Dismissal",
+        "scenario_length": 42,
+        "question_length": 16,
+        "total_length": 58,
+        "expected_cases": 1,
+        "retrieved_cases": 5,
+        "scenario": "An employee posts derogatory tweets about their employer under a pseudonymous account during off-dut...",
+        "question": "Was dismissal within the range of reasonable responses in light of policy, context, and reputational risk?"
+      },
+      {
+        "query_id": 25,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Intellectual Property \u2013 Copyright Infringement",
+        "scenario_length": 38,
+        "question_length": 12,
+        "total_length": 50,
+        "expected_cases": 3,
+        "retrieved_cases": 5,
+        "scenario": "A photographer finds her image lifted from her portfolio site and used by a national retailer across...",
+        "question": "Is innocent infringement a defence to liability and what remedies are available?"
+      },
+      {
+        "query_id": 26,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Public Law \u2013 Judicial Review",
+        "scenario_length": 31,
+        "question_length": 13,
+        "total_length": 44,
+        "expected_cases": 2,
+        "retrieved_cases": 5,
+        "scenario": "A local authority closes multiple day centres and significantly reduces adult care packages without ...",
+        "question": "Was the decision-making process procedurally fair and compliant with consultation and equality duties?"
+      },
+      {
+        "query_id": 29,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Defamation",
+        "scenario_length": 29,
+        "question_length": 15,
+        "total_length": 44,
+        "expected_cases": 1,
+        "retrieved_cases": 5,
+        "scenario": "A Facebook post falsely claims a local restaurant poisoned dozens of customers. Bookings collapse an...",
+        "question": "Does the publication meet the serious harm threshold and is the opinion/public interest defence viable?"
+      },
+      {
+        "query_id": 31,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Tort \u2013 Defective Products",
+        "scenario_length": 37,
+        "question_length": 18,
+        "total_length": 55,
+        "expected_cases": 1,
+        "retrieved_cases": 5,
+        "scenario": "A mobile phone wall charger explodes during ordinary use, causing burns. The product lacked adequate...",
+        "question": "Is strict liability made out against the producer or importer, and can the retailer be liable as supplier?"
+      },
+      {
+        "query_id": 33,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Equality & Discrimination Law",
+        "scenario_length": 30,
+        "question_length": 13,
+        "total_length": 43,
+        "expected_cases": 2,
+        "retrieved_cases": 5,
+        "scenario": "A retailer rejects a wheelchair user\u2019s application for a sales role, citing a requirement to be able...",
+        "question": "Has there been indirect disability discrimination or a failure to make reasonable adjustments?"
+      },
+      {
+        "query_id": 34,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Immigration Law \u2013 Deportation and Family Life",
+        "scenario_length": 29,
+        "question_length": 13,
+        "total_length": 42,
+        "expected_cases": 3,
+        "retrieved_cases": 5,
+        "scenario": "A long\u2011resident foreign national with a British partner and child faces deportation after a medium\u2011s...",
+        "question": "Should the public interest in deportation override the Article 8 family life considerations?"
+      },
+      {
+        "query_id": 35,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Property Law \u2013 Adverse Possession",
+        "scenario_length": 49,
+        "question_length": 14,
+        "total_length": 63,
+        "expected_cases": 3,
+        "retrieved_cases": 5,
+        "scenario": "A homeowner fences off and exclusively uses a strip of registered land owned by a housing associatio...",
+        "question": "Does the claim satisfy the LRA 2002 regime for adverse possession of registered land?"
+      },
+      {
+        "query_id": 37,
+        "f1_score": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "law_type": "Consumer Rights ",
+        "scenario_length": 25,
+        "question_length": 14,
+        "total_length": 39,
+        "expected_cases": 1,
+        "retrieved_cases": 1,
+        "scenario": "A gamer purchases a digital season pass that repeatedly fails to load despite troubleshooting. The p...",
+        "question": "What remedies are available under the Consumer Rights Act 2015 for faulty digital content?"
+      }
+    ],
+    "success_patterns": {
+      "avg_scenario_length": 43.46666666666667,
+      "avg_question_length": 10.6,
+      "avg_total_length": 54.06666666666667,
+      "law_type_distribution": {
+        "Contract Law \u2013 Duress": 2,
+        "Land Law \u2013 Private Nuisance": 2,
+        "Equality & Discrimination Law": 1,
+        "Property Law \u2013 Adverse Possession": 1,
+        "Consumer Rights ": 1,
+        "Promissory Estoppel": 2,
+        "Proprietary Estoppel": 2,
+        "Family Law \u2013 Child Custody and Relocation": 1,
+        "Criminal Law \u2013 Consent and Assault": 1,
+        "Human Rights \u2013 Freedom of Expression": 1,
+        "Frustration of Contract": 1
+      },
+      "expected_cases_avg": 2.1333333333333333,
+      "length_range": {
+        "min": 48,
+        "max": 66
+      }
+    },
+    "failure_patterns": {
+      "avg_scenario_length": 48.458333333333336,
+      "avg_question_length": 11.208333333333334,
+      "avg_total_length": 59.666666666666664,
+      "law_type_distribution": {
+        "Contract Law \u2013 Misrepresentation": 2,
+        "Tort \u2013 Negligence": 2,
+        "Employment Law \u2013 Unfair Dismissal": 2,
+        "Intellectual Property \u2013 Copyright Infringement": 2,
+        "Public Law \u2013 Judicial Review": 2,
+        "Family Law \u2013 Child Custody and Relocation": 1,
+        "Criminal Law \u2013 Consent and Assault": 1,
+        "Defamation": 2,
+        "Human Rights \u2013 Freedom of Expression": 1,
+        "Tort \u2013 Defective Products": 2,
+        "Immigration Law \u2013 Deportation and Family Life": 2,
+        "Frustration of Contract": 1,
+        "Criminal Law \u2013 Theft": 1,
+        "Equality & Discrimination Law": 1,
+        "Property Law \u2013 Adverse Possession": 1,
+        "Consumer Rights ": 1
+      },
+      "expected_cases_avg": 2.0416666666666665,
+      "length_range": {
+        "min": 39,
+        "max": 82
+      }
+    }
+  },
+  "summary": {
+    "best_f1": 0.6666666666666666,
+    "avg_f1": 0.1424908424908425,
+    "success_rate": 0.38461538461538464,
+    "improvement_over_baseline": 14.355707986281264,
+    "total_queries": 39,
+    "successful_queries": 15
+  }
+}
