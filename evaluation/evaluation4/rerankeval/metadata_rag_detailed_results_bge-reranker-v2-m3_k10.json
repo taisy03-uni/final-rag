@@ -1,0 +1,2868 @@
+{
+  "3": {
+    "results": [
+      {
+        "query": "Sarah buys a second-hand car from a dealership that tells her the vehicle has never been in an accident. Relying on this, she proceeds with the purchase without further inspection. Months later, she discovers the car had previously suffered major structural damage in a crash and had been repaired. She believes the dealer knowingly withheld this information to close the sale. She seeks to rescind the contract and claim damages. Was this a misrepresentation, and what remedies are available?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2022/440",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/386"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/811",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2016/433",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/745"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A scaffolding company negligently installs temporary platforms outside an office building. During a storm, unsecured scaffolding collapses onto a public walkway, injuring a pedestrian and damaging nearby vehicles. The company had been previously warned by inspectors about poor anchoring techniques. The injured person sues for negligence, claiming foreseeable risk and a duty of care breached. The company denies liability, stating the storm was unforeseeable. Is the company liable under negligence principles?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/1402",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2009/1145",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2017/62",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/739"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Liam is fired after criticising his employer on social media, describing the company as \u201ctoxic\u201d and the CEO as \u201cclueless.\u201d The comments were made in a private Facebook group but were later shared with HR by another employee. The employer argues the posts breached its social media and conduct policy. Liam says his dismissal was unfair, claiming his comments were made outside work and expressed a personal opinion. He sues for unfair dismissal. Was the dismissal reasonable?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/3320"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/2",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2023/122",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/19"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A small vendor is threatened with immediate contract termination by a large client unless it agrees to reduce prices significantly. Fearing business collapse, the vendor agrees but later claims it only did so under economic duress. The client maintains the renegotiation was a legitimate business tactic. The vendor wants to void the new contract terms. Was there illegitimate pressure amounting to economic duress?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/113"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/1601",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/828"
+        ],
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1_score": 0.4,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Alex, a freelance digital artist, discovers a high-street retailer has used one of her illustrations in a national advertising campaign without her consent. The company claims it sourced the image from a third-party website and believed it was royalty-free. Alex can prove authorship and had never licensed the work for commercial use. She demands compensation for copyright infringement. Can she succeed despite the company\u2019s claim of innocent use?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/890"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2021/1245",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2023/2038",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2022/1510"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A local council implements drastic cuts to adult social care services without consulting service users or stakeholders. Advocacy groups claim the changes were made with no equality impact assessment and disproportionately affect disabled residents. The council argues financial necessity justified immediate implementation. A judicial review is launched challenging the legality of the decision-making process. Was the council\u2019s approach procedurally fair and lawful?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2017/51",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2011/12"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2019/943",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2012/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2011/2911"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Following divorce, Anna seeks to relocate with her 9-year-old daughter to Canada for a new job. Her ex-husband, with whom she shares joint custody, objects, arguing it will damage his relationship with their child. Anna insists the move is in their daughter\u2019s best interests and will improve her quality of life. The court must weigh the child\u2019s welfare against the father\u2019s parental rights. How should the court approach this relocation dispute?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/1305",
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/882"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/843",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2021/489",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2020/488"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Two adults engage in consensual BDSM activity that results in visible injuries. One later files a police complaint, stating they were pressured into participating. The other participant argues that all acts were fully consensual and that the injuries were accidental. The prosecution charges assault occasioning actual bodily harm. Can consent serve as a defence in this context?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/46",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2020/180"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A viral post accuses a bakery owner of selling food contaminated with rodents. Although false, the post spreads widely, resulting in cancelled contracts and media coverage. The bakery owner sues for defamation, claiming serious harm to reputation and business. The poster argues it was an opinion shared in the public interest. Does the statement meet the serious harm threshold?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2019/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/433",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2019/17"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/2533",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2019/2278",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/453"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "During a climate protest, Zara displays a provocative banner near a government building and is arrested for breaching public order. She claims her actions were peaceful and within her rights under Article 10 ECHR. The police argue the banner caused disruption and alarm to the public. Zara seeks judicial review of the decision to arrest her. Was her arrest a disproportionate interference with her freedom of expression?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2021/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2022/736"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2005/2835",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2022/1259",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2013/651"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Mark suffers burns when his e-cigarette battery explodes during normal use. He purchased the item from a local vape shop, which sourced it from an overseas supplier. The product had no visible defects or warnings. Mark brings a claim for product liability under the Consumer Protection Act 1987. Is the retailer or manufacturer liable?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/3096",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/1208"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2010/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/590",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2011/1993"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A homeowner brings a claim against their neighbour who is undertaking extensive home renovations. The works involve daily drilling, dust clouds, and early morning starts, which have persisted for months. The homeowner claims the disruption has caused stress and made their home temporarily uninhabitable. The builder argues all activities were within legal hours and reasonably conducted. Does this amount to an actionable nuisance?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/312",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2014/13"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/752",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2003/49",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2016/1075"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Alex, who uses a wheelchair, applies for a retail position but is rejected without interview. The job listing required the ability to \"move swiftly around the shop floor.\" Alex argues this criterion unfairly excluded disabled applicants without justification. The company insists the requirement is inherent to the role. Has there been unlawful disability discrimination?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2024/3063",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2022/2992"
+        ],
+        "precision": 0.3333333333333333,
+        "recall": 1.0,
+        "f1_score": 0.5,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Ahmed, a foreign national who has lived in the UK for 15 years and has two children, faces deportation after a criminal conviction. He argues deportation would violate his Article 8 ECHR rights, as his children are British citizens and he is their sole provider. The Home Office insists the public interest in deporting offenders outweighs his family ties. He challenges the removal order in court. Should deportation proceed?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2016/60",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2017/11",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2015/68"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2020/1385",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2016/758",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/774"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A resident fences off and maintains a strip of land between their house and a park for over 12 years. They plant shrubs and build a shed on it, believing it forms part of their garden. The local council later claims the land and demands its return. The resident applies for title based on adverse possession. Can the claim succeed under the Land Registration Act 2002?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/1306"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2008/219",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/2625",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2008/7"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A band cancels its headline festival performance due to flooding at the venue. The promoter sues for breach of contract, but the band argues the event was rendered impossible. The venue had no contingency plan for extreme weather. Was the contract frustrated due to unforeseeable circumstances, or should a force majeure clause have been included?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1039",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/547"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/631",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/389",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2006/1713"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A gamer buys a new downloadable expansion for a popular video game that repeatedly crashes on launch. Despite reinstalling, the product remains unusable. The seller refuses a refund, stating the user agreed to digital terms and conditions. The gamer invokes the Consumer Rights Act 2015. Is the gamer entitled to a remedy?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/842",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1237"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/498",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/1587",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2020/671"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A landlord promises a struggling tenant a temporary rent reduction during lockdown. The tenant relies on this promise and stays in the property rather than relocating. Months later, the landlord demands back-payment in full. The tenant argues the landlord is estopped from doing so. Can promissory estoppel apply?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/24"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/884",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/1766"
+        ],
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1_score": 0.4,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "For years, Emma worked unpaid on her aunt\u2019s farm based on repeated promises she would inherit it. When the aunt dies, her will leaves the property to someone else. Emma seeks a declaration that she has a right to the farm under proprietary estoppel. The executors argue no formal agreement ever existed. Should Emma succeed?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/463"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/3160",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/779"
+        ],
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1_score": 0.4,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Max purchases a used car from a franchise dealer after being assured it had one careful owner and a full, genuine service history. He skips an independent inspection based on those statements. Later, he discovers the car is an ex-fleet vehicle with a rolled-back odometer and falsified service entries. Tom alleges the dealer knew or was reckless as to the truth and seeks rescission and damages under the Misrepresentation Act 1967. Do the statements amount to actionable misrepresentation and what remedies follow?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/133",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/386",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2014/9"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2003/467",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/265",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/811"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A construction firm erects a temporary hoarding and signage structure outside a retail parade. After prior warnings about inadequate fixings, high winds cause the structure to detach and injure a passerby. The firm argues an exceptional storm broke the chain of causation. Is the harm reasonably foreseeable and has the duty of care been breached despite the weather event?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2009/1404",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2004/345",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2022/3249",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1"
+        ],
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1_score": 0.4,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "An accounts manager uses a corporate fuel card over several weeks to buy personal holiday travel and premium goods, saying she planned to repay once her bonus was paid. She had no authority to use the card for personal spending and only offered repayment after discovery, leading to a theft charge. Did she possess the requisite dishonesty and intent to permanently deprive for theft?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/67",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2020/575"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2011/498",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/1286",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2011/6252"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "An employee posts derogatory tweets about their employer under a pseudonymous account during off-duty hours. Colleagues identify the account and report it. The company cites its social media policy and dismisses for misconduct. The employee claims unfair dismissal and freedom of expression. Was dismissal within the range of reasonable responses in light of policy, context, and reputational risk?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/2",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/19",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2023/122"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A key supplier is told mid-contract that unless it accepts a 25% price cut with immediate effect, the buyer will cancel all current and future orders. Facing insolvency, the supplier agrees but later seeks to set aside the variation for economic duress. Was the pressure illegitimate and did it leave the supplier with no practical alternative?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/40"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2017/3397",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/1203"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A photographer finds her image lifted from her portfolio site and used by a national retailer across its online storefront and email campaigns without licence. The retailer says it relied on a third-party royalty-free source and acted innocently. Is innocent infringement a defence to liability and what remedies are available?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2013/18",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/890",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/1696"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2005/3191",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/pat/2025/375",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2008/346"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A local authority closes multiple day centres and significantly reduces adult care packages without consulting service users or conducting an equality impact assessment, citing budget pressures. Advocacy groups challenge the decision. Was the decision-making process procedurally fair and compliant with consultation and equality duties?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/51",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2013/1345"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2012/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2018/2103",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2014/404"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Following separation, a mother seeks permission to relocate internally with an 8-year-old to Scotland for a new role. The father, with shared care, opposes, arguing the move will disrupt established contact and schooling. What is the correct approach to internal relocation where the child\u2019s welfare and ongoing contact are in tension?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/1305",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/882"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2024/2600",
+          "https://caselaw.nationalarchives.gov.uk/id/ewfc/b/2025/31",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/1031"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Two adults engage in consensual sexual activity involving rough practices. One sustains injuries amounting to ABH and later alleges they felt pressured. The other asserts consent and lack of intent to cause serious harm. Can consent provide a defence to assault occasioning actual bodily harm in these circumstances?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/46",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1_score": 0.8,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A Facebook post falsely claims a local restaurant poisoned dozens of customers. Bookings collapse and suppliers withdraw credit. The poster says it was their opinion and a public-spirited warning. Does the publication meet the serious harm threshold and is the opinion/public interest defence viable?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2019/17"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2024/2706",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/2787",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/1591"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "During a peaceful sit-down climate protest briefly blocking an entrance road to a government complex, Zara is arrested for a public order offence. She argues the arrest disproportionately interfered with her Article 10 rights. Was the arrest a proportionate interference with freedom of expression in a democratic society?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2023/919",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2708"
+        ],
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1_score": 0.4,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A mobile phone wall charger explodes during ordinary use, causing burns. The product lacked adequate warnings and was purchased from a UK retailer who imported it from abroad. The claimant sues under the Consumer Protection Act 1987. Is strict liability made out against the producer or importer, and can the retailer be liable as supplier?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/19"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/590",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/2976",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2017/767"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A neighbour converts a garage into a home gym and runs loud classes at 6:30 a.m. on weekdays for months, causing sleep disruption and dust from open doors. The neighbour says activities comply with planning and noise guidelines. Do the persistent disturbances amount to a private nuisance despite compliance with regulations?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2014/46",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/312"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/246",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2360",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2016/560"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A retailer rejects a wheelchair user\u2019s application for a sales role, citing a requirement to be able to \u201crapidly traverse the shop floor.\u201d No assessment of reasonable adjustments is undertaken. Has there been indirect disability discrimination or a failure to make reasonable adjustments?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/4"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2023/151",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1220",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/78"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A long\u2011resident foreign national with a British partner and child faces deportation after a medium\u2011serious conviction. He argues removal would unjustifiably interfere with family life under Article 8 ECHR. Should the public interest in deportation override the Article 8 family life considerations?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2016/60",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/11",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/53"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/1200",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/864",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2016/758"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A homeowner fences off and exclusively uses a strip of registered land owned by a housing association as part of his garden for 14 years, installing a gate and shed and excluding the public. The association later seeks possession; the occupier applies to be registered based on adverse possession. Does the claim satisfy the LRA 2002 regime for adverse possession of registered land?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/1306",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/150"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2023/549",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/534",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2008/219"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A touring artist cancels a major outdoor concert when unprecedented flash flooding renders the site unsafe and local authorities prohibit entry. The promoter sues; the artist argues frustration. No force majeure clause addresses such weather events. Has the contract been frustrated by supervening impossibility, or should risk have been allocated by contract?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1039",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/3192"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/40",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2010/1681",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/3522"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A gamer purchases a digital season pass that repeatedly fails to load despite troubleshooting. The platform refuses a refund, pointing to EULA terms restricting remedies. What remedies are available under the Consumer Rights Act 2015 for faulty digital content?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/4"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2023/2794",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/498",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/842"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "During a pandemic, a landlord emails a small business tenant agreeing to halve rent for six months until trade recovers. The tenant relies on this, remains in occupation, and arranges staffing accordingly. The landlord later demands back\u2011rent in full. Does promissory estoppel prevent the landlord from resiling from the rent reduction?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/24"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/884",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2013/239"
+        ],
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1_score": 0.4,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "For over a decade, a nephew works long hours for minimal pay at his aunt\u2019s hotel based on assurances he will inherit the business. The will leaves the hotel to a distant relative. The nephew sues relying on proprietary estoppel. Have assurance, reliance, and detriment been established and what is the appropriate remedy?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/463",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2003/1176",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/2492",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/890"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      }
+    ],
+    "summary": {
+      "avg_precision": 0.07692307692307693,
+      "avg_recall": 0.1282051282051282,
+      "avg_f1": 0.09487179487179487,
+      "success_rate": 0.20512820512820512,
+      "std_f1": 0.19604907542169514
+    }
+  },
+  "5": {
+    "results": [
+      {
+        "query": "Sarah buys a second-hand car from a dealership that tells her the vehicle has never been in an accident. Relying on this, she proceeds with the purchase without further inspection. Months later, she discovers the car had previously suffered major structural damage in a crash and had been repaired. She believes the dealer knowingly withheld this information to close the sale. She seeks to rescind the contract and claim damages. Was this a misrepresentation, and what remedies are available?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2022/440",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/386"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/811",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2016/433",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/745",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2010/1484",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2020/3448"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A scaffolding company negligently installs temporary platforms outside an office building. During a storm, unsecured scaffolding collapses onto a public walkway, injuring a pedestrian and damaging nearby vehicles. The company had been previously warned by inspectors about poor anchoring techniques. The injured person sues for negligence, claiming foreseeable risk and a duty of care breached. The company denies liability, stating the storm was unforeseeable. Is the company liable under negligence principles?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/1402",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2009/1145",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2017/62",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/739",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2008/1565",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2024/322"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Liam is fired after criticising his employer on social media, describing the company as \u201ctoxic\u201d and the CEO as \u201cclueless.\u201d The comments were made in a private Facebook group but were later shared with HR by another employee. The employer argues the posts breached its social media and conduct policy. Liam says his dismissal was unfair, claiming his comments were made outside work and expressed a personal opinion. He sues for unfair dismissal. Was the dismissal reasonable?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/3320"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/2",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2023/122",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/19",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/122",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/806"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A small vendor is threatened with immediate contract termination by a large client unless it agrees to reduce prices significantly. Fearing business collapse, the vendor agrees but later claims it only did so under economic duress. The client maintains the renegotiation was a legitimate business tactic. The vendor wants to void the new contract terms. Was there illegitimate pressure amounting to economic duress?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/113"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/1601",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/828",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/927",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2017/655"
+        ],
+        "precision": 0.2,
+        "recall": 0.5,
+        "f1_score": 0.28571428571428575,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Alex, a freelance digital artist, discovers a high-street retailer has used one of her illustrations in a national advertising campaign without her consent. The company claims it sourced the image from a third-party website and believed it was royalty-free. Alex can prove authorship and had never licensed the work for commercial use. She demands compensation for copyright infringement. Can she succeed despite the company\u2019s claim of innocent use?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/890"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2021/1245",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2023/2038",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2022/1510",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2018/1327",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ipec/2025/805"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A local council implements drastic cuts to adult social care services without consulting service users or stakeholders. Advocacy groups claim the changes were made with no equality impact assessment and disproportionately affect disabled residents. The council argues financial necessity justified immediate implementation. A judicial review is launched challenging the legality of the decision-making process. Was the council\u2019s approach procedurally fair and lawful?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2017/51",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2011/12"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2019/943",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2012/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2011/2911",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2016/1876"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Following divorce, Anna seeks to relocate with her 9-year-old daughter to Canada for a new job. Her ex-husband, with whom she shares joint custody, objects, arguing it will damage his relationship with their child. Anna insists the move is in their daughter\u2019s best interests and will improve her quality of life. The court must weigh the child\u2019s welfare against the father\u2019s parental rights. How should the court approach this relocation dispute?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/1305",
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/882"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/843",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2021/489",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2020/488"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Two adults engage in consensual BDSM activity that results in visible injuries. One later files a police complaint, stating they were pressured into participating. The other participant argues that all acts were fully consensual and that the injuries were accidental. The prosecution charges assault occasioning actual bodily harm. Can consent serve as a defence in this context?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/46",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2020/180"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A viral post accuses a bakery owner of selling food contaminated with rodents. Although false, the post spreads widely, resulting in cancelled contracts and media coverage. The bakery owner sues for defamation, claiming serious harm to reputation and business. The poster argues it was an opinion shared in the public interest. Does the statement meet the serious harm threshold?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2019/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/433",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2019/17"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/2533",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2019/2278",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/453",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2891",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/2128"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "During a climate protest, Zara displays a provocative banner near a government building and is arrested for breaching public order. She claims her actions were peaceful and within her rights under Article 10 ECHR. The police argue the banner caused disruption and alarm to the public. Zara seeks judicial review of the decision to arrest her. Was her arrest a disproportionate interference with her freedom of expression?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2021/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2022/736"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2005/2835",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2022/1259",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2013/651",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/151",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/1063"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Mark suffers burns when his e-cigarette battery explodes during normal use. He purchased the item from a local vape shop, which sourced it from an overseas supplier. The product had no visible defects or warnings. Mark brings a claim for product liability under the Consumer Protection Act 1987. Is the retailer or manufacturer liable?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/3096",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/1208"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2010/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/590",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2011/1993",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2014/1057",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/2976"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A homeowner brings a claim against their neighbour who is undertaking extensive home renovations. The works involve daily drilling, dust clouds, and early morning starts, which have persisted for months. The homeowner claims the disruption has caused stress and made their home temporarily uninhabitable. The builder argues all activities were within legal hours and reasonably conducted. Does this amount to an actionable nuisance?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/312",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2014/13"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/752",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2003/49",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2016/1075",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2011/1003"
+        ],
+        "precision": 0.2,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.25,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Alex, who uses a wheelchair, applies for a retail position but is rejected without interview. The job listing required the ability to \"move swiftly around the shop floor.\" Alex argues this criterion unfairly excluded disabled applicants without justification. The company insists the requirement is inherent to the role. Has there been unlawful disability discrimination?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2024/3063",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2022/2992",
+          "https://caselaw.nationalarchives.gov.uk/id/ukut/aac/2020/285",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/133"
+        ],
+        "precision": 0.2,
+        "recall": 1.0,
+        "f1_score": 0.33333333333333337,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Ahmed, a foreign national who has lived in the UK for 15 years and has two children, faces deportation after a criminal conviction. He argues deportation would violate his Article 8 ECHR rights, as his children are British citizens and he is their sole provider. The Home Office insists the public interest in deporting offenders outweighs his family ties. He challenges the removal order in court. Should deportation proceed?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2016/60",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2017/11",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2015/68"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2020/1385",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2016/758",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/774",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/81"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A resident fences off and maintains a strip of land between their house and a park for over 12 years. They plant shrubs and build a shed on it, believing it forms part of their garden. The local council later claims the land and demands its return. The resident applies for title based on adverse possession. Can the claim succeed under the Land Registration Act 2002?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/1306"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2008/219",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/2625",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2008/7",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/923",
+          "https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2023/102"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A band cancels its headline festival performance due to flooding at the venue. The promoter sues for breach of contract, but the band argues the event was rendered impossible. The venue had no contingency plan for extreme weather. Was the contract frustrated due to unforeseeable circumstances, or should a force majeure clause have been included?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1039",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/547"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/631",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/389",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2006/1713",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2023/524",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2007/402"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A gamer buys a new downloadable expansion for a popular video game that repeatedly crashes on launch. Despite reinstalling, the product remains unusable. The seller refuses a refund, stating the user agreed to digital terms and conditions. The gamer invokes the Consumer Rights Act 2015. Is the gamer entitled to a remedy?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/842",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1237"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2023/2794",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/498",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/1587",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2020/671",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2023/1964"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A landlord promises a struggling tenant a temporary rent reduction during lockdown. The tenant relies on this promise and stays in the property rather than relocating. Months later, the landlord demands back-payment in full. The tenant argues the landlord is estopped from doing so. Can promissory estoppel apply?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/24"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/884",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/1766",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2005/85",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2021/1077"
+        ],
+        "precision": 0.2,
+        "recall": 0.5,
+        "f1_score": 0.28571428571428575,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "For years, Emma worked unpaid on her aunt\u2019s farm based on repeated promises she would inherit it. When the aunt dies, her will leaves the property to someone else. Emma seeks a declaration that she has a right to the farm under proprietary estoppel. The executors argue no formal agreement ever existed. Should Emma succeed?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/463"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/3160",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/779",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/2989"
+        ],
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1_score": 0.3333333333333333,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Max purchases a used car from a franchise dealer after being assured it had one careful owner and a full, genuine service history. He skips an independent inspection based on those statements. Later, he discovers the car is an ex-fleet vehicle with a rolled-back odometer and falsified service entries. Tom alleges the dealer knew or was reckless as to the truth and seeks rescission and damages under the Misrepresentation Act 1967. Do the statements amount to actionable misrepresentation and what remedies follow?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/133",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/386",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2014/9"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2003/467",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/265",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/811",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2006/3746",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2023/2658"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A construction firm erects a temporary hoarding and signage structure outside a retail parade. After prior warnings about inadequate fixings, high winds cause the structure to detach and injure a passerby. The firm argues an exceptional storm broke the chain of causation. Is the harm reasonably foreseeable and has the duty of care been breached despite the weather event?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2009/1404",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2004/345",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2022/3249",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2019/1134",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2017/62"
+        ],
+        "precision": 0.2,
+        "recall": 0.5,
+        "f1_score": 0.28571428571428575,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "An accounts manager uses a corporate fuel card over several weeks to buy personal holiday travel and premium goods, saying she planned to repay once her bonus was paid. She had no authority to use the card for personal spending and only offered repayment after discovery, leading to a theft charge. Did she possess the requisite dishonesty and intent to permanently deprive for theft?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/67",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2020/575"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2011/498",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/1286",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2011/6252",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/1009",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2008/972"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "An employee posts derogatory tweets about their employer under a pseudonymous account during off-duty hours. Colleagues identify the account and report it. The company cites its social media policy and dismisses for misconduct. The employee claims unfair dismissal and freedom of expression. Was dismissal within the range of reasonable responses in light of policy, context, and reputational risk?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/2",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/19",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2023/122",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/205",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/903"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A key supplier is told mid-contract that unless it accepts a 25% price cut with immediate effect, the buyer will cancel all current and future orders. Facing insolvency, the supplier agrees but later seeks to set aside the variation for economic duress. Was the pressure illegitimate and did it leave the supplier with no practical alternative?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/40"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2017/3397",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/1203",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2017/655",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2007/3205"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A photographer finds her image lifted from her portfolio site and used by a national retailer across its online storefront and email campaigns without licence. The retailer says it relied on a third-party royalty-free source and acted innocently. Is innocent infringement a defence to liability and what remedies are available?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2013/18",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/890",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/1696"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2005/3191",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/pat/2025/375",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2008/346",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/pat/2024/1918",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2004/520"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A local authority closes multiple day centres and significantly reduces adult care packages without consulting service users or conducting an equality impact assessment, citing budget pressures. Advocacy groups challenge the decision. Was the decision-making process procedurally fair and compliant with consultation and equality duties?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/51",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2013/1345"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2012/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2018/2103",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2014/404",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2019/943",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2011/3096"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Following separation, a mother seeks permission to relocate internally with an 8-year-old to Scotland for a new role. The father, with shared care, opposes, arguing the move will disrupt established contact and schooling. What is the correct approach to internal relocation where the child\u2019s welfare and ongoing contact are in tension?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/1305",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/882"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2024/2600",
+          "https://caselaw.nationalarchives.gov.uk/id/ewfc/b/2025/31",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/1031"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Two adults engage in consensual sexual activity involving rough practices. One sustains injuries amounting to ABH and later alleges they felt pressured. The other asserts consent and lack of intent to cause serious harm. Can consent provide a defence to assault occasioning actual bodily harm in these circumstances?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/46",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1_score": 0.8,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A Facebook post falsely claims a local restaurant poisoned dozens of customers. Bookings collapse and suppliers withdraw credit. The poster says it was their opinion and a public-spirited warning. Does the publication meet the serious harm threshold and is the opinion/public interest defence viable?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2019/17"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2024/2706",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/2787",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/1591",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/56",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2891"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "During a peaceful sit-down climate protest briefly blocking an entrance road to a government complex, Zara is arrested for a public order offence. She argues the arrest disproportionately interfered with her Article 10 rights. Was the arrest a proportionate interference with freedom of expression in a democratic society?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2023/919",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2708",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/1063",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2020/798"
+        ],
+        "precision": 0.2,
+        "recall": 0.5,
+        "f1_score": 0.28571428571428575,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A mobile phone wall charger explodes during ordinary use, causing burns. The product lacked adequate warnings and was purchased from a UK retailer who imported it from abroad. The claimant sues under the Consumer Protection Act 1987. Is strict liability made out against the producer or importer, and can the retailer be liable as supplier?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/19"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/590",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2017/767",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/2976",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2011/1993",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2019/3362"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A neighbour converts a garage into a home gym and runs loud classes at 6:30 a.m. on weekdays for months, causing sleep disruption and dust from open doors. The neighbour says activities comply with planning and noise guidelines. Do the persistent disturbances amount to a private nuisance despite compliance with regulations?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2014/46",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/312"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/246",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2360",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2016/560",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/1218",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/752"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A retailer rejects a wheelchair user\u2019s application for a sales role, citing a requirement to be able to \u201crapidly traverse the shop floor.\u201d No assessment of reasonable adjustments is undertaken. Has there been indirect disability discrimination or a failure to make reasonable adjustments?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/4"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2023/151",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1220",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/78",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/133",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2018/640"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A long\u2011resident foreign national with a British partner and child faces deportation after a medium\u2011serious conviction. He argues removal would unjustifiably interfere with family life under Article 8 ECHR. Should the public interest in deportation override the Article 8 family life considerations?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2016/60",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/11",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/53"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/1200",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/864",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2016/758",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/2404",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/993"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A homeowner fences off and exclusively uses a strip of registered land owned by a housing association as part of his garden for 14 years, installing a gate and shed and excluding the public. The association later seeks possession; the occupier applies to be registered based on adverse possession. Does the claim satisfy the LRA 2002 regime for adverse possession of registered land?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/1306",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/150"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2023/549",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/534",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2008/219",
+          "https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2023/102"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A touring artist cancels a major outdoor concert when unprecedented flash flooding renders the site unsafe and local authorities prohibit entry. The promoter sues; the artist argues frustration. No force majeure clause addresses such weather events. Has the contract been frustrated by supervening impossibility, or should risk have been allocated by contract?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1039",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/3192"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/40",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2010/1681",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/3522",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/389",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335"
+        ],
+        "precision": 0.2,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.25,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A gamer purchases a digital season pass that repeatedly fails to load despite troubleshooting. The platform refuses a refund, pointing to EULA terms restricting remedies. What remedies are available under the Consumer Rights Act 2015 for faulty digital content?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/4"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2023/2794",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/498",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/842",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/1587"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "During a pandemic, a landlord emails a small business tenant agreeing to halve rent for six months until trade recovers. The tenant relies on this, remains in occupation, and arranges staffing accordingly. The landlord later demands back\u2011rent in full. Does promissory estoppel prevent the landlord from resiling from the rent reduction?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/24"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/884",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2013/239"
+        ],
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1_score": 0.4,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "For over a decade, a nephew works long hours for minimal pay at his aunt\u2019s hotel based on assurances he will inherit the business. The will leaves the hotel to a distant relative. The nephew sues relying on proprietary estoppel. Have assurance, reliance, and detriment been established and what is the appropriate remedy?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/463",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2003/1176",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/2492",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/890",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/1413",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1"
+        ],
+        "precision": 0.2,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.25,
+        "technique": "metadata_guided"
+      }
+    ],
+    "summary": {
+      "avg_precision": 0.0730769230769231,
+      "avg_recall": 0.15384615384615383,
+      "avg_f1": 0.0963980463980464,
+      "success_rate": 0.28205128205128205,
+      "std_f1": 0.17348923589176898
+    }
+  },
+  "7": {
+    "results": [
+      {
+        "query": "Sarah buys a second-hand car from a dealership that tells her the vehicle has never been in an accident. Relying on this, she proceeds with the purchase without further inspection. Months later, she discovers the car had previously suffered major structural damage in a crash and had been repaired. She believes the dealer knowingly withheld this information to close the sale. She seeks to rescind the contract and claim damages. Was this a misrepresentation, and what remedies are available?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2022/440",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/386"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/811",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2016/433",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/745",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2010/1484",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2020/3448",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2015/60",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2014/9"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A scaffolding company negligently installs temporary platforms outside an office building. During a storm, unsecured scaffolding collapses onto a public walkway, injuring a pedestrian and damaging nearby vehicles. The company had been previously warned by inspectors about poor anchoring techniques. The injured person sues for negligence, claiming foreseeable risk and a duty of care breached. The company denies liability, stating the storm was unforeseeable. Is the company liable under negligence principles?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/1402",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2009/1145",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2017/62",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/739",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2008/1565",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2005/2941"
+        ],
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Liam is fired after criticising his employer on social media, describing the company as \u201ctoxic\u201d and the CEO as \u201cclueless.\u201d The comments were made in a private Facebook group but were later shared with HR by another employee. The employer argues the posts breached its social media and conduct policy. Liam says his dismissal was unfair, claiming his comments were made outside work and expressed a personal opinion. He sues for unfair dismissal. Was the dismissal reasonable?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/3320"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/2",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2023/122",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/19",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/122",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/205"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A small vendor is threatened with immediate contract termination by a large client unless it agrees to reduce prices significantly. Fearing business collapse, the vendor agrees but later claims it only did so under economic duress. The client maintains the renegotiation was a legitimate business tactic. The vendor wants to void the new contract terms. Was there illegitimate pressure amounting to economic duress?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/113"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/1601",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/828",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/927",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2017/655",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2017/1367",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2017/3397"
+        ],
+        "precision": 0.14285714285714285,
+        "recall": 0.5,
+        "f1_score": 0.22222222222222224,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Alex, a freelance digital artist, discovers a high-street retailer has used one of her illustrations in a national advertising campaign without her consent. The company claims it sourced the image from a third-party website and believed it was royalty-free. Alex can prove authorship and had never licensed the work for commercial use. She demands compensation for copyright infringement. Can she succeed despite the company\u2019s claim of innocent use?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/890"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2021/1245",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2023/2038",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2022/1510",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2018/1327",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ipec/2025/805",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2013/3290",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2014/439"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A local council implements drastic cuts to adult social care services without consulting service users or stakeholders. Advocacy groups claim the changes were made with no equality impact assessment and disproportionately affect disabled residents. The council argues financial necessity justified immediate implementation. A judicial review is launched challenging the legality of the decision-making process. Was the council\u2019s approach procedurally fair and lawful?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2017/51",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2011/12"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2019/943",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2012/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2011/2911",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2016/1876"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Following divorce, Anna seeks to relocate with her 9-year-old daughter to Canada for a new job. Her ex-husband, with whom she shares joint custody, objects, arguing it will damage his relationship with their child. Anna insists the move is in their daughter\u2019s best interests and will improve her quality of life. The court must weigh the child\u2019s welfare against the father\u2019s parental rights. How should the court approach this relocation dispute?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/1305",
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/882"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/843",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2021/489",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2020/488"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Two adults engage in consensual BDSM activity that results in visible injuries. One later files a police complaint, stating they were pressured into participating. The other participant argues that all acts were fully consensual and that the injuries were accidental. The prosecution charges assault occasioning actual bodily harm. Can consent serve as a defence in this context?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/46",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2020/180"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A viral post accuses a bakery owner of selling food contaminated with rodents. Although false, the post spreads widely, resulting in cancelled contracts and media coverage. The bakery owner sues for defamation, claiming serious harm to reputation and business. The poster argues it was an opinion shared in the public interest. Does the statement meet the serious harm threshold?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2019/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/433",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2019/17"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/2533",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2019/2278",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/453",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2891",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/2128",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2020/2912",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/1099"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "During a climate protest, Zara displays a provocative banner near a government building and is arrested for breaching public order. She claims her actions were peaceful and within her rights under Article 10 ECHR. The police argue the banner caused disruption and alarm to the public. Zara seeks judicial review of the decision to arrest her. Was her arrest a disproportionate interference with her freedom of expression?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2021/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2022/736"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2005/2835",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2022/1259",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2013/651",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/151",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/1063",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2012/1123"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Mark suffers burns when his e-cigarette battery explodes during normal use. He purchased the item from a local vape shop, which sourced it from an overseas supplier. The product had no visible defects or warnings. Mark brings a claim for product liability under the Consumer Protection Act 1987. Is the retailer or manufacturer liable?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/3096",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/1208"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2010/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/590",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2011/1993",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2014/1057",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/2976",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/966"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A homeowner brings a claim against their neighbour who is undertaking extensive home renovations. The works involve daily drilling, dust clouds, and early morning starts, which have persisted for months. The homeowner claims the disruption has caused stress and made their home temporarily uninhabitable. The builder argues all activities were within legal hours and reasonably conducted. Does this amount to an actionable nuisance?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/312",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2014/13"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/752",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2003/49",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2016/1075",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2011/1003",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2013/580"
+        ],
+        "precision": 0.16666666666666666,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.2222222222222222,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Alex, who uses a wheelchair, applies for a retail position but is rejected without interview. The job listing required the ability to \"move swiftly around the shop floor.\" Alex argues this criterion unfairly excluded disabled applicants without justification. The company insists the requirement is inherent to the role. Has there been unlawful disability discrimination?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2024/3063",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2022/2992",
+          "https://caselaw.nationalarchives.gov.uk/id/ukut/aac/2020/285",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/133",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/1508"
+        ],
+        "precision": 0.16666666666666666,
+        "recall": 1.0,
+        "f1_score": 0.2857142857142857,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Ahmed, a foreign national who has lived in the UK for 15 years and has two children, faces deportation after a criminal conviction. He argues deportation would violate his Article 8 ECHR rights, as his children are British citizens and he is their sole provider. The Home Office insists the public interest in deporting offenders outweighs his family ties. He challenges the removal order in court. Should deportation proceed?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2016/60",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2017/11",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2015/68"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2020/1385",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2016/758",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/774",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/81"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A resident fences off and maintains a strip of land between their house and a park for over 12 years. They plant shrubs and build a shed on it, believing it forms part of their garden. The local council later claims the land and demands its return. The resident applies for title based on adverse possession. Can the claim succeed under the Land Registration Act 2002?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/1306"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2008/219",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/2625",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2008/7",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/923",
+          "https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2023/102",
+          "https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2024/57",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2023/3337"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A band cancels its headline festival performance due to flooding at the venue. The promoter sues for breach of contract, but the band argues the event was rendered impossible. The venue had no contingency plan for extreme weather. Was the contract frustrated due to unforeseeable circumstances, or should a force majeure clause have been included?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1039",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/547"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/631",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/389",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2006/1713",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2023/524",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2007/402",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2024/18",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/40"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A gamer buys a new downloadable expansion for a popular video game that repeatedly crashes on launch. Despite reinstalling, the product remains unusable. The seller refuses a refund, stating the user agreed to digital terms and conditions. The gamer invokes the Consumer Rights Act 2015. Is the gamer entitled to a remedy?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/842",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1237"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/498",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/1587",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2020/671",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2023/1964",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/842"
+        ],
+        "precision": 0.2,
+        "recall": 0.5,
+        "f1_score": 0.28571428571428575,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A landlord promises a struggling tenant a temporary rent reduction during lockdown. The tenant relies on this promise and stays in the property rather than relocating. Months later, the landlord demands back-payment in full. The tenant argues the landlord is estopped from doing so. Can promissory estoppel apply?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/24"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/884",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/1766",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2005/85",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2021/1077",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/3422"
+        ],
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "For years, Emma worked unpaid on her aunt\u2019s farm based on repeated promises she would inherit it. When the aunt dies, her will leaves the property to someone else. Emma seeks a declaration that she has a right to the farm under proprietary estoppel. The executors argue no formal agreement ever existed. Should Emma succeed?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/463"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/3160",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/779",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/2989"
+        ],
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1_score": 0.3333333333333333,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Max purchases a used car from a franchise dealer after being assured it had one careful owner and a full, genuine service history. He skips an independent inspection based on those statements. Later, he discovers the car is an ex-fleet vehicle with a rolled-back odometer and falsified service entries. Tom alleges the dealer knew or was reckless as to the truth and seeks rescission and damages under the Misrepresentation Act 1967. Do the statements amount to actionable misrepresentation and what remedies follow?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/133",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/386",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2014/9"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2003/467",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/265",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/811",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2006/3746",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2023/2658",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/745",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2016/1909"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A construction firm erects a temporary hoarding and signage structure outside a retail parade. After prior warnings about inadequate fixings, high winds cause the structure to detach and injure a passerby. The firm argues an exceptional storm broke the chain of causation. Is the harm reasonably foreseeable and has the duty of care been breached despite the weather event?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2009/1404",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2004/345",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2022/3249",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2019/1134",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2017/62",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2003/1067",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2021/848"
+        ],
+        "precision": 0.14285714285714285,
+        "recall": 0.5,
+        "f1_score": 0.22222222222222224,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "An accounts manager uses a corporate fuel card over several weeks to buy personal holiday travel and premium goods, saying she planned to repay once her bonus was paid. She had no authority to use the card for personal spending and only offered repayment after discovery, leading to a theft charge. Did she possess the requisite dishonesty and intent to permanently deprive for theft?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/67",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2020/575"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2011/498",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/1286",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2011/6252",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/1009",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2008/972",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2022/2499"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "An employee posts derogatory tweets about their employer under a pseudonymous account during off-duty hours. Colleagues identify the account and report it. The company cites its social media policy and dismisses for misconduct. The employee claims unfair dismissal and freedom of expression. Was dismissal within the range of reasonable responses in light of policy, context, and reputational risk?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/2",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/19",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2023/122",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/205",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/959"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A key supplier is told mid-contract that unless it accepts a 25% price cut with immediate effect, the buyer will cancel all current and future orders. Facing insolvency, the supplier agrees but later seeks to set aside the variation for economic duress. Was the pressure illegitimate and did it leave the supplier with no practical alternative?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/40"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2017/3397",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/1203",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2017/655",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2007/3205",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2008/3028",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2018/3262"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A photographer finds her image lifted from her portfolio site and used by a national retailer across its online storefront and email campaigns without licence. The retailer says it relied on a third-party royalty-free source and acted innocently. Is innocent infringement a defence to liability and what remedies are available?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2013/18",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/890",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/1696"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2005/3191",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/pat/2025/375",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2008/346",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/pat/2024/1918",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2004/520",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2021/626",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2024/17"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A local authority closes multiple day centres and significantly reduces adult care packages without consulting service users or conducting an equality impact assessment, citing budget pressures. Advocacy groups challenge the decision. Was the decision-making process procedurally fair and compliant with consultation and equality duties?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/51",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2013/1345"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2012/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2018/2103",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2014/404",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2019/943",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2011/3096",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1235",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2018/2080"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Following separation, a mother seeks permission to relocate internally with an 8-year-old to Scotland for a new role. The father, with shared care, opposes, arguing the move will disrupt established contact and schooling. What is the correct approach to internal relocation where the child\u2019s welfare and ongoing contact are in tension?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/1305",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/882"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2024/2600",
+          "https://caselaw.nationalarchives.gov.uk/id/ewfc/b/2025/31",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/1031"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Two adults engage in consensual sexual activity involving rough practices. One sustains injuries amounting to ABH and later alleges they felt pressured. The other asserts consent and lack of intent to cause serious harm. Can consent provide a defence to assault occasioning actual bodily harm in these circumstances?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/46",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1_score": 0.8,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A Facebook post falsely claims a local restaurant poisoned dozens of customers. Bookings collapse and suppliers withdraw credit. The poster says it was their opinion and a public-spirited warning. Does the publication meet the serious harm threshold and is the opinion/public interest defence viable?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2019/17"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2024/2706",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/2787",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/1591",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/56",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2891",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/453",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/2128"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "During a peaceful sit-down climate protest briefly blocking an entrance road to a government complex, Zara is arrested for a public order offence. She argues the arrest disproportionately interfered with her Article 10 rights. Was the arrest a proportionate interference with freedom of expression in a democratic society?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2023/919",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2708",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/1063",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2020/798",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2024/1908",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2024/134"
+        ],
+        "precision": 0.14285714285714285,
+        "recall": 0.5,
+        "f1_score": 0.22222222222222224,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A mobile phone wall charger explodes during ordinary use, causing burns. The product lacked adequate warnings and was purchased from a UK retailer who imported it from abroad. The claimant sues under the Consumer Protection Act 1987. Is strict liability made out against the producer or importer, and can the retailer be liable as supplier?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/19"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/590",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2017/767",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/2976",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2011/1993",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2019/3362",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2017/2829",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/393"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A neighbour converts a garage into a home gym and runs loud classes at 6:30 a.m. on weekdays for months, causing sleep disruption and dust from open doors. The neighbour says activities comply with planning and noise guidelines. Do the persistent disturbances amount to a private nuisance despite compliance with regulations?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2014/46",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/312"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/246",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2360",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2016/560",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/1218",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/752",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2013/580",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2011/1003"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A retailer rejects a wheelchair user\u2019s application for a sales role, citing a requirement to be able to \u201crapidly traverse the shop floor.\u201d No assessment of reasonable adjustments is undertaken. Has there been indirect disability discrimination or a failure to make reasonable adjustments?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/4"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2023/151",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1220",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/78",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/133",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2018/640",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2022/351",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/19"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A long\u2011resident foreign national with a British partner and child faces deportation after a medium\u2011serious conviction. He argues removal would unjustifiably interfere with family life under Article 8 ECHR. Should the public interest in deportation override the Article 8 family life considerations?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2016/60",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/11",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/53"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/1200",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/864",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2016/758",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2024/3303",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/2404",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/993",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/201"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A homeowner fences off and exclusively uses a strip of registered land owned by a housing association as part of his garden for 14 years, installing a gate and shed and excluding the public. The association later seeks possession; the occupier applies to be registered based on adverse possession. Does the claim satisfy the LRA 2002 regime for adverse possession of registered land?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/1306",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/150"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2023/549",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/534",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2008/219",
+          "https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2023/102"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A touring artist cancels a major outdoor concert when unprecedented flash flooding renders the site unsafe and local authorities prohibit entry. The promoter sues; the artist argues frustration. No force majeure clause addresses such weather events. Has the contract been frustrated by supervening impossibility, or should risk have been allocated by contract?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1039",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/3192"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/40",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2010/1681",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/3522",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/389",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2023/1869",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2006/1713"
+        ],
+        "precision": 0.14285714285714285,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.2,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A gamer purchases a digital season pass that repeatedly fails to load despite troubleshooting. The platform refuses a refund, pointing to EULA terms restricting remedies. What remedies are available under the Consumer Rights Act 2015 for faulty digital content?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/4"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2023/2794",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/498",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/842",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/1587"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "During a pandemic, a landlord emails a small business tenant agreeing to halve rent for six months until trade recovers. The tenant relies on this, remains in occupation, and arranges staffing accordingly. The landlord later demands back\u2011rent in full. Does promissory estoppel prevent the landlord from resiling from the rent reduction?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/24"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/884",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2013/239"
+        ],
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1_score": 0.4,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "For over a decade, a nephew works long hours for minimal pay at his aunt\u2019s hotel based on assurances he will inherit the business. The will leaves the hotel to a distant relative. The nephew sues relying on proprietary estoppel. Have assurance, reliance, and detriment been established and what is the appropriate remedy?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/463",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2003/1176",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/2492",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/890",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/1413",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2020/2068"
+        ],
+        "precision": 0.2857142857142857,
+        "recall": 0.6666666666666666,
+        "f1_score": 0.4,
+        "technique": "metadata_guided"
+      }
+    ],
+    "summary": {
+      "avg_precision": 0.07625152625152626,
+      "avg_recall": 0.18803418803418803,
+      "avg_f1": 0.10496540496540498,
+      "success_rate": 0.3333333333333333,
+      "std_f1": 0.17299885638339838
+    }
+  },
+  "10": {
+    "results": [
+      {
+        "query": "Sarah buys a second-hand car from a dealership that tells her the vehicle has never been in an accident. Relying on this, she proceeds with the purchase without further inspection. Months later, she discovers the car had previously suffered major structural damage in a crash and had been repaired. She believes the dealer knowingly withheld this information to close the sale. She seeks to rescind the contract and claim damages. Was this a misrepresentation, and what remedies are available?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2022/440",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/386"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/811",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2016/433",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/745",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2010/1484",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2020/3448",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2015/60",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2014/9",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2006/3746",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2023/500"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A scaffolding company negligently installs temporary platforms outside an office building. During a storm, unsecured scaffolding collapses onto a public walkway, injuring a pedestrian and damaging nearby vehicles. The company had been previously warned by inspectors about poor anchoring techniques. The injured person sues for negligence, claiming foreseeable risk and a duty of care breached. The company denies liability, stating the storm was unforeseeable. Is the company liable under negligence principles?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/1402",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2009/1145",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2017/62",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/739",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2008/1565",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2024/322",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1698",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/528",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2005/2941"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Liam is fired after criticising his employer on social media, describing the company as \u201ctoxic\u201d and the CEO as \u201cclueless.\u201d The comments were made in a private Facebook group but were later shared with HR by another employee. The employer argues the posts breached its social media and conduct policy. Liam says his dismissal was unfair, claiming his comments were made outside work and expressed a personal opinion. He sues for unfair dismissal. Was the dismissal reasonable?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/3320"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/2",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2023/122",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/19",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/122",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/806"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A small vendor is threatened with immediate contract termination by a large client unless it agrees to reduce prices significantly. Fearing business collapse, the vendor agrees but later claims it only did so under economic duress. The client maintains the renegotiation was a legitimate business tactic. The vendor wants to void the new contract terms. Was there illegitimate pressure amounting to economic duress?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/113"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/1601",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/828",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/927",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2017/655",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2017/1367",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2017/3397",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/40",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2018/3262"
+        ],
+        "precision": 0.1111111111111111,
+        "recall": 0.5,
+        "f1_score": 0.1818181818181818,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Alex, a freelance digital artist, discovers a high-street retailer has used one of her illustrations in a national advertising campaign without her consent. The company claims it sourced the image from a third-party website and believed it was royalty-free. Alex can prove authorship and had never licensed the work for commercial use. She demands compensation for copyright infringement. Can she succeed despite the company\u2019s claim of innocent use?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/890"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2021/1245",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2023/2038",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2022/1510",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2018/1327",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ipec/2025/805",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2013/3290",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2014/439",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2013/2310",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/52",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/3"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A local council implements drastic cuts to adult social care services without consulting service users or stakeholders. Advocacy groups claim the changes were made with no equality impact assessment and disproportionately affect disabled residents. The council argues financial necessity justified immediate implementation. A judicial review is launched challenging the legality of the decision-making process. Was the council\u2019s approach procedurally fair and lawful?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2017/51",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2011/12"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2019/943",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2012/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2011/2911",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2016/1876"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Following divorce, Anna seeks to relocate with her 9-year-old daughter to Canada for a new job. Her ex-husband, with whom she shares joint custody, objects, arguing it will damage his relationship with their child. Anna insists the move is in their daughter\u2019s best interests and will improve her quality of life. The court must weigh the child\u2019s welfare against the father\u2019s parental rights. How should the court approach this relocation dispute?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/1305",
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/882"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/843",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2021/489",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2020/488"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Two adults engage in consensual BDSM activity that results in visible injuries. One later files a police complaint, stating they were pressured into participating. The other participant argues that all acts were fully consensual and that the injuries were accidental. The prosecution charges assault occasioning actual bodily harm. Can consent serve as a defence in this context?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/46",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2020/180"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A viral post accuses a bakery owner of selling food contaminated with rodents. Although false, the post spreads widely, resulting in cancelled contracts and media coverage. The bakery owner sues for defamation, claiming serious harm to reputation and business. The poster argues it was an opinion shared in the public interest. Does the statement meet the serious harm threshold?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2019/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/433",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2019/17"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/2533",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2019/2278",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/453",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2891",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/2128",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2020/2912",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/1099"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "During a climate protest, Zara displays a provocative banner near a government building and is arrested for breaching public order. She claims her actions were peaceful and within her rights under Article 10 ECHR. The police argue the banner caused disruption and alarm to the public. Zara seeks judicial review of the decision to arrest her. Was her arrest a disproportionate interference with her freedom of expression?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2021/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2022/736"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2005/2835",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2022/1259",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2013/651",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/151",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/1063",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2012/1123"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Mark suffers burns when his e-cigarette battery explodes during normal use. He purchased the item from a local vape shop, which sourced it from an overseas supplier. The product had no visible defects or warnings. Mark brings a claim for product liability under the Consumer Protection Act 1987. Is the retailer or manufacturer liable?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/3096",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/1208"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2010/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/590",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2011/1993",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2014/1057",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/2976"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A homeowner brings a claim against their neighbour who is undertaking extensive home renovations. The works involve daily drilling, dust clouds, and early morning starts, which have persisted for months. The homeowner claims the disruption has caused stress and made their home temporarily uninhabitable. The builder argues all activities were within legal hours and reasonably conducted. Does this amount to an actionable nuisance?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/312",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2014/13"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/752",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2003/49",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2016/1075",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2011/1003",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2013/580"
+        ],
+        "precision": 0.16666666666666666,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.2222222222222222,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Alex, who uses a wheelchair, applies for a retail position but is rejected without interview. The job listing required the ability to \"move swiftly around the shop floor.\" Alex argues this criterion unfairly excluded disabled applicants without justification. The company insists the requirement is inherent to the role. Has there been unlawful disability discrimination?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2024/3063",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/160",
+          "https://caselaw.nationalarchives.gov.uk/id/ukut/iac/2014/513",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2022/2992",
+          "https://caselaw.nationalarchives.gov.uk/id/ukut/aac/2020/285",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/133",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/1508",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/76"
+        ],
+        "precision": 0.1111111111111111,
+        "recall": 1.0,
+        "f1_score": 0.19999999999999998,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Ahmed, a foreign national who has lived in the UK for 15 years and has two children, faces deportation after a criminal conviction. He argues deportation would violate his Article 8 ECHR rights, as his children are British citizens and he is their sole provider. The Home Office insists the public interest in deporting offenders outweighs his family ties. He challenges the removal order in court. Should deportation proceed?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/uksc/2016/60",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2017/11",
+          "https://caselaw.nationalarchives.gov.uk/uksc/2015/68"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2020/1385",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2016/758",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/774",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/81"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A resident fences off and maintains a strip of land between their house and a park for over 12 years. They plant shrubs and build a shed on it, believing it forms part of their garden. The local council later claims the land and demands its return. The resident applies for title based on adverse possession. Can the claim succeed under the Land Registration Act 2002?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/1306"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2008/219",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/2625",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2008/7",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/923",
+          "https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2023/102",
+          "https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2024/57",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2023/3337"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A band cancels its headline festival performance due to flooding at the venue. The promoter sues for breach of contract, but the band argues the event was rendered impossible. The venue had no contingency plan for extreme weather. Was the contract frustrated due to unforeseeable circumstances, or should a force majeure clause have been included?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1039",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/547"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/631",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/389",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2006/1713",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2023/524",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2007/402",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2024/18",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/40",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2010/1681"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A gamer buys a new downloadable expansion for a popular video game that repeatedly crashes on launch. Despite reinstalling, the product remains unusable. The seller refuses a refund, stating the user agreed to digital terms and conditions. The gamer invokes the Consumer Rights Act 2015. Is the gamer entitled to a remedy?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/842",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1237"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/498",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/1587",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2020/671",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2023/1964",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/842"
+        ],
+        "precision": 0.2,
+        "recall": 0.5,
+        "f1_score": 0.28571428571428575,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A landlord promises a struggling tenant a temporary rent reduction during lockdown. The tenant relies on this promise and stays in the property rather than relocating. Months later, the landlord demands back-payment in full. The tenant argues the landlord is estopped from doing so. Can promissory estoppel apply?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/24"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/884",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/1766",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2005/85",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2021/1077",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/3422"
+        ],
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1_score": 0.25,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "For years, Emma worked unpaid on her aunt\u2019s farm based on repeated promises she would inherit it. When the aunt dies, her will leaves the property to someone else. Emma seeks a declaration that she has a right to the farm under proprietary estoppel. The executors argue no formal agreement ever existed. Should Emma succeed?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/463"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/3160",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/779",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/2989"
+        ],
+        "precision": 0.25,
+        "recall": 0.5,
+        "f1_score": 0.3333333333333333,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Max purchases a used car from a franchise dealer after being assured it had one careful owner and a full, genuine service history. He skips an independent inspection based on those statements. Later, he discovers the car is an ex-fleet vehicle with a rolled-back odometer and falsified service entries. Tom alleges the dealer knew or was reckless as to the truth and seeks rescission and damages under the Misrepresentation Act 1967. Do the statements amount to actionable misrepresentation and what remedies follow?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/133",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/386",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2014/9"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2003/467",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/265",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/811",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2006/3746",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2023/2658",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/745",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2016/1909",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2013/1507",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2023/1018",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/3542"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A construction firm erects a temporary hoarding and signage structure outside a retail parade. After prior warnings about inadequate fixings, high winds cause the structure to detach and injure a passerby. The firm argues an exceptional storm broke the chain of causation. Is the harm reasonably foreseeable and has the duty of care been breached despite the weather event?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2009/1404",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2004/345",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2022/3249",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2019/1134",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2017/62",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2003/1067",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2021/848",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/2763",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/528"
+        ],
+        "precision": 0.1111111111111111,
+        "recall": 0.5,
+        "f1_score": 0.1818181818181818,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "An accounts manager uses a corporate fuel card over several weeks to buy personal holiday travel and premium goods, saying she planned to repay once her bonus was paid. She had no authority to use the card for personal spending and only offered repayment after discovery, leading to a theft charge. Did she possess the requisite dishonesty and intent to permanently deprive for theft?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/67",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2020/575"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2011/498",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/1286",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2011/6252",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2017/2820",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/1009",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2008/972",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2022/2499"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "An employee posts derogatory tweets about their employer under a pseudonymous account during off-duty hours. Colleagues identify the account and report it. The company cites its social media policy and dismisses for misconduct. The employee claims unfair dismissal and freedom of expression. Was dismissal within the range of reasonable responses in light of policy, context, and reputational risk?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/2",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/19",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2023/122",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/205",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/959"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A key supplier is told mid-contract that unless it accepts a 25% price cut with immediate effect, the buyer will cancel all current and future orders. Facing insolvency, the supplier agrees but later seeks to set aside the variation for economic duress. Was the pressure illegitimate and did it leave the supplier with no practical alternative?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/40"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2017/3397",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/1203",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2017/655",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2007/3205",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2008/3028",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2018/3262",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/908",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/40"
+        ],
+        "precision": 0.1111111111111111,
+        "recall": 1.0,
+        "f1_score": 0.19999999999999998,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A photographer finds her image lifted from her portfolio site and used by a national retailer across its online storefront and email campaigns without licence. The retailer says it relied on a third-party royalty-free source and acted innocently. Is innocent infringement a defence to liability and what remedies are available?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2013/18",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/890",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/1696"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2005/3191",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/pat/2025/375",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2008/346",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/pat/2024/1918",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2004/520",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2021/626",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2024/17"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A local authority closes multiple day centres and significantly reduces adult care packages without consulting service users or conducting an equality impact assessment, citing budget pressures. Advocacy groups challenge the decision. Was the decision-making process procedurally fair and compliant with consultation and equality duties?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/51",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2013/1345"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2012/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2018/2103",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2014/404",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2019/943",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2011/3096",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1235",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2018/2080",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2022/360"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Following separation, a mother seeks permission to relocate internally with an 8-year-old to Scotland for a new role. The father, with shared care, opposes, arguing the move will disrupt established contact and schooling. What is the correct approach to internal relocation where the child\u2019s welfare and ongoing contact are in tension?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/1305",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/882"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2024/2600",
+          "https://caselaw.nationalarchives.gov.uk/id/ewfc/b/2025/31",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/1031"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "Two adults engage in consensual sexual activity involving rough practices. One sustains injuries amounting to ABH and later alleges they felt pressured. The other asserts consent and lack of intent to cause serious harm. Can consent provide a defence to assault occasioning actual bodily harm in these circumstances?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2025/46",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560"
+        ],
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1_score": 0.8,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A Facebook post falsely claims a local restaurant poisoned dozens of customers. Bookings collapse and suppliers withdraw credit. The poster says it was their opinion and a public-spirited warning. Does the publication meet the serious harm threshold and is the opinion/public interest defence viable?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2019/17"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2024/2706",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/2787",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/1591",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/56",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2891",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/453",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/2128",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/770",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/2017"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "During a peaceful sit-down climate protest briefly blocking an entrance road to a government complex, Zara is arrested for a public order offence. She argues the arrest disproportionately interfered with her Article 10 rights. Was the arrest a proportionate interference with freedom of expression in a democratic society?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2023/919",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/23",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2708",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/1063",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2020/798",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2024/1908",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2022/1259"
+        ],
+        "precision": 0.14285714285714285,
+        "recall": 0.5,
+        "f1_score": 0.22222222222222224,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A mobile phone wall charger explodes during ordinary use, causing burns. The product lacked adequate warnings and was purchased from a UK retailer who imported it from abroad. The claimant sues under the Consumer Protection Act 1987. Is strict liability made out against the producer or importer, and can the retailer be liable as supplier?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/19"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2022/590",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/2976",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2017/767",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2011/1993",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2019/3362",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2017/2829",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/393"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A neighbour converts a garage into a home gym and runs loud classes at 6:30 a.m. on weekdays for months, causing sleep disruption and dust from open doors. The neighbour says activities comply with planning and noise guidelines. Do the persistent disturbances amount to a private nuisance despite compliance with regulations?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2014/46",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/312"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/246",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2022/2360",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2016/560",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/1218",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/752",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2013/580",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/tcc/2011/1003",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/609",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4"
+        ],
+        "precision": 0.1111111111111111,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.16666666666666666,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A retailer rejects a wheelchair user\u2019s application for a sales role, citing a requirement to be able to \u201crapidly traverse the shop floor.\u201d No assessment of reasonable adjustments is undertaken. Has there been indirect disability discrimination or a failure to make reasonable adjustments?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/4"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2023/151",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1220",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2024/78",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/133",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2018/640",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2022/351",
+          "https://caselaw.nationalarchives.gov.uk/id/eat/2022/19",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2018/1998",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1694"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A long\u2011resident foreign national with a British partner and child faces deportation after a medium\u2011serious conviction. He argues removal would unjustifiably interfere with family life under Article 8 ECHR. Should the public interest in deportation override the Article 8 family life considerations?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2016/60",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/11",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/53"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/1200",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2025/864",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2016/758",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2024/3303",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/993",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/2404",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2023/201",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2015/1076",
+          "https://caselaw.nationalarchives.gov.uk/id/ukut/iac/2017/294",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2017/486"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A homeowner fences off and exclusively uses a strip of registered land owned by a housing association as part of his garden for 14 years, installing a gate and shed and excluding the public. The association later seeks possession; the occupier applies to be registered based on adverse possession. Does the claim satisfy the LRA 2002 regime for adverse possession of registered land?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/17",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/1306",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/150"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2023/549",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/534",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2008/219",
+          "https://caselaw.nationalarchives.gov.uk/id/ukut/lc/2023/102"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A touring artist cancels a major outdoor concert when unprecedented flash flooding renders the site unsafe and local authorities prohibit entry. The promoter sues; the artist argues frustration. No force majeure clause addresses such weather events. Has the contract been frustrated by supervening impossibility, or should risk have been allocated by contract?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1039",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/3192"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/40",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2010/1681",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/3522",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2015/389",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2023/1869",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2006/1713",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2007/402",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2023/2562"
+        ],
+        "precision": 0.1111111111111111,
+        "recall": 0.3333333333333333,
+        "f1_score": 0.16666666666666666,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "A gamer purchases a digital season pass that repeatedly fails to load despite troubleshooting. The platform refuses a refund, pointing to EULA terms restricting remedies. What remedies are available under the Consumer Rights Act 2015 for faulty digital content?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/4"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2023/2794",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/kb/2025/498",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/842",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/1587"
+        ],
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "During a pandemic, a landlord emails a small business tenant agreeing to halve rent for six months until trade recovers. The tenant relies on this, remains in occupation, and arranges staffing accordingly. The landlord later demands back\u2011rent in full. Does promissory estoppel prevent the landlord from resiling from the rent reduction?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/24"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/884",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2013/239"
+        ],
+        "precision": 0.3333333333333333,
+        "recall": 0.5,
+        "f1_score": 0.4,
+        "technique": "metadata_guided"
+      },
+      {
+        "query": "For over a decade, a nephew works long hours for minimal pay at his aunt\u2019s hotel based on assurances he will inherit the business. The will leaves the hotel to a distant relative. The nephew sues relying on proprietary estoppel. Have assurance, reliance, and detriment been established and what is the appropriate remedy?",
+        "expected_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/463",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1"
+        ],
+        "retrieved_uri": [
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2003/1176",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2024/2492",
+          "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/890",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2025/1413",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1",
+          "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/fam/2020/2068",
+          "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2020/3091"
+        ],
+        "precision": 0.25,
+        "recall": 0.6666666666666666,
+        "f1_score": 0.36363636363636365,
+        "technique": "metadata_guided"
+      }
+    ],
+    "summary": {
+      "avg_precision": 0.0728937728937729,
+      "avg_recall": 0.20940170940170938,
+      "avg_f1": 0.1018999518999519,
+      "success_rate": 0.358974358974359,
+      "std_f1": 0.16663728855745075
+    }
+  }
+}
