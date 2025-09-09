@@ -1,0 +1,758 @@
+[
+    {
+      "scenario": "Sarah buys a second-hand car from a dealership that tells her the vehicle has never been in an accident. Relying on this, she proceeds with the purchase without further inspection. Months later, she discovers the car had previously suffered major structural damage in a crash and had been repaired. She believes the dealer knowingly withheld this information to close the sale. She seeks to rescind the contract and claim damages.",
+      "question": "Was this a misrepresentation, and what remedies are available?",
+      "relevant_cases": [
+        {
+          "case_id": "[2013] EWHC 111 (QB)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2022/440",
+          "relevance_reason": "Yam Seng v ITC established that parties owe a duty of good faith in relational contracts, and misrepresentation can breach implied terms."
+        },
+        {
+          "case_id": "[2006] EWCA Civ 386",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/386",
+          "relevance_reason": "Peekay v ANZ clarified that reliance must be reasonable; blind reliance on oral statements is risky."
+        }
+      ],
+     "law_type": "Contract Law \u2013 Misrepresentation",
+      "end": "The dealer's false statement about the car's accident history, if relied upon by Sarah, likely constitutes actionable misrepresentation. As it induced the contract and was material, rescission and damages may be available. Sarah may rescind the contract and seek damages.",
+      "num": 1
+    },
+    {
+      "scenario": "A scaffolding company negligently installs temporary platforms outside an office building. During a storm, unsecured scaffolding collapses onto a public walkway, injuring a pedestrian and damaging nearby vehicles. The company had been previously warned by inspectors about poor anchoring techniques. The injured person sues for negligence, claiming foreseeable risk and a duty of care breached. The company denies liability, stating the storm was unforeseeable.",
+      "question": "Is the company liable under negligence principles?",
+      "relevant_cases": [
+        {
+          "case_id": "[2010] EWCA Civ 1402",
+          "uri": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2010/1402",
+          "relevance_reason": "Spencer v Wincanton confirmed employers owe a high duty of care where harm is foreseeable."
+        },
+        {
+          "case_id": "[2005] EWCA Civ 01",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1",
+          "relevance_reason": "Maguire v Harland & Wolff considered breach and foreseeability of harm in the context of industrial injury."
+        }
+      ],
+      "law_type": "Tort \u2013 Negligence",
+      "end": "The company had been warned and ignored foreseeable risk, increasing culpability. The storm doesn\u2019t absolve the duty breached by prior negligence. Construction company likely liable in negligence.",
+      "num": 2
+    },
+    {
+      "scenario": "Liam is fired after criticising his employer on social media, describing the company as \u201ctoxic\u201d and the CEO as \u201cclueless.\u201d The comments were made in a private Facebook group but were later shared with HR by another employee. The employer argues the posts breached its social media and conduct policy. Liam says his dismissal was unfair, claiming his comments were made outside work and expressed a personal opinion. He sues for unfair dismissal.",
+      "question": "Was the dismissal reasonable?",
+      "relevant_cases": [
+        {
+          "case_id": "[2012] EWHC 3320 (Ch)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2012/3320",
+          "relevance_reason": "Smith v Trafford held personal views posted respectfully outside work may not justify dismissal."
+        }
+      ],
+      "law_type": "Employment Law \u2013 Unfair Dismissal",
+      "end": "Liam's comments may be protected expression unless clearly damaging to reputation or breach policy. Context and tone need to be taken into account. Dismissal may be unfair unless employer proves serious reputational harm.",
+      "num": 4
+    },
+    {
+      "scenario": "A small vendor is threatened with immediate contract termination by a large client unless it agrees to reduce prices significantly. Fearing business collapse, the vendor agrees but later claims it only did so under economic duress. The client maintains the renegotiation was a legitimate business tactic. The vendor wants to void the new contract terms.",
+      "question": "Was there illegitimate pressure amounting to economic duress?",
+      "relevant_cases": [
+        {
+          "case_id": "[2012] EWHC 273 (Comm)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2012/273",
+          "relevance_reason": "Progress Bulk v Tube City found illegitimate pressure sufficient for duress."
+        },
+        {
+          "case_id": "[2010] EWHC 113 (Comm)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/comm/2010/113",
+          "relevance_reason": "Kolmar v Traxpo held that commercial pressure involving threats can amount to duress."
+        }
+      ],
+      "law_type": "Contract Law \u2013 Duress",
+      "end": "The vendor\u2019s consent was induced by illegitimate economic pressure. The client's threat was coercive, leaving no practical alternative. Agreement likely voidable for duress.",
+      "num": 5
+    },
+    {
+      "scenario": "Alex, a freelance digital artist, discovers a high-street retailer has used one of her illustrations in a national advertising campaign without her consent. The company claims it sourced the image from a third-party website and believed it was royalty-free. Alex can prove authorship and had never licensed the work for commercial use. She demands compensation for copyright infringement.",
+      "question": "Can she succeed despite the company\u2019s claim of innocent use?",
+      "relevant_cases": [
+        {
+          "case_id": "[2011] EWCA Civ 890",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/890",
+          "relevance_reason": "NLA v Meltwater affirmed online copying constitutes infringement."
+        }
+      ],
+      "law_type": "Intellectual Property \u2013 Copyright Infringement",
+      "end": "Alex\u2019s work was original and copied without consent. Innocent use does not excuse strict liability. Infringement is likely; Alex entitled to compensation. Retailer may be able to claim damages from third-party website.",
+      "num": 6
+    },
+    {
+      "scenario": "A local council implements drastic cuts to adult social care services without consulting service users or stakeholders. Advocacy groups claim the changes were made with no equality impact assessment and disproportionately affect disabled residents. The council argues financial necessity justified immediate implementation. A judicial review is launched challenging the legality of the decision-making process.",
+      "question": "Was the council\u2019s approach procedurally fair and lawful?",
+      "relevant_cases": [
+        {
+          "case_id": "[2017] UKSC 51",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2017/51",
+          "relevance_reason": "Unison v Lord Chancellor emphasized access to justice and procedural fairness."
+        },
+        {
+          "case_id": "[2011] UKSC 12",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2011/12",
+          "relevance_reason": "Lumba v SSHD underlined requirement to follow published policy."
+        }
+      ],
+      "law_type": "Public Law \u2013 Judicial Review",
+      "end": "The council failed to consult or assess impact on vulnerable groups, breaching procedural fairness. Judicial review likely to succeed.",
+      "num": 7
+    },
+    {
+      "scenario": "Following divorce, Anna seeks to relocate with her 9-year-old daughter to Canada for a new job. Her ex-husband, with whom she shares joint custody, objects, arguing it will damage his relationship with their child. Anna insists the move is in their daughter\u2019s best interests and will improve her quality of life. The court must weigh the child\u2019s welfare against the father\u2019s parental rights.",
+      "question": "How should the court approach this relocation dispute?",
+      "relevant_cases": [
+        {
+          "case_id": "[2015] EWCA Civ 1305",
+          "uri": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/1305",
+          "relevance_reason": "Re C emphasized child welfare as paramount."
+        },
+        {
+          "case_id": "[2015] EWCA Civ 882",
+          "uri": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/882",
+          "relevance_reason": "Re F held that courts must consider impact on contact with left-behind parent."
+        }
+      ],
+      "law_type": "Family Law \u2013 Child Custody and Relocation",
+      "end": "Anna must prove relocation benefits child and maintains contact with father. Court balances disruption and opportunity. Courts may permit move if child\u2019s welfare justifies it.",
+      "num": 8
+    },
+    {
+      "scenario": "Two adults engage in consensual BDSM activity that results in visible injuries. One later files a police complaint, stating they were pressured into participating. The other participant argues that all acts were fully consensual and that the injuries were accidental. The prosecution charges assault occasioning actual bodily harm.",
+      "question": "Can consent serve as a defence in this context?",
+      "relevant_cases": [
+        {
+          "case_id": "[2018] EWCA Crim 560",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560",
+          "relevance_reason": "R v BM limited consent in body modification."
+        }
+      ],
+      "law_type": "Criminal Law \u2013 Consent and Assault",
+      "end": " Consent is not a defence where injury is serious and not in public interest. Harm was not trivial. Likely criminal liability.",
+      "num": 9
+    },
+    {
+      "scenario": "A viral post accuses a bakery owner of selling food contaminated with rodents. Although false, the post spreads widely, resulting in cancelled contracts and media coverage. The bakery owner sues for defamation, claiming serious harm to reputation and business. The poster argues it was an opinion shared in the public interest.",
+      "question": "Does the statement meet the serious harm threshold?",
+      "relevant_cases": [
+        {
+          "case_id": "[2019] UKSC 27",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2019/27",
+          "relevance_reason": "Lachaux v Independent clarified \"serious harm\" standard."
+        },
+        {
+          "case_id": "[2017] EWHC 433 (QB)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/433",
+          "relevance_reason": "Monroe v Hopkins upheld defamation for false tweets."
+        },
+        {
+          "case_id": "[2019] UKSC 17",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2019/17",
+          "relevance_reason": "Stocker v Stocker noted ordinary meaning in social media contexts."
+        }
+      ],
+      "law_type": "Defamation",
+      "end": "The viral post caused reputational damage and meets serious harm threshold. Opinion defence unlikely. Claim likely to succeed.",
+      "num": 10
+    },
+    {
+      "scenario": "During a climate protest, Zara displays a provocative banner near a government building and is arrested for breaching public order. She claims her actions were peaceful and within her rights under Article 10 ECHR. The police argue the banner caused disruption and alarm to the public. Zara seeks judicial review of the decision to arrest her.",
+      "question": "Was her arrest a disproportionate interference with her freedom of expression?",
+      "relevant_cases": [
+        {
+          "case_id": "[2021] UKSC 23",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2021/23",
+          "relevance_reason": "Ziegler v DPP held peaceful protest is protected."
+        },
+        {
+          "case_id": "[2021] EWCA Civ 1926",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926",
+          "relevance_reason": "Miller v College of Policing found guidance chilling lawful speech."
+        },
+        {
+          "case_id": "[2022] EWHC 736 (Admin)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/admin/2022/736",
+          "relevance_reason": "DPP v Cuciurean stressed need for proportionality in restrictions."
+        }
+      ],
+      "law_type": "Human Rights \u2013 Freedom of Expression",
+      "end": "Zara\u2019s peaceful protest was arguably disproportionally curtailed. Arrest interfered with Article 10 rights. Likely unlawful restriction of expression.",
+      "num": 11
+    },
+    {
+      "scenario": "Mark suffers burns when his e-cigarette battery explodes during normal use. He purchased the item from a local vape shop, which sourced it from an overseas supplier. The product had no visible defects or warnings. Mark brings a claim for product liability under the Consumer Protection Act 1987.",
+      "question": "Is the retailer or manufacturer liable?",
+      "relevant_cases": [
+        {
+          "case_id": "[2016] EWHC 3096 (QB)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2016/3096",
+          "relevance_reason": "Wilkes v DePuy required proof of defect causing harm."
+        },
+        {
+          "case_id": "[2018] EWHC 1208 (QB)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2018/1208",
+          "relevance_reason": "Gee v DePuy emphasized safety expectations."
+        }
+      ],
+      "law_type": "Tort \u2013 Defective Products",
+      "end": "Exploding battery was unsafe and caused injury. Liability likely under strict product liability. Manufacturer and/or retailer likely liable.",
+      "num": 12
+    },
+    {
+      "scenario": "A homeowner brings a claim against their neighbour who is undertaking extensive home renovations. The works involve daily drilling, dust clouds, and early morning starts, which have persisted for months. The homeowner claims the disruption has caused stress and made their home temporarily uninhabitable. The builder argues all activities were within legal hours and reasonably conducted.",
+      "question": "Does this amount to an actionable nuisance?",
+      "relevant_cases": [
+        {
+          "case_id": "[2023] UKSC 4",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+          "relevance_reason": "Fearn v Tate recognized overlooking and disruption as nuisance."
+        },
+        {
+          "case_id": "[2012] EWCA Civ 312",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/312",
+          "relevance_reason": "Barr v Biffa reaffirmed environmental nuisance principles."
+        },
+        {
+          "case_id": "[2014] UKSC 13",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2014/13",
+          "relevance_reason": "Coventry v Lawrence focused on balancing interests."
+        }
+      ],
+      "law_type": "Land Law \u2013 Private Nuisance",
+      "end": "Prolonged, excessive construction impacts enjoyment. Even lawful works can amount to nuisance. Likely actionable nuisance",
+      "num": 13
+    },
+    {
+      "scenario": "Alex, who uses a wheelchair, applies for a retail position but is rejected without interview. The job listing required the ability to \"move swiftly around the shop floor.\" Alex argues this criterion unfairly excluded disabled applicants without justification. The company insists the requirement is inherent to the role.",
+      "question": "Has there been unlawful disability discrimination?",
+      "relevant_cases": [
+        {
+          "case_id": "[2019] EWCA Civ 1061",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061",
+          "relevance_reason": "Chief Constable v Coffey recognized perceived future disability."
+        }
+      ],
+      "law_type": "Equality & Discrimination Law",
+      "end": "Blanket physical requirement may indirectly discriminate. Employer must justify proportionality. Likely unlawful discrimination.",
+      "num": 14
+    },
+    {
+      "scenario": "Ahmed, a foreign national who has lived in the UK for 15 years and has two children, faces deportation after a criminal conviction. He argues deportation would violate his Article 8 ECHR rights, as his children are British citizens and he is their sole provider. The Home Office insists the public interest in deporting offenders outweighs his family ties. He challenges the removal order in court.",
+      "question": "Should deportation proceed?",
+      "relevant_cases": [
+        {
+          "case_id": "[2016] UKSC 60",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2016/60",
+          "relevance_reason": "Hesham Ali balanced public interest and private life."
+        },
+        {
+          "case_id": "[2017] UKSC 11",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2017/11",
+          "relevance_reason": "Agyarko clarified high threshold for private life interference."
+        },
+        {
+          "case_id": "[2015] UKSC 68",
+          "uri": "https://caselaw.nationalarchives.gov.uk/uksc/2015/68",
+          "relevance_reason": "Bibi stressed proportionality."
+        }
+      ],
+      "law_type": "Immigration Law \u2013 Deportation and Family Life",
+      "end": "Strong family ties weigh against deportation. Court must balance with severity of crime. Deportation could breach Article 8; depends on full assessment",
+      "num": 15
+    },
+    {
+      "scenario": "A resident fences off and maintains a strip of land between their house and a park for over 12 years. They plant shrubs and build a shed on it, believing it forms part of their garden. The local council later claims the land and demands its return. The resident applies for title based on adverse possession.",
+      "question": "Can the claim succeed under the Land Registration Act 2002?",
+      "relevant_cases": [
+        {
+          "case_id": "[2015] EWCA Civ 17",
+          "uri": "https://caselaw.nationalarchives.gov.uk/ewca/civ/2015/17",
+          "relevance_reason": "Best v Chief Land Registrar allowed adverse possession despite criminality."
+        },
+        {
+          "case_id": "[2011] EWCA Civ 1306",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/1306",
+          "relevance_reason": "Zarb v Parry confirmed factual possession and intention are key."
+        }
+      ],
+      "law_type": "Property Law \u2013 Adverse Possession",
+      "end": "Resident exercised exclusive, continuous control. May qualify under LRA 2002. Likely valid claim for adverse possession.",
+      "num": 16
+    },
+    {
+      "scenario": "A band cancels its headline festival performance due to flooding at the venue. The promoter sues for breach of contract, but the band argues the event was rendered impossible. The venue had no contingency plan for extreme weather.",
+      "question": "Was the contract frustrated due to unforeseeable circumstances, or should a force majeure clause have been included?",
+      "relevant_cases": [
+        {
+          "case_id": "[2019] EWHC 335 (Ch)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335",
+          "relevance_reason": "Canary Wharf v EMA found frustration where purpose undermined."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 1039",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1039",
+          "relevance_reason": "Armchair Answercall applied strict test for impossibility."
+        },
+        {
+          "case_id": "[2007] EWCA Civ 547",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/547",
+          "relevance_reason": "Edwinton v Tsavliris held mere inconvenience not enough."
+        }
+      ],
+      "law_type": "Frustration of Contract",
+      "end": "Flooding may frustrate contract if performance impossible. Lack of planning may limit claim. Frustration arguable but not guaranteed.",
+      "num": 17
+    },
+    {
+      "scenario": "A gamer buys a new downloadable expansion for a popular video game that repeatedly crashes on launch. Despite reinstalling, the product remains unusable. The seller refuses a refund, stating the user agreed to digital terms and conditions. The gamer invokes the Consumer Rights Act 2015.",
+      "question": "Is the gamer entitled to a remedy?",
+      "relevant_cases": [
+        {
+          "case_id": "[2021] EWHC 842 (QB)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2021/842",
+          "relevance_reason": "Green v Betfred found digital contract void due to unfair terms."
+        },
+        {
+          "case_id": "[2011] EWHC 1237 (Ch)",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1237",
+          "relevance_reason": "Ashbourne v Fair Trading case targeted unfair consumer contracts."
+        }
+      ],
+      "law_type": "Consumer Rights ",
+      "end": "Product failed basic standards. CRA 2015 provides refund for faulty digital goods. Gamer entitled to refund or repair.",
+      "num": 18
+    },
+    {
+      "scenario": "A landlord promises a struggling tenant a temporary rent reduction during lockdown. The tenant relies on this promise and stays in the property rather than relocating. Months later, the landlord demands back-payment in full. The tenant argues the landlord is estopped from doing so.",
+      "question": "Can promissory estoppel apply?",
+      "relevant_cases": [
+        {
+          "case_id": "[2007] EWCA Civ 1329",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+          "relevance_reason": "Collier v Wright confirmed estoppel where reliance exists."
+        },
+        {
+          "case_id": "[2018] UKSC 24",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/24",
+          "relevance_reason": "MWB v Rock involved oral variation and reliance."
+        }
+      ],
+      "law_type": "Promissory Estoppel",
+      "end": "Tenant relied on promise to detriment. Estoppel prevents landlord from revoking it unfairly. Estoppel likely applies.",
+      "num": 19
+    },
+    {
+      "scenario": "For years, Emma worked unpaid on her aunt\u2019s farm based on repeated promises she would inherit it. When the aunt dies, her will leaves the property to someone else. Emma seeks a declaration that she has a right to the farm under proprietary estoppel. The executors argue no formal agreement ever existed.",
+      "question": "Should Emma succeed?",
+      "relevant_cases": [
+        {
+          "case_id": "[2022] UKSC 27",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+          "relevance_reason": "Guest v Guest required assurance, reliance, and detriment."
+        },
+        {
+          "case_id": "[2016] EWCA Civ 463",
+          "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/463",
+          "relevance_reason": "Davies v Davies highlighted proportionality."
+        }
+      ],
+      "law_type": "Proprietary Estoppel",
+      "end": "Emma acted to her detriment based on repeated assurances. Equity supports her claim. Likely successful proprietary estoppel claim.",
+      "num": 20
+    },
+    {
+        "scenario": "Max purchases a used car from a franchise dealer after being assured it had one careful owner and a full, genuine service history. He skips an independent inspection based on those statements. Later, he discovers the car is an ex-fleet vehicle with a rolled-back odometer and falsified service entries. Tom alleges the dealer knew or was reckless as to the truth and seeks rescission and damages under the Misrepresentation Act 1967.",
+        "question": "Do the statements amount to actionable misrepresentation and what remedies follow?",
+        "relevant_cases": [
+          {
+            "case_id": "[2011] EWCA Civ 133",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/133",
+            "relevance_reason": "AXA Sun Life v Campbell Martin on the effect of entire agreement/non-reliance clauses on misrepresentation claims."
+          },
+          {
+            "case_id": "[2006] EWCA Civ 386",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2006/386",
+            "relevance_reason": "Peekay v ANZ addresses reliance on pre-contract statements and reasonableness of reliance."
+          },
+          {
+            "case_id": "[2014] UKSC 9",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2014/9",
+            "relevance_reason": "Cramaso v Ogilvie-Grant confirms liability for misleading pre-contract representations continuing into the contract."
+          }
+        ],
+        "law_type": "Contract Law – Misrepresentation",
+        "end": "False, material statements about ownership and history that induced the purchase are likely actionable, supporting rescission and/or damages.",
+        "num": 21
+      },
+      {
+        "scenario": "A construction firm erects a temporary hoarding and signage structure outside a retail parade. After prior warnings about inadequate fixings, high winds cause the structure to detach and injure a passerby. The firm argues an exceptional storm broke the chain of causation.",
+        "question": "Is the harm reasonably foreseeable and has the duty of care been breached despite the weather event?",
+        "relevant_cases": [
+          {
+            "case_id": "[2009] EWCA Civ 1404",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2009/1404",
+            "relevance_reason": "Spencer v Wincanton on breach where the risk of harm was foreseeable and precautions were inadequate."
+          },
+          {
+            "case_id": "[2005] EWCA Civ 1",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2005/1",
+            "relevance_reason": "Maguire v Harland & Wolff considers the standard of care and foreseeability in industrial contexts."
+          }
+        ],
+        "law_type": "Tort – Negligence",
+        "end": "The prior warnings and foreseeability of wind hazards suggest breach; the storm likely does not negate liability if precautions were insufficient.",
+        "num": 22
+      },
+      {
+        "scenario": "An accounts manager uses a corporate fuel card over several weeks to buy personal holiday travel and premium goods, saying she planned to repay once her bonus was paid. She had no authority to use the card for personal spending and only offered repayment after discovery, leading to a theft charge.",
+        "question": "Did she possess the requisite dishonesty and intent to permanently deprive for theft?",
+        "relevant_cases": [
+          {
+            "case_id": "[2017] UKSC 67",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/67",
+            "relevance_reason": "Ivey v Genting sets the current test for dishonesty, replacing Ghosh."
+          },
+          {
+            "case_id": "[2020] EWCA Crim 575",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2020/575",
+            "relevance_reason": "R v Barton confirms Ivey applies in criminal cases and addresses dishonesty in abuse-of-position contexts."
+          }
+        ],
+        "law_type": "Criminal Law – Theft",
+        "end": "Unauthorised personal use and post hoc repayment offers point to dishonesty; treating company funds as her own can satisfy the mens rea.",
+        "num": 23
+      },
+      {
+        "scenario": "An employee posts derogatory tweets about their employer under a pseudonymous account during off-duty hours. Colleagues identify the account and report it. The company cites its social media policy and dismisses for misconduct. The employee claims unfair dismissal and freedom of expression.",
+        "question": "Was dismissal within the range of reasonable responses in light of policy, context, and reputational risk?",
+        "relevant_cases": [
+          {
+            "case_id": "[2021] EWCA Civ 1926",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926",
+            "relevance_reason": "Miller v College of Policing on free speech and proportionality in policing online expression."
+          }
+        ],
+        "law_type": "Employment Law – Unfair Dismissal",
+        "end": "Outcome turns on policy terms, tone, audience, and reputational impact. A fair dismissal is more likely if clear policies were breached and damage risked.",
+        "num": 24
+      },
+      {
+        "scenario": "A key supplier is told mid-contract that unless it accepts a 25% price cut with immediate effect, the buyer will cancel all current and future orders. Facing insolvency, the supplier agrees but later seeks to set aside the variation for economic duress.",
+        "question": "Was the pressure illegitimate and did it leave the supplier with no practical alternative?",
+        "relevant_cases": [
+          {
+            "case_id": "[2021] UKSC 40",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/40",
+            "relevance_reason": "Times Travel v PIA clarifies lawful act duress and illegitimate pressure."
+          }
+        ],
+        "law_type": "Contract Law – Duress",
+        "end": "Coerced agreement under threat to breach with no realistic alternative is likely voidable for economic duress.",
+        "num": 25
+      },
+      {
+        "scenario": "A photographer finds her image lifted from her portfolio site and used by a national retailer across its online storefront and email campaigns without licence. The retailer says it relied on a third-party royalty-free source and acted innocently.",
+        "question": "Is innocent infringement a defence to liability and what remedies are available?",
+        "relevant_cases": [
+          {
+            "case_id": "[2013] UKSC 18",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2013/18",
+            "relevance_reason": "NLA v PRCA confirms that copies made online can be restricted acts requiring licence."
+          },
+          {
+            "case_id": "[2011] EWCA Civ 890",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/890",
+            "relevance_reason": "NLA v Meltwater (CA) affirms infringement analysis for online content use."
+          },
+          {
+            "case_id": "[2012] EWCA Civ 1696",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/1696",
+            "relevance_reason": "Football Dataco v Yahoo on originality and protection of intellectual creation."
+          }
+        ],
+        "law_type": "Intellectual Property – Copyright Infringement",
+        "end": "Copyright infringement is strict; innocent use affects damages but not liability. Compensation is likely.",
+        "num": 26
+      },
+      {
+        "scenario": "A local authority closes multiple day centres and significantly reduces adult care packages without consulting service users or conducting an equality impact assessment, citing budget pressures. Advocacy groups challenge the decision.",
+        "question": "Was the decision-making process procedurally fair and compliant with consultation and equality duties?",
+        "relevant_cases": [
+          {
+            "case_id": "[2017] UKSC 51",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/51",
+            "relevance_reason": "R (Unison) v Lord Chancellor emphasises procedural fairness and access to justice."
+          },
+          {
+            "case_id": "[2013] EWCA Civ 1345",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2013/1345",
+            "relevance_reason": "R (Bracking) v SoS DWP on rigorous compliance with the PSED and equality analysis."
+          }
+        ],
+        "law_type": "Public Law – Judicial Review",
+        "end": "Failure to consult and to assess equality impacts likely renders the decision unlawful for procedural unfairness.",
+        "num": 27
+      },
+      {
+        "scenario": "Following separation, a mother seeks permission to relocate internally with an 8-year-old to Scotland for a new role. The father, with shared care, opposes, arguing the move will disrupt established contact and schooling.",
+        "question": "What is the correct approach to internal relocation where the child’s welfare and ongoing contact are in tension?",
+        "relevant_cases": [
+          {
+            "case_id": "[2015] EWCA Civ 1305",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/1305",
+            "relevance_reason": "Re C emphasises that the child’s welfare is paramount."
+          },
+          {
+            "case_id": "[2015] EWCA Civ 882",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/882",
+            "relevance_reason": "Re F requires evaluating the impact on the left-behind parent’s relationship."
+          }
+        ],
+        "law_type": "Family Law – Child Custody and Relocation",
+        "end": "The court will prioritise welfare, balancing benefits of the move against detriment to contact; permission may be granted if welfare so demands.",
+        "num": 28
+      },
+      {
+        "scenario": "Two adults engage in consensual sexual activity involving rough practices. One sustains injuries amounting to ABH and later alleges they felt pressured. The other asserts consent and lack of intent to cause serious harm.",
+        "question": "Can consent provide a defence to assault occasioning actual bodily harm in these circumstances?",
+        "relevant_cases": [
+          {
+            "case_id": "[2018] EWCA Crim 560",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2018/560",
+            "relevance_reason": "R v BM limits consent where the harm is more than transient and not in the public interest."
+          },
+          {
+            "case_id": "[2006] EWCA Crim 2414",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/crim/2006/2414",
+            "relevance_reason": "R v Meachen recognises consent may apply if only battery was intended and ABH was inadvertent."
+          }
+        ],
+        "law_type": "Criminal Law – Consent and Assault",
+        "end": "Consent generally fails as a defence to ABH unless injury was genuinely inadvertent and only minor harm was intended.",
+        "num": 29
+      },
+      {
+        "scenario": "A Facebook post falsely claims a local restaurant poisoned dozens of customers. Bookings collapse and suppliers withdraw credit. The poster says it was their opinion and a public-spirited warning.",
+        "question": "Does the publication meet the serious harm threshold and is the opinion/public interest defence viable?",
+        "relevant_cases": [
+          {
+            "case_id": "[2019] UKSC 17",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2019/17",
+            "relevance_reason": "Stocker v Stocker on the ordinary meaning of words in the social media context."
+          }
+        ],
+        "law_type": "Defamation",
+        "end": "The false allegation likely caused serious harm; opinion and public interest defences are unlikely to succeed on these facts.",
+        "num": 30
+      },
+      {
+        "scenario": "During a peaceful sit-down climate protest briefly blocking an entrance road to a government complex, Zara is arrested for a public order offence. She argues the arrest disproportionately interfered with her Article 10 rights.",
+        "question": "Was the arrest a proportionate interference with freedom of expression in a democratic society?",
+        "relevant_cases": [
+          {
+            "case_id": "[2021] UKSC 23",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/23",
+            "relevance_reason": "Ziegler recognises that peaceful protest may justify acquittal where interference is disproportionate."
+          },
+          {
+            "case_id": "[2021] EWCA Civ 1926",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2021/1926",
+            "relevance_reason": "Miller v College of Policing addresses proportionality and chilling effect on lawful speech."
+          }
+        ],
+        "law_type": "Human Rights – Freedom of Expression",
+        "end": "On a short, peaceful protest, arrest may be disproportionate absent compelling justification, making the interference unlawful.",
+        "num": 31
+      },
+      {
+        "scenario": "A mobile phone wall charger explodes during ordinary use, causing burns. The product lacked adequate warnings and was purchased from a UK retailer who imported it from abroad. The claimant sues under the Consumer Protection Act 1987.",
+        "question": "Is strict liability made out against the producer or importer, and can the retailer be liable as supplier?",
+        "relevant_cases": [
+          {
+            "case_id": "[2022] UKSC 19",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/19",
+            "relevance_reason": "Hastings v Finsbury Orthopaedics addresses product defect and safety expectations at Supreme Court level."
+          }
+        ],
+        "law_type": "Tort – Defective Products",
+        "end": "An exploding charger likely fails the safety expectation test; producer/importer face strict liability and the retailer may be liable absent identification of the producer.",
+        "num": 32
+      },
+      {
+        "scenario": "A neighbour converts a garage into a home gym and runs loud classes at 6:30 a.m. on weekdays for months, causing sleep disruption and dust from open doors. The neighbour says activities comply with planning and noise guidelines.",
+        "question": "Do the persistent disturbances amount to a private nuisance despite compliance with regulations?",
+        "relevant_cases": [
+          {
+            "case_id": "[2023] UKSC 4",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2023/4",
+            "relevance_reason": "Fearn v Tate confirms nuisance protects against substantial interference with use and enjoyment."
+          },
+          {
+            "case_id": "[2014] UKSC 46",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2014/46",
+            "relevance_reason": "Coventry v Lawrence balances locality, duration, and character of the interference."
+          },
+          {
+            "case_id": "[2012] EWCA Civ 312",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2012/312",
+            "relevance_reason": "Barr v Biffa on environmental nuisance principles and reasonableness."
+          }
+        ],
+        "law_type": "Land Law – Private Nuisance",
+        "end": "Prolonged early-morning noise and dust can be unreasonable interference even if basic regulations are met, supporting a nuisance claim.",
+        "num": 33
+      },
+      {
+        "scenario": "A retailer rejects a wheelchair user’s application for a sales role, citing a requirement to be able to “rapidly traverse the shop floor.” No assessment of reasonable adjustments is undertaken.",
+        "question": "Has there been indirect disability discrimination or a failure to make reasonable adjustments?",
+        "relevant_cases": [
+          {
+            "case_id": "[2019] EWCA Civ 1061",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/1061",
+            "relevance_reason": "Chief Constable v Coffey addresses discrimination based on perceived disability and unjustified criteria."
+          },
+          {
+            "case_id": "[2017] UKSC 4",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/4",
+            "relevance_reason": "Paulley v FirstGroup underscores the duty to make reasonable adjustments for disabled persons."
+          }
+        ],
+        "law_type": "Equality & Discrimination Law",
+        "end": "A blanket mobility requirement risks indirect discrimination; absent justification and adjustments, the claim is likely to succeed.",
+        "num": 34
+      },
+      {
+        "scenario": "A long‑resident foreign national with a British partner and child faces deportation after a medium‑serious conviction. He argues removal would unjustifiably interfere with family life under Article 8 ECHR.",
+        "question": "Should the public interest in deportation override the Article 8 family life considerations?",
+        "relevant_cases": [
+          {
+            "case_id": "[2016] UKSC 60",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2016/60",
+            "relevance_reason": "Hesham Ali sets out the structured balancing under the statutory scheme and Article 8."
+          },
+          {
+            "case_id": "[2017] UKSC 11",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2017/11",
+            "relevance_reason": "Agyarko clarifies the high threshold for private/family life claims outside the Rules."
+          },
+          {
+            "case_id": "[2018] UKSC 53",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/53",
+            "relevance_reason": "KO (Nigeria) explains the best interests of qualifying children in deportation cases."
+          }
+        ],
+        "law_type": "Immigration Law – Deportation and Family Life",
+        "end": "A fact‑sensitive proportionality assessment is required; strong child welfare factors can outweigh deportation in appropriate cases.",
+        "num": 35
+      },
+      {
+        "scenario": "A homeowner fences off and exclusively uses a strip of registered land owned by a housing association as part of his garden for 14 years, installing a gate and shed and excluding the public. The association later seeks possession; the occupier applies to be registered based on adverse possession.",
+        "question": "Does the claim satisfy the LRA 2002 regime for adverse possession of registered land?",
+        "relevant_cases": [
+          {
+            "case_id": "[2015] EWCA Civ 17",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2015/17",
+            "relevance_reason": "Best v Chief Land Registrar confirms applications are not barred by criminality issues."
+          },
+          {
+            "case_id": "[2011] EWCA Civ 1306",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2011/1306",
+            "relevance_reason": "Zarb v Parry emphasises factual possession and intention to possess."
+          },
+          {
+            "case_id": "[2019] EWCA Civ 150",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2019/150",
+            "relevance_reason": "Thorpe v Frank considers adverse possession and boundary encroachments."
+          }
+        ],
+        "law_type": "Property Law – Adverse Possession",
+        "end": "Exclusive control with intention to possess may support registration, subject to the LRA 2002 notice and objection procedures.",
+        "num": 36
+      },
+      {
+        "scenario": "A touring artist cancels a major outdoor concert when unprecedented flash flooding renders the site unsafe and local authorities prohibit entry. The promoter sues; the artist argues frustration. No force majeure clause addresses such weather events.",
+        "question": "Has the contract been frustrated by supervening impossibility, or should risk have been allocated by contract?",
+        "relevant_cases": [
+          {
+            "case_id": "[2019] EWHC 335 (Ch)",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2019/335",
+            "relevance_reason": "Canary Wharf v EMA discusses frustration where the contract’s purpose or performance is undermined."
+          },
+          {
+            "case_id": "[2016] EWCA Civ 1039",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/1039",
+            "relevance_reason": "Armchair Answercall applies a strict test for frustration."
+          },
+          {
+            "case_id": "[2017] EWHC 3192 (QB)",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/qb/2017/3192",
+            "relevance_reason": "Flying Music Co v Theater Entertainment shows what amounts to impossibility."
+          }
+        ],
+        "law_type": "Frustration of Contract",
+        "end": "A prohibition and safety impossibility can satisfy frustration; absent clear allocation of weather risk, frustration is arguable.",
+        "num": 37
+      },
+      {
+        "scenario": "A gamer purchases a digital season pass that repeatedly fails to load despite troubleshooting. The platform refuses a refund, pointing to EULA terms restricting remedies.",
+        "question": "What remedies are available under the Consumer Rights Act 2015 for faulty digital content?",
+        "relevant_cases": [
+          {
+            "case_id": "[2021] UKSC 4",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2021/4",
+            "relevance_reason": "The Software Incubator v Computer Associates recognises digital supply realities, supporting consumer protection analysis."
+          }
+        ],
+        "law_type": "Consumer Rights ",
+        "end": "Under the CRA 2015, the consumer is entitled to repair/replacement or refund if digital content is not of satisfactory quality.",
+        "num": 38
+      },
+      {
+        "scenario": "During a pandemic, a landlord emails a small business tenant agreeing to halve rent for six months until trade recovers. The tenant relies on this, remains in occupation, and arranges staffing accordingly. The landlord later demands back‑rent in full.",
+        "question": "Does promissory estoppel prevent the landlord from resiling from the rent reduction?",
+        "relevant_cases": [
+          {
+            "case_id": "[2007] EWCA Civ 1329",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2007/1329",
+            "relevance_reason": "Collier v Wright supports promissory estoppel where a clear promise is relied on to a debtor’s detriment."
+          },
+          {
+            "case_id": "[2018] UKSC 24",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2018/24",
+            "relevance_reason": "MWB v Rock considers oral variations and reliance, relevant to promissory estoppel arguments."
+          }
+        ],
+        "law_type": "Promissory Estoppel",
+        "end": "A clear promise, reliance, and inequity in withdrawal can found estoppel; back‑rent may be limited for the period promised.",
+        "num": 39
+      },
+      {
+        "scenario": "For over a decade, a nephew works long hours for minimal pay at his aunt’s hotel based on assurances he will inherit the business. The will leaves the hotel to a distant relative. The nephew sues relying on proprietary estoppel.",
+        "question": "Have assurance, reliance, and detriment been established and what is the appropriate remedy?",
+        "relevant_cases": [
+          {
+            "case_id": "[2022] UKSC 27",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/uksc/2022/27",
+            "relevance_reason": "Guest v Guest defines the elements and calibrates proportional remedies for proprietary estoppel."
+          },
+          {
+            "case_id": "[2016] EWCA Civ 463",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewca/civ/2016/463",
+            "relevance_reason": "Davies v Davies emphasises proportionality between detriment and remedy."
+          },
+          {
+            "case_id": "[2011] EWHC 1 (Ch)",
+            "uri": "https://caselaw.nationalarchives.gov.uk/id/ewhc/ch/2011/1",
+            "relevance_reason": "Murphy v Rayner illustrates estoppel in nheritance/family disputes."
+          }
+        ],
+        "law_type": "Proprietary Estoppel",
+        "end": "On clear assurances with long‑term detriment, equity supports relief; remedy should be proportionate to expectation and detriment.",
+        "num": 40
+      }
+    ]
