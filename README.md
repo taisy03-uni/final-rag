@@ -26,8 +26,6 @@ The **supporting technical modules**.
 
 ---
 
-In each repository, you will find another README.MD File descriving how to navigate that repository.
-
 ## 🛠️ Setup & Usage
 
 1. Clone the repository:
