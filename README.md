@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Master’s Thesis – Final Repository
 
-## Getting Started
+This repository contains the full implementation and evaluation work for my Master’s Thesis project.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📂 Repository Structure
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### `app/`
+The **frontend evaluation environment**.  
+- Provides an interface for testing the system end-to-end.  
+- Designed to showcase how the pipeline works in practice.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### `evaluation/`
+The **final evaluation experiments**.  
+- Contains test results and scripts used to evaluate the pipeline on the final dataset.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### `mainpipeline/`
+The **core pipeline implementation**.  
+- Full end-to-end pipeline developed for the thesis.  p.  
 
-## Learn More
+### `technical/`
+The **supporting technical modules**.  
+- Embeddings, fine-tuning experiments, upload functionality, and other supporting components.  
+- Contains exploratory work and lower-level implementations that feed into the main pipeline.  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+In each repository, you will find another README.MD File descriving how to navigate that repository.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Setup & Usage
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+   cd <repo-name>
